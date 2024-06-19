@@ -17,6 +17,7 @@ import Sliederlab from '../layouts/Sliederlab';
 import {useState } from 'react';
 import Profile from '../components/Profile';
 import ChangePass from '../components/ChangePass';
+import Footer from '../components/Footer';
 
 function App() {
   const [number, setNumber] = useState(sessionStorage.getItem("accessToken") ? 2 : 0);
@@ -44,6 +45,7 @@ function App() {
               <Route path="/profile" element={<Profile />}/>
               <Route path="*" element={<NotPage />}/>
             </Routes>
+            <Footer/>
           </>
         }
         {number === 3 && 

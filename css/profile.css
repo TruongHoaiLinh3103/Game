@@ -1,0 +1,191 @@
+.Profile-edit {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(36, 34, 34, 0.6);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Profile-edit .Profile-edit_box .Profile-edit_box-e .edit_box-e_btn button, .Profile-detail .Profile-name .Profile-update button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid rgb(199, 199, 199);
+}
+
+.Profile-edit .Profile-edit_box .Profile-edit_box-e .edit_box-e_btn button:hover, .Profile-detail .Profile-name .Profile-update button:hover {
+  background-color: rgb(235, 235, 235);
+  transition: all linear 0.2s;
+}
+
+.Profile {
+  width: 100%;
+  padding: 10px;
+}
+
+.Profile-detail {
+  display: flex;
+  align-items: center;
+}
+.Profile-detail .Profile-detail_img {
+  width: 100px;
+  height: 100px;
+}
+.Profile-detail .Profile-detail_img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 100vh;
+  border: 1px solid black;
+}
+.Profile-detail .Profile-name {
+  margin-left: 5px;
+}
+.Profile-detail .Profile-name h2 {
+  opacity: 0.7;
+}
+.Profile-detail .Profile-name h3 {
+  opacity: 0.7;
+  margin-top: 10px;
+}
+.Profile-detail .Profile-name .Profile-update {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.Profile-detail .Profile-name .Profile-update button + button {
+  margin-left: 10px;
+}
+.Profile-odther {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+.Profile-odther p + p {
+  margin-left: 10px;
+}
+
+.Profile-text {
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.Profile-edit .Profile-edit_box {
+  width: 95%;
+  max-width: 800px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.Profile-edit .Profile-edit_box .Profile-edit_box-h {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Profile-edit .Profile-edit_box .Profile-edit_box-h p {
+  font-size: 25px;
+  color: rgb(70, 70, 70);
+}
+.Profile-edit .Profile-edit_box .Profile-edit_box-h p:nth-child(1) {
+  font-weight: 500;
+}
+.Profile-edit .Profile-edit_box .Profile-edit_box-h p:nth-child(2) {
+  cursor: pointer;
+}
+.Profile-edit .Profile-edit_box .Profile-edit_box-b {
+  display: flex;
+  padding: 10px 0px;
+  border-top: 1px solid rgb(163, 159, 159);
+}
+.Profile-edit .Profile-edit_box .Profile-edit_box-b label {
+  width: 50%;
+  font-size: 20px;
+  font-weight: 500;
+}
+.Profile-edit .Profile-edit_box .Profile-edit_box-b .edit_box-b {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Profile-edit .Profile-edit_box .Profile-edit_box-b .edit_box-b input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+  background-color: rgb(227, 227, 227);
+  border: none;
+  border-radius: 3px;
+}
+.Profile-edit .Profile-edit_box .Profile-edit_box-b .edit_box-b textarea {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+  background-color: rgb(227, 227, 227);
+  border: 1px solid rgb(163, 159, 159);
+  border-radius: 3px;
+}
+.Profile-edit .Profile-edit_box .Profile-edit_box-b .edit_box-b .edit_box-b_quost {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 15px;
+  font-style: italic;
+}
+.Profile-edit .Profile-edit_box .Profile-edit_box-b .edit_box-b .edit_box-b_img {
+  width: 70px;
+  height: 70px;
+  position: relative;
+}
+.Profile-edit .Profile-edit_box .Profile-edit_box-b .edit_box-b .edit_box-b_img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.Profile-edit .Profile-edit_box .Profile-edit_box-b .edit_box-b .edit_box-b_img label {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 5px;
+  border-radius: 100vh;
+  border: 1px solid black;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Profile-edit .Profile-edit_box .Profile-edit_box-b .edit_box-b .edit_box-b_img label i {
+  font-size: 15px;
+}
+.Profile-edit .Profile-edit_box .Profile-edit_box-b .edit_box-b .edit_box-b_img input {
+  display: none;
+}
+.Profile-edit .Profile-edit_box .Profile-edit_box-e {
+  border-top: 1px solid rgb(163, 159, 159);
+  padding: 10px 0px;
+}
+.Profile-edit .Profile-edit_box .Profile-edit_box-e .edit_box-e_btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.Profile-edit .Profile-edit_box .Profile-edit_box-e .edit_box-e_btn button + button {
+  margin-left: 10px;
+}/*# sourceMappingURL=profile.css.map */
