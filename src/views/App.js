@@ -7,14 +7,12 @@ import {
   Route,
 } from "react-router-dom";
 import Navbar from '../components/Navbar';
-import Friend from '../components/Friend';
-// import Home from '../components/Home';
+import Game from '../components/Game';
 import Update from '../components/Update';
 import Login from '../components/Login';
 import NotPage from '../components/NotPage';
 import Id from '../components/Id';
 import Register from '../components/Register';
-import Search from '../components/Search';
 import Sliederlab from '../layouts/Sliederlab';
 import {useState } from 'react';
 import Profile from '../components/Profile';
@@ -39,13 +37,13 @@ function App() {
             <Navbar checkNumber={checkNumberRES}/>
             <Routes>
               <Route path="/" element={<Sliederlab />} />
-              <Route path="/friend" element={<Friend />} />
+              <Route path="/genshin" element={<Game />} />
+              <Route path="/aov" element={<Game />} />
               <Route path="/product/:id" element={<Id />} />
               <Route path="/update" element={<Update />}/>
               <Route path="/profile" element={<Profile />}/>
               <Route path="*" element={<NotPage />}/>
             </Routes>
-            <Search/>
           </>
         }
         {number === 3 && 

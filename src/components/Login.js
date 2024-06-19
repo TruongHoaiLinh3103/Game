@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import '../styles/grid.scss';
 import '../styles/form.scss';
-import { toast } from 'react-toastify';
-import axios from "axios";
+// import axios from "axios";
 import { connect } from 'react-redux';
 import { mapStateToProps, mapDispatchToProps } from '../redux/action/Login';
+import { toast } from 'react-toastify';
 
 const Login = (props) => {
     
@@ -12,61 +12,99 @@ const Login = (props) => {
     const [password, setPassword] = useState("")
 
     // USERNAME
-    const user = () => {
-        if(!useName){
-            toast.error("Vui lòng nhập Username !")
-            return 0;
-        }
-        else{
-            var isValid = (temp) =>{
-                let regex = /@([A-Za-z0-9_]{1,15})/
-                return regex.test(temp);
-            }
-            if(isValid(useName) === false){
-                toast.warning("Thêm ký tự '@' trước Username")
-                return 0
-            }
-            else{
-                return 1;
-            } 
-        }
-    }
+    // const user = () => {
+    //     if(!useName){
+    //         toast.error("Vui lòng nhập Username !")
+    //         return 0;
+    //     }
+    //     else{
+    //         var isValid = (temp) =>{
+    //             let regex = /@([A-Za-z0-9_]{1,15})/
+    //             return regex.test(temp);
+    //         }
+    //         if(isValid(useName) === false){
+    //             toast.warning("Thêm ký tự '@' trước Username")
+    //             return 0
+    //         }
+    //         else{
+    //             return 1;
+    //         } 
+    //     }
+    // }
 
     // PASSWORD
-    const pass = () => {
-        if(!password){
-            toast.error("Vui lòng nhập mật khẩu!")
-            return 0;
-        }
-        else{
-            return 1;
-        }
-    }
+    // const pass = () => {
+    //     if(!password){
+    //         toast.error("Vui lòng nhập mật khẩu!")
+    //         return 0;
+    //     }
+    //     else{
+    //         return 1;
+    //     }
+    // }
 
      // SIGN IN
+    // const metho = () => {
+    //     if(user() === 1 && pass() === 1){
+    //         const data = {username: useName, password: password};
+    //         axios.post("http://localhost:4000/auth/login",data).then(res => {
+    //             if(res.data.error){  
+    //                 toast.error(res.data.error)
+    //             }
+    //             else{
+    //                 let temp = {
+    //                         id: Math.floor(Math.random() * 100000),
+    //                         username: useName,
+    //                 }
+    //                 if(props.dataUser.length > 0){
+    //                     for(let i = 0; i < props.dataUser.length; i++){
+    //                         props.deleteUser(props.dataUser[i])
+    //                     }
+    //                     if(sessionStorage.getItem("accessToken")){
+    //                         sessionStorage.removeItem("accessToken");
+    //                     } 
+    //                 }else{
+    //                     sessionStorage.setItem("accessToken", res.data)
+    //                     props.addUser(temp);
+    //                     props.checkNumber(2);
+    //                 }
+    //             }
+    //         })
+    //     }
+    // }
+
     const metho = () => {
-        if(user() === 1 && pass() === 1){
-            const data = {username: useName, password: password};
-            axios.post("http://localhost:4000/auth/login",data).then(res => {
-                if(res.data.error){  
-                    toast.error(res.data.error)
-                }
-                else{
-                    let temp = {
+        if(useName === ""){
+            toast.error("Vui lòng nhập tài khoản!")
+        }else{
+            if(useName === "Anikey"){
+                if(password === ""){
+                    toast.error("Vui lòng nhập mật khẩu!");
+                }else{
+                    if(password === "811317775"){
+                        let temp = {
                             id: Math.floor(Math.random() * 100000),
-                            username: useName,
-                    }
-                    if(props.dataUser.length > 0 && sessionStorage.getItem("accessToken")){
-                        for(var i = 0; i < props.dataUser.length; i++){
-                            props.deleteUser(props.dataUser[i])
+                            username: "Anikey",
                         }
-                        sessionStorage.removeItem("accessToken");
+                        if(props.dataUser.length > 0){
+                            for(let i = 0; i < props.dataUser.length; i++){
+                                props.deleteUser(props.dataUser[i])
+                            }
+                            if(sessionStorage.getItem("accessToken")){
+                                sessionStorage.removeItem("accessToken");
+                            } 
+                        }else{
+                            sessionStorage.setItem("accessToken", "811317775")
+                            props.addUser(temp);
+                            props.checkNumber(2);
+                        }
+                    }else{
+                        toast.error("Mật khẩu không chính xác!")
                     }
-                    sessionStorage.setItem("accessToken", res.data)
-                    props.addUser(temp);
-                    props.checkNumber(2);
                 }
-            })
+            }else{
+                toast.error("Tài khoản không chính xác!")
+            }
         }
     }
 
@@ -86,16 +124,20 @@ const Login = (props) => {
                 <form className="form">
                     <div className="input-group">
                         <label htmlFor="username">Username</label>
+                        {/* <input type="text" name="username" id="username" placeholder="" value={useName} 
+                        onChange={(e) => setUseName(e.target.value)}
+                        onBlur={() => user()} */}
                         <input type="text" name="username" id="username" placeholder="" value={useName} 
                         onChange={(e) => setUseName(e.target.value)}
-                        onBlur={() => user()}
                         />
                     </div>
                     <div className="input-group">
                         <label htmlFor="password">Password</label>
+                        {/* <input type="password" name="password" id="password" placeholder="" value={password} 
+                        onChange={(e) => setPassword(e.target.value)}
+                        onBlur={() => pass()} */}
                         <input type="password" name="password" id="password" placeholder="" value={password} 
                         onChange={(e) => setPassword(e.target.value)}
-                        onBlur={() => pass()}
                         />
                         <div className="forgot">
                             <a hrel="noopener noreferrer" href="#" onClick={() => changePassword()}>Change Password ?</a>

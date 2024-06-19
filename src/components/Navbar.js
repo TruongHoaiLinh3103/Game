@@ -6,7 +6,7 @@ import { mapDispatchToProps, mapStateToProps } from "../redux/action/Login";
 
 const Navbar = (props) => {
     const user = props.dataUser[0];
-    const [menu, setMenu] = useState(false);
+    const [menu, setMenu] = useState(0);
     const history = useNavigate()
     const logOut = () => {
         sessionStorage.removeItem("accessToken");
@@ -24,8 +24,8 @@ const Navbar = (props) => {
                 {/* NAVIGATION MENU */}
                 <div className="menu">
                     <li><NavLink to="/" activeclassname="selected" exact="true"><i className="fa-solid fa-house"></i>Trang chủ</NavLink></li>
-                    <li onClick={() => setMenu(true)}><NavLink to="#" activeclassname="selected"><i className="fas fa-caret-down"></i>Mục lục</NavLink></li>
-                    <li><NavLink to="/friend" activeclassname="selected"><i className="fa-solid fa-heart"></i>Bạn bè</NavLink></li>
+                    <li onClick={() => setMenu(1)}><NavLink to="#" activeclassname="selected"><i className="fas fa-caret-down"></i>Game</NavLink></li>
+                    <li onClick={() => setMenu(2)}><NavLink to="#" activeclassname="selected"><i className="fa-solid fa-heart"></i>Tài liệu</NavLink></li>
                     <li><NavLink to="/profile" activeclassname="selected"><i className="fas fa-user-circle"></i>Hồ sơ</NavLink></li>
                     <div className="Account">
                         {sessionStorage.getItem("accessToken") &&
@@ -35,14 +35,19 @@ const Navbar = (props) => {
                 </div>
                 {/* CATEGORY */}
                 <div className='Category-overlay' 
-                    style={{display: menu ? "flex" : "none"}} 
-                    onClick={() => setMenu(false)}
+                    style={{display: menu === 1 || menu === 2 ? "flex" : "none"}} 
+                    onClick={() => setMenu(0)}
                 >
+                    {menu === 1 &&
                     <div className='Category-overlay_box'>
-                        <div className='Category-overlay_item' onClick={() => history("/mess")} >Tin nhắn</div>
-                        <div className='Category-overlay_item' onClick={() => history("/group")}>Nhóm chat</div>
-                        <div className='Category-overlay_item' onClick={() => history("/livestream")}>Livestream</div>
-                    </div>
+                        <div className='Category-overlay_item' onClick={() => history("/genshin")} >Genshin Impact</div>
+                        <div className='Category-overlay_item' onClick={() => history("/aov")}>Liên Quân</div>
+                    </div>}
+                    {menu === 2 && 
+                    <div className='Category-overlay_box'>
+                        <div className='Category-overlay_item' onClick={() => history("/front")} >Frontend</div>
+                        <div className='Category-overlay_item' onClick={() => history("/back")}>Backend</div>
+                    </div>}
                 </div>
                 {/* USING CHECKBOX HACK */}
                 <label htmlFor="nav__bars" className="nav__bars">
@@ -54,16 +59,22 @@ const Navbar = (props) => {
                     <div className="navbar__body">
                         <ul className="bars__box-nav">
                             <li><NavLink to="/"><i className="fa-solid fa-house"></i>Trang chủ</NavLink></li>
-                            <li className="listProductHidden"><NavLink to="#" style={{cursor: "pointer"}}><i className="fa-solid fa-hand-holding-heart"></i>Danh mục</NavLink>
+                            <li className="listProductHidden"><NavLink to="#" style={{cursor: "pointer"}}><i className="fa-solid fa-hand-holding-heart"></i>Game</NavLink>
                             <div className="all__product">
                                 <ul>
-                                    <li><NavLink to="/mess">Tin nhắn</NavLink></li>
-                                    <li><NavLink to="/group">Nhóm chat</NavLink></li>
-                                    <li><NavLink to="/livestream">Livestream</NavLink></li>
+                                    <li><NavLink to="/genshin">Genshin Impact</NavLink></li>
+                                    <li><NavLink to="/aov">Liên Quân</NavLink></li>
                                 </ul>
                             </div>
                             </li>
-                            <li><NavLink to="/friend"><i className="fa-solid fa-heart"></i>Bạn bè</NavLink></li>
+                            <li className="listProductHidden"><NavLink to="#" style={{cursor: "pointer"}}><i className="fa-solid fa-heart"></i>Tài liệu</NavLink>
+                            <div className="all__product">
+                                <ul>
+                                    <li><NavLink to="/front">Frontend</NavLink></li>
+                                    <li><NavLink to="/back">Backend</NavLink></li>
+                                </ul>
+                            </div>
+                            </li>
                             <li><NavLink to="/profile"><i className="fas fa-user-circle"></i>Hồ sơ</NavLink></li>
                             {sessionStorage.getItem("accessToken") && 
                                 <li><NavLink to="#" onClick={() => logOut()}><i className="fas fa-sign-out-alt"></i>Đăng xuất</NavLink></li>

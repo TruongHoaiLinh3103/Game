@@ -1,0 +1,137 @@
+@import "./variable.scss";
+.Genshin{
+    background-image: url('https://i.pinimg.com/originals/d1/84/c1/d184c1f7e5ab475fde944091323da9b0.jpg');
+    background-size: cover;
+}
+.aov{
+    background-color: #5b5eab;
+}
+.GenshinData, .aovData{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    justify-content: center;
+    padding: 10px;
+    .genAvatarAndUID, .aovAvatarAndUID{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .genAvatarAndUID-Avatar, .aovAvatarAndUID-Avatar{
+            width: 100px;
+            height: 100px;
+            img{
+                width: 100%;
+                height: 100%;
+                border-radius: 100vh;
+                object-fit: cover;
+            }
+        }
+        .genAvatarAndUID-UID, .aovAvatarAndUID-UID{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 5px 0px;
+            color: whitesmoke;
+        }
+        .genAvatarAndUID-Copy, .aovAvatarAndUID-Copy{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: copy;
+            button{
+                outline: none;
+                border: none;
+                font-size: 14px;
+                background-color: #f000;
+                cursor: copy;
+                color: whitesmoke;
+            }
+            svg{
+                color: whitesmoke;
+            }
+        }
+    }
+    .GenshinProfile, .AovProfile{
+        margin-left: 10px;
+        p{
+            margin-top: 5px;
+            color: whitesmoke;
+        }
+        .GenshinProfile-Name, .AovProfile-Name{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            h3{
+                color: #ffde97;
+            }
+            button{
+                outline: none;
+                border: none;
+                font-size: 17px;
+                background-color: #f000;
+                cursor: pointer;
+                svg{
+                    color: whitesmoke;
+                }
+            }
+        }
+    }
+    .GenshinProfile-Rank,
+    .GenshinProfile-Lever,
+    .AovProfile-Rank,
+    .AovProfile-Lever{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 5px;
+        button{
+            margin-left: 5px;
+            border: none;
+            font-size: 14px;
+            background-color: rgb(199, 199, 199);
+            border-radius: 100vh;
+            cursor: pointer;
+        }
+        .Rank_title,
+        .Lever-title{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+    .GenshinProfile-Exp, .AovProfile-Exp{
+        .GenshinProfile-Exp_detail, .AovProfile-Exp_detail{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            p{
+                color: $cl-green;
+                font-weight: 400;
+            }
+        }
+        hr{
+            height: 5px;
+            border-radius: 100vh;
+            background-color: $cl-green;
+            border: none;
+        }
+    }
+}
+.GenshinMenu, .AovMenu{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    justify-content: space-around;
+    padding-bottom: 5px;
+    .GenshinMenu_tab, .AovMenu_tab{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        border: 1px outset yellow;
+        padding: 5px 0px;
+        cursor: pointer;
+        svg{
+            margin-left: 10px;
+            color: white;
+        }
+    }
+}

@@ -75,9 +75,7 @@ const Profile = (props) => {
                         <p><b>10</b> video</p>
                         <p><b>834</b> Like</p>
                     </div>
-                    <div className='Profile-text'>
-                        {profileDetail.bio}
-                    </div>
+                    <div className='Profile-text' dangerouslySetInnerHTML={{__html: profileDetail.bio}}></div>
 
                     {/* Sửa hồ sơ */}
                     <div className='Profile-edit' style={{display : editProfile === 1 ? "flex" : "none"}}>
@@ -115,7 +113,7 @@ const Profile = (props) => {
                             <div className='Profile-edit_box-b'>
                                 <label>Tiểu sử</label>
                                 <div className='edit_box-b'>
-                                    <textarea value={bio} minLength={0} maxLength={300} onChange={(e) => setBio(e.target.value)} />
+                                    <textarea value={bio} minLength={0} maxLength={300} onChange={(e) => setBio(e.target.value)}/>
                                     <span className='edit_box-b_quost'>{bio.length}/300</span>
                                 </div>
                             </div>
@@ -129,7 +127,7 @@ const Profile = (props) => {
                     </div>
 
                     {/* Tải lên */}
-                    {/* <div className='Profile-edit' style={{display : editProfile === 2 ? "flex" : "none"}}>
+                    <div className='Profile-edit' style={{display : editProfile === 2 ? "flex" : "none"}}>
                         <div className='Profile-edit_box'>
                             <div className='Profile-edit_box-h'>
                                 <p>Tải lên</p>
@@ -142,22 +140,6 @@ const Profile = (props) => {
                                         <img src={profileDetail.img} alt='avtar'/>
                                         <span><i className="far fa-edit"></i></span>
                                     </div>
-                                </div>
-                            </div>
-                            <div className='Profile-edit_box-b'>
-                                <label>ID</label>
-                                <div className='edit_box-b'>
-                                    <input type='text' disabled value={profileDetail.username}/>
-                                    <span className='edit_box-b_quost'>
-                                    ID không thể thay đổi 
-                                    và nó cũng là tên tài khoản để đăng nhập
-                                    </span>
-                                </div>
-                            </div>
-                            <div className='Profile-edit_box-b'>
-                                <label>Tên</label>
-                                <div className='edit_box-b'>
-                                    <input type='text' value={profileDetail.fullname}/>
                                 </div>
                             </div>
                             <div className='Profile-edit_box-b'>
@@ -174,7 +156,7 @@ const Profile = (props) => {
                                 </div>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                 </div>
             }
         </>
