@@ -20,6 +20,8 @@ import Bright from "../assets/Bright.mp4";
 import Veera from "../assets/Veera.mp4";
 import Krixi from "../assets/Krixi.mp4";
 import Kaine from "../assets/Kaine.mp4";
+import Gildur from "../assets/Gildur.mp4";
+import Zuka from "../assets/Zuka.mp4";
 
 import briSk1 from "../assets/Thần lực ánh sáng.png";
 import briSk2 from "../assets/Tốc độ quang minh.png";
@@ -110,6 +112,14 @@ import ButSk1 from "../assets/Sát thủ.png";
 import ButSk2 from "../assets/Quét kiếm.png";
 import ButSk3 from "../assets/Phi kiếm.png";
 import ButSk4 from "../assets/Ám sát.png";
+import ZukSk1 from "../assets/Võ hồn.png";
+import ZukSk2 from "../assets/Loạn đả bổng.png";
+import ZukSk3 from "../assets/Phi thân kích.png";
+import ZukSk4 from "../assets/Trầm trọng lực.png";
+import GilSk1 from "../assets/Bàn tay vàng.png";
+import GilSk2 from "../assets/Quả đấm vàng.png";
+import GilSk3 from "../assets/Vụ nổ vàng.png";
+import GilSk4 from "../assets/Vương quốc vàng.png";
 
 export const AOV = [
     {
@@ -594,6 +604,50 @@ export const AOV = [
         skill4: {
             name: "Ám sát",
             img: `${ButSk4}`
+        }
+    },
+    {
+        id: 23,
+        name: "Zuka",
+        video: `${Zuka}`,
+        poster: "https://i.pinimg.com/originals/75/9e/31/759e31ba72a45c13ebcb0bc97eabe4ee.jpg",
+        skill1: {
+            name: "Võ hồn",
+            img: `${ZukSk1}`
+        },
+        skill2: {
+            name: "Loạn đả bổng",
+            img: `${ZukSk2}`
+        },
+        skill3: {
+            name: "Phi thân kích",
+            img: `${ZukSk3}`
+        },
+        skill4: {
+            name: "Trầm trọng lực",
+            img: `${ZukSk4}`
+        }
+    },
+    {
+        id: 22,
+        name: "Gildur",
+        video: `${Gildur}`,
+        poster: "https://i.pinimg.com/originals/ff/95/13/ff951382e212ddceb9df707966de6f11.jpg",
+        skill1: {
+            name: "Bàn tay vàng",
+            img: `${GilSk1}`
+        },
+        skill2: {
+            name: "Quả đấm vàng",
+            img: `${GilSk2}`
+        },
+        skill3: {
+            name: "Vụ nổ vàng",
+            img: `${GilSk3}`
+        },
+        skill4: {
+            name: "Vương quốc vàng",
+            img: `${GilSk4}`
         }
     },
 ]

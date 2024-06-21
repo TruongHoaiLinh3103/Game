@@ -21,6 +21,7 @@
             border-radius: 30px;
             outline: none;
             border: none;
+            margin: 10px 0px;
         }
         h4{
             color: white;
@@ -29,7 +30,6 @@
         ul{
             padding-left: 0px;
             li{
-                // list-style: url("../assets/Svg/icons8-tick-24.png");
                 list-style: none;
                 display: flex;
                 align-items: center;
@@ -51,7 +51,9 @@
                     font-size: 15px;
                 }
             }
-    
+        }
+        iframe{
+            margin-top: 10px;
         }
     }
 }

@@ -75,9 +75,8 @@ const Genshin = () => {
                         <div className='GenshinMenu_tab'>Nhân Vật
                             <GiCharacter />
                         </div>
-                        <div className='GenshinMenu_tab'>Bản Đồ
-                            <FaMap />
-                        </div>
+                        <a href='https://truonghoailinh3103.github.io/genshinaz.com-471/' className='GenshinMenu_tab'>Bản Đồ
+                        <FaMap /></a>
                     </div>
                 </div>
             }
@@ -106,7 +105,7 @@ const Genshin = () => {
                                 <div className='AovProfile-Rank'>
                                     <p><b>Hạng</b></p>
                                     <div className='Rank_title'>
-                                        <p><b>Chiến Tướng</b></p>
+                                        <p><b>Cao thủ</b></p>
                                         <button>!</button>
                                     </div>
                                 </div>

@@ -24,8 +24,8 @@ const Navbar = (props) => {
                 {/* NAVIGATION MENU */}
                 <div className="menu">
                     <li><NavLink to="/" activeclassname="selected" exact="true"><i className="fa-solid fa-house"></i>Trang chủ</NavLink></li>
-                    <li onClick={() => setMenu(1)}><NavLink to="#" activeclassname="selected"><i className="fas fa-caret-down"></i>Game</NavLink></li>
-                    <li onClick={() => setMenu(2)}><NavLink to="#" activeclassname="selected"><i className="fa-solid fa-heart"></i>Tài liệu</NavLink></li>
+                    <li onClick={() => setMenu(1)}><NavLink to="#" activeclassname="selected"><i className="fa-solid fa-gamepad"></i>Game</NavLink></li>
+                    <li onClick={() => setMenu(2)}><NavLink to="#" activeclassname="selected"><i className="fa-solid fa-book"></i>Tài liệu</NavLink></li>
                     <li><NavLink to="/profile" activeclassname="selected"><i className="fas fa-user-circle"></i>Hồ sơ</NavLink></li>
                     <div className="Account">
                         {sessionStorage.getItem("accessToken") &&
@@ -59,7 +59,7 @@ const Navbar = (props) => {
                     <div className="navbar__body">
                         <ul className="bars__box-nav">
                             <li><NavLink to="/"><i className="fa-solid fa-house"></i>Trang chủ</NavLink></li>
-                            <li className="listProductHidden"><NavLink to="#" style={{cursor: "pointer"}}><i className="fa-solid fa-hand-holding-heart"></i>Game</NavLink>
+                            <li className="listProductHidden"><NavLink to="#" style={{cursor: "pointer"}}><i className="fa-solid fa-gamepad"></i>Game</NavLink>
                             <div className="all__product">
                                 <ul>
                                     <li><NavLink to="/genshin">Genshin Impact</NavLink></li>
@@ -67,7 +67,7 @@ const Navbar = (props) => {
                                 </ul>
                             </div>
                             </li>
-                            <li className="listProductHidden"><NavLink to="#" style={{cursor: "pointer"}}><i className="fa-solid fa-heart"></i>Tài liệu</NavLink>
+                            <li className="listProductHidden"><NavLink to="#" style={{cursor: "pointer"}}><i className="fa-solid fa-book"></i>Tài liệu</NavLink>
                             <div className="all__product">
                                 <ul>
                                     <li><NavLink to="/front">Frontend</NavLink></li>

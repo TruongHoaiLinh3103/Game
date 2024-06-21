@@ -88,6 +88,7 @@
     width: 120px;
     text-align: center;
     padding: 20px 0px;
+    user-select: none;
 }
 .menu li:hover{
     cursor: pointer;
@@ -201,6 +202,7 @@
 .all__product li{
     border: 1px solid black;
     text-align: center;
+    user-select: none;
 }
 .all__product li a{
     color: rgb(49, 49, 48);

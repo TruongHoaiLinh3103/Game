@@ -16,7 +16,7 @@ const MapLQ = () => {
                         <div className="shadow"></div>
                         <div className="label">
                             <div className="icon">
-                            <img src="" alt='1vs1'/>
+                            <img src="https://i.pinimg.com/originals/86/ed/bc/86edbcbb4689efd3cef3e595a3e1e858.png" alt='1vs1'/>
                             </div>
                             <div className="info">
                             <div className="main">1 VS 1</div>
@@ -28,7 +28,7 @@ const MapLQ = () => {
                         <div className="shadow"></div>
                         <div className="label">
                             <div className="icon">
-                            <img src="" alt='3vs3'/>
+                            <img src="https://i.pinimg.com/originals/60/67/65/60676558717d0b7a78062ec6a2760432.png" alt='3vs3'/>
                             </div>
                             <div className="info">
                             <div className="main">3 VS 3</div>

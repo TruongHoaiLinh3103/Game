@@ -8,10 +8,8 @@ import {
 } from "react-router-dom";
 import Navbar from '../components/Navbar';
 import Game from '../components/Game';
-import Update from '../components/Update';
 import Login from '../components/Login';
 import NotPage from '../components/NotPage';
-import Id from '../components/Id';
 import Register from '../components/Register';
 import Sliederlab from '../layouts/Sliederlab';
 import {useState } from 'react';
@@ -40,8 +38,6 @@ function App() {
               <Route path="/" element={<Sliederlab />} />
               <Route path="/genshin" element={<Game />} />
               <Route path="/aov" element={<Game />} />
-              <Route path="/product/:id" element={<Id />} />
-              <Route path="/update" element={<Update />}/>
               <Route path="/profile" element={<Profile />}/>
               <Route path="*" element={<NotPage />}/>
             </Routes>

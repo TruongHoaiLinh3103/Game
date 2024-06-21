@@ -1,7 +1,7 @@
 import React from 'react';
 import "../styles/footer.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUtensils, faBook, faPhone, faEnvelope, faMapLocation, faFaceSmile, faHouse, faHeart, } from '@fortawesome/free-solid-svg-icons';
+import {faPhone, faEnvelope, faMapLocation, faFaceSmile, faGamepad, faLeaf, faBookTanakh, faScrollTorah} from '@fortawesome/free-solid-svg-icons';
 import { NavLink } from 'react-router-dom';
 const Footer = () => {
     return (
@@ -22,9 +22,10 @@ const Footer = () => {
                 <h3>Menu</h3>
                 <hr />
                 <ul>
-                    <li><FontAwesomeIcon icon={faHouse} /><NavLink to="/">Home</NavLink></li>
-                    <li><FontAwesomeIcon icon={faHeart} /><NavLink to="/aov">Aov</NavLink></li>
-                    <li><FontAwesomeIcon icon={faUtensils} /><NavLink to="/genshin">Genshin Impact</NavLink></li>
+                    <li><FontAwesomeIcon icon={faGamepad} /><NavLink to="/aov">Aov</NavLink></li>
+                    <li><FontAwesomeIcon icon={faLeaf} /><NavLink to="/genshin">Genshin impact</NavLink></li>
+                    <li><FontAwesomeIcon icon={faBookTanakh} /><NavLink to="/front">Frontend</NavLink></li>
+                    <li><FontAwesomeIcon icon={faScrollTorah} /><NavLink to="/back">Backend</NavLink></li>
                 </ul>
             </div>
             <div className='Footer-item'>
