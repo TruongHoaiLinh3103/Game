@@ -8,9 +8,12 @@ import "../styles/game.scss";
 import { useLocation } from 'react-router-dom';
 import MapLQ from './MapLQ';
 import CharacterLQ from './CharacterLQ';
+import CharacterGI from './CharacterGI';
+import MapGI from './MapGI';
 
 const Genshin = () => {
-    const [mapLQ, setMapLQ] = useState(true)
+    const [mapLQ, setMapLQ] = useState(true);
+    const [mapGI, setMapGI] = useState(true)
     const path = useLocation();
     const copyUID = () => {
         if(path.pathname === '/genshin'){
@@ -27,58 +30,62 @@ const Genshin = () => {
     return (
         <>
             {path.pathname === '/genshin' && 
-                <div className='Genshin'>
-                    <div className='GenshinData'>
-                        <div className='genAvatarAndUID'>
-                            <div className='genAvatarAndUID-Avatar'>
-                                <img src='https://i.pinimg.com/originals/06/37/e9/0637e9bc727e0ce261310db9b7c7d41a.jpg' alt="genshin avatar" />
+                <>
+                    <div className='Genshin'>
+                        <div className='GenshinData'>
+                            <div className='genAvatarAndUID'>
+                                <div className='genAvatarAndUID-Avatar'>
+                                    <img src='https://i.pinimg.com/originals/06/37/e9/0637e9bc727e0ce261310db9b7c7d41a.jpg' alt="genshin avatar" />
+                                </div>
+                                <div className='genAvatarAndUID-UID'>
+                                    <p>UID: 811317775</p>
+                                </div>
+                                <div className='genAvatarAndUID-Copy' onClick={() => copyUID()}>
+                                    <FaCopy />
+                                    <button>Sao chép</button>
+                                </div>
                             </div>
-                            <div className='genAvatarAndUID-UID'>
-                                <p>UID: 811317775</p>
-                            </div>
-                            <div className='genAvatarAndUID-Copy' onClick={() => copyUID()}>
-                                <FaCopy />
-                                <button>Sao chép</button>
+                            <div className='GenshinProfile'>
+                                <div className='GenshinProfile-Name'>
+                                    <h3>Yu</h3>
+                                    <button><CiEdit /></button>
+                                </div>
+                                <p><i>Đậu phụ rán lung linh</i></p>
+                                <div className='GenshinProfile-Rank'>
+                                    <p><b>Hạng Mạo Hiểm</b></p>
+                                    <div className='Rank_title'>
+                                        <p><b>60</b></p>
+                                        <button>!</button>
+                                    </div>
+                                </div>
+                                <div className='GenshinProfile-Exp'>
+                                    <div className='GenshinProfile-Exp_detail'>
+                                        <p>Exp Mạo Hiểm</p>
+                                        <p>100%</p>
+                                    </div>
+                                    <hr></hr>
+                                </div>
+                                <div className='GenshinProfile-Lever'>
+                                    <p><b>Cấp Thế Giới</b></p>
+                                    <div className='Lever-title'>
+                                        <p><b>8</b></p>
+                                        <button>!</button>
+                                    </div>
+                                </div>
+                                <p><b>Ngày 31 tháng 03</b></p>
                             </div>
                         </div>
-                        <div className='GenshinProfile'>
-                            <div className='GenshinProfile-Name'>
-                                <h3>Yu</h3>
-                                <button><CiEdit /></button>
+                        <div className='GenshinMenu'>
+                            <div className='GenshinMenu_tab' onClick={() => setMapGI(true)}>Nhân Vật
+                                <GiCharacter />
                             </div>
-                            <p><i>Đậu phụ rán lung linh</i></p>
-                            <div className='GenshinProfile-Rank'>
-                                <p><b>Hạng Mạo Hiểm</b></p>
-                                <div className='Rank_title'>
-                                    <p><b>60</b></p>
-                                    <button>!</button>
-                                </div>
+                            <div className='GenshinMenu_tab' onClick={() => setMapGI(false)}>Bản Đồ
+                                <FaMap />
                             </div>
-                            <div className='GenshinProfile-Exp'>
-                                <div className='GenshinProfile-Exp_detail'>
-                                    <p>Exp Mạo Hiểm</p>
-                                    <p>100%</p>
-                                </div>
-                                <hr></hr>
-                            </div>
-                            <div className='GenshinProfile-Lever'>
-                                <p><b>Cấp Thế Giới</b></p>
-                                <div className='Lever-title'>
-                                    <p><b>8</b></p>
-                                    <button>!</button>
-                                </div>
-                            </div>
-                            <p><b>Ngày 31 tháng 03</b></p>
                         </div>
                     </div>
-                    <div className='GenshinMenu'>
-                        <div className='GenshinMenu_tab'>Nhân Vật
-                            <GiCharacter />
-                        </div>
-                        <a href='https://truonghoailinh3103.github.io/genshinaz.com-471/' className='GenshinMenu_tab'>Bản Đồ
-                        <FaMap /></a>
-                    </div>
-                </div>
+                    {mapGI ? <CharacterGI/> : <MapGI/>}
+                </>
             }
             {path.pathname === '/aov' &&
                 <>
