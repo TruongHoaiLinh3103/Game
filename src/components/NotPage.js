@@ -7,10 +7,9 @@ const NotPage = () => {
         history("/");
     }
     return (
-        <div style={{textAlign:"center"}}>
+        <div style={{textAlign:"center", padding: "10px 0px"}}>
             <i class="fa-solid fa-triangle-exclamation"
             style={{
-                marginTop:"30px",
                 fontSize:"70px",
                 color: "red"
             }}

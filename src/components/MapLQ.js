@@ -66,11 +66,11 @@ const MapLQ = () => {
                     <p className='MapLQ-p'>Ở chế độ 5vs5, việc chọn lựa đường đi vô cùng quan trọng, Nó ảnh hưởng rất lớn đến quá trình trận đấu có thuận lợi hay không. Để làm được điều đó, bạn cần phải trao đổi với đồng minh của mình, tránh việc thiếu chủ lực hoặc hỗ trợ dẫn đến một trận đấu hỏng. Tùy từng trận đấu mà đội hình có thể sắp xếp khác nhau.</p>
                 </div>
                 <div className='MapLQ_detailBox'>
-                    <h3 className='MapLQ-h3'>Quái vật</h3>
+                    <h3 className='MapLQ-h3'>Quái và lính</h3>
                     <div className='MapLQ-img'>
                         <img src='https://i.pinimg.com/originals/07/96/6d/07966d072bad2f558ba94b5b2082cf1a.jpg' alt='quai-vat' />
                     </div>
-                    <p className='MapLQ-p'>Ở tất cả các chế độ, ngoại trừ lính của mỗi đường, thì quái vật trong rừng cũng cung cấp lượng lớn vàng và kinh nghiệm. Tuy nhiên, ở giai đoạn đầu trận, quái vật là của rừng, giao tranh hạ gục đối phương và tiến tới phá hủy các trụ bảo vệ. Tùy từng chế độ mà mỗi bên có số lượng trụ khác nhau.</p>
+                    <p className='MapLQ-p'>Ở tất cả các chế độ, ngoại trừ lính của mỗi đường, thì quái vật trong rừng cũng cung cấp lượng lớn kinh nghiệm. Nhìn từ bản đồ ta có thể thấy quái vật có phân chia theo cấp độ, quái cấp bùa lợi cho cá nhân có màu đỏ, quái cấp bùa lợi cho cả team có màu tím và vàng.</p>
                 </div>
             </div>
         </div>

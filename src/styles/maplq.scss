@@ -58,7 +58,7 @@
   overflow: hidden;
   font-family: "Roboto", sans-serif;
   transition: 0.25s;
-  width: 99%;
+  width: 90%;
 }
 
 .MapLQBMap .options {
@@ -66,10 +66,9 @@
   flex-direction: row;
   align-items: stretch;
   overflow: hidden;
-  min-width: 700px;
-  max-width: 1000px;
+  flex: 1;
   width: calc(100% - 100px);
-  height: 500px;
+  height: 400px;
 }
 
 .MapLQBMap .options .option {
@@ -93,18 +92,17 @@
   --defaultBackground: url('https://i.pinimg.com/originals/e7/f5/92/e7f592f10b14dee039406f22e5458507.jpg');
 }
 .MapLQBMap .options .option.active {
-  flex-grow: 10000;
+  flex: 9;
   transform: scale(1);
-  max-width: 800px;
   margin: 0px;
   border-radius: 40px;
   background-size: auto 100%;
 
 }
-.MapLQBMap .options .option.active .shadow {
-  box-shadow: inset 0 -120px 120px -120px black,
-    inset 0 -120px 120px -100px black;
-}
+// .MapLQBMap .options .option.active .shadow {
+//   box-shadow: inset 0 -120px 120px -120px black,
+//     inset 0 -120px 120px -100px black;
+// }
 .MapLQBMap .options .option.active .label {
   bottom: 20px;
   left: 20px;
@@ -114,13 +112,13 @@
   opacity: 1;
 }
 .MapLQBMap .options .option:not(.active) {
-  flex-grow: 1;
+  flex: 1;
   border-radius: 30px;
 }
-.MapLQBMap .options .option:not(.active) .shadow {
-  bottom: -40px;
-  box-shadow: inset 0 -120px 0px -120px black, inset 0 -120px 0px -100px black;
-}
+// .MapLQBMap .options .option:not(.active) .shadow {
+//   bottom: -40px;
+//   box-shadow: inset 0 -120px 0px -120px black, inset 0 -120px 0px -100px black;
+// }
 .MapLQBMap .options .option:not(.active) .label {
   bottom: 10px;
   left: 10px;
@@ -129,14 +127,14 @@
   left: 20px;
   opacity: 0;
 }
-.MapLQBMap .options .option .shadow {
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  height: 120px;
-  transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
-}
+// .MapLQBMap .options .option .shadow {
+//   position: absolute;
+//   bottom: 0px;
+//   left: 0px;
+//   right: 0px;
+//   height: 120px;
+//   transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+// }
 .MapLQBMap .options .option .label {
   display: flex;
   position: absolute;
@@ -144,32 +142,19 @@
   height: 40px;
   transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
 }
-.MapLQBMap .options .option .label .icon {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  min-width: 40px;
-  max-width: 40px;
-  height: 40px;
-  border-radius: 100%;
-  background-color: white;
-  color: var(--defaultBackground);
-}
+
 .MapLQBMap .options .option .label .icon img {
-  min-width: 100%;
-  max-width: 100%;
+  width: 100%;
+  width: 100%;
 }
 .MapLQBMap .options .option .label .icon {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  min-width: 40px;
-  max-width: 40px;
-  height: 40px;
-  border-radius: 100%;
-  background-color: #212123;
+  min-width: 50px;
+  max-width: 50px;
+  height: 50px;
   color: var(--defaultBackground);
 }
 .MapLQBMap .options .option .label .info {
@@ -205,9 +190,6 @@
         }
     }
   }
-  .MapLQBMap .options {
-    min-width: 440px;
-  }
 }
 @media only screen and (max-width : 46.25em){
   .MapLQ_detail{
@@ -218,13 +200,6 @@
         display: flex;
         flex-direction: column;
     }
-  }
-  .MapLQBMap{
-    display: flex;
-    flex-direction: column;
-  }
-  .MapLQBMap .options {
-    min-width: 360px;
   }
 }
 @media only screen and (max-width : 30em){
@@ -239,8 +214,5 @@
           height: 300px;
         }
     }
-  }
-  .MapLQBMap .options {
-    min-width: 280px;
   }
 }
