@@ -19,20 +19,14 @@ const CharacterGI = () => {
                 return(
                     <div key={item.id}>
                         {char === item.id && 
-                            <div className='CharacterGI-build'>
-                                <img src={item.build} alt={item.name}/>
-                            </div>
-                        }
-                    </div>
-                )
-            })}
-            {GI.map((item) => {
-                return(
-                    <div key={item.id}>
-                        {char === item.id && 
-                            <div className='CharacterGI-build'>
-                                <img src={item.img} alt={item.name}/>
-                            </div>
+                            <>
+                                <div className='CharacterGI-build'>
+                                    <img src={item.build} alt={item.name}/>
+                                </div>
+                                <div className='CharacterGI-build'>
+                                    <img src={item.img} alt={item.name}/>
+                                </div>
+                            </>
                         }
                     </div>
                 )

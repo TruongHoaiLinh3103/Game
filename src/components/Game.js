@@ -35,10 +35,10 @@ const Genshin = () => {
                         <div className='GenshinData'>
                             <div className='genAvatarAndUID'>
                                 <div className='genAvatarAndUID-Avatar'>
-                                    <img src='https://i.pinimg.com/originals/06/37/e9/0637e9bc727e0ce261310db9b7c7d41a.jpg' alt="genshin avatar" />
+                                    <img src='https://i.pinimg.com/originals/c8/59/52/c859520d09bfca54fed367c431dab7b5.jpg' alt="genshin avatar" />
                                 </div>
                                 <div className='genAvatarAndUID-UID'>
-                                    <p>UID: 811317775</p>
+                                    <p>811317775</p>
                                 </div>
                                 <div className='genAvatarAndUID-Copy' onClick={() => copyUID()}>
                                     <FaCopy />
@@ -93,10 +93,10 @@ const Genshin = () => {
                         <div className='aovData'>
                             <div className='aovAvatarAndUID'>
                                 <div className='aovAvatarAndUID-Avatar'>
-                                    <img src='https://i.pinimg.com/originals/13/5b/59/135b59745e3e0881b672acff172054be.jpg' alt="aov avatar" />
+                                    <img src='https://i.pinimg.com/originals/65/7e/9c/657e9c89d676a72f89f89b250dbe8f14.jpg' alt="aov avatar" />
                                 </div>
                                 <div className='aovAvatarAndUID-UID'>
-                                    <p>UID: 4302483086443633</p>
+                                    <p>4302483086443633</p>
                                 </div>
                                 <div className='aovAvatarAndUID-Copy' onClick={() => copyUID()}>
                                     <FaCopy />
