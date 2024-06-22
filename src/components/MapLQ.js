@@ -40,10 +40,10 @@ const MapLQ = () => {
                         <div className="shadow"></div>
                         <div className="label">
                             <div className="icon">
-                            <img src="https://i.pinimg.com/originals/a1/1c/ee/a11ceee65559f1f749cbffa8ccdff679.jpg" alt='5vs'/>
+                            <img src="https://i.pinimg.com/originals/f2/f3/89/f2f389ce72bc28be00d7df352295769d.png" alt='5vs5'/>
                             </div>
                             <div className="info">
-                            <div className="main">5 VS 5</div>
+                            <div className="main">4 VS 4</div>
                             <div className="sub">Đấu Tổ Hợp</div>
                             </div>
                         </div>

@@ -93,7 +93,7 @@ const Genshin = () => {
                         <div className='aovData'>
                             <div className='aovAvatarAndUID'>
                                 <div className='aovAvatarAndUID-Avatar'>
-                                    <img src='https://i.pinimg.com/originals/2e/c2/8d/2ec28d4754b4848c040f600bac849ff6.webp' alt="aov avatar" />
+                                    <img src='https://i.pinimg.com/originals/13/5b/59/135b59745e3e0881b672acff172054be.jpg' alt="aov avatar" />
                                 </div>
                                 <div className='aovAvatarAndUID-UID'>
                                     <p>UID: 4302483086443633</p>

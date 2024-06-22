@@ -50,193 +50,6 @@
   }
 }
 
-.MapLQBMap #user-button {
-  z-index: 1000;
-  bottom: 1rem !important;
-  right: 1rem !important;
-  color: var(--user-button-text);
-  transition: 1s 0s ease-out;
-  -webkit-animation: slide 3s ease-out forwards;
-  animation: slide 3s ease-out forwards;
-}
-@-webkit-keyframes slide {
-  0%,
-  50% {
-    opacity: 0;
-    display: block !important;
-  }
-  100% {
-    opacity: 1;
-    display: block !important;
-  }
-}
-@keyframes slide {
-  0%,
-  50% {
-    opacity: 0;
-    display: block !important;
-  }
-  100% {
-    opacity: 1;
-    display: block !important;
-  }
-}
-.MapLQBMap #user-button .u-card {
-  border-radius: 100%;
-  box-shadow: 0 0 1rem -0.25rem var(--user-button-shadow),
-    inset 0 0 1rem -0.75rem var(--user-button-shadow);
-}
-.MapLQBMap #user-button .u-main {
-  cursor: pointer;
-  --user-button-background: var(--user-button-main, #ec87c0);
-}
-.MapLQBMap #user-button .u-main img {
-  height: 100%;
-  width: 100%;
-}
-.MapLQBMap #user-button .u-main iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 4rem;
-  height: 4rem;
-  opacity: 1;
-  transition: 0s 4s;
-}
-.MapLQBMap #user-button .u-icons {
-  position: relative;
-  z-index: 950;
-  transform: translate(-50%, -50%);
-  background: var(--user-button-circle);
-  box-shadow: 0 0 0 0.125rem var(--user-button-cardborder);
-  border-radius: 100%;
-  transition: 0.25s;
-  opacity: 1 !important;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  /*&:before {
-     z-index:-1;
-     position:absolute;
-     top:0; right:0; bottom:0; left:0;
-     content:'';
-
-     backdrop-filter: blur(10px);
-  }*/
-}
-.MapLQBMap #user-button .u-icons a {
-  color: inherit;
-  display: grid;
-  place-items: center;
-  width: 30px;
-  height: 30px;
-  text-decoration: none;
-}
-.MapLQBMap #user-button .u-icons a div {
-  padding: 0.5rem;
-  transition: 0s;
-}
-.MapLQBMap #user-button .u-icons a.u-random div {
-  position: relative;
-  top: -1px;
-  -webkit-animation: diespin 2s linear infinite;
-  animation: diespin 2s linear infinite;
-}
-@-webkit-keyframes diespin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-@keyframes diespin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-.MapLQBMap #user-button .u-icons a.u-random:not(:hover) div {
-  -webkit-animation-play-state: paused;
-  animation-play-state: paused;
-}
-.MapLQBMap #user-button .u-icons > * {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  background: var(--singlecolour);
-  border-radius: 100%;
-  cursor: pointer;
-  transform: translate(-50%, -50%);
-  transition: 0.25s -0.05s;
-}
-.MapLQBMap #user-button .u-icons > *:before {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.MapLQBMap #user-button .u-icons > *:hover,
-.MapLQBMap #user-button .u-icons > *:focus-within {
-  background: var(--hcolour);
-}
-.MapLQBMap #user-button .u-icons > *:first-child:nth-last-child(1):nth-child(1),
-.MapLQBMap #user-button .u-icons > *:first-child:nth-last-child(1) ~ *:nth-child(1) {
-  left: 25%;
-  top: 25%;
-}
-.MapLQBMap #user-button .u-icons > *:first-child:nth-last-child(2):nth-child(1),
-.MapLQBMap #user-button .u-icons > *:first-child:nth-last-child(2) ~ *:nth-child(1) {
-  left: 37.5%;
-  top: 18.75%;
-}
-.MapLQBMap #user-button .u-icons > *:first-child:nth-last-child(2):nth-child(2),
-.MapLQBMap #user-button .u-icons > *:first-child:nth-last-child(2) ~ *:nth-child(2) {
-  left: 18.75%;
-  top: 37.5%;
-}
-.MapLQBMap #user-button .u-icons > *:first-child:nth-last-child(3):nth-child(1),
-.MapLQBMap #user-button .u-icons > *:first-child:nth-last-child(3) ~ *:nth-child(1) {
-  left: 50%;
-  top: 15.625%;
-}
-.MapLQBMap #user-button .u-icons > *:first-child:nth-last-child(3):nth-child(2),
-.MapLQBMap #user-button .u-icons > *:first-child:nth-last-child(3) ~ *:nth-child(2) {
-  left: 25%;
-  top: 25%;
-}
-.MapLQBMap #user-button .u-icons > *:first-child:nth-last-child(3):nth-child(3),
-.MapLQBMap #user-button .u-icons > *:first-child:nth-last-child(3) ~ *:nth-child(3) {
-  left: 15.625%;
-  top: 50%;
-}
-.MapLQBMap #user-button .u-icons > *:first-child:nth-last-child(4):nth-child(1),
-.MapLQBMap #user-button .u-icons > *:first-child:nth-last-child(4) ~ *:nth-child(1) {
-  left: 62.5%;
-  top: 18.75%;
-}
-.MapLQBMap #user-button .u-icons > *:first-child:nth-last-child(4):nth-child(2),
-.MapLQBMap #user-button .u-icons > *:first-child:nth-last-child(4) ~ *:nth-child(2) {
-  left: 37.5%;
-  top: 18.75%;
-}
-.MapLQBMap #user-button .u-icons > *:first-child:nth-last-child(4):nth-child(3),
-.MapLQBMap #user-button .u-icons > *:first-child:nth-last-child(4) ~ *:nth-child(3) {
-  left: 18.75%;
-  top: 37.5%;
-}
-.MapLQBMap #user-button .u-icons > *:first-child:nth-last-child(4):nth-child(4),
-.MapLQBMap #user-button .u-icons > *:first-child:nth-last-child(4) ~ *:nth-child(4) {
-  left: 18.75%;
-  top: 62.5%;
-}
-.MapLQBMap #user-button:hover .u-icons,
-.MapLQBMap #user-button:focus-within .u-icons {
-  width: 300% !important;
-  height: 300% !important;
-}
-
 .MapLQBMap {
   display: flex;
   flex-direction: row;
@@ -245,65 +58,20 @@
   overflow: hidden;
   font-family: "Roboto", sans-serif;
   transition: 0.25s;
+  width: 99%;
 }
-.MapLQBMap.dark {
-  background: #212123;
-  color: white;
-}
-// @media (prefers-color-scheme: dark) {
-//   .MapLQBMap:not(.light) {
-//     background: #212123;
-//     color: white;
-//   }
-// }
-.MapLQBMap .credit {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  color: inherit;
-}
+
 .MapLQBMap .options {
   display: flex;
   flex-direction: row;
   align-items: stretch;
   overflow: hidden;
-  min-width: 600px;
-  max-width: 900px;
+  min-width: 700px;
+  max-width: 1000px;
   width: calc(100% - 100px);
-  height: 400px;
+  height: 500px;
 }
-// @media screen and (max-width: 718px) {
-//   .MapLQBMap .options {
-//     min-width: 520px;
-//   }
-//   .MapLQBMap .options .option:nth-child(5) {
-//     display: none;
-//   }
-// }
-// @media screen and (max-width: 638px) {
-//   .MapLQBMap .options {
-//     min-width: 440px;
-//   }
-//   .MapLQBMap .options .option:nth-child(4) {
-//     display: none;
-//   }
-// }
-// @media screen and (max-width: 558px) {
-//   .MapLQBMap .options {
-//     min-width: 360px;
-//   }
-//   .MapLQBMap .options .option:nth-child(3) {
-//     display: none;
-//   }
-// }
-// @media screen and (max-width: 478px) {
-//   .MapLQBMap .options {
-//     min-width: 280px;
-//   }
-//   .MapLQBMap .options .option:nth-child(2) {
-//     display: none;
-//   }
-// }
+
 .MapLQBMap .options .option {
   position: relative;
   overflow: hidden;
@@ -327,7 +95,7 @@
 .MapLQBMap .options .option.active {
   flex-grow: 10000;
   transform: scale(1);
-  max-width: 600px;
+  max-width: 800px;
   margin: 0px;
   border-radius: 40px;
   background-size: auto 100%;
@@ -389,8 +157,8 @@
   color: var(--defaultBackground);
 }
 .MapLQBMap .options .option .label .icon img {
-  min-width: 20px;
-  max-width: 20px;
+  min-width: 100%;
+  max-width: 100%;
 }
 .MapLQBMap .options .option .label .icon {
   display: flex;
@@ -425,14 +193,10 @@
 }
 
 
-@media only screen and (max-width: 78.75em){
-
-}
 @media only screen and (max-width: 62.5em){
   .MapLQ_detail{
     display: grid;
     grid-template-columns: 49% 49%;
-    justify-content: center;
     .MapLQ_detailBox{
         display: flex;
         flex-direction: column;
@@ -440,6 +204,9 @@
           height: 220px;
         }
     }
+  }
+  .MapLQBMap .options {
+    min-width: 440px;
   }
 }
 @media only screen and (max-width : 46.25em){
@@ -451,6 +218,13 @@
         display: flex;
         flex-direction: column;
     }
+  }
+  .MapLQBMap{
+    display: flex;
+    flex-direction: column;
+  }
+  .MapLQBMap .options {
+    min-width: 360px;
   }
 }
 @media only screen and (max-width : 30em){
@@ -465,5 +239,8 @@
           height: 300px;
         }
     }
+  }
+  .MapLQBMap .options {
+    min-width: 280px;
   }
 }
