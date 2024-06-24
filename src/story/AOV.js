@@ -1,131 +1,104 @@
-import Raz from "../assets/Raz.mp4";
-import Zata from "../assets/Zata.mp4";
-import Valhein from "../assets/Valhein.mp4";
-import Elsu from "../assets/Elsu.mp4";
-import TrieuVan from "../assets/TrieuVan.mp4";
-import Omen from "../assets/Omen.mp4";
-import Veres from "../assets/Veres.mp4";
-import Richter from "../assets/Richter.mp4";
-import Butterfly from "../assets/Butterfly.mp4";
-import Ryoma from "../assets/Ryoma.mp4";
-import Nakroth from "../assets/Nakroth.mp4";
-import Wukong from "../assets/Wukong.mp4";
-import Murad from "../assets/Murad.mp4";
-import Quillen from "../assets/Quillen.mp4";
-import Enzo from "../assets/Enzo.mp4";
-import Hayate from "../assets/Hayate.mp4";
-import Liliana from "../assets/Liliana.mp4";
-import Tulen from "../assets/Tulen.mp4";
-import Bright from "../assets/Bright.mp4";
-import Veera from "../assets/Veera.mp4";
-import Krixi from "../assets/Krixi.mp4";
-import Kaine from "../assets/Kaine.mp4";
-import Gildur from "../assets/Gildur.mp4";
-import Zuka from "../assets/Zuka.mp4";
-
-import briSk1 from "../assets/Thần lực ánh sáng.png";
-import briSk2 from "../assets/Tốc độ quang minh.png";
-import briSk3 from "../assets/Quang minh phán quyết.png";
-import briSk4 from "../assets/Bất tử thánh thân.png";
-import RichSk1 from "../assets/Thanh gươm biến ảo.png";
-import RichSk2 from "../assets/Chặt và chém.png";
-import RichSk3 from "../assets/Công thủ toàn diện.png";
-import RichSk4 from "../assets/Vùng diệt quỷ.png";
-import RyoSk1 from "../assets/Kiếm quyết.png";
-import RyoSk2 from "../assets/Thần hành bất biến.png";
-import RyoSk3 from "../assets/Nhất kích tất sát.png";
-import RyoSk4 from "../assets/Loạn trảm.png";
-import WuSk1 from "../assets/Vô địch thiên hạ.png";
-import WuSk2 from "../assets/Phân thân thuật.png";
-import WuSk3 from "../assets/Cân đẩu vân.png";
-import WuSk4 from "../assets/Gậy như ý.png";
-import QuiSk1 from "../assets/Đánh lén.png";
-import QuiSk2 from "../assets/Chém đôi.png";
-import QuiSk3 from "../assets/Đoản mệnh.png";
-import QuiSk4 from "../assets/Ẩn sát.png";
-import NakSk1 from "../assets/Thẩm phán oai nghiêm.png";
-import NakSk2 from "../assets/Bồi thẩm đoàn.png";
-import NakSk3 from "../assets/Nguồn cơn rắc rối.png";
-import NakSk4 from "../assets/Gươm hành quyết.png";
-import VerSk1 from "../assets/Huyết xích.png";
-import VerSk2 from "../assets/Song xích.png";
-import VerSk3 from "../assets/Xiềng xích.png";
-import VerSk4 from "../assets/Đoạt mệnh xích.png";
-import EnzSk1 from "../assets/Tín niệm.png";
-import EnzSk2 from "../assets/Truy bức.png";
-import EnzSk3 from "../assets/Câu hồn.png";
-import EnzSk4 from "../assets/Hành quyết.png";
-import KaiSk1 from "../assets/Truy nã.png";
-import KaiSk2 from "../assets/Huyết luân.png";
-import KaiSk3 from "../assets/Huyết kiếm.png";
-import KaiSk4 from "../assets/Huyết kích.png";
-import VeeSk1 from "../assets/Mê hoặc.png";
-import VeeSk2 from "../assets/Dơi địa ngục.png";
-import VeeSk3 from "../assets/Hôn gió.png";
-import VeeSk4 from "../assets/Tiểu quỷ.png";
-import MurSk1 from "../assets/Ảnh hồn.png";
-import MurSk2 from "../assets/Tàn ảnh đao.png";
-import MurSk3 from "../assets/Vô ảnh cực.png";
-import MurSk4 from "../assets/Ảo ảnh trảm.png";
-import LilSk1 from "../assets/Yêu hồ.png";
-import LilSk2 from "../assets/Hồ quang lực.png";
-import LilSk3 from "../assets/Hồ quang đạn.png";
-import LilSk4 from "../assets/Biến ảnh hoán hình.png";
-import HaySk1 from "../assets/Phản ứng dây chuyền.png";
-import HaySk2 from "../assets/Chuỗi phi tiêu.png";
-import HaySk3 from "../assets/Ảnh biến.png";
-import HaySk4 from "../assets/Bão phi tiêu.png";
-import OmeSk1 from "../assets/Sát khí.png";
-import OmeSk2 from "../assets/Sát kiếm.png";
-import OmeSk3 from "../assets/Sát niệm.png";
-import OmeSk4 from "../assets/Sát vực.png";
-import TulSk1 from "../assets/Lôi điện.png";
-import TulSk2 from "../assets/Lôi quang.png";
-import TulSk3 from "../assets/Lôi động.png";
-import TulSk4 from "../assets/Lôi điểu.png";
-import RazSk1 from "../assets/Đấm và lách.png";
-import RazSk2 from "../assets/Cú đấm thăng hoa.png";
-import RazSk3 from "../assets/Cú đấm chân không.png";
-import RazSk4 from "../assets/Tả xung hữu đột.png";
-import TrieuSk1 from "../assets/Long tướng.png";
-import TrieuSk2 from "../assets/Long huyết.png";
-import TrieuSk3 from "../assets/Long hống.png";
-import TrieuSk4 from "../assets/Long kích.png";
-
-import ValSk1 from "../assets/Ám khí.png";
-import ValSk2 from "../assets/Chuyến săn mạo hiểm.png";
-import ValSk3 from "../assets/Lời nguyền tử vong.png";
-import ValSk4 from "../assets/Bão đạn.png";
-import KriSk1 from "../assets/Tung cánh.png";
-import KriSk2 from "../assets/Bướm ảo.png";
-import KriSk3 from "../assets/Bão lá.png";
-import KriSk4 from "../assets/Mưa sao băng.png";
-import ElsSk1 from "../assets/Bắn tỉa.png";
-import ElsSk2 from "../assets/Ưng trạm.png";
-import ElsSk3 from "../assets/Viễn trình kích.png";
-import ElsSk4 from "../assets/Giật bắn.png";
-import ZatSk1 from "../assets/Phong sát.png";
-import ZatSk2 from "../assets/Ưng gào.png";
-import ZatSk3 from "../assets/Vòi rồng.png";
-import ZatSk4 from "../assets/Thiên dực.png";
-import ButSk1 from "../assets/Sát thủ.png";
-import ButSk2 from "../assets/Quét kiếm.png";
-import ButSk3 from "../assets/Phi kiếm.png";
-import ButSk4 from "../assets/Ám sát.png";
-import ZukSk1 from "../assets/Võ hồn.png";
-import ZukSk2 from "../assets/Loạn đả bổng.png";
-import ZukSk3 from "../assets/Phi thân kích.png";
-import ZukSk4 from "../assets/Trầm trọng lực.png";
-import GilSk1 from "../assets/Bàn tay vàng.png";
-import GilSk2 from "../assets/Quả đấm vàng.png";
-import GilSk3 from "../assets/Vụ nổ vàng.png";
-import GilSk4 from "../assets/Vương quốc vàng.png";
+import briSk1 from "../assets/Skill/Thần lực ánh sáng.png";
+import briSk2 from "../assets/Skill/Tốc độ quang minh.png";
+import briSk3 from "../assets/Skill/Quang minh phán quyết.png";
+import briSk4 from "../assets/Skill/Bất tử thánh thân.png";
+import RichSk1 from "../assets/Skill/Thanh gươm biến ảo.png";
+import RichSk2 from "../assets/Skill/Chặt và chém.png";
+import RichSk3 from "../assets/Skill/Công thủ toàn diện.png";
+import RichSk4 from "../assets/Skill/Vùng diệt quỷ.png";
+import RyoSk1 from "../assets/Skill/Kiếm quyết.png";
+import RyoSk2 from "../assets/Skill/Thần hành bất biến.png";
+import RyoSk3 from "../assets/Skill/Nhất kích tất sát.png";
+import RyoSk4 from "../assets/Skill/Loạn trảm.png";
+import WuSk1 from "../assets/Skill/Vô địch thiên hạ.png";
+import WuSk2 from "../assets/Skill/Phân thân thuật.png";
+import WuSk3 from "../assets/Skill/Cân đẩu vân.png";
+import WuSk4 from "../assets/Skill/Gậy như ý.png";
+import QuiSk1 from "../assets/Skill/Đánh lén.png";
+import QuiSk2 from "../assets/Skill/Chém đôi.png";
+import QuiSk3 from "../assets/Skill/Đoản mệnh.png";
+import QuiSk4 from "../assets/Skill/Ẩn sát.png";
+import NakSk1 from "../assets/Skill/Thẩm phán oai nghiêm.png";
+import NakSk2 from "../assets/Skill/Bồi thẩm đoàn.png";
+import NakSk3 from "../assets/Skill/Nguồn cơn rắc rối.png";
+import NakSk4 from "../assets/Skill/Gươm hành quyết.png";
+import VerSk1 from "../assets/Skill/Huyết xích.png";
+import VerSk2 from "../assets/Skill/Song xích.png";
+import VerSk3 from "../assets/Skill/Xiềng xích.png";
+import VerSk4 from "../assets/Skill/Đoạt mệnh xích.png";
+import EnzSk1 from "../assets/Skill/Tín niệm.png";
+import EnzSk2 from "../assets/Skill/Truy bức.png";
+import EnzSk3 from "../assets/Skill/Câu hồn.png";
+import EnzSk4 from "../assets/Skill/Hành quyết.png";
+import KaiSk1 from "../assets/Skill/Truy nã.png";
+import KaiSk2 from "../assets/Skill/Huyết luân.png";
+import KaiSk3 from "../assets/Skill/Huyết kiếm.png";
+import KaiSk4 from "../assets/Skill/Huyết kích.png";
+import VeeSk1 from "../assets/Skill/Mê hoặc.png";
+import VeeSk2 from "../assets/Skill/Dơi địa ngục.png";
+import VeeSk3 from "../assets/Skill/Hôn gió.png";
+import VeeSk4 from "../assets/Skill/Tiểu quỷ.png";
+import MurSk1 from "../assets/Skill/Ảnh hồn.png";
+import MurSk2 from "../assets/Skill/Tàn ảnh đao.png";
+import MurSk3 from "../assets/Skill/Vô ảnh cực.png";
+import MurSk4 from "../assets/Skill/Ảo ảnh trảm.png";
+import LilSk1 from "../assets/Skill/Yêu hồ.png";
+import LilSk2 from "../assets/Skill/Hồ quang lực.png";
+import LilSk3 from "../assets/Skill/Hồ quang đạn.png";
+import LilSk4 from "../assets/Skill/Biến ảnh hoán hình.png";
+import HaySk1 from "../assets/Skill/Phản ứng dây chuyền.png";
+import HaySk2 from "../assets/Skill/Chuỗi phi tiêu.png";
+import HaySk3 from "../assets/Skill/Ảnh biến.png";
+import HaySk4 from "../assets/Skill/Bão phi tiêu.png";
+import OmeSk1 from "../assets/Skill/Sát khí.png";
+import OmeSk2 from "../assets/Skill/Sát kiếm.png";
+import OmeSk3 from "../assets/Skill/Sát niệm.png";
+import OmeSk4 from "../assets/Skill/Sát vực.png";
+import TulSk1 from "../assets/Skill/Lôi điện.png";
+import TulSk2 from "../assets/Skill/Lôi quang.png";
+import TulSk3 from "../assets/Skill/Lôi động.png";
+import TulSk4 from "../assets/Skill/Lôi điểu.png";
+import RazSk1 from "../assets/Skill/Đấm và lách.png";
+import RazSk2 from "../assets/Skill/Cú đấm thăng hoa.png";
+import RazSk3 from "../assets/Skill/Cú đấm chân không.png";
+import RazSk4 from "../assets/Skill/Tả xung hữu đột.png";
+import TrieuSk1 from "../assets/Skill/Long tướng.png";
+import TrieuSk2 from "../assets/Skill/Long huyết.png";
+import TrieuSk3 from "../assets/Skill/Long hống.png";
+import TrieuSk4 from "../assets/Skill/Long kích.png";
+import ValSk1 from "../assets/Skill/Ám khí.png";
+import ValSk2 from "../assets/Skill/Chuyến săn mạo hiểm.png";
+import ValSk3 from "../assets/Skill/Lời nguyền tử vong.png";
+import ValSk4 from "../assets/Skill/Bão đạn.png";
+import KriSk1 from "../assets/Skill/Tung cánh.png";
+import KriSk2 from "../assets/Skill/Bướm ảo.png";
+import KriSk3 from "../assets/Skill/Bão lá.png";
+import KriSk4 from "../assets/Skill/Mưa sao băng.png";
+import ElsSk1 from "../assets/Skill/Bắn tỉa.png";
+import ElsSk2 from "../assets/Skill/Ưng trạm.png";
+import ElsSk3 from "../assets/Skill/Viễn trình kích.png";
+import ElsSk4 from "../assets/Skill/Giật bắn.png";
+import ZatSk1 from "../assets/Skill/Phong sát.png";
+import ZatSk2 from "../assets/Skill/Ưng gào.png";
+import ZatSk3 from "../assets/Skill/Vòi rồng.png";
+import ZatSk4 from "../assets/Skill/Thiên dực.png";
+import ButSk1 from "../assets/Skill/Sát thủ.png";
+import ButSk2 from "../assets/Skill/Quét kiếm.png";
+import ButSk3 from "../assets/Skill/Phi kiếm.png";
+import ButSk4 from "../assets/Skill/Ám sát.png";
+import ZukSk1 from "../assets/Skill/Võ hồn.png";
+import ZukSk2 from "../assets/Skill/Loạn đả bổng.png";
+import ZukSk3 from "../assets/Skill/Phi thân kích.png";
+import ZukSk4 from "../assets/Skill/Trầm trọng lực.png";
+import GilSk1 from "../assets/Skill/Bàn tay vàng.png";
+import GilSk2 from "../assets/Skill/Quả đấm vàng.png";
+import GilSk3 from "../assets/Skill/Vụ nổ vàng.png";
+import GilSk4 from "../assets/Skill/Vương quốc vàng.png";
 
 export const AOV = [
     {
         id: 1,
         name: "Bright",
-        video: `${Bright}`,
         poster: "https://i.pinimg.com/originals/84/25/82/8425826eeaf9e71eb40f888dbded1ff1.jpg",
         skill1: {
             name: "Thần lực ánh sáng",
@@ -147,7 +120,6 @@ export const AOV = [
     {
         id: 2,
         name: "Richter",
-        video: `${Richter}`,
         poster: "https://i.pinimg.com/originals/b7/8a/ae/b78aae364abddba8aa3be87815cf4b54.jpg",
         skill1: {
             name: "Thanh gươm biến ảo",
@@ -169,7 +141,6 @@ export const AOV = [
     {
         id: 3,
         name: "Ryoma",
-        video: `${Ryoma}`,
         poster: "https://i.pinimg.com/originals/83/90/b2/8390b20cc2e68ee37e06c46098acdda1.jpg",
         skill1: {
             name: "Kiếm quyết",
@@ -191,7 +162,6 @@ export const AOV = [
     {
         id: 4,
         name: "Wukong",
-        video: `${Wukong}`,
         poster: "https://i.pinimg.com/originals/97/89/c8/9789c85e0f65bf84d1ad4aa0464ee60e.jpg",
         skill1: {
             name: "Vô địch thiên hạ",
@@ -213,7 +183,6 @@ export const AOV = [
     {
         id: 5,
         name: "Quillen",
-        video: `${Quillen}`,
         poster: "https://i.pinimg.com/originals/02/1d/1e/021d1eec93af4b25bce2f14cf35a8d4b.jpg",
         skill1: {
             name: "Đánh lén",
@@ -235,7 +204,6 @@ export const AOV = [
     {
         id: 6,
         name: "Nakroth",
-        video: `${Nakroth}`,
         poster: "https://i.pinimg.com/originals/9b/ac/7a/9bac7a36c8c55e967361f9b38ed9c36d.jpg",
         skill1: {
             name: "Thẩm phán oai nghiêm",
@@ -257,7 +225,6 @@ export const AOV = [
     {
         id: 7,
         name: "Veres",
-        video: `${Veres}`,
         poster: "https://i.pinimg.com/originals/fc/1a/47/fc1a47e914074d1a3ed4730496b2e2ea.jpg",
         skill1: {
             name: "Huyết xích",
@@ -279,7 +246,6 @@ export const AOV = [
     {
         id: 8,
         name: "Enzo",
-        video: `${Enzo}`,
         poster: "https://i.pinimg.com/originals/d8/e3/a8/d8e3a8d57a91b9903ddab617670a4573.jpg",
         skill1: {
             name: "Tín niệm",
@@ -301,7 +267,6 @@ export const AOV = [
     {
         id: 9,
         name: "Kaine",
-        video: `${Kaine}`,
         poster: "https://i.pinimg.com/originals/7e/4d/a9/7e4da9355dc3abedd44c2bff4d659957.jpg",
         skill1: {
             name: "Truy nã",
@@ -323,7 +288,6 @@ export const AOV = [
     {
         id: 10,
         name: "Veera",
-        video: `${Veera}`,
         poster: "https://i.pinimg.com/originals/8e/c9/5f/8ec95fb5ce4b9631d994fc95dc56ad6b.jpg",
         skill1: {
             name: "Mê hoặc",
@@ -345,7 +309,6 @@ export const AOV = [
     {
         id: 11,
         name: "Murad",
-        video: `${Murad}`,
         poster: "https://i.pinimg.com/originals/a9/ff/b9/a9ffb9417bc0f26ee38d5bbb187e19e1.jpg",
         skill1: {
             name: "Ảnh hồn",
@@ -367,7 +330,6 @@ export const AOV = [
     {
         id: 12,
         name: "Liliana",
-        video: `${Liliana}`,
         poster: "https://i.pinimg.com/originals/2e/f9/97/2ef9977f23f2e9e4fe64946bb5f571e6.jpg",
         skill1: {
             name: "Yêu hồ",
@@ -389,7 +351,6 @@ export const AOV = [
     {
         id: 13,
         name: "Hayate",
-        video: `${Hayate}`,
         poster: "https://i.pinimg.com/originals/aa/5f/7e/aa5f7e90105729f872caefcc003990bf.jpg",
         skill1: {
             name: "Phản ứng dây chuyền",
@@ -411,7 +372,6 @@ export const AOV = [
     {
         id: 14,
         name: "Tulen",
-        video: `${Tulen}`,
         poster: "https://i.pinimg.com/originals/3f/71/1a/3f711a6e277f67be5e037ec8cb448436.jpg",
         skill1: {
             name: "Lôi điện",
@@ -433,7 +393,6 @@ export const AOV = [
     {
         id: 15,
         name: "Omen",
-        video: `${Omen}`,
         poster: "https://i.pinimg.com/originals/3a/b0/66/3ab066a6ae3e0127d26caa2feca4d464.jpg",
         skill1: {
             name: "Sát khí",
@@ -455,7 +414,6 @@ export const AOV = [
     {
         id: 16,
         name: "Triệu Vân",
-        video: `${TrieuVan}`,
         poster: "https://i.pinimg.com/originals/1d/12/8f/1d128f20f6d78917f144490342736ca6.jpg",
         skill1: {
             name: "Long tướng",
@@ -477,7 +435,6 @@ export const AOV = [
     {
         id: 17,
         name: "Raz",
-        video: `${Raz}`,
         poster: "https://i.pinimg.com/originals/a7/84/45/a784459b3960d992a597a3d3635f4f3d.jpg",
         skill1: {
             name: "Đấm và lách",
@@ -499,7 +456,6 @@ export const AOV = [
     {
         id: 18,
         name: "Valhein",
-        video: `${Valhein}`,
         poster: "https://i.pinimg.com/originals/ee/a8/22/eea8227b18ab2d0691f44d5ffd79d89a.jpg",
         skill1: {
             name: "Ám khí",
@@ -521,7 +477,6 @@ export const AOV = [
     {
         id: 19,
         name: "Krixi",
-        video: `${Krixi}`,
         poster: "https://i.pinimg.com/originals/55/e9/af/55e9af7f2b1424c5521b8105d59fd511.jpg",
         skill1: {
             name: "Tung cánh",
@@ -543,7 +498,6 @@ export const AOV = [
     {
         id: 20,
         name: "Elsu",
-        video: `${Elsu}`,
         poster: "https://i.pinimg.com/originals/34/c2/98/34c298ae80de05d4c5381e86005a25b6.jpg",
         skill1: {
             name: "Bắn tỉa",
@@ -565,7 +519,6 @@ export const AOV = [
     {
         id: 21,
         name: "Zata",
-        video: `${Zata}`,
         poster: "https://i.pinimg.com/originals/58/68/a1/5868a131cf0c9f075a702542846addc7.jpg",
         skill1: {
             name: "Phong sát",
@@ -587,7 +540,6 @@ export const AOV = [
     {
         id: 22,
         name: "Butterfly",
-        video: `${Butterfly}`,
         poster: "https://i.pinimg.com/originals/05/ae/34/05ae349a42fa1731a182084767e3202c.jpg",
         skill1: {
             name: "Sát thủ",
@@ -609,7 +561,6 @@ export const AOV = [
     {
         id: 23,
         name: "Zuka",
-        video: `${Zuka}`,
         poster: "https://i.pinimg.com/originals/75/9e/31/759e31ba72a45c13ebcb0bc97eabe4ee.jpg",
         skill1: {
             name: "Võ hồn",
@@ -629,9 +580,8 @@ export const AOV = [
         }
     },
     {
-        id: 22,
+        id: 24,
         name: "Gildur",
-        video: `${Gildur}`,
         poster: "https://i.pinimg.com/originals/ff/95/13/ff951382e212ddceb9df707966de6f11.jpg",
         skill1: {
             name: "Bàn tay vàng",
@@ -648,6 +598,321 @@ export const AOV = [
         skill4: {
             name: "Vương quốc vàng",
             img: `${GilSk4}`
+        },
+    },
+    {
+        id: 25,
+        name: "Airi",
+        poster: "https://i.pinimg.com/originals/57/82/b1/5782b121c61a502b9f1612691c17c262.jpg",
+        skill1: {
+            name: "Võ hồn",
+            img: `${ZukSk1}`
+        },
+        skill2: {
+            name: "Loạn đả bổng",
+            img: `${ZukSk2}`
+        },
+        skill3: {
+            name: "Phi thân kích",
+            img: `${ZukSk3}`
+        },
+        skill4: {
+            name: "Trầm trọng lực",
+            img: `${ZukSk4}`
         }
     },
+    {
+        id: 26,
+        name: "Allain",
+        poster: "https://i.pinimg.com/originals/a4/7a/ff/a47aff90ff190fc23e342bac0dd8df1a.jpg",
+        skill1: {
+            name: "Võ hồn",
+            img: `${ZukSk1}`
+        },
+        skill2: {
+            name: "Loạn đả bổng",
+            img: `${ZukSk2}`
+        },
+        skill3: {
+            name: "Phi thân kích",
+            img: `${ZukSk3}`
+        },
+        skill4: {
+            name: "Trầm trọng lực",
+            img: `${ZukSk4}`
+        }
+    },
+    {
+        id: 27,
+        name: "Capheny",
+        poster: "https://i.pinimg.com/originals/21/78/76/217876280bb9226ab5d0a62f6e26f056.jpg",
+        skill1: {
+            name: "Võ hồn",
+            img: `${ZukSk1}`
+        },
+        skill2: {
+            name: "Loạn đả bổng",
+            img: `${ZukSk2}`
+        },
+        skill3: {
+            name: "Phi thân kích",
+            img: `${ZukSk3}`
+        },
+        skill4: {
+            name: "Trầm trọng lực",
+            img: `${ZukSk4}`
+        }
+    },
+    {
+        id: 28,
+        name: "Florentino",
+        poster: "https://i.pinimg.com/originals/ee/f3/df/eef3dfd07b6e41dab5a205b7807de6fd.jpg",
+        skill1: {
+            name: "Võ hồn",
+            img: `${ZukSk1}`
+        },
+        skill2: {
+            name: "Loạn đả bổng",
+            img: `${ZukSk2}`
+        },
+        skill3: {
+            name: "Phi thân kích",
+            img: `${ZukSk3}`
+        },
+        skill4: {
+            name: "Trầm trọng lực",
+            img: `${ZukSk4}`
+        }
+    },
+    {
+        id: 29,
+        name: "Lauriel",
+        poster: "https://i.pinimg.com/originals/66/09/45/660945414a6eb4852d54544c147737c8.jpg",
+        skill1: {
+            name: "Võ hồn",
+            img: `${ZukSk1}`
+        },
+        skill2: {
+            name: "Loạn đả bổng",
+            img: `${ZukSk2}`
+        },
+        skill3: {
+            name: "Phi thân kích",
+            img: `${ZukSk3}`
+        },
+        skill4: {
+            name: "Trầm trọng lực",
+            img: `${ZukSk4}`
+        }
+    },
+    {
+        id: 30,
+        name: "Laville",
+        poster: "https://i.pinimg.com/originals/76/54/77/7654775654d90c577864a0f0f6cd0126.png",
+        skill1: {
+            name: "Võ hồn",
+            img: `${ZukSk1}`
+        },
+        skill2: {
+            name: "Loạn đả bổng",
+            img: `${ZukSk2}`
+        },
+        skill3: {
+            name: "Phi thân kích",
+            img: `${ZukSk3}`
+        },
+        skill4: {
+            name: "Trầm trọng lực",
+            img: `${ZukSk4}`
+        }
+    },
+    {
+        id: 31,
+        name: "Maloch",
+        poster: "https://i.pinimg.com/originals/40/c2/45/40c2459ef78d0c171fbbe7d13188b93f.jpg",
+        skill1: {
+            name: "Võ hồn",
+            img: `${ZukSk1}`
+        },
+        skill2: {
+            name: "Loạn đả bổng",
+            img: `${ZukSk2}`
+        },
+        skill3: {
+            name: "Phi thân kích",
+            img: `${ZukSk3}`
+        },
+        skill4: {
+            name: "Trầm trọng lực",
+            img: `${ZukSk4}`
+        }
+    },
+    {
+        id: 32,
+        name: "Natalya",
+        poster: "https://i.pinimg.com/originals/5c/6e/c0/5c6ec08be9f92b902bda998c50eb6cc0.jpg",
+        skill1: {
+            name: "Võ hồn",
+            img: `${ZukSk1}`
+        },
+        skill2: {
+            name: "Loạn đả bổng",
+            img: `${ZukSk2}`
+        },
+        skill3: {
+            name: "Phi thân kích",
+            img: `${ZukSk3}`
+        },
+        skill4: {
+            name: "Trầm trọng lực",
+            img: `${ZukSk4}`
+        }
+    },
+    {
+        id: 33,
+        name: "Paine",
+        poster: "https://i.pinimg.com/originals/6b/27/cc/6b27ccb39815691454c974643cfa9424.jpg",
+        skill1: {
+            name: "Võ hồn",
+            img: `${ZukSk1}`
+        },
+        skill2: {
+            name: "Loạn đả bổng",
+            img: `${ZukSk2}`
+        },
+        skill3: {
+            name: "Phi thân kích",
+            img: `${ZukSk3}`
+        },
+        skill4: {
+            name: "Trầm trọng lực",
+            img: `${ZukSk4}`
+        }
+    },
+    {
+        id: 34,
+        name: "Tel'Annas",
+        poster: "https://i.pinimg.com/originals/82/f7/c5/82f7c5d40e04b4431b893e73cf10ead1.png",
+        skill1: {
+            name: "Võ hồn",
+            img: `${ZukSk1}`
+        },
+        skill2: {
+            name: "Loạn đả bổng",
+            img: `${ZukSk2}`
+        },
+        skill3: {
+            name: "Phi thân kích",
+            img: `${ZukSk3}`
+        },
+        skill4: {
+            name: "Trầm trọng lực",
+            img: `${ZukSk4}`
+        }
+    },
+    {
+        id: 35,
+        name: "Violet",
+        poster: "https://i.pinimg.com/originals/66/1c/54/661c54d782c28e3bd686b0ce36d13870.png",
+        skill1: {
+            name: "Võ hồn",
+            img: `${ZukSk1}`
+        },
+        skill2: {
+            name: "Loạn đả bổng",
+            img: `${ZukSk2}`
+        },
+        skill3: {
+            name: "Phi thân kích",
+            img: `${ZukSk3}`
+        },
+        skill4: {
+            name: "Trầm trọng lực",
+            img: `${ZukSk4}`
+        }
+    },
+    {
+        id: 36,
+        name: "Volkath",
+        poster: "https://i.pinimg.com/originals/7a/27/ee/7a27ee9d2d0f9cc4ec731983d97af918.jpg",
+        skill1: {
+            name: "Võ hồn",
+            img: `${ZukSk1}`
+        },
+        skill2: {
+            name: "Loạn đả bổng",
+            img: `${ZukSk2}`
+        },
+        skill3: {
+            name: "Phi thân kích",
+            img: `${ZukSk3}`
+        },
+        skill4: {
+            name: "Trầm trọng lực",
+            img: `${ZukSk4}`
+        }
+    },
+    {
+        id: 37,
+        name: "Mina",
+        poster: "https://i.pinimg.com/originals/e0/2a/46/e02a468448396411e4ca55a734472a68.jpg",
+        skill1: {
+            name: "Võ hồn",
+            img: `${ZukSk1}`
+        },
+        skill2: {
+            name: "Loạn đả bổng",
+            img: `${ZukSk2}`
+        },
+        skill3: {
+            name: "Phi thân kích",
+            img: `${ZukSk3}`
+        },
+        skill4: {
+            name: "Trầm trọng lực",
+            img: `${ZukSk4}`
+        }
+    },
+    {
+        id: 38,
+        name: "Skud",
+        poster: "https://i.pinimg.com/originals/d9/cb/76/d9cb769eff8a4b1fff2ac917325a05d2.jpg",
+        skill1: {
+            name: "Võ hồn",
+            img: `${ZukSk1}`
+        },
+        skill2: {
+            name: "Loạn đả bổng",
+            img: `${ZukSk2}`
+        },
+        skill3: {
+            name: "Phi thân kích",
+            img: `${ZukSk3}`
+        },
+        skill4: {
+            name: "Trầm trọng lực",
+            img: `${ZukSk4}`
+        }
+    },
+    {
+        id: 39,
+        name: "Alice",
+        poster: "https://i.pinimg.com/originals/6b/53/01/6b530150fd0d93e164ef5bfef410ae11.jpg",
+        skill1: {
+            name: "Võ hồn",
+            img: `${ZukSk1}`
+        },
+        skill2: {
+            name: "Loạn đả bổng",
+            img: `${ZukSk2}`
+        },
+        skill3: {
+            name: "Phi thân kích",
+            img: `${ZukSk3}`
+        },
+        skill4: {
+            name: "Trầm trọng lực",
+            img: `${ZukSk4}`
+        }
+    }
 ]

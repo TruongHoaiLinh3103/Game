@@ -9,9 +9,7 @@ const CharacterLQ = () => {
                 return(
                     <div key={item.id} className='CharacterLQ_Char'>
                         <div className='_Char-video'>
-                            <video loop controls poster={item.poster}>
-                                <source src={item.video} type="video/webm; codecs=&quot;vp9&quot;" />
-                            </video>
+                            <img src={item.poster} alt={item.name}/>
                         </div>
                         <div className='_Char-profile'>
                             <h3>{item.name}</h3>

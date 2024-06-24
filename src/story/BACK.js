@@ -1,90 +1,99 @@
 export const BACK = [
     {
         id: 1,
-        name: "sass/node-sass"
+        name: "bcryptjs"
     },
     {
         id: 2,
-        name: "react/react-dom/react-scripts/web-vitals"
+        name: "body-parser"
     },
     {
         id: 3,
-        name: "aos"
+        name: "multer"
     },
     {
         id: 4,
-        name: "axios"
+        name: "cors"
     },
     {
         id: 5,
-        name: "html"
+        name: "dotenv"
     },
     {
         id: 6,
-        name: "next"
+        name: "cloudinary"
     },
     {
         id: 7,
-        name: "dompurify"
+        name: "jsonwebtoken"
     },
     {
         id: 8,
-        name: "next-video"
+        name: "morgan"
     },
     {
         id: 9,
-        name: "yup"
+        name: "sequelize-cli"
     },
     {
         id: 10,
-        name: "styled-components"
+        name: "multer-storage-cloudinary"
     },
     {
         id: 11,
-        name: "react-slick/slick-carousel"
+        name: "mysql2"
     },
     {
         id: 12,
-        name: "slugify"
+        name: "nodemon"
     },
     {
         id: 13,
-        name: "react-simple-typewriter"
+        name: "sequelize"
     },
     {
         id: 14,
-        name: "react-icons/@fortawesome/fontawesome-svg-core/@fortawesome/free-regular-svg-icons/@fortawesome/free-solid-svg-icons/@fortawesome/react-fontawesome"
+        name: "express-handlebars"
     },
     {
         id: 15,
-        name: "react-redux/redux/redux-persist"
+        name: "express"
     },
     {
         id: 16,
-        name: "react-router-dom"
+        name: "casual"
     },
     {
         id: 17,
-        name: "copy-to-clipboard"
+        name: "json-server"
     },
     {
         id: 18,
-        name: "react-toastify"
+        name: "@faker-js/faker"
     },
     {
         id: 19,
-        name: ""
+        name: "git/github"
     },
     {
         id: 20,
-        name: ""
+        name: "vercel"
     },
     {
         id: 21,
-        name: ""
+        name: "Laragon"
     },
     {
         id: 22,
+        name: "insomnia"
+    }
+    ,
+    {
+        id: 23,
+        name: ""
+    },
+    {
+        id: 24,
         name: ""
     }
 ]

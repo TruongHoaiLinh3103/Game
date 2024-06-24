@@ -1,90 +1,122 @@
 export const FRONT = [
     {
         id: 1,
-        name: "bcryptjs"
+        name: "sass/node-sass",
+        link: ""
     },
     {
         id: 2,
-        name: "body-parser"
+        name: "react/react-dom/react-scripts/web-vitals",
+        link: ""
     },
     {
         id: 3,
-        name: ""
+        name: "aos",
+        link: "https://truonghoailinh3103.github.io/Aos/"
     },
     {
         id: 4,
-        name: "cors"
+        name: "axios",
+        link: "https://truonghoailinh3103.github.io/Aos/"
     },
     {
         id: 5,
-        name: "dotenv"
+        name: "html",
+        link: "https://truonghoailinh3103.github.io/HTML/"
     },
     {
         id: 6,
-        name: ""
+        name: "next",
+        link: "https://truonghoailinh3103.github.io/Aos/"
     },
     {
         id: 7,
-        name: "jsonwebtoken"
+        name: "dompurify",
+        link: "https://truonghoailinh3103.github.io/Aos/"
     },
     {
         id: 8,
-        name: "morgan"
+        name: "next-video",
+        link: "https://truonghoailinh3103.github.io/Aos/"
     },
     {
         id: 9,
-        name: ""
+        name: "yup",
+        link: "https://truonghoailinh3103.github.io/Aos/"
     },
     {
         id: 10,
-        name: "multer-storage-cloudinary/cloudinary/multer"
+        name: "styled-components",
+        link: "https://truonghoailinh3103.github.io/Aos/"
     },
     {
         id: 11,
-        name: "mysql2"
+        name: "react-slick/slick-carousel",
+        link: "https://truonghoailinh3103.github.io/Aos/"
     },
     {
         id: 12,
-        name: "nodemon"
+        name: "slugify",
+        link: "https://truonghoailinh3103.github.io/Aos/"
     },
     {
         id: 13,
-        name: "sequelize/sequelize-cli"
+        name: "react-simple-typewriter",
+        link: "https://truonghoailinh3103.github.io/Aos/"
     },
     {
         id: 14,
-        name: ""
+        name: "react-icons/@fortawesome/fontawesome-svg-core/@fortawesome/free-regular-svg-icons/@fortawesome/free-solid-svg-icons/@fortawesome/react-fontawesome",
+        link: "https://truonghoailinh3103.github.io/Aos/"
     },
     {
         id: 15,
-        name: "express/express-handlebars"
+        name: "react-redux/redux/redux-persist",
+        link: "https://truonghoailinh3103.github.io/Aos/"
     },
     {
         id: 16,
-        name: "casual"
+        name: "react-router-dom",
+        link: "https://truonghoailinh3103.github.io/Aos/"
     },
     {
         id: 17,
-        name: "json-server"
+        name: "copy-to-clipboard",
+        link: "https://truonghoailinh3103.github.io/Aos/"
     },
     {
         id: 18,
-        name: "@faker-js/faker"
+        name: "react-toastify",
+        link: "https://truonghoailinh3103.github.io/Aos/"
     },
     {
         id: 19,
-        name: "git/github"
+        name: "",
+        link: "https://truonghoailinh3103.github.io/Aos/"
     },
     {
         id: 20,
-        name: "vercel"
+        name: "",
+        link: "https://truonghoailinh3103.github.io/Aos/"
     },
     {
         id: 21,
-        name: "Laragon"
+        name: "",
+        link: "https://truonghoailinh3103.github.io/Aos/"
     },
     {
         id: 22,
-        name: "insomnia"
+        name: "",
+        link: "https://truonghoailinh3103.github.io/Aos/"
+    },
+    {
+        id: 23,
+        name: "",
+        link: "https://truonghoailinh3103.github.io/Aos/"
+    },
+    {
+        id: 24,
+        name: "",
+        link: "https://truonghoailinh3103.github.io/Aos/"
     }
 ]
