@@ -1,83 +1,83 @@
 export const BACK = [
     {
         id: 1,
-        name: "bcryptjs"
+        name: "Bcryptjs"
     },
     {
         id: 2,
-        name: "body-parser"
+        name: "Body-parser"
     },
     {
         id: 3,
-        name: "multer"
+        name: "Multer"
     },
     {
         id: 4,
-        name: "cors"
+        name: "Cors"
     },
     {
         id: 5,
-        name: "dotenv"
+        name: "Dotenv"
     },
     {
         id: 6,
-        name: "cloudinary"
+        name: "Cloudinary"
     },
     {
         id: 7,
-        name: "jsonwebtoken"
+        name: "Jsonwebtoken"
     },
     {
         id: 8,
-        name: "morgan"
+        name: "Morgan"
     },
     {
         id: 9,
-        name: "sequelize-cli"
+        name: "Sequelize-cli"
     },
     {
         id: 10,
-        name: "multer-storage-cloudinary"
+        name: "Multer-storage-cloudinary"
     },
     {
         id: 11,
-        name: "mysql2"
+        name: "Mysql2"
     },
     {
         id: 12,
-        name: "nodemon"
+        name: "Nodemon"
     },
     {
         id: 13,
-        name: "sequelize"
+        name: "Sequelize"
     },
     {
         id: 14,
-        name: "express-handlebars"
+        name: "Express-handlebars"
     },
     {
         id: 15,
-        name: "express"
+        name: "Express"
     },
     {
         id: 16,
-        name: "casual"
+        name: "Casual"
     },
     {
         id: 17,
-        name: "json-server"
+        name: "Json-server"
     },
     {
         id: 18,
-        name: "@faker-js/faker"
+        name: "@Faker-js/faker"
     },
     {
         id: 19,
-        name: "git/github"
+        name: "Git/github"
     },
     {
         id: 20,
-        name: "vercel"
+        name: "Vercel"
     },
     {
         id: 21,
@@ -85,12 +85,12 @@ export const BACK = [
     },
     {
         id: 22,
-        name: "insomnia"
+        name: "Insomnia"
     }
     ,
     {
         id: 23,
-        name: ""
+        name: "Toolbug clone website"
     },
     {
         id: 24,
