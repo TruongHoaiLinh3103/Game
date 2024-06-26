@@ -62,7 +62,7 @@ export const FRONT = [
     {
         id: 13,
         name: "react-simple-typewriter",
-        link: ""
+        link: "https://truonghoailinh3103.github.io/React_Simple_Typewriter"
     },
     {
         id: 14,
