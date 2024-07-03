@@ -13,10 +13,8 @@ import NotPage from '../components/NotPage';
 import Register from '../components/Register';
 import Sliederlab from '../layouts/Sliederlab';
 import {useState } from 'react';
-import Profile from '../components/Profile';
 import ChangePass from '../components/ChangePass';
 import Footer from '../components/Footer';
-import Documents from '../components/Documents';
 
 function App() {
   const [number, setNumber] = useState(sessionStorage.getItem("accessToken") ? 2 : 0);
@@ -39,9 +37,6 @@ function App() {
               <Route path="/" element={<Sliederlab />} />
               <Route path="/genshin" element={<Game />} />
               <Route path="/aov" element={<Game />} />
-              <Route path="/front" element={<Documents />} />
-              <Route path="/back" element={<Documents />} />
-              <Route path="/profile" element={<Profile />}/>
               <Route path="*" element={<NotPage />}/>
             </Routes>
             <Footer/>

@@ -6,7 +6,7 @@ import { mapDispatchToProps, mapStateToProps } from "../redux/action/Login";
 
 const Navbar = (props) => {
     const user = props.dataUser[0];
-    const [menu, setMenu] = useState(0);
+    const [menu, setMenu] = useState(false);
     const history = useNavigate()
     const logOut = () => {
         sessionStorage.removeItem("accessToken");
@@ -23,34 +23,27 @@ const Navbar = (props) => {
                 </div>
                 {/* NAVIGATION MENU */}
                 <div className="menu">
-                    <li><NavLink to="/" activeclassname="selected" exact="true"><i className="fa-solid fa-house"></i>Trang chủ</NavLink></li>
-                    <li onClick={() => setMenu(1)}><NavLink to="#" activeclassname="selected"><i className="fa-solid fa-gamepad"></i>Game</NavLink></li>
-                    <li onClick={() => setMenu(2)}><NavLink to="#" activeclassname="selected"><i className="fa-solid fa-book"></i>Tài liệu</NavLink></li>
-                    <li><NavLink to="/profile" activeclassname="selected"><i className="fas fa-user-circle"></i>Hồ sơ</NavLink></li>
+                    <li><NavLink to="/" activeclassname="selected" exact="true"><i className="fa-solid fa-house"></i><span>Trang chủ</span></NavLink></li>
+                    <li onClick={() => setMenu(true)}><NavLink to="#" activeclassname="selected"><i className="fa-solid fa-gamepad"></i><span>Trò chơi</span></NavLink></li>
                     <div className="Account">
                         {sessionStorage.getItem("accessToken") &&
-                            <li><NavLink to="#" onClick={() => logOut()}><i className="fas fa-sign-out-alt"></i>Đăng xuất</NavLink></li>
+                            <li><NavLink to="#" onClick={() => logOut()}><i className="fas fa-sign-out-alt"></i><span>Đăng xuất</span></NavLink></li>
                         }
                     </div>
                 </div>
                 {/* CATEGORY */}
                 <div className='Category-overlay' 
-                    style={{display: menu === 1 || menu === 2 ? "flex" : "none"}} 
-                    onClick={() => setMenu(0)}
+                    style={{display: menu ? "flex" : "none"}} 
+                    onClick={() => setMenu(false)}
                 >
-                    {menu === 1 &&
+                    {menu &&
                     <div className='Category-overlay_box'>
                         <div className='Category-overlay_item' onClick={() => history("/genshin")} >Genshin Impact</div>
                         <div className='Category-overlay_item' onClick={() => history("/aov")}>Liên Quân</div>
                     </div>}
-                    {menu === 2 && 
-                    <div className='Category-overlay_box'>
-                        <div className='Category-overlay_item' onClick={() => history("/front")} >Frontend</div>
-                        <div className='Category-overlay_item' onClick={() => history("/back")}>Backend</div>
-                    </div>}
                 </div>
                 {/* USING CHECKBOX HACK */}
-                <label htmlFor="nav__bars" className="nav__bars">
+                {/* <label htmlFor="nav__bars" className="nav__bars">
                     <i className="fa-solid fa-bars"></i>
                 </label>
                 <input type="checkbox" hidden name="" id="nav__bars" />
@@ -67,21 +60,12 @@ const Navbar = (props) => {
                                 </ul>
                             </div>
                             </li>
-                            <li className="listProductHidden"><NavLink to="#" style={{cursor: "pointer"}}><i className="fa-solid fa-book"></i>Tài liệu</NavLink>
-                            <div className="all__product">
-                                <ul>
-                                    <li><NavLink to="/front">Frontend</NavLink></li>
-                                    <li><NavLink to="/back">Backend</NavLink></li>
-                                </ul>
-                            </div>
-                            </li>
-                            <li><NavLink to="/profile"><i className="fas fa-user-circle"></i>Hồ sơ</NavLink></li>
                             {sessionStorage.getItem("accessToken") && 
                                 <li><NavLink to="#" onClick={() => logOut()}><i className="fas fa-sign-out-alt"></i>Đăng xuất</NavLink></li>
                             }
                         </ul>
                     </div>
-                </div>
+                </div> */}
             </nav>
         </div>
     );

@@ -9,7 +9,7 @@ const CharacterGI = () => {
             <div className='CharacterGI-avatar' >
                 {GI.map((item) => {
                     return(
-                        <div className={`-avatar_ic ${char === item.id ? "select" : ""}`} onClick={() => setChar(item.id)}>
+                        <div className={`-avatar_ic ${char === item.id ? "select" : ""}`} onClick={() => setChar(item.id)} key={item.id}>
                             <img src={item.avatar} alt={item.name} key={item.id} title={item.name}/>
                         </div>
                     )

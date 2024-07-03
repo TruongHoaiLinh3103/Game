@@ -115,21 +115,127 @@
 }
 .GenshinMenu, .AovMenu{
     display: grid;
-    grid-template-columns: 49% 49%;
+    grid-template-columns: 33% 33% 33%;
     justify-content: space-around;
     padding-bottom: 5px;
-    .GenshinMenu_tab, .AovMenu_tab{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: $my-color;
-        border: 1px outset yellow;
-        padding: 5px 0px;
-        user-select: none;
-        cursor: pointer;
-        svg{
-            margin-left: 10px;
-            color: $my-color;
+    button{
+        margin-top: 3px;
+        @extend %btnProfile;
+        &:hover{
+            @extend %btnProfileHV;
+        }
+    }
+}
+.Profile-edit{
+    @extend %overlay;
+    .Profile-edit_box{
+        @include overlayBox(95%, null, 800px);
+        padding: 30px;
+        box-sizing: border-box;
+        .Profile-edit_box-h{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            p{
+                font-size: 25px;
+                color: rgb(70, 70, 70);
+                &:nth-child(1){
+                    font-weight: 500;
+                }
+                &:nth-child(2){
+                    cursor: pointer;
+                }
+            }
+        }
+        .Profile-edit_box-b{
+            display: flex;
+            padding: 10px 0px;
+            border-top: 1px solid rgb(163, 159, 159);
+            label{
+                width: 50%;
+                font-size: 20px;
+                font-weight: 500;
+            }
+            .edit_box-b{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                input{
+                    width: 100%;
+                    padding: 10px;
+                    box-sizing: border-box;
+                    outline: none;
+                    background-color: rgb(227, 227, 227);
+                    border: none;
+                    border-radius: 3px;
+                }
+                textarea{
+                    width: 100%;
+                    height: 150px;
+                    padding: 10px;
+                    box-sizing: border-box;
+                    outline: none;
+                    background-color: rgb(227, 227, 227);
+                    border: 1px solid rgb(163, 159, 159);
+                    border-radius: 3px;
+                }
+                .edit_box-b_quost{
+                    width: 100%;
+                    margin-top: 10px;
+                    font-size: 15px;
+                    font-style: italic;
+                }
+                .edit_box-b_img{
+                    width: 70px;
+                    height: 70px;
+                    position: relative;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 100vh;
+                        object-fit: cover;
+                    }
+                    label{
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                        padding: 5px;
+                        border-radius: 100vh;
+                        border: 1px solid black;
+                        background-color: white;
+                        cursor: pointer;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        i{
+                            font-size: 15px;
+                        }
+                    }
+                    input{
+                        display: none;
+                    }
+                }
+            }
+        }
+        .Profile-edit_box-e{
+            border-top: 1px solid rgb(163, 159, 159);
+            padding: 10px 0px;
+            .edit_box-e_btn{
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                button{
+                    @extend %btnProfile;
+                    +button{
+                        margin-left: 10px;
+                    }
+                    &:hover{
+                        @extend %btnProfileHV;
+                    }
+                }
+            }
         }
     }
 }
