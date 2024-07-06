@@ -1,80 +1,31 @@
-import React, { Component } from 'react';
+import React from 'react';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+import { IMGDATA } from "../story/IMGDATA";
 import "../styles/slider.scss";
-import { IMGDATA } from '../story/IMGDATA.js';
-class Sliederlab extends Component {
-    constructor(){
-        super();
-        const TOTAL_DE_CARDS = IMGDATA.length - 1;
-        this.state = {
-            number: 0,
-            maxma: 1
-        }
-        this.prev = () => {
-            if(this.state.number - 1 < 0){
-                this.setState({
-                    number: TOTAL_DE_CARDS
-                })
-            }else{
-                this.setState({
-                    number: this.state.number - 1
-                })
-            }
-        }
-        this.next = () => {
-            if(this.state.number + 1 > TOTAL_DE_CARDS){
-                this.setState({
-                    number: 0
-                })
-            }else{
-                this.setState({
-                    number: this.state.number + 1
-                })
-            }
-        }
-        this.detail = (item) => {
-            this.setState({
-                number: item.id - 1
-            })
-            clearInterval(transition);
-        }
-        const transition = setInterval(() => {
-            this.next()
-        },5000)
-    }
-    render() {
-        return (
-            <div className='Sliederlab'>
-                {IMGDATA.map((item, index) => {
+
+const Sliederlab = () => {
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    };
+    return (
+        <div className="slider-container">
+            <Slider {...settings}>
+                {IMGDATA.map((item) => {
                     return(
-                        <div className='Sliederlab-list' key={index}
-                        style={{
-                            "--atualAtivo": index === this.state.number ? 1 : 0,
-                            "--compensacao": (this.state.number - index) / 3,
-                            "--direcao": Math.sign(this.state.number - index),
-                            "--abs-compensacao": Math.abs(this.state.number - index) / 3,
-                            pointerEvents: this.state.number === index ? "auto" : "none",
-                            opacity:
-                            Math.abs(this.state.number - index) >= this.state.maxma ? "0" : "1",
-                        }}>
-                            <img src={item.img} alt=''/>
+                        <div key={item.id} className='slider-banner'>
+                            <img src={item.img} alt="banner"/>
                         </div>
                     )
                 })}
-                <div className='Sliederlab-btn'>
-                    <button id='prev' onClick={() => this.prev()}><i className="fa-solid fa-arrow-left"></i></button>
-                    <button id='next' onClick={() => this.next()}><i className="fa-solid fa-arrow-right"></i></button>
-                </div>
-                <ul className='Sliederlab-dots'>
-                    {IMGDATA.map((item) => {
-                        let addClass = this.state.number === item.id - 1 ? "Sliederlab-dots_active" : '';
-                        return(
-                            <li className={addClass} onClick={() => this.detail(item)} key={item.id}></li>
-                        )
-                    })}
-                </ul>
-            </div>
-        );
-    }
-}
+            </Slider>
+        </div>
+    );
+};
 
 export default Sliederlab;
