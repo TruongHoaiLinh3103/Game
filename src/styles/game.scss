@@ -66,8 +66,10 @@
                 font-size: 17px;
                 background-color: #f000;
                 cursor: pointer;
+                user-select: none;
                 svg{
                     color: $my-color;
+                    user-select: none;
                 }
             }
         }
