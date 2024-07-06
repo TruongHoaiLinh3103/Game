@@ -16,10 +16,8 @@ const Navbar = (props) => {
     return (
         <div>
             <nav className="navbar">
-                {/* SEARCH */}
-                <div className="navbar-search">
-                    <input type='text' placeholder='Search'/>
-                    <button><i className="fas fa-search"></i></button>
+                <div className='navbar-logo'>
+                    <h2>Thủy Tùy Thiên Khứ</h2>
                 </div>
                 {/* NAVIGATION MENU */}
                 <div className="menu">

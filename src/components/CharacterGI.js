@@ -8,7 +8,7 @@ const CharacterGI = () => {
     UseFetchAOS()
     return (
         <div className='CharacterGI'>
-            <div className='CharacterGI-avatar' >
+            <div className='CharacterGI-avatar' data-aos="fade-right">
                 {GI.map((item) => {
                     return(
                         <div className={`-avatar_ic ${char === item.id ? "select" : ""}`} onClick={() => setChar(item.id)} key={item.id}>
@@ -22,7 +22,7 @@ const CharacterGI = () => {
                     <div key={item.id}>
                         {char === item.id && 
                             <div className='CharacterGI-build'>
-                                <img src={item.img} alt={item.name} data-aos="zoom-out-down"/>
+                                <img src={item.img} alt={item.name} data-aos="zoom-in"/>
                             </div>
                         }
                     </div>
