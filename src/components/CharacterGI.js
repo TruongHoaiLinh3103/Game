@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import {GI} from "../story/GI";
 import "../styles/charactergi.scss";
+import UseFetchAOS from '../utils/useFetchAOS';
 
 const CharacterGI = () => {
     const [char, setChar] = useState(1);
+    UseFetchAOS()
     return (
         <div className='CharacterGI'>
             <div className='CharacterGI-avatar' >
@@ -20,7 +22,7 @@ const CharacterGI = () => {
                     <div key={item.id}>
                         {char === item.id && 
                             <div className='CharacterGI-build'>
-                                <img src={item.img} alt={item.name}/>
+                                <img src={item.img} alt={item.name} data-aos="zoom-out-down"/>
                             </div>
                         }
                     </div>

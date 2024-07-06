@@ -1,13 +1,15 @@
 import React from 'react';
 import '../styles/characterlq.scss';
 import { AOV } from '../story/AOV';
+import UseFetchAOS from '../utils/useFetchAOS';
 
 const CharacterLQ = () => {
+    UseFetchAOS()
     return (
         <div className='CharacterLQ'>
             {AOV.map((item) => {
                 return(
-                    <div key={item.id} className='CharacterLQ_Char'>
+                    <div key={item.id} className='CharacterLQ_Char' data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                         <div className='_Char-video'>
                             <img src={item.poster} alt={item.name}/>
                         </div>
