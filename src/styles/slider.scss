@@ -1,6 +1,6 @@
 .slider-container{
     width: 100%;
-    margin: 0px auto;
+    margin-bottom: -8px;
     .slick-prev:before, .slick-next:before{
         color: #fff4;
     }
@@ -13,14 +13,14 @@
         height: 50px;
     }
     .slick-prev{
-        left: 10px;
+        left: 12px;
     }
     .slick-next{
-        right: 10px;
+        right: 12px;
     }
     .slick-dots{
         position: absolute;
-        bottom: 10px;
+        bottom: 17px;
     }
     .slick-dots li button:before{
         font-size: 10px;

@@ -21,7 +21,7 @@ export const IMGDATA = [
     },
     {
         id: 6,
-        img: "https://lienquan.garena.vn/files/skin/b2dbfc69db9688c3295ec4f9880187125f0d1e4e449a7.jpg"
+        img: "https://lienquan.garena.vn/wp-content/uploads/2024/05/c5ad09bed1c868d83dc4d2cf6a467a195ec2051dd4bbb1.jpg"
     },
 
 ]

@@ -133,7 +133,7 @@ const Game = (props) => {
                                 <FaMap /> Bản đồ
                             </button>
                             <button onClick={() => openEditProfile()}>
-                                <i className="far fa-edit"></i> Sửa hồ sơ
+                                <i className="far fa-edit"></i>
                             </button>
                         </div>
                     </div>
@@ -249,7 +249,7 @@ const Game = (props) => {
                                 <FaMap /> Bản đồ
                             </button>
                             <button onClick={() => openEditProfile()}>
-                                <i className="far fa-edit"></i> Sửa hồ sơ
+                                <i className="far fa-edit"></i>
                             </button>
                         </div>
                     </div>
