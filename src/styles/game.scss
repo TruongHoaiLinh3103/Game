@@ -113,19 +113,7 @@
         }
     }
 }
-.GenshinMenu, .AovMenu{
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    justify-content: space-around;
-    padding-bottom: 5px;
-    button{
-        margin-top: 3px;
-        @extend %btnProfile;
-        &:hover{
-            @extend %btnProfileHV;
-        }
-    }
-}
+
 .Profile-edit{
     @extend %overlay;
     .Profile-edit_box{

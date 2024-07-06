@@ -2,22 +2,16 @@ import React, { useEffect, useState } from 'react';
 import copy from 'copy-to-clipboard';
 import { FaCopy } from "react-icons/fa";
 import { CiEdit } from "react-icons/ci";
-import { GiCharacter } from "react-icons/gi";
-import { FaMap } from "react-icons/fa";
 import "../styles/game.scss";
 import { useLocation } from 'react-router-dom';
-import MapLQ from './MapLQ';
 import CharacterLQ from './CharacterLQ';
 import CharacterGI from './CharacterGI';
-import MapGI from './MapGI';
 import axios from 'axios';
 import { connect } from 'react-redux';
 import { mapStateToProps, mapDispatchToProps } from '../redux/action/Login';
 import { toast } from 'react-toastify';
 
 const Game = (props) => {
-    const [mapLQ, setMapLQ] = useState(1);
-    const [mapGI, setMapGI] = useState(1)
     const path = useLocation();
     const [editProfile, setEdProfile] = useState(false);
     const [img, setImg] = useState("");
@@ -98,7 +92,7 @@ const Game = (props) => {
                             <div className='GenshinProfile'>
                                 <div className='GenshinProfile-Name'>
                                     <h3>{user}</h3>
-                                    <button><CiEdit /></button>
+                                    <button onClick={() => openEditProfile()}><CiEdit /></button>
                                 </div>
                                 <p><i>{bio}</i></p>
                                 <div className='GenshinProfile-Rank'>
@@ -125,20 +119,8 @@ const Game = (props) => {
                                 <p><b>Ngày 31 tháng 03</b></p>
                             </div>
                         </div>
-                        <div className='GenshinMenu'>
-                            <button onClick={() => setMapGI(1)}>
-                                <GiCharacter /> Nhân vật
-                            </button>
-                            <button onClick={() => setMapGI(2)}>
-                                <FaMap /> Bản đồ
-                            </button>
-                            <button onClick={() => openEditProfile()}>
-                                <i className="far fa-edit"></i>
-                            </button>
-                        </div>
                     </div>
-                    {mapGI === 1 && <CharacterGI/>}
-                    {mapGI === 2 && <MapGI/>}
+                    <CharacterGI/>
                     {/* Sửa hồ sơ */}
                     {editProfile && 
                         <div className='Profile-edit' style={{display : editProfile ? "flex" : "none"}}>
@@ -214,7 +196,7 @@ const Game = (props) => {
                             <div className='AovProfile'>
                                 <div className='AovProfile-Name'>
                                     <h3>{user}</h3>
-                                    <button><CiEdit /></button>
+                                    <button onClick={() => openEditProfile()}><CiEdit /></button>
                                 </div>
                                 <p><i>{bio}</i></p>
                                 <div className='AovProfile-Rank'>
@@ -241,20 +223,8 @@ const Game = (props) => {
                                 <p><b>Ngày 31 tháng 03</b></p>
                             </div>
                         </div>
-                        <div className='AovMenu'>
-                            <button onClick={() => setMapLQ(1)}>
-                                <GiCharacter /> Nhân vật
-                            </button>
-                            <button onClick={() => setMapLQ(2)}>
-                                <FaMap /> Bản đồ
-                            </button>
-                            <button onClick={() => openEditProfile()}>
-                                <i className="far fa-edit"></i>
-                            </button>
-                        </div>
                     </div>
-                    {mapLQ === 1 && <CharacterLQ/>}
-                    {mapLQ === 2 && <MapLQ/>}
+                    <CharacterLQ/>
                     {/* Sửa hồ sơ */}
                     {editProfile && 
                         <div className='Profile-edit' style={{display : editProfile ? "flex" : "none"}}>
