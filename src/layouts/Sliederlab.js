@@ -5,6 +5,7 @@ import Slider from "react-slick";
 import { IMGDATA } from "../story/IMGDATA";
 import "../styles/slider.scss";
 import CharacterLQ from '../components/CharacterLQ';
+import CharacterGI from '../components/CharacterGI';
 
 const Sliederlab = () => {
     const settings = {
@@ -28,6 +29,7 @@ const Sliederlab = () => {
             </Slider>
         </div>
         <CharacterLQ/>
+        <CharacterGI/>
     </>
     );
 };

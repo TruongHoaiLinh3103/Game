@@ -3,6 +3,8 @@ import { NavLink, useNavigate } from "react-router-dom";
 import "../styles/navbar.scss";
 import { connect } from 'react-redux';
 import { mapDispatchToProps, mapStateToProps } from "../redux/action/Login";
+import GameGI from "./GameGI"
+import GameLQ from './GameLQ';
 
 const Navbar = (props) => {
     const user = props.dataUser[0];
@@ -36,8 +38,8 @@ const Navbar = (props) => {
                 >
                     {menu &&
                     <div className='Category-overlay_box'>
-                        <div className='Category-overlay_item' onClick={() => history("/genshin")} >Genshin Impact</div>
-                        <div className='Category-overlay_item' onClick={() => history("/aov")}>Liên Quân</div>
+                        <GameGI />
+                        <GameLQ />
                     </div>}
                 </div>
                 {/* USING CHECKBOX HACK */}

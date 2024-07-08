@@ -2,6 +2,7 @@
 .Genshin, .aov{
     background-image: url('https://i.pinimg.com/originals/18/5d/4a/185d4a15c1a079a933ee0c5412d6dc00.jpg');
     background-size: cover;
+    width: 100%;
 }
 .GenshinData, .aovData{
     display: grid;
@@ -119,7 +120,7 @@
 .Profile-edit{
     @extend %overlay;
     .Profile-edit_box{
-        @include overlayBox(95%, null, 800px);
+        @include overlayBox(95%, 800px);
         padding: 30px;
         box-sizing: border-box;
         .Profile-edit_box-h{

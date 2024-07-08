@@ -7,7 +7,6 @@ import {
   Route,
 } from "react-router-dom";
 import Navbar from '../components/Navbar';
-import Game from '../components/Game';
 import Login from '../components/Login';
 import NotPage from '../components/NotPage';
 import Register from '../components/Register';
@@ -35,8 +34,6 @@ function App() {
             <Navbar checkNumber={checkNumberRES}/>
             <Routes>
               <Route path="/" element={<Sliederlab />} />
-              <Route path="/genshin" element={<Game />} />
-              <Route path="/aov" element={<Game />} />
               <Route path="*" element={<NotPage />}/>
             </Routes>
             <Footer/>

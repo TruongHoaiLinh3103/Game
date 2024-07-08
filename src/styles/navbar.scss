@@ -32,33 +32,12 @@
         @include overlayBox();
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
         flex-direction: column;
-        .Category-overlay_item{
-            width: 90%;
-            height: 40%;
-            border-radius: 10px;
-            padding: 10px;
-            font-size: 30px;
-            text-transform: uppercase;
-            color: white;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: 1px solid black;
-            +.Category-overlay_item{
+        padding: 10px;
+        div{
+            +div{
                 margin-top: 10px;
-            }
-            &:nth-child(1){
-                background-image: url("https://i.pinimg.com/originals/a4/c9/ff/a4c9ff7cd3d80fdb6f77024f2e316b8e.jpg");
-                background-size: contain;
-                background-repeat: round;
-            }
-            &:nth-child(2){
-                background-image: url("https://i.pinimg.com/originals/25/95/e1/2595e124451e10fda4a61fa300af6b61.jpg");
-                background-size: contain;
-                background-repeat: round;
             }
         }
     }

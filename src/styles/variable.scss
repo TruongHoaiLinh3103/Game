@@ -39,9 +39,9 @@ $cl-green: rgb(68, 133, 45);
     transition: all linear .2s;
 }
 
-@mixin overlayBox($width: 90%, $height: 90%, $mw: 1000px){
+@mixin overlayBox($width: 90%, $mw: 1000px){
     width: $width;
-    height: $height;
+    height: auto;
     max-width: $mw;
     background-color: white;
     border-radius: 10px;
