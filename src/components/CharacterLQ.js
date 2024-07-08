@@ -16,6 +16,20 @@ const CharacterLQ = () => {
                         <div className='_Char-profile'>
                             <h3>{item.name}</h3>
                             <div className='_Char-profile_Skill'>
+                                <div className='_Skill-img'>
+                                    <img src={item.skill1.img} alt='skill1'/>
+                                </div>
+                                <div className='_Skill-img'>
+                                    <img src={item.skill2.img} alt='skill2'/>
+                                </div>
+                                <div className='_Skill-img'>
+                                    <img src={item.skill3.img} alt='skill3'/>
+                                </div>
+                                <div className='_Skill-img'>
+                                    <img src={item.skill4.img} alt='skill4'/>
+                                </div>
+                            </div>
+                            {/* <div className='_Char-profile_Skill'>
                                 <p>{item.skill1.name}</p>
                                 <div className='_Skill-img'>
                                     <img src={item.skill1.img} alt='skill1'/>
@@ -24,21 +38,21 @@ const CharacterLQ = () => {
                             <div className='_Char-profile_Skill'>
                                 <p>{item.skill2.name}</p>
                                 <div className='_Skill-img'>
-                                    <img src={item.skill2.img} alt='skill1'/>
+                                    <img src={item.skill2.img} alt='skill2'/>
                                 </div>
                             </div>
                             <div className='_Char-profile_Skill'>
                                 <p>{item.skill3.name}</p>
                                 <div className='_Skill-img'>
-                                    <img src={item.skill3.img} alt='skill1'/>
+                                    <img src={item.skill3.img} alt='skill3'/>
                                 </div>
                             </div>
                             <div className='_Char-profile_Skill'>
                                 <p>{item.skill4.name}</p>
                                 <div className='_Skill-img'>
-                                    <img src={item.skill4.img} alt='skill1'/>
+                                    <img src={item.skill4.img} alt='skill4'/>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 )
