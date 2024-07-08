@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "../styles/navbar.scss";
 import { connect } from 'react-redux';
 import { mapDispatchToProps, mapStateToProps } from "../redux/action/Login";
@@ -9,7 +9,6 @@ import GameLQ from './GameLQ';
 const Navbar = (props) => {
     const user = props.dataUser[0];
     const [menu, setMenu] = useState(false);
-    const history = useNavigate()
     const logOut = () => {
         sessionStorage.removeItem("accessToken");
         props.deleteUser(user);
@@ -19,12 +18,11 @@ const Navbar = (props) => {
         <div>
             <nav className="navbar">
                 <div className='navbar-logo'>
-                    <h2>Thủy Tùy Thiên Khứ</h2>
+                    <h2><NavLink to="/" activeclassname="selected" exact="true">{user.username}</NavLink></h2>
                 </div>
                 {/* NAVIGATION MENU */}
                 <div className="menu">
-                    <li><NavLink to="/" activeclassname="selected" exact="true"><i className="fa-solid fa-house"></i><span>Trang chủ</span></NavLink></li>
-                    <li onClick={() => setMenu(true)}><NavLink to="#" activeclassname="selected"><i className="fa-solid fa-gamepad"></i><span>Trò chơi</span></NavLink></li>
+                    <li onClick={() => setMenu(true)}><NavLink to="#" activeclassname="selected"><i className="fa-solid fa-gamepad"></i><span>Tài khoản</span></NavLink></li>
                     <div className="Account">
                         {sessionStorage.getItem("accessToken") &&
                             <li><NavLink to="#" onClick={() => logOut()}><i className="fas fa-sign-out-alt"></i><span>Đăng xuất</span></NavLink></li>
@@ -33,13 +31,13 @@ const Navbar = (props) => {
                 </div>
                 {/* CATEGORY */}
                 <div className='Category-overlay' 
-                    style={{display: menu ? "flex" : "none"}} 
-                    onClick={() => setMenu(false)}
+                    style={{display: menu ? "flex" : "none"}}
                 >
                     {menu &&
                     <div className='Category-overlay_box'>
                         <GameGI />
                         <GameLQ />
+                        <h4 onClick={() => setMenu(false)}>x</h4>
                     </div>}
                 </div>
                 {/* USING CHECKBOX HACK */}

@@ -22,7 +22,13 @@
         font-size: 17px;
         font-weight: 500;
         font-family: 'Courier New', Courier, monospace;
-        text-align: center
+        text-align: center;
+        user-select: none;
+        cursor: pointer;
+        a{
+            text-decoration: none;
+            color: white
+        }
     }
 }
 // CATEGORY
@@ -35,10 +41,18 @@
         justify-content: space-around;
         flex-direction: column;
         padding: 10px;
-        div{
-            +div{
-                margin-top: 10px;
-            }
+        position: relative;
+        gap: 10px;
+        h4{
+            position: absolute;
+            top: -18px;
+            right: 0;
+            font-size: 50px;
+            font-weight: 400;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0px;
+            cursor: pointer;
+            user-select: none;
         }
     }
 }

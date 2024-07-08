@@ -3,17 +3,14 @@ import copy from 'copy-to-clipboard';
 import { FaCopy } from "react-icons/fa";
 import { CiEdit } from "react-icons/ci";
 import "../styles/game.scss";
-import axios from 'axios';
 import { connect } from 'react-redux';
 import { mapStateToProps, mapDispatchToProps } from '../redux/action/Login';
-import { toast } from 'react-toastify';
 
-const GameGI = (props) => {
+const GameGI = () => {
     const [editProfile, setEdProfile] = useState(false);
     const [img, setImg] = useState("https://i.pinimg.com/originals/c8/59/52/c859520d09bfca54fed367c431dab7b5.jpg");
     const [uid, setUID] = useState("811317775");
-    const [bio, setBio] = useState("Đậu phụ rán lung linh");
-    const user = props.dataUser[0].username;
+    const [bio, setBio] = useState("Nguyên Tội");
     const openEditProfile = () => {
         setEdProfile(true);
         setImg(img);
@@ -33,22 +30,8 @@ const GameGI = (props) => {
     const closeEditProfile = () => {
         setEdProfile(false);
     }
-    const saveNewProfile = () => {
-        const data = {
-            img: img,
-            bio: bio,
-            uid: uid,
-            username: user
-        }
-        axios.post("http://localhost:4000/account", data).then((res) => {
-            if(res.data.error){
-                toast.error(res.data.error);
-            }
-        })
-        setEdProfile(0)
-    }
     const copyUID = () => {
-        copy('811317775');
+        copy('811317775/𝔶𝔲');
     }
     return (
         <>
@@ -68,12 +51,12 @@ const GameGI = (props) => {
                     </div>
                     <div className='GenshinProfile'>
                         <div className='GenshinProfile-Name'>
-                            <h3>{user}</h3>
+                            <h3>𝔶𝔲</h3>
                             <button onClick={() => openEditProfile()}><CiEdit /></button>
                         </div>
                         <p><i>{bio}</i></p>
                         <div className='GenshinProfile-Rank'>
-                            <p><b>Hạng Mạo Hiểm</b></p>
+                            <p><b>Mạo Hiểm</b></p>
                             <div className='Rank_title'>
                                 <p><b>60</b></p>
                                 <button>!</button>
@@ -81,7 +64,7 @@ const GameGI = (props) => {
                         </div>
                         <div className='GenshinProfile-Exp'>
                             <div className='GenshinProfile-Exp_detail'>
-                                <p>Exp Mạo Hiểm</p>
+                                <p>Exp</p>
                                 <p>100%</p>
                             </div>
                             <hr></hr>
@@ -120,32 +103,26 @@ const GameGI = (props) => {
                             <div className='edit_box-b'>
                                 <input type='text' disabled defaultValue={uid}/>
                                 <span className='edit_box-b_quost'>
-                                UID không thể thay đổi 
-                                và nó cũng là mật khẩu để đăng nhập
+                                UID không thể thay đổi
                                 </span>
                             </div>
                         </div>
                         <div className='Profile-edit_box-b'>
-                            <label>Tên</label>
+                            <label>Tài khoản</label>
                             <div className='edit_box-b'>
-                                <input type='text' defaultValue={user} disabled/>
-                                <span className='edit_box-b_quost'>
-                                Tên không thể thay đổi 
-                                và nó cũng là tài khoản để đăng nhập
-                                </span>
+                                <input type='text' defaultValue="phontranq@gmail.com" disabled/>
                             </div>
                         </div>
                         <div className='Profile-edit_box-b'>
-                            <label>Tiểu sử</label>
+                            <label>Mật khẩu</label>
                             <div className='edit_box-b'>
-                                <textarea value={bio} minLength={0} maxLength={300} onChange={(e) => setBio(e.target.value)}/>
-                                <span className='edit_box-b_quost'>{bio.length}/300</span>
+                                <textarea defaultValue="31032003xyz" minLength={0} maxLength={300} disabled/>
+                                <span className='edit_box-b_quost'>{"31032003xyz".length}/300</span>
                             </div>
                         </div>
                         <div className='Profile-edit_box-e'>
                             <div className='edit_box-e_btn'>
-                                <button onClick={() => closeEditProfile()}>Hủy</button>
-                                <button onClick={() => saveNewProfile()}>Lưu</button>
+                                <button onClick={() => closeEditProfile()}>Thoát</button>
                             </div>
                         </div>
                     </div>

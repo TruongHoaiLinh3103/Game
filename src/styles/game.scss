@@ -9,6 +9,7 @@
     grid-template-columns: 49% 49%;
     justify-content: center;
     padding: 10px;
+    user-select: none;
     .genAvatarAndUID, .aovAvatarAndUID{
         display: flex;
         flex-direction: column;
@@ -35,6 +36,7 @@
             align-items: center;
             justify-content: center;
             cursor: copy;
+            margin: 0px;
             button{
                 outline: none;
                 border: none;
@@ -103,6 +105,7 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            margin-top: 5px;
             p{
                 color: $cl-green;
                 font-weight: 400;
@@ -118,6 +121,7 @@
 }
 
 .Profile-edit{
+    user-select: none;
     @extend %overlay;
     .Profile-edit_box{
         @include overlayBox(95%, 800px);
