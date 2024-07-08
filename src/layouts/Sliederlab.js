@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { IMGDATA } from "../story/IMGDATA";
 import "../styles/slider.scss";
+import CharacterLQ from '../components/CharacterLQ';
 
 const Sliederlab = () => {
     const settings = {
@@ -14,6 +15,7 @@ const Sliederlab = () => {
         slidesToScroll: 1,
     };
     return (
+    <>
         <div className="slider-container">
             <Slider {...settings}>
                 {IMGDATA.map((item) => {
@@ -25,6 +27,8 @@ const Sliederlab = () => {
                 })}
             </Slider>
         </div>
+        <CharacterLQ/>
+    </>
     );
 };
 
