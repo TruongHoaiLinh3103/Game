@@ -1,3 +1,5 @@
+@import "./variable.scss";
+
 .CharacterLQ{
     background-color: black;
     .CharacterLQ_Char{
@@ -54,6 +56,31 @@
                     +._Skill-img{
                         margin-left: 10px;
                     }
+                }
+            }
+        }
+    }
+    ._Char-profile_aler{
+        @extend %overlay;
+        .-profile_aler-box{
+            @include overlayBox();
+            display: flex;
+            padding: 10px;
+            user-select: none;
+            ._aler-box-img{
+                width: 100px;
+                height: 100px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            ._aler-box-delta{
+                padding: 10px;
+                flex: 1;
+                p{
+                    margin-top: 5px;
                 }
             }
         }
