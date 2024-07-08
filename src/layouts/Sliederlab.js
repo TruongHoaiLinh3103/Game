@@ -16,7 +16,7 @@ const Sliederlab = () => {
         slidesToScroll: 1,
     };
     return (
-    <>
+    <div style={{paddingTop: "60px"}}>
         <div className="slider-container">
             <Slider {...settings}>
                 {IMGDATA.map((item) => {
@@ -30,7 +30,7 @@ const Sliederlab = () => {
         </div>
         <CharacterLQ/>
         <CharacterGI/>
-    </>
+    </div>
     );
 };
 
