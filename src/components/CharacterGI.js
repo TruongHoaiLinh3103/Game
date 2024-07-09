@@ -8,6 +8,7 @@ const CharacterGI = () => {
     UseFetchAOS()
     return (
         <div className='CharacterGI'>
+            <h3 className='CharacterGI-h3'>Genshin Impact</h3>
             <div className='CharacterGI-avatar' data-aos="fade-right">
                 {GI.map((item) => {
                     return(

@@ -19,6 +19,7 @@ const CharacterLQ = () => {
     UseFetchAOS()
     return (
         <div className='CharacterLQ'>
+            <h3 className='CharacterLQ-h3'>Arena of Valor</h3>
             {AOV.map((item) => {
                 return(
                     <div key={item.id} className='CharacterLQ_Char' data-aos="fade-up" data-aos-anchor-placement="center-bottom">
@@ -41,30 +42,6 @@ const CharacterLQ = () => {
                                     <img src={item.skill4.img} alt='skill4'/>
                                 </div>
                             </div>
-                            {/* <div className='_Char-profile_Skill'>
-                                <p>{item.skill1.name}</p>
-                                <div className='_Skill-img'>
-                                    <img src={item.skill1.img} alt='skill1'/>
-                                </div>
-                            </div>
-                            <div className='_Char-profile_Skill'>
-                                <p>{item.skill2.name}</p>
-                                <div className='_Skill-img'>
-                                    <img src={item.skill2.img} alt='skill2'/>
-                                </div>
-                            </div>
-                            <div className='_Char-profile_Skill'>
-                                <p>{item.skill3.name}</p>
-                                <div className='_Skill-img'>
-                                    <img src={item.skill3.img} alt='skill3'/>
-                                </div>
-                            </div>
-                            <div className='_Char-profile_Skill'>
-                                <p>{item.skill4.name}</p>
-                                <div className='_Skill-img'>
-                                    <img src={item.skill4.img} alt='skill4'/>
-                                </div>
-                            </div> */}
                         </div>
                     </div>
                 )

@@ -2,33 +2,35 @@ import React from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import { IMGDATA } from "../story/IMGDATA";
 import "../styles/slider.scss";
 import CharacterLQ from '../components/CharacterLQ';
 import CharacterGI from '../components/CharacterGI';
+import { AOV } from '../story/AOV';
 
 const Sliederlab = () => {
     const settings = {
-        dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
+        autoplay: true
     };
     return (
-    <div style={{paddingTop: "60px"}}>
-        <div className="slider-container">
-            <Slider {...settings}>
-                {IMGDATA.map((item) => {
-                    return(
-                        <div key={item.id} className='slider-banner'>
-                            <img src={item.img} alt="banner"/>
-                        </div>
-                    )
-                })}
-            </Slider>
+    <div className='slider-page' style={{paddingTop: "60px"}}>
+        <div>
+            <div className="slider-container">
+                <Slider {...settings}>
+                    {AOV.map((item) => {
+                        return(
+                            <div key={item.id} className='slider-banner'>
+                                <img src={item.poster} alt="banner"/>
+                            </div>
+                        )
+                    })}
+                </Slider>
+            </div>
+            <CharacterLQ/>
         </div>
-        <CharacterLQ/>
         <CharacterGI/>
     </div>
     );
