@@ -28,6 +28,7 @@
             width: 100%;
             h3{
                 color: white;
+                font-family: 'Courier New', Courier, monospace;
             }
             ._Char-profile_Skill{
                 display: flex;
@@ -74,5 +75,12 @@
                 }
             }
         }
+    }
+}
+.CharacterLQ-Item{
+    height: 700px;
+    overflow-y: scroll;
+    &::-webkit-scrollbar{
+        display: none;
     }
 }

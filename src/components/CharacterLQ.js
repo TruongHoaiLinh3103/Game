@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/characterlq.scss';
 import { AOV } from '../story/AOV';
-import UseFetchAOS from '../utils/useFetchAOS';
 
 const CharacterLQ = () => {
     const [skill, setSkill] = useState({
@@ -16,36 +15,37 @@ const CharacterLQ = () => {
             delta: item.delta
         })
     }
-    UseFetchAOS()
     return (
         <div className='CharacterLQ'>
             <h3 className='CharacterLQ-h3'>Arena of Valor</h3>
-            {AOV.map((item) => {
-                return(
-                    <div key={item.id} className='CharacterLQ_Char' data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                        <div className='_Char-video'>
-                            <img src={item.poster} alt={item.name}/>
-                        </div>
-                        <div className='_Char-profile'>
-                            <h3>{item.name}</h3>
-                            <div className='_Char-profile_Skill'>
-                                <div className='_Skill-img' onClick={() => OneSK(item.skill1)}>
-                                    <img src={item.skill1.img} alt='skill1'/>
-                                </div>
-                                <div className='_Skill-img' onClick={() => OneSK(item.skill2)}>
-                                    <img src={item.skill2.img} alt='skill2'/>
-                                </div>
-                                <div className='_Skill-img' onClick={() => OneSK(item.skill3)}>
-                                    <img src={item.skill3.img} alt='skill3'/>
-                                </div>
-                                <div className='_Skill-img' onClick={() => OneSK(item.skill4)}>
-                                    <img src={item.skill4.img} alt='skill4'/>
+            <div className='CharacterLQ-Item'>
+                {AOV.map((item) => {
+                    return(
+                        <div key={item.id} className='CharacterLQ_Char'>
+                            <div className='_Char-video'>
+                                <img src={item.poster} alt={item.name}/>
+                            </div>
+                            <div className='_Char-profile'>
+                                <h3>{item.name}</h3>
+                                <div className='_Char-profile_Skill'>
+                                    <div className='_Skill-img' onClick={() => OneSK(item.skill1)}>
+                                        <img src={item.skill1.img} alt='skill1'/>
+                                    </div>
+                                    <div className='_Skill-img' onClick={() => OneSK(item.skill2)}>
+                                        <img src={item.skill2.img} alt='skill2'/>
+                                    </div>
+                                    <div className='_Skill-img' onClick={() => OneSK(item.skill3)}>
+                                        <img src={item.skill3.img} alt='skill3'/>
+                                    </div>
+                                    <div className='_Skill-img' onClick={() => OneSK(item.skill4)}>
+                                        <img src={item.skill4.img} alt='skill4'/>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                )
-            })}
+                    )
+                })}
+            </div>
             <div className='_Char-profile_aler'
                 style={{display: skill.name ? "flex" : "none"}}
                 onClick={() => setSkill({name: ""})}
