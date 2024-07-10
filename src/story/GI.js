@@ -128,64 +128,64 @@ export const GI = [
         back: `${fi}`,
         story: "Nhân sĩ thần bí tự xưng làm việc cho Tổng Vụ, nhưng lại là 'người không tồn tại' trong danh sách của Tổng Vụ.",
         skill1: {
-            name: "",
+            name: "Mũi Tên Lén Lút",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Bow.png",
             delta: "Đòn tấn công thông thường."
         },
         skill2: {
-            name: "",
+            name: "Dây Sinh Mệnh Quanh Quẩn",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Yelan/talent_2.png",
-            delta: ""
+            delta: "Cho đến khi giật dây thì những kẻ thủ ác mới biết được bản thân khó mà thoát được."
         },
         skill3: {
-            name: "",
+            name: "Xúc Xắc Toan Tính",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Yelan/talent_3.png",
-            delta: ""
+            delta: "'Nghiện cờ bạc là không tốt đâu. Thân là nhà cái, để tôi làm một ví dụ nhỏ cho xem. Cậu dùng một hột xúc xắc, làm sao thắng được bảy hột xúc xắc của tôi chứ?'"
         },
         skill4: {
-            name: "",
+            name: "Nắm Thế Chủ Động",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Yelan/talent_4.png",
-            delta: ""
+            delta: "Trong đội có 1/2/3/4 loại nguyên tố, giới hạn HP của Yelan sẽ tăng 6%/12%/18%/30%."
         },
         skill5: {
-            name: "",
+            name: "Thích Nghi Dễ Dàng",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Yelan/talent_5.png",
-            delta: ""
+            delta: "Trong thời gian Xúc Xắc Tinh Tế tồn tại, có thể khiến nhân vật trong trận hiện tại của bản thân tăng 1% sát thương gây ra, đồng thời mỗi 1s tăng thêm 3.5%, tối đa khiến sát thương của nhân vật gây ra tăng 50%. Trong thời gian hiệu lực, nếu sử dụng Xúc Xắc Toan Tính lần nữa sẽ xóa hiệu quả kể trên."
         },
         skill6: {
-            name: "",
+            name: "Cân Nhắc Lâu Dài",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Yelan/talent_6.png",
-            delta: ""
+            delta: "Khi làm nhiệm vụ Phái Đi Thám Hiểm có thời gian là 20 giờ ở Liyue, phần thưởng nhận được tăng 25%."
         },
         cm1: {
-            name: "",
+            name: "Kẻ Toan Tính, Lâm Trận Cẩn Thận",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Yelan/constellation_1.png",
-            delta: ""
+            delta: "Tăng 1 lần sử dụng cho Dây Sinh Mệnh Quanh Quẩn."
         },
         cm2: {
-            name: "",
+            name: "Kẻ Nhập Cuộc, Càng Đông Càng Tốt",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Yelan/constellation_2.png",
-            delta: ""
+            delta: "'Xúc Xắc Tinh Tế' khi hỗ trợ tấn công sẽ bắn thêm một mũi tên nước, gây lượng Sát Thương Nguyên Tố Thủy tương ứng với 14% giới hạn HP của Yelan. Hiệu quả này mỗi 1.8s tối đa kích hoạt một lần."
         },
         cm3: {
-            name: "",
+            name: "Kẻ Nâng Ly, Cẩn Thận Chiêu Trò",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Yelan/constellation_3.png",
-            delta: ""
+            delta: "Cấp kỹ năng Xúc Xắc Toan Tính +3. Tăng tối đa đến cấp 15."
         },
         cm4: {
-            name: "",
+            name: "Kẻ Giảo Hoạt, Đánh Lận Con Đen",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Yelan/constellation_4.png",
-            delta: ""
+            delta: "Dựa theo số lượng kẻ địch mà 'Lạc Mệnh Tơ' đánh dấu, mỗi dấu ấn khi phát nổ sẽ tăng 10% giới hạn HP cho toàn bộ nhân vật trong đội, duy trì 25s. Thông qua cách này, giới hạn HP tăng thêm tối đa tăng đến 40%."
         },
         cm5: {
-            name: "",
+            name: "Kẻ Làm Cái, Biến Hóa Ảo Diệu",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Yelan/constellation_5.png",
-            delta: ""
+            delta: "Cấp kỹ năng Dây Sinh Mệnh Quanh Quẩn +3. Tăng tối đa đến cấp 15."
         },
         cm6: {
-            name: "",
+            name: "Kẻ Thắng Cuộc, Gom Sạch Tất Cả",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Yelan/constellation_6.png",
-            delta: ""
+            delta: "Sau khi thi triển Xúc Xắc Toan Tính, Yelan sẽ vào trạng thái 'Bàn Luận Chiến Lược': Tấn công thường của Yelan sẽ chuyển thành 'Mũi Tên Phá Trận' đặc biệt. Mũi tên này có đặc tính tương tự với Mũi Tên Phá Trận, sát thương gây ra được tính là sát thương trọng kích, gây ra 156% sát thương so với Mũi Tên Phá Trận. Trạng thái 'Bàn Luận Chiến Lược' tồn tại tối đa 20s và sẽ biến mất khi Yelan bắn ra 5 mũi tên."
         }
     },
     {
@@ -401,62 +401,62 @@ export const GI = [
         story: "Quan Chấp Hành thứ 4 của Fatui - Arlecchino. Nhà ngoại giao trầm tĩnh lạnh lùng, là 'Cha' mà bọn trẻ vừa sợ hãi cũng vừa dựa dẫm trong Căn Nhà Hơi Ấm.",
         skill1: {
             name: "",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Polearm.png",
             delta: "Đòn tấn công thông thường."
         },
         skill2: {
             name: "",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Arlecchino/talent_2.png",
             delta: ""
         },
         skill3: {
             name: "",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Arlecchino/talent_3.png",
             delta: ""
         },
         skill4: {
             name: "",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Arlecchino/talent_4.png",
             delta: ""
         },
         skill5: {
             name: "",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Arlecchino/talent_5.png",
             delta: ""
         },
         skill6: {
             name: "",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Arlecchino/talent_6.png",
             delta: ""
         },
         cm1: {
             name: "",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Arlecchino/constellation_1.png",
             delta: ""
         },
         cm2: {
             name: "",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Arlecchino/constellation_2.png",
             delta: ""
         },
         cm3: {
             name: "",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Arlecchino/constellation_3.png",
             delta: ""
         },
         cm4: {
             name: "",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Arlecchino/constellation_4.png",
             delta: ""
         },
         cm5: {
             name: "",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Arlecchino/constellation_5.png",
             delta: ""
         },
         cm6: {
             name: "",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Arlecchino/constellation_6.png",
             delta: ""
         }
     },

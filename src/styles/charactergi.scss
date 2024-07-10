@@ -84,12 +84,10 @@
 .-profile_skills{
     h4{
         margin: 5px 0px;
-        font-family: 'Courier New', Courier, monospace;
     }
     .skill-Talents, .skill-Passives{
         h5{
             margin: 5px 0px;
-            font-family: 'Courier New', Courier, monospace;
         }
         .Talents-box, .Passives-box{
             display: flex;
@@ -115,6 +113,7 @@
     p{
         overflow-y: scroll;
         height: 220px;
+        font-size: 13px;
         &::-webkit-scrollbar{
             display: none;
         }
