@@ -32,16 +32,82 @@ const CharacterGI = () => {
             {GI.map((item) => {
                 return(
                     <div key={item.id} className='CharacterGI-profile'>
-                        {char === item.id && 
-                            <div className='-profile_delta'>
-                                <div className='-profile_img' style={{backgroundImage: `url(${item.back})`, backgroundRepeat: "no-repeat"}}>
-                                    <img src={item.avatar} alt={item.name} title={item.name}/>
+                        {char === item.id &&
+                            <>
+                                <div className='-profile_delta'>
+                                    <div className='-profile_img' style={{backgroundImage: `url(${item.back})`, backgroundRepeat: "no-repeat"}}>
+                                        <img src={item.avatar} alt={item.name} title={item.name}/>
+                                    </div>
+                                    <div className='-profile_p'>
+                                        <h4>{item.name}</h4>
+                                        <p>{item.story}</p>
+                                    </div>
                                 </div>
-                                <div className='-profile_p'>
-                                    <h4>{item.name}</h4>
-                                    <p>{item.story}</p>
+                                <div className='-profile_skills'>
+                                    <h4>Kỹ năng</h4>
+                                    <div className='skill-Talents'>
+                                        <h5>Kỹ năng thiên phú</h5>
+                                        <div className='Talents-box'>
+                                            <div className= "-item_skile" style={{backgroundImage: `url(${item.skill1.img})`}}>
+                                                <h5>{item.skill1.name}</h5>
+                                                <p>{item.skill1.delta}</p>
+                                            </div>
+                                            <div className= "-item_skile" style={{backgroundImage: `url(${item.skill2.img})`}}>
+                                                <h5>{item.skill2.name}</h5>
+                                                <p>{item.skill2.delta}</p>
+                                            </div>
+                                            <div className= "-item_skile" style={{backgroundImage: `url(${item.skill3.img})`}}>
+                                                <h5>{item.skill3.name}</h5>
+                                                <p>{item.skill3.delta}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='skill-Passives'>
+                                        <h5>Kỹ năng bị động</h5>
+                                        <div className='Passives-box'>
+                                            <div className= "-item_skile" style={{backgroundImage: `url(${item.skill4.img})`}}>
+                                                <h5>{item.skill4.name}</h5>
+                                                <p>{item.skill4.delta}</p>
+                                            </div>
+                                            <div className= "-item_skile" style={{backgroundImage: `url(${item.skill5.img})`}}>
+                                                <h5>{item.skill5.name}</h5>
+                                                <p>{item.skill5.delta}</p>
+                                            </div>
+                                            <div className= "-item_skile" style={{backgroundImage: `url(${item.skill6.img})`}}>
+                                                <h5>{item.skill6.name}</h5>
+                                                <p>{item.skill6.delta}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h4>Cung mệnh</h4>
+                                    <div className='skill-Constellations'>
+                                        <div className= "-item_skile" style={{backgroundImage: `url(${item.cm1.img})`}}>
+                                            <h5>{item.cm1.name}</h5>
+                                            <p>{item.cm1.delta}</p>
+                                        </div>
+                                        <div className= "-item_skile" style={{backgroundImage: `url(${item.cm2.img})`}}>
+                                            <h5>{item.cm2.name}</h5>
+                                            <p>{item.cm2.delta}</p>
+                                        </div>
+                                        <div className= "-item_skile" style={{backgroundImage: `url(${item.cm3.img})`}}>
+                                            <h5>{item.cm3.name}</h5>
+                                            <p>{item.cm3.delta}</p>
+                                        </div>
+                                        <div className= "-item_skile" style={{backgroundImage: `url(${item.cm4.img})`}}>
+                                            <h5>{item.cm4.name}</h5>
+                                            <p>{item.cm4.delta}</p>
+                                        </div>
+                                        <div className= "-item_skile" style={{backgroundImage: `url(${item.cm5.img})`}}>
+                                            <h5>{item.cm5.name}</h5>
+                                            <p>{item.cm5.delta}</p>
+                                        </div>
+                                        <div className= "-item_skile" style={{backgroundImage: `url(${item.cm6.img})`}}>
+                                            <h5>{item.cm6.name}</h5>
+                                            <p>{item.cm6.delta}</p>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
+                            </>
                         }
                     </div>
                 )

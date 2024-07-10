@@ -60,34 +60,64 @@ export const GI = [
         back: `${fi}`,
         story: "Đại nhân Guuji của Đền Narukami, kiêm tổng biên tập của Nhà Xuất Bản Yae. Phía sau vẻ ngoài xinh đẹp kiều diễm là sự thông minh và xảo quyệt mà khó ai ngờ đến.",
         skill1: {
-            name: "Tấn Công Thường - Hồ Linh Thực Tội Thức",
-            img: "",
-            delta: ""
+            name: "Hồ Linh Thực Tội Thức",
+            img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Catalyst.png",
+            delta: "Đòn tấn công thông thường."
         },
         skill2: {
             name: "Thần Chú Yakan - Sesshou Sakura",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Yae%20Miko/talent_2.png",
             delta: "'Các tinh linh hồ ly bị phong ấn trong cành cây đều là những yakan chuyên làm hại con người. Yakan thấp hơn thiên hồ chúng tôi hai bậc, vì vậy, tôi có thể ra lệnh cho chúng thoải mái. Hồ ly tuy chia thành ba sáu chín bậc, nhưng con người đừng nên học theo nhé, còn về việc con người và hồ ly ai có cấp bậc cao hơn sao? Hờ hờ...'"
         },
         skill3: {
             name: "Đại Bí Pháp - Tenko Kenshin",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Yae%20Miko/talent_3.png",
             delta: "Vào lúc này, Yae cần để lộ ra chứng nhận thiên hồ để hiệu lệnh lôi đình. Nhưng những kẻ đã nhìn thấy đại nhân Guuji để lộ chiếc đuôi đều đã tan biến không còn lại gì dù chỉ là hạt bụi. Cho nên, hãy nhớ cho kỹ nhé - Yae đại nhân không hề có đuôi."
         },
         skill4: {
-            name: "",
-            img: "",
-            delta: ""
+            name: "Bóng Râm Đền Thần",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Yae%20Miko/talent_4.png",
+            delta: "Khi thi triển Đại Bí Pháp - Tenko Kenshin, mỗi lần phá hủy một Sesshou Sakura sẽ làm mới một lần CD kỹ năng Thần Chú Yakan - Sesshou Sakura."
         },
         skill5: {
-            name: "",
-            img: "",
-            delta: ""
+            name: "Lời Cầu Phúc Giác Ngộ",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Yae%20Miko/talent_5.png",
+            delta: "Mỗi 1 điểm Tinh Thông Nguyên Tố của Yae Miko có thể tăng 0.15% sát thương do Sesshou Sakura gây ra."
         },
         skill6: {
-            name: "",
-            img: "",
-            delta: ""
+            name: "Hồ Ly Thiền Định",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Yae%20Miko/talent_6.png",
+            delta: "Khi ghép nguyên liệu thiên phú nhân vật, có tỷ lệ 25% sản sinh thêm 1 nguyên liệu thiên phú ngẫu nhiên khác của cùng khu vực, cấp bậc giống với nguyên liệu khi ghép."
+        },
+        cm1: {
+            name: "Lễ vật Yakan",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Yae%20Miko/constellation_1.png",
+            delta: "Đại Bí Pháp - Tenko Kenshin mỗi khi kích hoạt 1 lần Thiên Hồ Lôi Đình, đều sẽ hồi 8 điểm năng lượng nguyên tố cho bản thân Yae Miko."
+        },
+        cm2: {
+            name: "Tiếng Gọi Đêm Trăng",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Yae%20Miko/constellation_2.png",
+            delta: "Cấp bậc ban đầu của Sesshou Sakura khi vừa được tạo ra sẽ tăng ngay đến bậc 2, tối đa có thể tăng đến bậc 4, phạm vi tấn công tăng 60%."
+        },
+        cm3: {
+            name: "Thất Diệu Biến Hóa",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Yae%20Miko/constellation_2.png",
+            delta: "Cấp kỹ năng Thần Chú Yakan - Sesshou Sakura +3. Tăng tối đa đến cấp 15."
+        },
+        cm4: {
+            name: "Anh Đào Dẫn Lôi Chương",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Yae%20Miko/constellation_4.png",
+            delta: "Sau khi sấm sét của Sesshou Sakura đánh trúng kẻ địch, tất cả nhân vật trong đội ở gần sẽ nhận được 20% Buff Sát Thương Nguyên Tố Lôi, duy trì 5s."
+        },
+        cm5: {
+            name: "Giễu Cợt Nham Hiểm",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Yae%20Miko/constellation_5.png",
+            delta: "Cấp kỹ năng Đại Bí Pháp - Tenko Kenshin +3. Tăng tối đa đến cấp 15."
+        },
+        cm6: {
+            name: "Cấm Thuật Daisesshou",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Yae%20Miko/constellation_6.png",
+            delta: "Sesshou Sakura khi tấn công sẽ bỏ qua 60% phòng ngự của kẻ địch."
         }
     },
     {
@@ -99,32 +129,62 @@ export const GI = [
         story: "Nhân sĩ thần bí tự xưng làm việc cho Tổng Vụ, nhưng lại là 'người không tồn tại' trong danh sách của Tổng Vụ.",
         skill1: {
             name: "",
-            img: "",
-            delta: ""
+            img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Bow.png",
+            delta: "Đòn tấn công thông thường."
         },
         skill2: {
             name: "",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Yelan/talent_2.png",
             delta: ""
         },
         skill3: {
             name: "",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Yelan/talent_3.png",
             delta: ""
         },
         skill4: {
             name: "",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Yelan/talent_4.png",
             delta: ""
         },
         skill5: {
             name: "",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Yelan/talent_5.png",
             delta: ""
         },
         skill6: {
             name: "",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Yelan/talent_6.png",
+            delta: ""
+        },
+        cm1: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Yelan/constellation_1.png",
+            delta: ""
+        },
+        cm2: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Yelan/constellation_2.png",
+            delta: ""
+        },
+        cm3: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Yelan/constellation_3.png",
+            delta: ""
+        },
+        cm4: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Yelan/constellation_4.png",
+            delta: ""
+        },
+        cm5: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Yelan/constellation_5.png",
+            delta: ""
+        },
+        cm6: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Yelan/constellation_6.png",
             delta: ""
         }
     },
@@ -137,32 +197,62 @@ export const GI = [
         story: "Là Tôn Chủ Narukami Ogosho đại nhân, đưa người dân Inazuma hướng đến sự 'vĩnh hằng' ngàn năm không đổi.",
         skill1: {
             name: "",
-            img: "",
-            delta: ""
+            img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Polearm.png",
+            delta: "Đòn tấn công thông thường."
         },
         skill2: {
             name: "",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Raiden/talent_2.png",
             delta: ""
         },
         skill3: {
             name: "",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Raiden/talent_3.png",
             delta: ""
         },
         skill4: {
             name: "",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Raiden/talent_4.png",
             delta: ""
         },
         skill5: {
             name: "",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Raiden/talent_5.png",
             delta: ""
         },
         skill6: {
             name: "",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Raiden/talent_6.png",
+            delta: ""
+        },
+        cm1: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Raiden/constellation_1.png",
+            delta: ""
+        },
+        cm2: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Raiden/constellation_2.png",
+            delta: ""
+        },
+        cm3: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Raiden/constellation_3.png",
+            delta: ""
+        },
+        cm4: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Raiden/constellation_4.png",
+            delta: ""
+        },
+        cm5: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Raiden/constellation_5.png",
+            delta: ""
+        },
+        cm6: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Raiden/constellation_6.png",
             delta: ""
         }
     },
@@ -175,32 +265,62 @@ export const GI = [
         story: "Hầu gái đáng tin cậy của Đội Kỵ Sĩ Tây Phong, mơ ước một ngày nào đó sẽ trở thành kỵ sĩ chính thức.",
         skill1: {
             name: "",
-            img: "",
-            delta: ""
+            img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Claymore.png",
+            delta: "Đòn tấn công thông thường."
         },
         skill2: {
             name: "",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/talent_2.png",
             delta: ""
         },
         skill3: {
             name: "",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/talent_3.png",
             delta: ""
         },
         skill4: {
             name: "",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/talent_4.png",
             delta: ""
         },
         skill5: {
             name: "",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/talent_5.png",
             delta: ""
         },
         skill6: {
             name: "",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/talent_6.png",
+            delta: ""
+        },
+        cm1: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/constellation_1.png",
+            delta: ""
+        },
+        cm2: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/constellation_2.png",
+            delta: ""
+        },
+        cm3: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/constellation_3.png",
+            delta: ""
+        },
+        cm4: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/constellation_4.png",
+            delta: ""
+        },
+        cm5: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/constellation_5.png",
+            delta: ""
+        },
+        cm6: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/constellation_6.png",
             delta: ""
         }
     },
@@ -213,32 +333,62 @@ export const GI = [
         story: "Đại tướng đương nhiệm của Hiệp Hội Tenryou. Sát phạt quyết đoán, anh dũng thiện chiến.",
         skill1: {
             name: "",
-            img: "",
-            delta: ""
+            img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Bow.png",
+            delta: "Đòn tấn công thông thường."
         },
         skill2: {
             name: "",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Sara/talent_2.png",
             delta: ""
         },
         skill3: {
             name: "",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Sara/talent_3.png",
             delta: ""
         },
         skill4: {
             name: "",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Sara/talent_4.png",
             delta: ""
         },
         skill5: {
             name: "",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Sara/talent_5.png",
             delta: ""
         },
         skill6: {
             name: "",
-            img: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Sara/talent_6.png",
+            delta: ""
+        },
+        cm1: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Sara/constellation_1.png",
+            delta: ""
+        },
+        cm2: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Sara/constellation_2.png",
+            delta: ""
+        },
+        cm3: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Sara/constellation_3.png",
+            delta: ""
+        },
+        cm4: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Sara/constellation_4.png",
+            delta: ""
+        },
+        cm5: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Sara/constellation_5.png",
+            delta: ""
+        },
+        cm6: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Sara/constellation_6.png",
             delta: ""
         }
     },
@@ -252,7 +402,7 @@ export const GI = [
         skill1: {
             name: "",
             img: "",
-            delta: ""
+            delta: "Đòn tấn công thông thường."
         },
         skill2: {
             name: "",
@@ -275,6 +425,36 @@ export const GI = [
             delta: ""
         },
         skill6: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm1: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm2: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm3: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm4: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm5: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm6: {
             name: "",
             img: "",
             delta: ""
@@ -290,7 +470,7 @@ export const GI = [
         skill1: {
             name: "",
             img: "",
-            delta: ""
+            delta: "Đòn tấn công thông thường."
         },
         skill2: {
             name: "",
@@ -313,6 +493,36 @@ export const GI = [
             delta: ""
         },
         skill6: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm1: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm2: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm3: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm4: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm5: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm6: {
             name: "",
             img: "",
             delta: ""
@@ -328,7 +538,7 @@ export const GI = [
         skill1: {
             name: "",
             img: "",
-            delta: ""
+            delta: "Đòn tấn công thông thường."
         },
         skill2: {
             name: "",
@@ -351,6 +561,36 @@ export const GI = [
             delta: ""
         },
         skill6: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm1: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm2: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm3: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm4: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm5: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm6: {
             name: "",
             img: "",
             delta: ""
@@ -366,7 +606,7 @@ export const GI = [
         skill1: {
             name: "",
             img: "",
-            delta: ""
+            delta: "Đòn tấn công thông thường."
         },
         skill2: {
             name: "",
@@ -389,6 +629,36 @@ export const GI = [
             delta: ""
         },
         skill6: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm1: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm2: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm3: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm4: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm5: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm6: {
             name: "",
             img: "",
             delta: ""
@@ -404,7 +674,7 @@ export const GI = [
         skill1: {
             name: "",
             img: "",
-            delta: ""
+            delta: "Đòn tấn công thông thường."
         },
         skill2: {
             name: "",
@@ -427,6 +697,36 @@ export const GI = [
             delta: ""
         },
         skill6: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm1: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm2: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm3: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm4: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm5: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm6: {
             name: "",
             img: "",
             delta: ""
@@ -442,7 +742,7 @@ export const GI = [
         skill1: {
             name: "",
             img: "",
-            delta: ""
+            delta: "Đòn tấn công thông thường."
         },
         skill2: {
             name: "",
@@ -465,6 +765,36 @@ export const GI = [
             delta: ""
         },
         skill6: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm1: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm2: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm3: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm4: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm5: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm6: {
             name: "",
             img: "",
             delta: ""
@@ -480,7 +810,7 @@ export const GI = [
         skill1: {
             name: "",
             img: "",
-            delta: ""
+            delta: "Đòn tấn công thông thường."
         },
         skill2: {
             name: "",
@@ -503,6 +833,36 @@ export const GI = [
             delta: ""
         },
         skill6: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm1: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm2: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm3: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm4: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm5: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm6: {
             name: "",
             img: "",
             delta: ""
@@ -518,7 +878,7 @@ export const GI = [
         skill1: {
             name: "",
             img: "",
-            delta: ""
+            delta: "Đòn tấn công thông thường."
         },
         skill2: {
             name: "",
@@ -541,6 +901,36 @@ export const GI = [
             delta: ""
         },
         skill6: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm1: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm2: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm3: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm4: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm5: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm6: {
             name: "",
             img: "",
             delta: ""
@@ -556,7 +946,7 @@ export const GI = [
         skill1: {
             name: "",
             img: "",
-            delta: ""
+            delta: "Đòn tấn công thông thường."
         },
         skill2: {
             name: "",
@@ -579,6 +969,36 @@ export const GI = [
             delta: ""
         },
         skill6: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm1: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm2: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm3: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm4: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm5: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm6: {
             name: "",
             img: "",
             delta: ""
@@ -594,7 +1014,7 @@ export const GI = [
         skill1: {
             name: "",
             img: "",
-            delta: ""
+            delta: "Đòn tấn công thông thường."
         },
         skill2: {
             name: "",
@@ -617,6 +1037,36 @@ export const GI = [
             delta: ""
         },
         skill6: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm1: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm2: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm3: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm4: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm5: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm6: {
             name: "",
             img: "",
             delta: ""
@@ -632,7 +1082,7 @@ export const GI = [
         skill1: {
             name: "",
             img: "",
-            delta: ""
+            delta: "Đòn tấn công thông thường."
         },
         skill2: {
             name: "",
@@ -655,6 +1105,36 @@ export const GI = [
             delta: ""
         },
         skill6: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm1: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm2: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm3: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm4: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm5: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm6: {
             name: "",
             img: "",
             delta: ""
@@ -670,7 +1150,7 @@ export const GI = [
         skill1: {
             name: "",
             img: "",
-            delta: ""
+            delta: "Đòn tấn công thông thường."
         },
         skill2: {
             name: "",
@@ -693,6 +1173,36 @@ export const GI = [
             delta: ""
         },
         skill6: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm1: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm2: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm3: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm4: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm5: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm6: {
             name: "",
             img: "",
             delta: ""
@@ -708,7 +1218,7 @@ export const GI = [
         skill1: {
             name: "",
             img: "",
-            delta: ""
+            delta: "Đòn tấn công thông thường."
         },
         skill2: {
             name: "",
@@ -731,6 +1241,36 @@ export const GI = [
             delta: ""
         },
         skill6: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm1: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm2: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm3: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm4: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm5: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm6: {
             name: "",
             img: "",
             delta: ""
@@ -746,7 +1286,7 @@ export const GI = [
         skill1: {
             name: "",
             img: "",
-            delta: ""
+            delta: "Đòn tấn công thông thường."
         },
         skill2: {
             name: "",
@@ -769,6 +1309,36 @@ export const GI = [
             delta: ""
         },
         skill6: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm1: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm2: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm3: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm4: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm5: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm6: {
             name: "",
             img: "",
             delta: ""
@@ -784,7 +1354,7 @@ export const GI = [
         skill1: {
             name: "",
             img: "",
-            delta: ""
+            delta: "Đòn tấn công thông thường."
         },
         skill2: {
             name: "",
@@ -807,6 +1377,36 @@ export const GI = [
             delta: ""
         },
         skill6: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm1: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm2: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm3: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm4: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm5: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm6: {
             name: "",
             img: "",
             delta: ""
@@ -822,7 +1422,7 @@ export const GI = [
         skill1: {
             name: "",
             img: "",
-            delta: ""
+            delta: "Đòn tấn công thông thường."
         },
         skill2: {
             name: "",
@@ -845,6 +1445,36 @@ export const GI = [
             delta: ""
         },
         skill6: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm1: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm2: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm3: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm4: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm5: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm6: {
             name: "",
             img: "",
             delta: ""
@@ -860,7 +1490,7 @@ export const GI = [
         skill1: {
             name: "",
             img: "",
-            delta: ""
+            delta: "Đòn tấn công thông thường."
         },
         skill2: {
             name: "",
@@ -883,6 +1513,36 @@ export const GI = [
             delta: ""
         },
         skill6: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm1: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm2: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm3: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm4: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm5: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm6: {
             name: "",
             img: "",
             delta: ""
@@ -898,7 +1558,7 @@ export const GI = [
         skill1: {
             name: "",
             img: "",
-            delta: ""
+            delta: "Đòn tấn công thông thường."
         },
         skill2: {
             name: "",
@@ -921,6 +1581,36 @@ export const GI = [
             delta: ""
         },
         skill6: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm1: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm2: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm3: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm4: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm5: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm6: {
             name: "",
             img: "",
             delta: ""
@@ -936,7 +1626,7 @@ export const GI = [
         skill1: {
             name: "",
             img: "",
-            delta: ""
+            delta: "Đòn tấn công thông thường."
         },
         skill2: {
             name: "",
@@ -959,6 +1649,36 @@ export const GI = [
             delta: ""
         },
         skill6: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm1: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm2: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm3: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm4: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm5: {
+            name: "",
+            img: "",
+            delta: ""
+        },
+        cm6: {
             name: "",
             img: "",
             delta: ""
