@@ -190,6 +190,38 @@ import AliSk1 from "../assets/Skill/Bước chân thần tốc.png";
 import AliSk2 from "../assets/Skill/Vụ nổ thời không.png";
 import AliSk3 from "../assets/Skill/Lá chắn thời không.png";
 import AliSk4 from "../assets/Skill/Dòng chảy thời không.png";
+import IluSk1 from "../assets/Skill/Thần-lực.png";
+import IluSk2 from "../assets/Skill/Quả-cầu-ánh-sáng.png";
+import IluSk3 from "../assets/Skill/Trục-xuất.png";
+import IluSk4 from "../assets/Skill/Thần-trận.png";
+import AoiSk1 from "../assets/Skill/Long-lực.png";
+import AoiSk2 from "../assets/Skill/Long-trảm.png";
+import AoiSk3 from "../assets/Skill/Long-trảo.png";
+import AoiSk4 from "../assets/Skill/Long-diệt.png";
+import LinSk1 from "../assets/Skill/Phục-kích.png";
+import LinSk2 from "../assets/Skill/Nguyệt-quang.png";
+import LinSk3 from "../assets/Skill/Nguyệt-vực.png";
+import LinSk4 from "../assets/Skill/Nguyệt-ảnh.png";
+import DexSk1 from "../assets/Skill/Huyết-chú.png";
+import DexSk2 from "../assets/Skill/Luân-hồi-cưa.png";
+import DexSk3 from "../assets/Skill/Huyết-sát-cưa.png";
+import DexSk4 from "../assets/Skill/Hiến-tế.png";
+import SinSk1 from "../assets/Skill/Hoa-máu.png";
+import SinSk2 from "../assets/Skill/Ngủ-đông.png";
+import SinSk3 from "../assets/Skill/Máu-quỷ.png";
+import SinSk4 from "../assets/Skill/Thay-máu.png";
+import SepSk1 from "../assets/Skill/Suối-nguồn.png";
+import SepSk2 from "../assets/Skill/Thủy-âm.png";
+import SepSk3 from "../assets/Skill/Ao-tù.png";
+import SepSk4 from "../assets/Skill/Sóng-ngầm.png";
+import ZilSk1 from "../assets/Skill/Bão-tố.png";
+import ZilSk2 from "../assets/Skill/Phong-đao.png";
+import ZilSk3 from "../assets/Skill/Phong-độn.png";
+import ZilSk4 from "../assets/Skill/Phong-ba.png";
+import YenSk1 from "../assets/Skill/Bán nguyệt trảm.png";
+import YenSk2 from "../assets/Skill/Toái nguyệt trảm - Tụ nguyệt trảm.png";
+import YenSk3 from "../assets/Skill/Luân nguyệt trảm - Tứ nguyệt trảm.png";
+import YenSk4 from "../assets/Skill/Mãn nguyệt trảm - Hoành nguyệt trảm.png";
 
 export const AOV = [
     {
@@ -1392,29 +1424,204 @@ export const AOV = [
             delta: "Tạo pháp trận quanh đồng đội có lá chắn linh hồn giúp đồng đội tăng tốc chạy và gây sát thương lên địch trong phạm vi khiến địch bị biến hình"
         }
     },
-    // {
-    //     id: 49,
-    //     name: "Ilumia",
-    //     poster: "",
-    //     skill1: {
-    //         name: "Thần lực",
-    //         img: `${}`,
-    //         delta: "Nội tại: Quả cầu ánh sáng sẽ lập tức được làm mới thời gian hồi, đồng thời được cường hóa trong vòng 3 giây tiếp theo sau mỗi khi Ilumia tung 2 chiêu bất kỳ."
-    //     },
-    //     skill2: {
-    //         name: "Quả cầu ánh sáng",
-    //         img: `${}`,
-    //         delta: "Ilumia tung quả cầu năng lượng theo hướng chỉ định, phát nổ khi bay hết tầm hoặc trúng phải mục tiêu, gây sát thương phép. Khi được cường hóa bởi nội tại, Quả cầu ánh sáng sẽ gây thêm nhiều sát thương trên đường bay, tăng tối đa nếu ở điểm cuối và hất văng các nạn nhân trúng chiêu. Những nạn nhân bị hất văng khi chạm đất sẽ bị choáng và làm chậm."
-    //     },
-    //     skill3: {
-    //         name: "Trục xuất",
-    //         img: `${}`,
-    //         delta: "Ilumia đẩy lùi mọi kẻ địch lân cận, gây sát thương phép. Nếu có nạn nhân trúng chiêu, chúng sẽ bị làm chậm và khiến Ilumia được tăng tốc chạy."
-    //     },
-    //     skill4: {
-    //         name: "Thần trận",
-    //         img: `${}`,
-    //         delta: "Ilumia triệu hồi pháp trận chứa đầy sức mạnh thần thánh ngay vị trí hiện tại của tất cả tướng địch, làm hiện hình chúng trong thời gian ngắn, gây sát thương phép và làm choáng các nạn nhân."
-    //     }
-    // }
+    {
+        id: 49,
+        name: "Ilumia",
+        poster: "https://i.pinimg.com/originals/9b/0b/6b/9b0b6bd8913abbf879ef889d9f838ceb.jpg",
+        skill1: {
+            name: "Thần lực",
+            img: `${IluSk1}`,
+            delta: "Nội tại: Quả cầu ánh sáng sẽ lập tức được làm mới thời gian hồi, đồng thời được cường hóa trong vòng 3 giây tiếp theo sau mỗi khi Ilumia tung 2 chiêu bất kỳ."
+        },
+        skill2: {
+            name: "Quả cầu ánh sáng",
+            img: `${IluSk2}`,
+            delta: "Ilumia tung quả cầu năng lượng theo hướng chỉ định, phát nổ khi bay hết tầm hoặc trúng phải mục tiêu, gây sát thương phép. Khi được cường hóa bởi nội tại, Quả cầu ánh sáng sẽ gây thêm nhiều sát thương trên đường bay, tăng tối đa nếu ở điểm cuối và hất văng các nạn nhân trúng chiêu. Những nạn nhân bị hất văng khi chạm đất sẽ bị choáng và làm chậm."
+        },
+        skill3: {
+            name: "Trục xuất",
+            img: `${IluSk3}`,
+            delta: "Ilumia đẩy lùi mọi kẻ địch lân cận, gây sát thương phép. Nếu có nạn nhân trúng chiêu, chúng sẽ bị làm chậm và khiến Ilumia được tăng tốc chạy."
+        },
+        skill4: {
+            name: "Thần trận",
+            img: `${IluSk4}`,
+            delta: "Ilumia triệu hồi pháp trận chứa đầy sức mạnh thần thánh ngay vị trí hiện tại của tất cả tướng địch, làm hiện hình chúng trong thời gian ngắn, gây sát thương phép và làm choáng các nạn nhân."
+        }
+    },
+    {
+        id: 50,
+        name: "Aoi",
+        poster: "https://i.pinimg.com/originals/04/1c/bf/041cbf9003c1626fead3da2039e6cbef.jpg",
+        skill1: {
+            name: "Long lực",
+            img: `${AoiSk1}`,
+            delta: "Sau mỗi lần tung chiêu, Aoi sẽ tích lũy 1 lần Long lực (tối đa 4 lần) đồng thời cường hóa đòn đánh thường kế thành đột kích khiến đòn này được tăng tầm đánh và tốc đánh - gây sát thương vật lý lên mục tiêu. Đòn đánh thướng thứ 4 nhất định sẽ gây chí mạng và khiến bản thân giảm hồi chiêu."
+        },
+        skill2: {
+            name: "Long trảm",
+            img: `${AoiSk2}`,
+            delta: "Aoi tung trảo đột kích về phía trước và gây sát thương vật lý lên kẻ địch trong phạm vi. Đánh trúng địch giúp bản thân được hồi máu. Trạng thái phi hành: Aoi bổ nhào xuống vị trí chỉ định gây sát thương vật lý và hất tung tất cả các mục tiêu trong phạm vi. Đánh trúng kẻ địch giúp bản thân nhận lá chắn."
+        },
+        skill3: {
+            name: "Long trảo",
+            img: `${AoiSk3}`,
+            delta: "Aoi phóng trảo vào chướng ngại vật, dùng nút di chuyển tiến vào trạng thái Xung kích hoặc Phi hành. Có thể dự bị 2 lần (chịu ảnh hưởng hồi chiêu); Khi xung kích và phi hành, bản thân Aoi được miễn khống."
+        },
+        skill4: {
+            name: "Long diệt",
+            img: `${AoiSk4}`,
+            delta: "Aoi bay lên trời (không bị chọn làm mục tiêu), cắm long trảo vào kẻ địch và gây sát thương vật lý dồng thời làm chậm. Sau đó trong thoáng chốc, Aoi lướt về phía sau đồng thời thu hồi song trảo và gây máu mục tiêu đã mất thành sát thương vật lý lên phạm vi lớn."
+        }
+    },
+    {
+        id: 51,
+        name: "Zill",
+        poster: "https://i.pinimg.com/originals/28/f6/fb/28f6fbd32688cb97d73382f6417c1966.jpg",
+        skill1: {
+            name: "Bão tố",
+            img: `${ZilSk1}`,
+            delta: "Nội tại: Các chiêu thức trúng đích của Zill khiến mục tiêu phải chịu thêm dấu ấn Giông tố. Khi đạt đủ 3 cộng dồn, dấu ấn tiến hóa thành bão tố kéo dài 5 giây đồng thời giảm tốc chạy của mục tiêu. Các đòn đánh thường của Zill lên nạn nhân đang chịu ấn bão tố sẽ lập tức hoàn tất hồi chiêu của Phong độn, và gây thêm sát thương phép. Đòn đánh thường của Zill gây thêm sát thương phép (gấp đôi ST lên quái và lính)."
+        },
+        skill2: {
+            name: "Phong đao",
+            img: `${ZilSk2}`,
+            delta: "Zill ném cặp song đao gây sát thương phép lên tất cả kẻ địch trúng phải trên đường bay đi, và làm chậm tốc chạy của chúng. Sau đó lưỡi liềm quay ngược lại, gây sát thương phép lên những nạn nhân trúng chiêu trên đường bay về."
+        },
+        skill3: {
+            name: "Phong độn",
+            img: `${ZilSk3}`,
+            delta: "Zill dịch chuyển đến điểm đã chọn, gây sát thương phép lên tất cả kẻ địch quanh vùng ảnh hưởng."
+        },
+        skill4: {
+            name: "Phong ba",
+            img: `${ZilSk4}`,
+            delta: "Zill hóa thân thành một luồng phong ba bão tố, tấn công liên tục 5 lần lên những kẻ địch lân cận, gây sát thương phép mỗi đợt. Kẻ địch trúng nhiều đòn sẽ chỉ phải chịu ít sát thương hơn từ đòn thứ hai trở đi. Suốt khoảng thời gian này Zill không thể bị công kích hoặc chọn làm mục tiêu. Đòn chém đầu tiên luôn gây câm lặng 1 giây."
+        }
+    },
+    {
+        id: 52,
+        name: "Dextra",
+        poster: "https://i.pinimg.com/originals/69/54/61/6954613505395bddb48a5a441caf1d75.jpg",
+        skill1: {
+            name: "Huyết chú",
+            img: `${DexSk1}`,
+            delta: "Mỗi lần tung chiêu, đánh thường trúng tướng địch, Dextra được tăng công vật lý. Cộng dồn với mỗi tướng địch tối đa 8 lần nhưng không thể vượt quá 20 lần.  Nếu Sinestrea tung Máu quỷ vào Dextra, Dextra có thể lập tức kéo Sinestrea đến bên cạnh và nhờ thâu nạp huyết kiếm để hồi máu. Khi Sinestrea sử dụng Huyết tế, Dextra nhận được nút Huyết tế và có thể hiến tế toàn bộ sinh mệnh của bản thân để giúp Sinestrea hồi sinh."
+        },
+        skill2: {
+            name: "Luân hồi cưa",
+            img: `${DexSk2}`,
+            delta: "Dextra được tăng tốc chạy, được miễn làm chậm và tụ lực vào Huyết luân cưa rồi xông đến kẻ địch gây sát thương vật lý."
+        },
+        skill3: {
+            name: "Huyết sát cưa",
+            img: `${DexSk3}`,
+            delta: "Dextra gây sát thương vật lý trong phạm vi. Mỗi khi trúng 1 tướng, nàng sẽ được hồi máu đã mất. Ngoài ra đòn đánh thường của Dextra còn biến thành đánh lan."
+        },
+        skill4: {
+            name: "Hiến tế",
+            img: `${DexSk4}`,
+            delta: "Trong 3 giây tất cả sát thương gánh chịu sẽ chuyển thành máu. Nhưng mỗi lần hồi máu sẽ không vượt quá một lượng máu tối đa"
+        }
+    },
+    {
+        id: 53,
+        name: "Sinestrea",
+        poster: "https://i.pinimg.com/originals/e5/71/e1/e571e1168ccc096d4c50c0e23bb388e6.jpg",
+        skill1: {
+            name: "Hoa máu",
+            img: `${SinSk1}`,
+            delta: "Ô kỹ năng chủ động của trang bị sẽ luôn được thay bằng chiêu Huyết tế. Huyết tế: Vận chiêu trong vòng 3 giây, Sinestrea tử vong và gây sát thương vật lý đồng thời làm choáng tất cả địch trong phạm vi. Quá trình này không thể ngăn cản hoặc hủy chiêu. Mỗi khi bản thân hạ 1 tướng địch, Sinestrea sẽ nhận được một đóa Hoa máu. Mỗi đóa sau khi Huyết tế bùng nổ sẽ giúp Sinestrea giảm thời gian hồi sinh. Nếu Sinestrea có đủ 7 đóa hoa, sau khi bùng nổ Huyết tế, nàng sẽ được hồi sinh ngay tại chỗ và lập tức hoàn tất hồi tất cả các chiêu của bản thân."
+        },
+        skill2: {
+            name: "Ngủ đông",
+            img: `${SinSk2}`,
+            delta: "Sinestrea lướt đến vị trí chỉ định. Sau khi hạ xuống nâng lập tức tiến vào trạng thái ngủ đông. Sinestrea chỉ cần duy trì không di chuyển một thời gian thì bản thân nàng sẽ được tàng hình. Dưới trạng thái cận chiến, Sinestrea sẽ chuyển thành đột kích."
+        },
+        skill3: {
+            name: "Máu quỷ",
+            img: `${SinSk3}`,
+            delta: "Đổi trạng thái cận chiến & đánh xa. Đánh thường cận chiến: Gây thêm máu đã mất của mục tiêu thành sát thương vật lý và hút máu. Đánh thường xa: Mỗi đòn đánh thường sẽ tiêu hao máu hiện tại của bản thân và gây sát thương vật lý đồng thời khiến mục tiêu bị găm Huyết ấn. Giải trừ trạng thái đánh xa: Khiến tất cả Huyết ấn găm trên thân kẻ địch bị triệu hồi thành Huyết kiếm và liên tục bắn đến vị trí chỉ định, gây sát thương vật lý. Nếu gọi kiếm về bản thân. mỗi thanh Huyết kiếm sẽ giúp bản thân hồi phục máu đã mất."
+        },
+        skill4: {
+            name: "Thay máu",
+            img: `${SinSk4}`,
+            delta: "Sinestrea dùng máu của bản thân làm Nghi thức cầu nối khống chế cắm vào kẻ địch. Sau khi nghi thức kết thúc, Sinestrea sẽ hồi máu."
+        }
+    },
+    {
+        id: 54,
+        name: "Lindis",
+        poster: "https://i.pinimg.com/originals/ee/7d/30/ee7d306bbef64091f66e7da41559c2a9.jpg",
+        skill1: {
+            name: "Phục kích",
+            img: `${LinSk1}`,
+            delta: "Nội tại: Di chuyển giữa các bụi cỏ giúp Lindis tăng tốc chạy thoáng chốc, đồng thời khiến đòn đánh thường kế tiếp bắn hai lần, mỗi lần gây thêm sát thương vật lý."
+        },
+        skill2: {
+            name: "Nguyệt quang",
+            img: `${LinSk2}`,
+            delta: "Nội tại: Đòn đánh thứ 3 trúng cùng mục tiêu sẽ gây thêm sát thương vật lý. Lindis triệu hồi mặt trăng giúp soi sáng xung quanh và phát hiện kẻ địch trong 5 giây, tối đa dự trữ 2 điểm cộng dồn."
+        },
+        skill3: {
+            name: "Nguyệt vực",
+            img: `${LinSk3}`,
+            delta: "Lindis tạo ra một cái bẫy tồn tại tối đa 2 phút tại điểm đã chọn. Khi tiếp xúc với kẻ địch chiếc bẫy sẽ làm mục tiêu lộ diện đồng thời bộc phát tạo ra một vùng làm chậm tốc chạy và gây sát thương vật lý sau thoáng chốc. Lindis tối đa dự trữ được 2 bẫy. Những chiếc bẫy này nếu không bị kích hoạt bởi kẻ địch sẽ trở nên tàng hình sau 2 giây."
+        },
+        skill4: {
+            name: "Nguyệt ảnh",
+            img: `${LinSk4}`,
+            delta: "Lindis triệu hồi ảo ảnh tấn công kẻ địch, gây sát thương vật lý kèm các hiệu ứng trên đòn đánh. Lindis có thể dự trữ tối đa 5 ảo ảnh, và thời gian hồi giữa hai lần dùng ảo ảnh liên tiếp là 2 giây."
+        }
+    },
+    {
+        id: 55,
+        name: "Sephera",
+        poster: "https://i.pinimg.com/originals/26/ac/d2/26acd2f442b7ff5ee775a40d33622440.jpg",
+        skill1: {
+            name: "Suối nguồn",
+            img: `${SepSk1}`,
+            delta: "Nội tại: Mỗi khi tung chiêu Sephera sẽ kích hoạt nội tại Suối nguồn gây sát thương phép lên tướng địch lân cận thấp máu nhất, đồng thời hồi máu cho tướng đồng minh lân cận thấp máu nhất."
+        },
+        skill2: {
+            name: "Thủy âm",
+            img: `${SepSk2}`,
+            delta: "Sephera gảy đàn tấn công 3 kẻ địch lân cận (ưu tiên tướng), gây sát thương phép, đồng thời làm chậm tốc chạy của nạn nhân trong 1 giây. Đặc biệt đòn đánh thường kế tiếp sau khi tung chiêu này sẽ gây sát thương phép, và giúp giảm 1 giây hồi tất cả chiêu."
+        },
+        skill3: {
+            name: "Ao tù",
+            img: `${SepSk3}`,
+            delta: "Sephera được tăng tốc chạy trong thoáng chốc, rồi 1.5 giây sau dựng lên một vòng tròn nước gây sát thương phép kèm hiệu ứng choáng, áp dụng đối với những nạn nhân đứng ở rìa."
+        },
+        skill4: {
+            name: "Sóng ngầm",
+            img: `${SepSk4}`,
+            delta: "Sephera hòa mình vào dòng nước khiến bản thân không thể bị chọn làm mục tiêu trong 1.7 giây, đồng thời giúp hồimáu cho các đồng minh lân cận, và gây sát thương phép lên những kẻ địch cạnh bên."
+        }
+    },
+    {
+        id: 56,
+        name: "Yena",
+        poster: "https://i.pinimg.com/originals/d9/c3/d5/d9c3d5f15f4344494426d8ad2b56e895.jpg",
+        skill1: {
+            name: "Bán nguyệt trảm",
+            img: `${YenSk1}`,
+            delta: "Khi Yena dùng Song đao, cô được tăng tốc chạy. Đặc biệt mỗi lần cô sát thương tướng địch sẽ gây kèm hiệu ứng Nguyệt trảm; khi tích đủ 5 điểm cộng dồn hiệu ứng Yena sẽ gây sát thương vật lý, đồng thời khiến mục tiêu bị câm lặng và giảm tốc chạy. Yena cần có một khoảng thời gian hồi trước khi có thể áp dụng Nguyệt trảm lên cùng một kẻ địch. Khi Yena dùng Nguyệt đao, cô bị giảm tốc đánh, nhưng bù lại được tăng sát thương gây ra. Chưa hết, suốt thời gian Yena tung các kỹ năng, cô được miễn hiệu ứng và miễn thương."
+        },
+        skill2: {
+            name: "Toái nguyệt trảm / Tụ nguyệt trảm",
+            img: `${YenSk2}`,
+            delta: "Loan đao: Toái nguyệt trảm Yena lướt theo hướng chỉ định vung đao chém địch gây sát thương vật lý; nếu lượt đầu trúng đích, Yena có thể lướt tiếp lượt hai trong vòng 5 giây. Chiêu thức này có thể tung tối đa 2 lượt trước khi bắt đầu thời gian hồi chiêu. Viên đao: Tụ nguyệt trảm Yena tụ lực 2 giây rồi vung Nguyệt đao gây sát thương vật lý theo hướng chỉ định; tụ lực càng lâu sát thương càng mạnh. Nếu có nạn nhân trúng chiêu, Yena có thể dùng Tụ nguyệt trảm lần 2 trong vòng 5 giây kế."
+        },
+        skill3: {
+            name: "Luân nguyệt trảm / Tứ nguyệt trảm",
+            img: `${YenSk3}`,
+            delta: "Song đao - Luân nguyệt trảm: Yena phóng Song đao theo hướng chỉ định, gây sát thương vật lý, Song đao xoay tròn liên tục tại điểm cuối, gây sát thương vật lý lên mục tiêu trong phạm vi và giảm tốc chạy. Nguyệt đao - Tứ nguyệt trảm: Yena vung Nguyệt đao chém 4 lần theo hướng chỉ định, mỗi lần gây sát thương vật lý, đồng thời mỗi nhát chém sẽ khiến mục tiêu bị làm chậm và đẩy lùi. Riêng đợt 4 sẽ hất văng mọi mục tiêu. Đặc biệt nếu Yena tiến lại gần Song đao sẽ tự động thu hồi vũ khí và giúp bản thân giảm thời gian hồi chiêu này, bất kể đang cầm Song đao hay Nguyệt đao."
+        },
+        skill4: {
+            name: "Mãn nguyệt trảm / Hoành nguyệt trảm",
+            img: `${YenSk4}`,
+            delta: "Song đao - Mãn nguyệt trảm: Yena ghép cặp vũ khí thành Viên đao, gây sát thương vật lý lên các kẻ địch lân cận, đồng thời tăng công vật lý liên tục. Sau khi kích hoạt, Yena chuyển 3 chiêu hiện tại thành bộ chiêu mới sử dụng Nguyệt đao. Nguyệt đao - Hoành nguyệt trảm: Yena tách vũ khí thành cặp Loan đao chém ngang bốn phía, gây sát thương vật lý lên các nạn nhân lân cận, đồng thời tự tăng tốc đánh liên tục 5 giây. Sau khi kích hoạt, Yena chuyển 3 chiêu hiện tại thành bộ chiêu mới sử dụng Song đao."
+        }
+    }
 ]

@@ -35,7 +35,7 @@ import Bar from "../assets/AvataGI/Bar.webp";
 import Fur from "../assets/AvataGI/Fur.webp";
 import Zhon from "../assets/AvataGI/Zho.webp";
 import Nah from "../assets/AvataGI/Nah.webp";
-import Lum from "../assets/AvataGI/Lum.webp";
+import Lum from "../assets/AvataGI/Lum.jpg";
 import Tig from "../assets/AvataGI/Tig.webp";
 import Hut from "../assets/AvataGI/Hut.webp";
 import Xin from "../assets/AvataGI/Xin.webp";
@@ -508,51 +508,51 @@ export const GI = [
         back: `${fo}`,
         story: "Nhà mạo hiểm trẻ tuổi của Mondstadt, có vận đen luôn đi cùng sự lương thiện của anh ấy.",
         skill1: {
-            name: "",
+            name: "Kiếm May Mắn",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Sword.png"
         },
         skill2: {
-            name: "",
+            name: "Nhiệt Tình Quá Độ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Bennett/talent_2.png"
         },
         skill3: {
-            name: "",
+            name: "Hành Trình Kì Diệu",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Bennett/talent_3.png"
         },
         skill4: {
-            name: "",
+            name: "Nhiệt Tình Rực Lửa",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Bennett/talent_4.png"
         },
         skill5: {
-            name: "",
+            name: "Nhiệt Huyết Can Đảm",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Bennett/talent_5.png"
         },
         skill6: {
-            name: "",
+            name: "Có Thể An Toàn",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Bennett/talent_6.png"
         },
         cm1: {
-            name: "",
+            name: "Tầm Nhìn Phiêu Lưu",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Bennett/constellation_1.png"
         },
         cm2: {
-            name: "",
+            name: "Vượt Qua Ngịch Cảnh",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Bennett/constellation_2.png"
         },
         cm3: {
-            name: "",
+            name: "Đam Mê Rực Cháy",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Bennett/constellation_3.png"
         },
         cm4: {
-            name: "",
+            name: "Nhiệt Huyết Bất Diệt",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Bennett/constellation_4.png"
         },
         cm5: {
-            name: "",
+            name: "Mở Rộng Tâm Hồn",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Bennett/constellation_5.png"
         },
         cm6: {
-            name: "",
+            name: "Lửa Và Can Đảm",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Bennett/constellation_6.png"
         }
     },
@@ -564,51 +564,51 @@ export const GI = [
         back: `${fi}`,
         story: "Tâm điểm tuyệt đối trên sân khấu xét xử, cho đến khi tiếng vỗ tay hạ màn nổi lên.",
         skill1: {
-            name: "",
+            name: "Lời Mời Độc Diễn",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Sword.png"
         },
         skill2: {
-            name: "",
+            name: "Salon Cô Độc",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Furina/talent_2.png"
         },
         skill3: {
-            name: "",
+            name: "Chúng Dân Reo Hò",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Furina/talent_3.png"
         },
         skill4: {
-            name: "",
+            name: "Điệu Van Vô Tận",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Furina/talent_4.png"
         },
         skill5: {
-            name: "",
+            name: "Lời Thoại Không Ai Nghe",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Furina/talent_5.png"
         },
         skill6: {
-            name: "",
+            name: "Sân Khấu Đại Dương",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Furina/talent_6.png"
         },
         cm1: {
-            name: "",
+            name: "Như Chú Chim Bất Kham, Tình Yêu Miễn Cầu Xin.",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Furina/constellation_1.png"
         },
         cm2: {
-            name: "",
+            name: "Phụ Nữ Dễ Thích Nghi, Như Phận Bèo Trong Nước.",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Furina/constellation_2.png"
         },
         cm3: {
-            name: "",
+            name: "Bí Mật Giấu Trong Lòng, Không Ai Biết Tên Ta.",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Furina/constellation_3.png"
         },
         cm4: {
-            name: "",
+            name: "Không Ở Trong U Uất, Nào Biết Quý Sự Sống!",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Furina/constellation_4.png"
         },
         cm5: {
-            name: "",
+            name: "Giờ Ta Đã Phát Giác, Người Đó Tên Là...!",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Furina/constellation_5.png"
         },
         cm6: {
-            name: "",
+            name: "Cùng Nghe Ta Ca Tụng, Nâng Ly Rượu Tình Yêu!",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Furina/constellation_6.png"
         }
     },
@@ -620,51 +620,51 @@ export const GI = [
         back: `${fi}`,
         story: "Là vị khách thần bí được 'Vãng Sinh Đường' mời đến. Kiến thức uyên bác, có hiểu biết sâu rộng đối với nhiều sự vật sự việc.",
         skill1: {
-            name: "",
+            name: "Mưa Đá",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Polearm.png"
         },
         skill2: {
-            name: "",
+            name: "Tâm Trái Đất",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Zhongli/talent_2.png"
         },
         skill3: {
-            name: "",
+            name: "Thiên Tinh",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Zhongli/talent_3.png"
         },
         skill4: {
-            name: "",
+            name: "Huyền Nham Thần Đoạn",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Zhongli/talent_4.png"
         },
         skill5: {
-            name: "",
+            name: "Xuy Kim Soạn Ngọc",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Zhongli/talent_5.png"
         },
         skill6: {
-            name: "",
+            name: "Mệnh Lý Tinh Thạch",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Zhongli/talent_6.png"
         },
         cm1: {
-            name: "",
+            name: "Nham, Lục Hợp Dẫn Thành Cốt",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Zhongli/constellation_1.png"
         },
         cm2: {
-            name: "",
+            name: "Thạch, Bát Hoang Ngọc Minh",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Zhongli/constellation_2.png"
         },
         cm3: {
-            name: "",
+            name: "Khuê Chương, Khó Khăn Không Lùi Bước",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Zhongli/constellation_3.png"
         },
         cm4: {
-            name: "",
+            name: "Hoàng Tông, Phá Nhưng Không Mất Kiên Cường",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Zhongli/constellation_4.png"
         },
         cm5: {
-            name: "",
+            name: "Thương Bích, Kiên Cường Như Lẽ Trời",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Zhongli/constellation_5.png"
         },
         cm6: {
-            name: "",
+            name: "Thiên Ngọc, Lễ Thiên Địa Tứ Phương",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Zhongli/constellation_6.png"
         }
     },
@@ -676,51 +676,51 @@ export const GI = [
         back: `${fi}`,
         story: "Chim nhỏ trong lồng ở sâu trong Thánh Địa Surasthana, chỉ có thể ngắm nhìn thế giới từ trong giấc mơ.",
         skill1: {
-            name: "",
+            name: "Akara",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Catalyst.png"
         },
         skill2: {
-            name: "",
+            name: "Lắng Nghe Thế Gian",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Nahida/talent_2.png"
         },
         skill3: {
-            name: "",
+            name: "Ảo Ảnh Tâm Can",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Nahida/talent_3.png"
         },
         skill4: {
-            name: "",
+            name: "Từ Bi Chiếu Rọi",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Nahida/talent_4.png"
         },
         skill5: {
-            name: "",
+            name: "Giác Ngộ Thức Tỉnh",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Nahida/talent_5.png"
         },
         skill6: {
-            name: "",
+            name: "Tịnh Hành Tùy Niệm",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Nahida/talent_6.png"
         },
         cm1: {
-            name: "",
+            name: "Hạt Giống Ẩn Chứa Tri Thức",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Nahida/constellation_1.png"
         },
         cm2: {
-            name: "",
+            name: "Rễ Cây Chờ Đợi Thiện Kiến",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Nahida/constellation_2.png"
         },
         cm3: {
-            name: "",
+            name: "Mầm Chồi Thấm Dần Thành Tựu",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Nahida/constellation_3.png"
         },
         cm4: {
-            name: "",
+            name: "Thân Nhánh Ước Lượng Thực Hành",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Nahida/constellation_4.png"
         },
         cm5: {
-            name: "",
+            name: "Nhành Lá Phá Giải Ngu Muội",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Nahida/constellation_5.png"
         },
         cm6: {
-            name: "",
+            name: "Quả Mọng Thấu Hiểu Vạn Vật",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Nahida/constellation_6.png"
         }
     },
@@ -732,51 +732,51 @@ export const GI = [
         back: `${fi}`,
         story: "Đường chủ đời thứ 77 của Vãng Sinh Đường, tuổi còn trẻ nhưng đã phụ trách việc tang lễ của Liyue.",
         skill1: {
-            name: "",
+            name: "Thương Pháp Bí Truyền Vãng Sinh",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Polearm.png"
         },
         skill2: {
-            name: "",
+            name: "Điệp Dẫn Lai Sinh",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Hu%20Tao/talent_2.png"
         },
         skill3: {
-            name: "",
+            name: "An Thần Bí Pháp",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Hu%20Tao/talent_3.png"
         },
         skill4: {
-            name: "",
+            name: "Điệp Ẩn Chi Thời",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Hu%20Tao/talent_4.png"
         },
         skill5: {
-            name: "",
+            name: "Huyết Chi Táo Hỏa",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Hu%20Tao/talent_5.png"
         },
         skill6: {
-            name: "",
+            name: "Đa Đa Ích Thiện",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Hu%20Tao/talent_6.png"
         },
         cm1: {
-            name: "",
+            name: "Cánh Bướm Bay Nghiêng Về Chân Trời",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Hu%20Tao/constellation_1.png"
         },
         cm2: {
-            name: "",
+            name: "Mưa Về Bất An",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Hu%20Tao/constellation_2.png"
         },
         cm3: {
-            name: "",
+            name: "Huyết Sắc Vấn Vương",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Hu%20Tao/constellation_3.png"
         },
         cm4: {
-            name: "",
+            name: "Hoa Phòng Bầu Bạn",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Hu%20Tao/constellation_4.png"
         },
         cm5: {
-            name: "",
+            name: "Đốt Hoa Làm Hương",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Hu%20Tao/constellation_5.png"
         },
         cm6: {
-            name: "",
+            name: "U Điệp Lưu Lại Một Chút Hương",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Hu%20Tao/constellation_6.png"
         }
     },
@@ -788,51 +788,51 @@ export const GI = [
         back: `${fo}`,
         story: "Vị thiếu niên thường được bắt gặp nơi quầy sách. Tay cầm kiếm, với một trái tim nghĩa hiệp thổn thức trong lồng ngực.",
         skill1: {
-            name: "",
+            name: "Cổ Hoa Kiếm Pháp",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Sword.png"
         },
         skill2: {
-            name: "",
+            name: "Cổ Hoa Kiếm - Họa Vũ Lung Sơn",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xingqiu/talent_2.png"
         },
         skill3: {
-            name: "",
+            name: "Cổ Hoa Kiếm - Tài Vũ Lưu Hồng",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xingqiu/talent_3.png"
         },
         skill4: {
-            name: "",
+            name: "Sinh Thủy Yêu Quyết",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xingqiu/talent_4.png"
         },
         skill5: {
-            name: "",
+            name: "Ngòi Bút Thực Hư",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xingqiu/talent_5.png"
         },
         skill6: {
-            name: "",
+            name: "Ánh Sáng Lấp Lánh",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xingqiu/talent_6.png"
         },
         cm1: {
-            name: "",
+            name: "Mùi Hương Vương Vấn",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xingqiu/constellation_1.png"
         },
         cm2: {
-            name: "",
+            name: "Cầu Vồng Trời Xanh",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xingqiu/constellation_2.png"
         },
         cm3: {
-            name: "",
+            name: "Dệt Thơ Thành Lụa",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xingqiu/constellation_3.png"
         },
         cm4: {
-            name: "",
+            name: "Cô Châu Trảm Giao",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xingqiu/constellation_4.png"
         },
         cm5: {
-            name: "",
+            name: "Đóng Cửa Trong Mưa",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xingqiu/constellation_5.png"
         },
         cm6: {
-            name: "",
+            name: "Sách Đều Ở Đây",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xingqiu/constellation_6.png"
         }
     },
@@ -844,23 +844,23 @@ export const GI = [
         back: `${fi}`,
         story: "Nhà Lữ Hành lưu lạc đến đây từ thế giới khác, bị Thần cướp mất người thân, từ đó bước vào con đường đi tìm 7 vị Thần.",
         skill1: {
-            name: "",
+            name: "Xén Cỏ Dị Bang",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Sword.png"
         },
         skill2: {
-            name: "",
+            name: "Yển Thảo Nhược Hóa",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Traveler%20Dendro/talent_2.png"
         },
         skill3: {
-            name: "",
+            name: "Thảo Duyên Kiếm",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Traveler%20Dendro/talent_3.png"
         },
         skill4: {
-            name: "",
+            name: "Ngọn Cỏ Sinh Trưởng",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Traveler%20Dendro/talent_4.png"
         },
         skill5: {
-            name: "",
+            name: "Cỏ Cây Sum Suê",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Traveler%20Dendro/talent_5.png"
         },
         skill6: {
@@ -868,27 +868,27 @@ export const GI = [
             img: ""
         },
         cm1: {
-            name: "",
+            name: "Hạt Giống Ký Sinh",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Traveler%20Dendro/constellation_1.png"
         },
         cm2: {
-            name: "",
+            name: "Mầm Non Uyển Chuyển",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Traveler%20Dendro/constellation_2.png"
         },
         cm3: {
-            name: "",
+            name: "Ngọn Cỏ Đung Đưa",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Traveler%20Dendro/constellation_3.png"
         },
         cm4: {
-            name: "",
+            name: "Bụi Cỏ Um Tùm",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Traveler%20Dendro/constellation_4.png"
         },
         cm5: {
-            name: "",
+            name: "Đồng Cỏ Sum Suê",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Traveler%20Dendro/constellation_5.png"
         },
         cm6: {
-            name: "",
+            name: "Mảng Xanh Hùng Vĩ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Traveler%20Dendro/constellation_6.png"
         }
     },
@@ -900,51 +900,51 @@ export const GI = [
         back: `${fo}`,
         story: "Thiếu nữ đầu bếp đến từ Liyue, rất nổi tiếng. Có sự nhiệt tình vô hạn với việc nấu nướng, đặc biệt là những món tê cay.",
         skill1: {
-            name: "",
+            name: "Tài Nghệ Làm Bánh",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Polearm.png"
         },
         skill2: {
-            name: "",
+            name: "Guoba Xuất Kích",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiangling/talent_2.png"
         },
         skill3: {
-            name: "",
+            name: "Bánh Xe Lửa",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiangling/talent_3.png"
         },
         skill4: {
-            name: "",
+            name: "Hỏa Lực Đan Chéo",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiangling/talent_4.png"
         },
         skill5: {
-            name: "",
+            name: "Ớt Chỉ Thiên Cay Xè",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiangling/talent_5.png"
         },
         skill6: {
-            name: "",
+            name: "Đầu Bếp Vạn Dân Đường",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiangling/talent_6.png"
         },
         cm1: {
-            name: "",
+            name: "Ngoài Giòn Trong Mềm",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiangling/constellation_1.png"
         },
         cm2: {
-            name: "",
+            name: "Thêm Dầu Vào Lửa",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiangling/constellation_2.png"
         },
         cm3: {
-            name: "",
+            name: "Nấu Ăn Cấp Bách",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiangling/constellation_3.png"
         },
         cm4: {
-            name: "",
+            name: "Hầm Lửa Nhỏ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiangling/constellation_4.png"
         },
         cm5: {
-            name: "",
+            name: "Guoba Hung Dữ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiangling/constellation_5.png"
         },
         cm6: {
-            name: "",
+            name: "Bánh Xe Lửa Rồng Cuộn",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiangling/constellation_6.png"
         }
     },
@@ -956,51 +956,51 @@ export const GI = [
         back: `${fi}`,
         story: "Học giả thiếu niên tinh thông thực vật học, hiện đang làm đội trưởng kiểm lâm của Rừng Avidya. Tính tình thẳng thắn nhiệt tình, hay dạy bảo những người hay lơ là đầu óc.",
         skill1: {
-            name: "",
+            name: "Phá Bỏ Chướng Ngại",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Bow.png"
         },
         skill2: {
-            name: "",
+            name: "Hạt Giống Vijnana-Phala",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Tighnari/talent_2.png"
         },
         skill3: {
-            name: "",
+            name: "Dây Leo Sinh Trưởng",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Tighnari/talent_3.png"
         },
         skill4: {
-            name: "",
+            name: "Tầm Nhìn Sắc Sảo",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Tighnari/talent_4.png"
         },
         skill5: {
-            name: "",
+            name: "Chuyên Gia Thực Vật",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Tighnari/talent_5.png"
         },
         skill6: {
-            name: "",
+            name: "Học Thức Uyên Thâm",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Tighnari/talent_6.png"
         },
         cm1: {
-            name: "",
+            name: "Từ Gốc Rễ Định Ban Sơ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Tighnari/constellation_1.png"
         },
         cm2: {
-            name: "",
+            name: "Từ Mầm Chồi Hiểu Ngọn Nguồn",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Tighnari/constellation_2.png"
         },
         cm3: {
-            name: "",
+            name: "Từ Thân Nhánh Biết Vạn Vật",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Tighnari/constellation_3.png"
         },
         cm4: {
-            name: "",
+            name: "Từ Phiến Lá Giải Thịnh Suy",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Tighnari/constellation_4.png"
         },
         cm5: {
-            name: "",
+            name: "Từ Cánh Hoa Tìm Giác Ngộ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Tighnari/constellation_5.png"
         },
         cm6: {
-            name: "",
+            name: "Từ Cây Trái Luận Nhân Quả",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Tighnari/constellation_6.png"
         }
     },
@@ -1012,51 +1012,51 @@ export const GI = [
         back: `${fi}`,
         story: "Thư ký tại Nguyệt Hải Đình, trong người chứa huyết mạch của tiên thú Kỳ Lân.",
         skill1: {
-            name: "",
+            name: "Lưu Thiên Xạ Thuật",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Bow.png"
         },
         skill2: {
-            name: "",
+            name: "Sơn Trạch Lân Tích",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ganyu/talent_2.png"
         },
         skill3: {
-            name: "",
+            name: "Thiên Hoa Hạ Phàm",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ganyu/talent_3.png"
         },
         skill4: {
-            name: "",
+            name: "Duy Thử Nhất Tâm",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ganyu/talent_4.png"
         },
         skill5: {
-            name: "",
+            name: "Thiên Địa Giao Hòa",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ganyu/talent_5.png"
         },
         skill6: {
-            name: "",
+            name: "Cất Cung Đợi Dùng",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ganyu/talent_6.png"
         },
         cm1: {
-            name: "",
+            name: "Ẩm Lộ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ganyu/constellation_1.png"
         },
         cm2: {
-            name: "",
+            name: "Hoạch Lân",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ganyu/constellation_2.png"
         },
         cm3: {
-            name: "",
+            name: "Vân Hành",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ganyu/constellation_3.png"
         },
         cm4: {
-            name: "",
+            name: "Tây Thú",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ganyu/constellation_4.png"
         },
         cm5: {
-            name: "",
+            name: "Trảm Thảo",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ganyu/constellation_5.png"
         },
         cm6: {
-            name: "",
+            name: "Lữ Trùng",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ganyu/constellation_6.png"
         }
     },
@@ -1068,51 +1068,51 @@ export const GI = [
         back: `${fi}`,
         story: "Tiên nhân Dạ Xoa bảo vệ Liyue. Hiệu là 'Hàng Ma Đại Thánh', biệt danh 'Hộ Pháp Dạ Xoa Đại Tướng'.",
         skill1: {
-            name: "",
+            name: "Cuốn Quét Bụi Trần",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Polearm.png"
         },
         skill2: {
-            name: "",
+            name: "Đôi Bánh Xe Gió",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiao/talent_2.png"
         },
         skill3: {
-            name: "",
+            name: "Vũ Điệu Trừ Yêu",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiao/talent_3.png"
         },
         skill4: {
-            name: "",
+            name: "Hàng Ma - Bình Yêu Đại Thánh",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiao/talent_4.png"
         },
         skill5: {
-            name: "",
+            name: "Hoại Kiếp - Quốc Thổ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiao/talent_5.png"
         },
         skill6: {
-            name: "",
+            name: "Thần Thông - Không Trung Tự Tại",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiao/talent_6.png"
         },
         cm1: {
-            name: "",
+            name: "Hoại Kiếp - Hủy Hoại Tam Giới",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiao/constellation_1.png"
         },
         cm2: {
-            name: "",
+            name: "Không Kiếp - Hư Không Hoa Khai",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiao/constellation_2.png"
         },
         cm3: {
-            name: "",
+            name: "Hàng Ma - Phẫn Nộ Hiện Rõ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiao/constellation_3.png"
         },
         cm4: {
-            name: "",
+            name: "Thần Thông - Chư Khổ Diệt Tận",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiao/constellation_4.png"
         },
         cm5: {
-            name: "",
+            name: "Thành Kiếp - Vô Minh Tăng Trưởng",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiao/constellation_5.png"
         },
         cm6: {
-            name: "",
+            name: "Hàng Ma - Hộ Pháp Dạ Xoa",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiao/constellation_6.png"
         }
     },
@@ -1124,51 +1124,51 @@ export const GI = [
         back: `${fo}`,
         story: "'Thiên Quyền' trong Thất Tinh Liyue, giàu có nổi tiếng, khắp đại lục khó ai sánh bằng.",
         skill1: {
-            name: "",
+            name: "Ngàn Vàng Lấp Lánh",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Catalyst.png"
         },
         skill2: {
-            name: "",
+            name: "Vách Toàn Cơ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ningguang/talent_2.png"
         },
         skill3: {
-            name: "",
+            name: "Thiên Quyền Băng Ngọc",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ningguang/talent_3.png"
         },
         skill4: {
-            name: "",
+            name: "Vật Đổi Sao Dời",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ningguang/talent_4.png"
         },
         skill5: {
-            name: "",
+            name: "Kiếm Củi Ba Năm Thiêu Một Giờ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ningguang/talent_5.png"
         },
         skill6: {
-            name: "",
+            name: "Bộ Sưu Tập Đá Quý",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ningguang/talent_6.png"
         },
         cm1: {
-            name: "",
+            name: "Huyền Tinh Tán Mây",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ningguang/constellation_1.png"
         },
         cm2: {
-            name: "",
+            name: "Toàn Cơ Kết Hợp Trấn Côn Lôn",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ningguang/constellation_2.png"
         },
         cm3: {
-            name: "",
+            name: "Liệt Thiên Quyền Lâm",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ningguang/constellation_3.png"
         },
         cm4: {
-            name: "",
+            name: "Thần Cơ Công Thủ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ningguang/constellation_4.png"
         },
         cm5: {
-            name: "",
+            name: "Thiên Phiến Chính Thiên Hoành",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ningguang/constellation_5.png"
         },
         cm6: {
-            name: "",
+            name: "Thất Tinh Lưu Quang",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ningguang/constellation_6.png"
         }
     },
@@ -1180,51 +1180,51 @@ export const GI = [
         back: `${fo}`,
         story: "Thuật sĩ giả kim với lòng hiếu kỳ mọi sự vật xung quanh. Là nhà nghiên cứu của học phái Giả Kim Sinh Vật.",
         skill1: {
-            name: "",
+            name: "Gió Thần Sáng Tạo",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Catalyst.png"
         },
         skill2: {
-            name: "",
+            name: "Gió Thần Sáng Tạo 6308",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Sucrose/talent_2.png"
         },
         skill3: {
-            name: "",
+            name: "Cấm-Gió Thần Sáng Tạo-75 Loại 2",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Sucrose/talent_3.png"
         },
         skill4: {
-            name: "",
+            name: "Thay Thế Xúc Tác",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Sucrose/talent_4.png"
         },
         skill5: {
-            name: "",
+            name: "Gió Thổi Nhẹ Nhàng",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Sucrose/talent_5.png"
         },
         skill6: {
-            name: "",
+            name: "Phát Hiện Không Ổn Định",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Sucrose/talent_6.png"
         },
         cm1: {
-            name: "",
+            name: "Vùng Chân Không",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Sucrose/constellation_1.png"
         },
         cm2: {
-            name: "",
+            name: "Beth Ngỗ Ngược",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Sucrose/constellation_2.png"
         },
         cm3: {
-            name: "",
+            name: "Thiếu Nữ Hoàn Hảo",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Sucrose/constellation_3.png"
         },
         cm4: {
-            name: "",
+            name: "Ảo Tưởng Giả Kim",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Sucrose/constellation_4.png"
         },
         cm5: {
-            name: "",
+            name: "Bình Chăm Chỉ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Sucrose/constellation_5.png"
         },
         cm6: {
-            name: "",
+            name: "Thuyết Hỗn Loạn",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Sucrose/constellation_6.png"
         }
     },
@@ -1236,51 +1236,51 @@ export const GI = [
         back: `${fi}`,
         story: "Ronin Samurai đến từ Inazuma, nay đã gia nhập đội thuyền 'Nam Thập Tự' Liyue. Tính tình ôn hòa, hào sảng, trong lòng chất chứa nhiều chuyện xưa.",
         skill1: {
-            name: "",
+            name: "Kiếm Thuật Garyuu",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Sword.png"
         },
         skill2: {
-            name: "",
+            name: "Chihayaburu",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kazuha/talent_2.png"
         },
         skill3: {
-            name: "",
+            name: "Kazuha Nhất Đao Trảm",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kazuha/talent_3.png"
         },
         skill4: {
-            name: "",
+            name: "Kiếm Pháp Soumon",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kazuha/talent_4.png"
         },
         skill5: {
-            name: "",
+            name: "Cảnh Vật Thì Thầm",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kazuha/talent_5.png"
         },
         skill6: {
-            name: "",
+            name: "Cuốn Theo Chiều Gió",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kazuha/talent_6.png"
         },
         cm1: {
-            name: "",
+            name: "Sắc Đỏ Vạn Dặm",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kazuha/constellation_1.png"
         },
         cm2: {
-            name: "",
+            name: "Bão Tố Yamaarashi",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kazuha/constellation_2.png"
         },
         cm3: {
-            name: "",
+            name: "Phong Tụ Kỳ Đàm",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kazuha/constellation_3.png"
         },
         cm4: {
-            name: "",
+            name: "Oozora Genpou",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kazuha/constellation_4.png"
         },
         cm5: {
-            name: "",
+            name: "Trí Tuệ Bansei",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kazuha/constellation_5.png"
         },
         cm6: {
-            name: "",
+            name: "Lá Phong Đỏ Thẫm",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kazuha/constellation_6.png"
         }
     },
@@ -1292,51 +1292,51 @@ export const GI = [
         back: `${fi}`,
         story: "Ngọc Hành Tinh, một trong Thất Tinh Liyue. Đối với việc 'Liyue hoàn toàn được quyết định bởi Đế Quân' có chút không hài lòng... nhưng trên thực tế, Thần cũng rất coi trọng những người như cô.",
         skill1: {
-            name: "",
+            name: "Vân Lai Kiếm Pháp",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Sword.png"
         },
         skill2: {
-            name: "",
+            name: "Tinh Đẩu Quy Vị",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Keqing/talent_2.png"
         },
         skill3: {
-            name: "",
+            name: "Tuần Du Thiên Nhai",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Keqing/talent_3.png"
         },
         skill4: {
-            name: "",
+            name: "Sự Trừng Phạt Sấm Sét",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Keqing/talent_4.png"
         },
         skill5: {
-            name: "",
+            name: "Ngọc Hành Cao Quý",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Keqing/talent_5.png"
         },
         skill6: {
-            name: "",
+            name: "Thổ Địa Tổng Vụ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Keqing/talent_6.png"
         },
         cm1: {
-            name: "",
+            name: "Sấm Sét Trừng Phạt",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Keqing/constellation_1.png"
         },
         cm2: {
-            name: "",
+            name: "Nghiêm Nghị Hà Khắc",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Keqing/constellation_2.png"
         },
         cm3: {
-            name: "",
+            name: "Trèo Tháp",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Keqing/constellation_3.png"
         },
         cm4: {
-            name: "",
+            name: "Điều Luật",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Keqing/constellation_4.png"
         },
         cm5: {
-            name: "",
+            name: "Đèn Di Chuyển",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Keqing/constellation_5.png"
         },
         cm6: {
-            name: "",
+            name: "Sao Liêm Trinh",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Keqing/constellation_6.png"
         }
     },
@@ -1348,51 +1348,51 @@ export const GI = [
         back: `${fo}`,
         story: "Học giả đến từ 'trăm năm trước', thích được gọi là tiền bối, chuyên nghiên cứu về các loại văn tự cổ xưa và cơ quan cổ điển.",
         skill1: {
-            name: "",
+            name: "Tiễn Thuật Parthian",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Bow.png"
         },
         skill2: {
-            name: "",
+            name: "Phi Tưởng Phong Thiên",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Faruzan/talent_2.png"
         },
         skill3: {
-            name: "",
+            name: "Lối Đi Riêng Của Gió",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Faruzan/talent_3.png"
         },
         skill4: {
-            name: "",
+            name: "Ngọn Gió Nhanh Nhẹn",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Faruzan/talent_4.png"
         },
         skill5: {
-            name: "",
+            name: "Trí Tuệ Trong Di Tích",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Faruzan/talent_5.png"
         },
         skill6: {
-            name: "",
+            name: "Ngàn Sách Soi Đường Dài",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Faruzan/talent_6.png"
         },
         cm1: {
-            name: "",
+            name: "Sự Thật Bằng Mọi Cách",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Faruzan/constellation_1.png"
         },
         cm2: {
-            name: "",
+            name: "Quên Mình Luyện Tri Thức",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Faruzan/constellation_2.png"
         },
         cm3: {
-            name: "",
+            name: "Dạo Bước Vườn Linh Hồn",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Faruzan/constellation_3.png"
         },
         cm4: {
-            name: "",
+            name: "Giác Ngộ Từ Thần Cơ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Faruzan/constellation_4.png"
         },
         cm5: {
-            name: "",
+            name: "Cảnh Đẹp Trong Tư Duy",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Faruzan/constellation_5.png"
         },
         cm6: {
-            name: "",
+            name: "Đường Chân Lý Kỳ Diệu",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Faruzan/constellation_6.png"
         }
     }
