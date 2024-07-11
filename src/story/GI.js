@@ -452,51 +452,51 @@ export const GI = [
         back: `${fo}`,
         story: "Mọi người trong thành Mondstadt đều yêu quý Barbara. Từ 'Thần Tượng' là do cô đọc được từ một cuốn tạp chí.",
         skill1: {
-            name: "",
+            name: "Giọng Ca Của Nước",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Catalyst.png"
         },
         skill2: {
-            name: "",
+            name: "Buổi Diễn, Bắt Đầu♪",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Barbara/talent_2.png"
         },
         skill3: {
-            name: "",
+            name: "Kỳ Tích Vinh Diệu♪",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Barbara/talent_3.png"
         },
         skill4: {
-            name: "",
+            name: "Mùa Huy Hoàng",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Barbara/talent_4.png"
         },
         skill5: {
-            name: "",
+            name: "Lập Lại",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Barbara/talent_5.png"
         },
         skill6: {
-            name: "",
+            name: "Toàn Tâm Toàn Ý♪",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Barbara/talent_6.png"
         },
         cm1: {
-            name: "",
+            name: "Ca Dao Sắc Màu",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Barbara/constellation_1.png"
         },
         cm2: {
-            name: "",
+            name: "Bùng Nổ Nguyên Khí",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Barbara/constellation_2.png"
         },
         cm3: {
-            name: "",
+            name: "Ngôi Sao Ngày Mai",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Barbara/constellation_3.png"
         },
         cm4: {
-            name: "",
+            name: "Nỗ Lực Là Ma Thuật",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Barbara/constellation_4.png"
         },
         cm5: {
-            name: "",
+            name: "Liên Kết Thuần Khiết",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Barbara/constellation_5.png"
         },
         cm6: {
-            name: "",
+            name: "Dành Cho Em Thứ Tốt Đẹp Nhất",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Barbara/constellation_6.png"
         }
     },
