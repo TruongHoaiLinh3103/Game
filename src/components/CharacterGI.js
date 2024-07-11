@@ -50,15 +50,12 @@ const CharacterGI = () => {
                                         <div className='Talents-box'>
                                             <div className= "-item_skile" style={{backgroundImage: `url(${item.skill1.img})`}}>
                                                 <h5>{item.skill1.name}</h5>
-                                                <p>{item.skill1.delta}</p>
                                             </div>
                                             <div className= "-item_skile" style={{backgroundImage: `url(${item.skill2.img})`}}>
                                                 <h5>{item.skill2.name}</h5>
-                                                <p>{item.skill2.delta}</p>
                                             </div>
                                             <div className= "-item_skile" style={{backgroundImage: `url(${item.skill3.img})`}}>
                                                 <h5>{item.skill3.name}</h5>
-                                                <p>{item.skill3.delta}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -67,15 +64,12 @@ const CharacterGI = () => {
                                         <div className='Passives-box'>
                                             <div className= "-item_skile" style={{backgroundImage: `url(${item.skill4.img})`}}>
                                                 <h5>{item.skill4.name}</h5>
-                                                <p>{item.skill4.delta}</p>
                                             </div>
                                             <div className= "-item_skile" style={{backgroundImage: `url(${item.skill5.img})`}}>
                                                 <h5>{item.skill5.name}</h5>
-                                                <p>{item.skill5.delta}</p>
                                             </div>
                                             <div className= "-item_skile" style={{backgroundImage: `url(${item.skill6.img})`}}>
                                                 <h5>{item.skill6.name}</h5>
-                                                <p>{item.skill6.delta}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -83,27 +77,21 @@ const CharacterGI = () => {
                                     <div className='skill-Constellations'>
                                         <div className= "-item_skile" style={{backgroundImage: `url(${item.cm1.img})`}}>
                                             <h5>{item.cm1.name}</h5>
-                                            <p>{item.cm1.delta}</p>
                                         </div>
                                         <div className= "-item_skile" style={{backgroundImage: `url(${item.cm2.img})`}}>
                                             <h5>{item.cm2.name}</h5>
-                                            <p>{item.cm2.delta}</p>
                                         </div>
                                         <div className= "-item_skile" style={{backgroundImage: `url(${item.cm3.img})`}}>
                                             <h5>{item.cm3.name}</h5>
-                                            <p>{item.cm3.delta}</p>
                                         </div>
                                         <div className= "-item_skile" style={{backgroundImage: `url(${item.cm4.img})`}}>
                                             <h5>{item.cm4.name}</h5>
-                                            <p>{item.cm4.delta}</p>
                                         </div>
                                         <div className= "-item_skile" style={{backgroundImage: `url(${item.cm5.img})`}}>
                                             <h5>{item.cm5.name}</h5>
-                                            <p>{item.cm5.delta}</p>
                                         </div>
                                         <div className= "-item_skile" style={{backgroundImage: `url(${item.cm6.img})`}}>
                                             <h5>{item.cm6.name}</h5>
-                                            <p>{item.cm6.delta}</p>
                                         </div>
                                     </div>
                                 </div>

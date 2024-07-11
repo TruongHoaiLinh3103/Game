@@ -1391,5 +1391,30 @@ export const AOV = [
             img: `${AyaSk4}`,
             delta: "Tạo pháp trận quanh đồng đội có lá chắn linh hồn giúp đồng đội tăng tốc chạy và gây sát thương lên địch trong phạm vi khiến địch bị biến hình"
         }
-    }
+    },
+    // {
+    //     id: 49,
+    //     name: "Ilumia",
+    //     poster: "",
+    //     skill1: {
+    //         name: "Thần lực",
+    //         img: `${}`,
+    //         delta: "Nội tại: Quả cầu ánh sáng sẽ lập tức được làm mới thời gian hồi, đồng thời được cường hóa trong vòng 3 giây tiếp theo sau mỗi khi Ilumia tung 2 chiêu bất kỳ."
+    //     },
+    //     skill2: {
+    //         name: "Quả cầu ánh sáng",
+    //         img: `${}`,
+    //         delta: "Ilumia tung quả cầu năng lượng theo hướng chỉ định, phát nổ khi bay hết tầm hoặc trúng phải mục tiêu, gây sát thương phép. Khi được cường hóa bởi nội tại, Quả cầu ánh sáng sẽ gây thêm nhiều sát thương trên đường bay, tăng tối đa nếu ở điểm cuối và hất văng các nạn nhân trúng chiêu. Những nạn nhân bị hất văng khi chạm đất sẽ bị choáng và làm chậm."
+    //     },
+    //     skill3: {
+    //         name: "Trục xuất",
+    //         img: `${}`,
+    //         delta: "Ilumia đẩy lùi mọi kẻ địch lân cận, gây sát thương phép. Nếu có nạn nhân trúng chiêu, chúng sẽ bị làm chậm và khiến Ilumia được tăng tốc chạy."
+    //     },
+    //     skill4: {
+    //         name: "Thần trận",
+    //         img: `${}`,
+    //         delta: "Ilumia triệu hồi pháp trận chứa đầy sức mạnh thần thánh ngay vị trí hiện tại của tất cả tướng địch, làm hiện hình chúng trong thời gian ngắn, gây sát thương phép và làm choáng các nạn nhân."
+    //     }
+    // }
 ]
