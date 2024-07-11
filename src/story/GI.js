@@ -196,64 +196,64 @@ export const GI = [
         back: `${fi}`,
         story: "Là Tôn Chủ Narukami Ogosho đại nhân, đưa người dân Inazuma hướng đến sự 'vĩnh hằng' ngàn năm không đổi.",
         skill1: {
-            name: "",
+            name: "Cội Nguồn",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Polearm.png",
             delta: "Đòn tấn công thông thường."
         },
         skill2: {
-            name: "",
+            name: "Thần Biến - Ánh Chớp Tà Ác",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Raiden/talent_2.png",
-            delta: ""
+            delta: "Trở thành một phần của thần. Lôi Thần có thể trao tay và mắt cho thuộc hạ để thay người phán xử."
         },
         skill3: {
-            name: "",
+            name: "Bí Kỹ - Mộng Tưởng Chân Thuyết",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Raiden/talent_3.png",
-            delta: ""
+            delta: "Bí kiếm mới lĩnh ngộ gần đây của Lôi Thần, loại bỏ 'Vô Tưởng', chuyển thành 'Mộng Tưởng'. Từ 'Chân Thuyết' có nghĩa là đổi mới, câu chuyện của Inazuma cũng sẽ sang trang."
         },
         skill4: {
-            name: "",
+            name: "Ngàn Vạn Ước Nguyện",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Raiden/talent_4.png",
-            delta: ""
+            delta: "Nhân vật trong đội ở gần khi nhận được Nguyên Tố Tinh Cầu hoặc Nguyên Tố Hạt Nhân sẽ tích tụ 2 tầng Ý Lực cho Ước Nguyện Chakra. Hiệu quả này mỗi 3s tối đa kích hoạt một lần."
         },
         skill5: {
-            name: "",
+            name: "Thực Thể Khai Sáng",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Raiden/talent_5.png",
-            delta: ""
+            delta: "Mỗi 1% thừa ra khi Hiệu Quả Nạp Nguyên Tố vượt quá 100%, sẽ giúp Raiden Shogun nhận được hiệu quả: ·Tăng 0.6% hồi phục Năng Lượng Nguyên Tố trong trạng thái Mộng Tưởng Nhất Tâm; ·Tăng 0.4% buff Sát Thương Nguyên Tố Lôi."
         },
         skill6: {
-            name: "",
+            name: "Kẻ Trấn Giữ Thiên Hạ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Raiden/talent_6.png",
-            delta: ""
+            delta: "Khi đột phá kiếm đơn và vũ khí cán dài, lượng Mora tiêu hao giảm 50%."
         },
         cm1: {
-            name: "",
+            name: "Lời Tiên Tri Đen Tối",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Raiden/constellation_1.png",
-            delta: ""
+            delta: "Ước Nguyện Chakra có thể tích tụ Ý Lực nhanh hơn. Nhân vật Nguyên Tố Lôi sau khi thi triển Kỹ Năng Nộ sẽ tăng 80% tích lũy Ý Lực; nhân vật nguyên tố khác sau khi thi triển Kỹ Năng Nộ sẽ tăng 20% tích lũy Ý Lực."
         },
         cm2: {
-            name: "",
+            name: "Càn Quét Thiên Hạ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Raiden/constellation_2.png",
-            delta: ""
+            delta: "Khi trong trạng thái Mộng Tưởng Nhất Đao và Mộng Tưởng Nhất Tâm của Bí Kỹ - Mộng Tưởng Chân Thuyết, tấn công của Raiden Shogun sẽ bỏ qua 60% phòng ngự của địch."
         },
         cm3: {
-            name: "",
+            name: "Chuyện Xưa Kể Lại",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Raiden/constellation_3.png",
-            delta: ""
+            delta: "Cấp kỹ năng Bí Kỹ - Mộng Tưởng Chân Thuyết +3. Tăng tối đa đến cấp 15."
         },
         cm4: {
-            name: "",
+            name: "Thờ Phụng Lẽ Phải",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Raiden/constellation_4.png",
-            delta: ""
+            delta: "Mộng Tưởng Nhất Tâm của Bí Kỹ - Mộng Tưởng Chân Thuyết sau khi kết thúc, tất cả nhân vật trong đội gần đó (Không bao gồm Raiden Shogun) sẽ tăng 30% tấn công, duy trì 10s."
         },
         cm5: {
-            name: "",
+            name: "Shogun Giáng Lâm",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Raiden/constellation_5.png",
-            delta: ""
+            delta: "Cấp kỹ năng Thần Biến - Ánh Chớp Tà Ác +3. Tăng tối đa đến cấp 15."
         },
         cm6: {
-            name: "",
+            name: "Kế Thừa Ước Nguyện",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Raiden/constellation_6.png",
-            delta: ""
+            delta: "Khi trong trạng thái Mộng Tưởng Nhất Tâm của Bí Kỹ - Mộng Tưởng Chân Thuyết, sát thương Kỹ Năng Nộ của Raiden Shogun trúng kẻ địch sẽ giảm 1s CD Kỹ Năng Nộ của tất cả nhân vật trong đội ở gần đó (Không bao gồm Raiden Shogun). Hiệu quả này mỗi giây tối đa kích hoạt 1 lần, trong thời gian duy trì tối đa kích hoạt 5 lần."
         }
     },
     {
@@ -264,64 +264,64 @@ export const GI = [
         back: `${fo}`,
         story: "Hầu gái đáng tin cậy của Đội Kỵ Sĩ Tây Phong, mơ ước một ngày nào đó sẽ trở thành kỵ sĩ chính thức.",
         skill1: {
-            name: "",
+            name: "Tây Phong Kiếm Thuật - Hầu Gái",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Claymore.png",
             delta: "Đòn tấn công thông thường."
         },
         skill2: {
-            name: "",
+            name: "Giáp Hộ Tâm",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/talent_2.png",
-            delta: ""
+            delta: "Noelle tuy là hầu gái nhưng cũng là một kỵ sĩ kiên cường."
         },
         skill3: {
-            name: "",
+            name: "Quét Sạch",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/talent_3.png",
-            delta: ""
+            delta: "Đôi lúc không chỉ có bụi bẩn mới cần quét dọn..."
         },
         skill4: {
-            name: "",
+            name: "Toàn Tâm Toàn Ý",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/talent_4.png",
-            delta: ""
+            delta: "Nếu Noelle ở trạng thái chờ mà nhân vật của bản thân đang chiến đấu có HP thấp hơn 30% sẽ tự động kích hoạt: Tạo ra khiên có thể hấp thu sát thương tương đương 400% phòng ngự của Noelle cho nhân vật của bản thân trong trận hiện tại, duy trì 20s. Có hiệu quả hấp thụ 150% tất cả sát thương nguyên tố và sát thương vật lý. Hiệu quả này mỗi 60s chỉ kích hoạt 1 lần."
         },
         skill5: {
-            name: "",
+            name: "Gọn Gàng",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/talent_5.png",
-            delta: ""
+            delta: "Tấn công thường hoặc trọng kích của Noelle tích lũy đánh trúng kẻ địch 4 lần sẽ giảm 1s CD của Giáp Hộ Tâm. Mỗi 0.1s tối đa tính 1 lần."
         },
         skill6: {
-            name: "",
+            name: "Thái Độ Của Hầu Gái",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/talent_6.png",
-            delta: ""
+            delta: "Nấu hoàn mỹ món ăn thuộc loại phòng ngự, có tỷ lệ 12% x2 sản lượng."
         },
         cm1: {
-            name: "",
+            name: "Chi Viện Cứ Giao Cho Tôi",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/constellation_1.png",
-            delta: ""
+            delta: "Khi cùng lúc ở trong trạng thái Quét Sạch và Giáp Hộ Tâm, tỷ lệ kích hoạt hiệu quả hồi HP của Giáp Hộ Tâm tăng đến 100%."
         },
         cm2: {
-            name: "",
+            name: "Hầu Gái Lốc Xoáy",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/constellation_2.png",
-            delta: ""
+            delta: "Thể lực mà trọng kích của Noelle tiêu hao sẽ giảm 20%, sát thương tăng 15%."
         },
         cm3: {
-            name: "",
+            name: "Hầu Gái Không Đau",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/constellation_3.png",
-            delta: ""
+            delta: "Cấp kỹ năng Giáp Hộ Tâm +3. Tăng tối đa đến cấp 15."
         },
         cm4: {
-            name: "",
+            name: "Sẽ Dọn Dẹp Sạch Sẽ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/constellation_4.png",
-            delta: ""
+            delta: "Khi hiệu quả Giáp Hộ Tâm kết thúc hoặc do sát thương đánh vỡ, sẽ gây ra sát thương nguyên tố Nham tương đương 400% tấn công cho kẻ địch xung quanh."
         },
         cm5: {
-            name: "",
+            name: "Chuyên Gia Quét Dọn Đội Kỵ Sĩ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/constellation_5.png",
-            delta: ""
+            delta: "Cấp kỹ năng Quét Sạch +3. Tăng tối đa đến cấp 15."
         },
         cm6: {
-            name: "",
+            name: "Phải Sạch Bong Kin Kít",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/constellation_6.png",
-            delta: ""
+            delta: "Quét Sạch tăng thêm sức tấn công tương đương 50% phòng ngự của Noelle. Ngoài ra, trong thời gian duy trì kỹ năng, mỗi lần đánh bại 1 kẻ địch, thời gian sẽ kéo dài thêm 1s, tối đa 10s."
         }
     },
     {
