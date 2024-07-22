@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import '../styles/characterlq.scss';
+import '../styles/loadinglq.scss';
 import { AOV } from '../story/AOV';
 
 const CharacterLQ = () => {
+    const [loading, setLoading] = useState(true);
     const [skill, setSkill] = useState({
         img: "",
         name: "",
@@ -21,27 +23,30 @@ const CharacterLQ = () => {
             <div className='CharacterLQ-Item'>
                 {AOV.map((item) => {
                     return(
-                        <div key={item.id} className='CharacterLQ_Char'>
-                            <div className='_Char-video'>
-                                <img src={item.poster} alt={item.name}/>
-                            </div>
-                            <div className='_Char-profile'>
-                                <h3>{item.name}</h3>
-                                <div className='_Char-profile_Skill'>
-                                    <div className='_Skill-img' onClick={() => OneSK(item.skill1)}>
-                                        <img src={item.skill1.img} alt='skill1'/>
-                                    </div>
-                                    <div className='_Skill-img' onClick={() => OneSK(item.skill2)}>
-                                        <img src={item.skill2.img} alt='skill2'/>
-                                    </div>
-                                    <div className='_Skill-img' onClick={() => OneSK(item.skill3)}>
-                                        <img src={item.skill3.img} alt='skill3'/>
-                                    </div>
-                                    <div className='_Skill-img' onClick={() => OneSK(item.skill4)}>
-                                        <img src={item.skill4.img} alt='skill4'/>
+                        <div key={item.id}>
+                            <div className='CharacterLQ_Char' style={{display : !loading ? "flex" : "none"}} onLoad={() => setLoading(false)}>
+                                <div className='_Char-video'>
+                                    <img src={item.poster} alt={item.name}/>
+                                </div>
+                                <div className='_Char-profile'>
+                                    <h3>{item.name}</h3>
+                                    <div className='_Char-profile_Skill'>
+                                        <div className='_Skill-img' onClick={() => OneSK(item.skill1)}>
+                                            <img src={item.skill1.img} alt='skill1'/>
+                                        </div>
+                                        <div className='_Skill-img' onClick={() => OneSK(item.skill2)}>
+                                            <img src={item.skill2.img} alt='skill2'/>
+                                        </div>
+                                        <div className='_Skill-img' onClick={() => OneSK(item.skill3)}>
+                                            <img src={item.skill3.img} alt='skill3'/>
+                                        </div>
+                                        <div className='_Skill-img' onClick={() => OneSK(item.skill4)}>
+                                            <img src={item.skill4.img} alt='skill4'/>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <span className="loaderLQ" style={{display : loading ? "block" : "none"}}></span>
                         </div>
                     )
                 })}
