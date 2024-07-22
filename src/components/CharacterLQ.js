@@ -17,14 +17,21 @@ const CharacterLQ = () => {
             delta: item.delta
         })
     }
+    const handleLoad = (n) => {
+        if(n){
+            setLoading(false)
+        }else{
+            setLoading(true)
+        }
+    }
     return (
         <div className='CharacterLQ'>
             <h3 className='CharacterLQ-h3'>Arena of Valor</h3>
             <div className='CharacterLQ-Item'>
                 {AOV.map((item) => {
                     return(
-                        <div key={item.id}>
-                            <div className='CharacterLQ_Char' style={{display : !loading ? "flex" : "none"}} onLoad={() => setLoading(item.id ? false : true)}>
+                        <div key={item.id} onLoad={() => handleLoad(item)}>
+                            <div className='CharacterLQ_Char' style={{display : !loading ? "flex" : "none"}} onLoad={() => setLoading(false)}>
                                 <div className='_Char-video'>
                                     <img src={item.poster} alt={item.name}/>
                                 </div>
