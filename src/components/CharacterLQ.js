@@ -24,7 +24,7 @@ const CharacterLQ = () => {
                 {AOV.map((item) => {
                     return(
                         <div key={item.id}>
-                            <div className='CharacterLQ_Char' style={{display : !loading ? "flex" : "none"}} onLoad={() => setLoading(false)}>
+                            <div className='CharacterLQ_Char' style={{display : !loading ? "flex" : "none"}} onLoad={() => setLoading(item.id ? false : true)}>
                                 <div className='_Char-video'>
                                     <img src={item.poster} alt={item.name}/>
                                 </div>

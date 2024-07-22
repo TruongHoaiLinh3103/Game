@@ -25,11 +25,11 @@ const CharacterGI = () => {
                     <div key={item.id}>
                         {char === item.id && 
                             <>
-                                <div className='CharacterGI-build' style={{display : !loading ? "block" : "none"}} onLoad={() => setLoading(false)}>
+                                <div className='CharacterGI-build' style={{display : !loading ? "block" : "none"}} onLoad={() => setLoading(item.id ? false : true)}>
                                     <img src={item.img} alt={item.name} data-aos="zoom-in"/>
                                 </div>
                                 <div style={{display : loading ? "flex" : "none"}} className='CharacterGI-build_ld'>
-                                    <span class="loaderGI"></span>
+                                    <span className="loaderGI"></span>
                                 </div>
                             </>
                         }
