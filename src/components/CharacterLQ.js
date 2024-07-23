@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import '../styles/characterlq.scss';
 import '../styles/loadinglq.scss';
 import { AOV } from '../story/AOV';
+import LazyLoad from 'react-lazyload';
 
 const CharacterLQ = () => {
-    const [loading, setLoading] = useState(true);
     const [skill, setSkill] = useState({
         img: "",
         name: "",
@@ -18,12 +18,6 @@ const CharacterLQ = () => {
         })
     }
 
-    const handleLoad = () => {
-        setTimeout(() => {
-            setLoading(false)
-        }, 3000)
-    }
-
     return (
         <div className='CharacterLQ'>
             <h3 className='CharacterLQ-h3'>Arena of Valor</h3>
@@ -31,7 +25,7 @@ const CharacterLQ = () => {
                 {AOV.map((item) => {
                     return(
                         <div key={item.id}>
-                            <div className='CharacterLQ_Char' style={{display : !loading ? "flex" : "none"}} onLoad={() => handleLoad()}>
+                            <LazyLoad placeholder={<span className="loaderLQ"></span>} once className='CharacterLQ_Char'>
                                 <div className='_Char-video'>
                                     <img src={item.poster} alt={item.name}/>
                                 </div>
@@ -52,8 +46,7 @@ const CharacterLQ = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <span className="loaderLQ" style={{display : loading ? "block" : "none"}}></span>
+                            </LazyLoad>
                         </div>
                     )
                 })}
