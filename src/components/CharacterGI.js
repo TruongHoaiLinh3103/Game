@@ -8,8 +8,12 @@ const CharacterGI = () => {
     const [char, setChar] = useState(1);
     const [loading, setLoading] = useState(true);
     const handleChar = (n) => {
-        setLoading(true)
-        setChar(n);
+        if(char === n){
+            setLoading(false)
+        }else{
+            setChar(n);
+            setLoading(true)
+        }
     }
     UseFetchAOS()
     return (
