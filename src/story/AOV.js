@@ -202,10 +202,6 @@ import LinSk1 from "../assets/Skill/Phục-kích.png";
 import LinSk2 from "../assets/Skill/Nguyệt-quang.png";
 import LinSk3 from "../assets/Skill/Nguyệt-vực.png";
 import LinSk4 from "../assets/Skill/Nguyệt-ảnh.png";
-import DexSk1 from "../assets/Skill/Huyết-chú.png";
-import DexSk2 from "../assets/Skill/Luân-hồi-cưa.png";
-import DexSk3 from "../assets/Skill/Huyết-sát-cưa.png";
-import DexSk4 from "../assets/Skill/Hiến-tế.png";
 import SinSk1 from "../assets/Skill/Hoa-máu.png";
 import SinSk2 from "../assets/Skill/Ngủ-đông.png";
 import SinSk3 from "../assets/Skill/Máu-quỷ.png";
@@ -218,10 +214,6 @@ import ZilSk1 from "../assets/Skill/Bão-tố.png";
 import ZilSk2 from "../assets/Skill/Phong-đao.png";
 import ZilSk3 from "../assets/Skill/Phong-độn.png";
 import ZilSk4 from "../assets/Skill/Phong-ba.png";
-import YenSk1 from "../assets/Skill/Bán nguyệt trảm.png";
-import YenSk2 from "../assets/Skill/Toái nguyệt trảm - Tụ nguyệt trảm.png";
-import YenSk3 from "../assets/Skill/Luân nguyệt trảm - Tứ nguyệt trảm.png";
-import YenSk4 from "../assets/Skill/Mãn nguyệt trảm - Hoành nguyệt trảm.png";
 
 export const AOV = [
     {
@@ -952,7 +944,7 @@ export const AOV = [
     {
         id: 30,
         name: "Laville",
-        poster: "https://i.pinimg.com/originals/76/54/77/7654775654d90c577864a0f0f6cd0126.png",
+        poster: "https://i.pinimg.com/originals/43/73/55/437355211675526afdb208e5d287ee7c.jpg",
         skill1: {
             name: "Đạn liên châu",
             img: `${LavSk1}`,
@@ -1177,7 +1169,7 @@ export const AOV = [
     {
         id: 39,
         name: "Alice",
-        poster: "https://i.pinimg.com/originals/6b/53/01/6b530150fd0d93e164ef5bfef410ae11.jpg",
+        poster: "https://i.pinimg.com/originals/c1/d2/78/c1d278b429620481995f3599e769af2f.jpg",
         skill1: {
             name: "Bước chân thần tốc",
             img: `${AliSk1}`,
@@ -1202,7 +1194,7 @@ export const AOV = [
     {
         id: 40,
         name: "Aleister",
-        poster: "https://i.pinimg.com/originals/d2/b0/b8/d2b0b8dcc470b3d3837e1baee6f5d394.jpg",
+        poster: "https://i.pinimg.com/originals/b4/72/eb/b472ebd6c857e5230dd107e320508b7c.jpg",
         skill1: {
             name: "Ma thuật đen",
             img: `${AleSk1}`,
@@ -1327,7 +1319,7 @@ export const AOV = [
     {
         id: 45,
         name: "Grakk",
-        poster: "https://i.pinimg.com/originals/b9/87/6c/b9876cb5f954a031a0810b183d94378d.jpg",
+        poster: "https://i.pinimg.com/originals/65/48/bb/6548bb422fcbdcb7b660f8559353fdab.jpg",
         skill1: {
             name: "Huyết tế",
             img: `${GraSk1}`,
@@ -1501,31 +1493,6 @@ export const AOV = [
     },
     {
         id: 52,
-        name: "Dextra",
-        poster: "https://i.pinimg.com/originals/69/54/61/6954613505395bddb48a5a441caf1d75.jpg",
-        skill1: {
-            name: "Huyết chú",
-            img: `${DexSk1}`,
-            delta: "Mỗi lần tung chiêu, đánh thường trúng tướng địch, Dextra được tăng công vật lý. Cộng dồn với mỗi tướng địch tối đa 8 lần nhưng không thể vượt quá 20 lần.  Nếu Sinestrea tung Máu quỷ vào Dextra, Dextra có thể lập tức kéo Sinestrea đến bên cạnh và nhờ thâu nạp huyết kiếm để hồi máu. Khi Sinestrea sử dụng Huyết tế, Dextra nhận được nút Huyết tế và có thể hiến tế toàn bộ sinh mệnh của bản thân để giúp Sinestrea hồi sinh."
-        },
-        skill2: {
-            name: "Luân hồi cưa",
-            img: `${DexSk2}`,
-            delta: "Dextra được tăng tốc chạy, được miễn làm chậm và tụ lực vào Huyết luân cưa rồi xông đến kẻ địch gây sát thương vật lý."
-        },
-        skill3: {
-            name: "Huyết sát cưa",
-            img: `${DexSk3}`,
-            delta: "Dextra gây sát thương vật lý trong phạm vi. Mỗi khi trúng 1 tướng, nàng sẽ được hồi máu đã mất. Ngoài ra đòn đánh thường của Dextra còn biến thành đánh lan."
-        },
-        skill4: {
-            name: "Hiến tế",
-            img: `${DexSk4}`,
-            delta: "Trong 3 giây tất cả sát thương gánh chịu sẽ chuyển thành máu. Nhưng mỗi lần hồi máu sẽ không vượt quá một lượng máu tối đa"
-        }
-    },
-    {
-        id: 53,
         name: "Sinestrea",
         poster: "https://i.pinimg.com/originals/e5/71/e1/e571e1168ccc096d4c50c0e23bb388e6.jpg",
         skill1: {
@@ -1550,7 +1517,7 @@ export const AOV = [
         }
     },
     {
-        id: 54,
+        id: 53,
         name: "Lindis",
         poster: "https://i.pinimg.com/originals/ee/7d/30/ee7d306bbef64091f66e7da41559c2a9.jpg",
         skill1: {
@@ -1575,7 +1542,7 @@ export const AOV = [
         }
     },
     {
-        id: 55,
+        id: 54,
         name: "Sephera",
         poster: "https://i.pinimg.com/originals/26/ac/d2/26acd2f442b7ff5ee775a40d33622440.jpg",
         skill1: {
@@ -1597,31 +1564,6 @@ export const AOV = [
             name: "Sóng ngầm",
             img: `${SepSk4}`,
             delta: "Sephera hòa mình vào dòng nước khiến bản thân không thể bị chọn làm mục tiêu trong 1.7 giây, đồng thời giúp hồimáu cho các đồng minh lân cận, và gây sát thương phép lên những kẻ địch cạnh bên."
-        }
-    },
-    {
-        id: 56,
-        name: "Yena",
-        poster: "https://i.pinimg.com/originals/d9/c3/d5/d9c3d5f15f4344494426d8ad2b56e895.jpg",
-        skill1: {
-            name: "Bán nguyệt trảm",
-            img: `${YenSk1}`,
-            delta: "Khi Yena dùng Song đao, cô được tăng tốc chạy. Đặc biệt mỗi lần cô sát thương tướng địch sẽ gây kèm hiệu ứng Nguyệt trảm; khi tích đủ 5 điểm cộng dồn hiệu ứng Yena sẽ gây sát thương vật lý, đồng thời khiến mục tiêu bị câm lặng và giảm tốc chạy. Yena cần có một khoảng thời gian hồi trước khi có thể áp dụng Nguyệt trảm lên cùng một kẻ địch. Khi Yena dùng Nguyệt đao, cô bị giảm tốc đánh, nhưng bù lại được tăng sát thương gây ra. Chưa hết, suốt thời gian Yena tung các kỹ năng, cô được miễn hiệu ứng và miễn thương."
-        },
-        skill2: {
-            name: "Toái nguyệt trảm / Tụ nguyệt trảm",
-            img: `${YenSk2}`,
-            delta: "Loan đao: Toái nguyệt trảm Yena lướt theo hướng chỉ định vung đao chém địch gây sát thương vật lý; nếu lượt đầu trúng đích, Yena có thể lướt tiếp lượt hai trong vòng 5 giây. Chiêu thức này có thể tung tối đa 2 lượt trước khi bắt đầu thời gian hồi chiêu. Viên đao: Tụ nguyệt trảm Yena tụ lực 2 giây rồi vung Nguyệt đao gây sát thương vật lý theo hướng chỉ định; tụ lực càng lâu sát thương càng mạnh. Nếu có nạn nhân trúng chiêu, Yena có thể dùng Tụ nguyệt trảm lần 2 trong vòng 5 giây kế."
-        },
-        skill3: {
-            name: "Luân nguyệt trảm / Tứ nguyệt trảm",
-            img: `${YenSk3}`,
-            delta: "Song đao - Luân nguyệt trảm: Yena phóng Song đao theo hướng chỉ định, gây sát thương vật lý, Song đao xoay tròn liên tục tại điểm cuối, gây sát thương vật lý lên mục tiêu trong phạm vi và giảm tốc chạy. Nguyệt đao - Tứ nguyệt trảm: Yena vung Nguyệt đao chém 4 lần theo hướng chỉ định, mỗi lần gây sát thương vật lý, đồng thời mỗi nhát chém sẽ khiến mục tiêu bị làm chậm và đẩy lùi. Riêng đợt 4 sẽ hất văng mọi mục tiêu. Đặc biệt nếu Yena tiến lại gần Song đao sẽ tự động thu hồi vũ khí và giúp bản thân giảm thời gian hồi chiêu này, bất kể đang cầm Song đao hay Nguyệt đao."
-        },
-        skill4: {
-            name: "Mãn nguyệt trảm / Hoành nguyệt trảm",
-            img: `${YenSk4}`,
-            delta: "Song đao - Mãn nguyệt trảm: Yena ghép cặp vũ khí thành Viên đao, gây sát thương vật lý lên các kẻ địch lân cận, đồng thời tăng công vật lý liên tục. Sau khi kích hoạt, Yena chuyển 3 chiêu hiện tại thành bộ chiêu mới sử dụng Nguyệt đao. Nguyệt đao - Hoành nguyệt trảm: Yena tách vũ khí thành cặp Loan đao chém ngang bốn phía, gây sát thương vật lý lên các nạn nhân lân cận, đồng thời tự tăng tốc đánh liên tục 5 giây. Sau khi kích hoạt, Yena chuyển 3 chiêu hiện tại thành bộ chiêu mới sử dụng Song đao."
         }
     }
 ]
