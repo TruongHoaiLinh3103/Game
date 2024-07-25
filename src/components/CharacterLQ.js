@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../styles/characterlq.scss';
 import '../styles/loadinglq.scss';
 import { AOV } from '../story/AOV';
-import LazyLoad from 'react-lazyload';
+import { LazyLoadComponent } from 'react-lazy-load-image-component';
 
 const CharacterLQ = () => {
     const [skill, setSkill] = useState({
@@ -24,8 +24,8 @@ const CharacterLQ = () => {
             <div className='CharacterLQ-Item'>
                 {AOV.map((item) => {
                     return(
-                        <div key={item.id}>
-                            <LazyLoad placeholder={<span className="loaderLQ"></span>} once className='CharacterLQ_Char'>
+                        <LazyLoadComponent key={item.id} placeholder={<span className="loaderLQ"></span>} >
+                            <div className='CharacterLQ_Char'>
                                 <div className='_Char-video'>
                                     <img src={item.poster} alt={item.name}/>
                                 </div>
@@ -46,8 +46,8 @@ const CharacterLQ = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </LazyLoad>
-                        </div>
+                            </div>
+                        </LazyLoadComponent>
                     )
                 })}
             </div>
