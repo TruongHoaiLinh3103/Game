@@ -139,9 +139,9 @@ const Login = (props) => {
                         <input type="password" name="password" id="password" placeholder="" value={password} 
                         onChange={(e) => setPassword(e.target.value)}
                         />
-                        <div className="forgot">
+                        {/*<div className="forgot">
                             <a hrel="noopener noreferrer" href="#" onClick={() => changePassword()}>Change Password ?</a>
-                        </div>
+                        </div>*/}
                     </div>
                     <a onClick={() => metho()}>
                         <span></span>
@@ -163,9 +163,9 @@ const Login = (props) => {
                         </svg>
                     </button>
                 </div>
-                <p className="signup">Don't have an account?
+                {/* <p className="signup">Don't have an account?
                     <a rel="noopener noreferrer" href="#" onClick={() => signUp()}> Sign up</a>
-                </p>
+                </p> */}
             </div>
         </div>
     );
