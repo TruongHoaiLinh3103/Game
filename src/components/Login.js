@@ -109,14 +109,14 @@ const Login = (props) => {
     }
 
     // NEXT PAGE SIGN UP
-    const signUp = () => {
-        props.checkNumber(1);
-    }
+    // const signUp = () => {
+    //     props.checkNumber(1);
+    // }
 
     //NEXT PAGE CHANGE PASS
-    const changePassword = () => {
-        props.checkNumber(3);
-    }
+    // const changePassword = () => {
+    //     props.checkNumber(3);
+    // }
     return (
         <div className='grid__colum12 backGroundColorFooter'>
             <div className="form-container">
