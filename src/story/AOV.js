@@ -419,7 +419,7 @@ export const AOV = [
     {
         id: 9,
         name: "Kaine",
-        poster: "https://i.pinimg.com/originals/7e/4d/a9/7e4da9355dc3abedd44c2bff4d659957.jpg",
+        poster: "https://i.pinimg.com/originals/4c/95/96/4c9596895943b0924f7d8b19272fc4b3.jpg",
         skill1: {
             name: "Truy nã",
             img: `${KaiSk1}`,
@@ -444,7 +444,7 @@ export const AOV = [
     {
         id: 10,
         name: "Veera",
-        poster: "https://i.pinimg.com/originals/8e/c9/5f/8ec95fb5ce4b9631d994fc95dc56ad6b.jpg",
+        poster: "https://i.pinimg.com/originals/99/ba/37/99ba3794b34734800cae4d701a6835a6.png",
         skill1: {
             name: "Mê hoặc",
             img: `${VeeSk1}`,
@@ -669,7 +669,7 @@ export const AOV = [
     {
         id: 19,
         name: "Krixi",
-        poster: "https://i.pinimg.com/originals/55/e9/af/55e9af7f2b1424c5521b8105d59fd511.jpg",
+        poster: "https://i.pinimg.com/originals/a2/13/99/a213998a7b03a589d758ae02cf0ea368.png",
         skill1: {
             name: "Tung cánh",
             img: `${KriSk1}`,
@@ -1294,7 +1294,7 @@ export const AOV = [
     {
         id: 44,
         name: "Toro",
-        poster: "https://i.pinimg.com/originals/89/58/4a/89584a9fa2112d1776cfc2bb3568d23a.jpg",
+        poster: "https://i.pinimg.com/originals/56/00/42/56004271001aa90c9c87316def4b816a.png",
         skill1: {
             name: "Mình đồng da sắc",
             img: `${TorSk1}`,
@@ -1394,7 +1394,7 @@ export const AOV = [
     {
         id: 48,
         name: "Aya",
-        poster: "https://i.pinimg.com/originals/2a/c9/08/2ac908cd4dfe11732753cf477e62b261.jpg",
+        poster: "https://i.pinimg.com/originals/11/6f/cb/116fcb84243ccd1a1879aa7f7936e934.jpg",
         skill1: {
             name: "Linh hồn sóc nhỏ",
             img: `${AyaSk1}`,
