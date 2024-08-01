@@ -219,7 +219,7 @@ export const AOV = [
     {
         id: 1,
         name: "Bright",
-        poster: "https://i.pinimg.com/originals/84/25/82/8425826eeaf9e71eb40f888dbded1ff1.jpg",
+        poster: "https://i.pinimg.com/originals/91/73/c2/9173c25b4777dd6824155ee8ac70406d.jpg",
         skill1: {
             name: "Thần lực ánh sáng",
             img: `${briSk1}`,
@@ -1244,7 +1244,7 @@ export const AOV = [
     {
         id: 42,
         name: "Cresht",
-        poster: "https://i.pinimg.com/originals/68/29/ba/6829ba96463bccad5f3971f3e74f9d7c.jpg",
+        poster: "https://i.pinimg.com/originals/19/3b/c9/193bc9deaddfa26076daa7cc4f8abb18.jpg",
         skill1: {
             name: "Đại dương thịnh nộ",
             img: `${CreSk1}`,
@@ -1269,7 +1269,7 @@ export const AOV = [
     {
         id: 43,
         name: "Max",
-        poster: "https://i.pinimg.com/originals/e2/61/d5/e261d5ee5a1dd311adb3d215dc08ba34.jpg",
+        poster: "https://i.pinimg.com/originals/b6/81/8b/b6818b557dd7476db2b2c7b8020f35be.jpg",
         skill1: {
             name: "Điện tích",
             img: `${MaxSk1}`,
