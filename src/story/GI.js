@@ -47,7 +47,10 @@ import Far from "../assets/AvataGI/Far.webp";
 import Gan from "../assets/AvataGI/Gan.webp";
 import Nin from "../assets/AvataGI/Nin.webp";
 import Kee from "../assets/AvataGI/Kee.webp";
-
+import Hei from "../assets/AvataGI/Hei.webp";
+import Col from "../assets/AvataGI/Col.webp";
+import Nil from "../assets/AvataGI/Nil.webp";
+import Kir from "../assets/AvataGI/Kir.webp";
 import fo from "../assets/AvataGI/4-Star.webp";
 import fi from "../assets/AvataGI/5-Star.webp";
 
@@ -1394,6 +1397,230 @@ export const GI = [
         cm6: {
             name: "Đường Chân Lý Kỳ Diệu",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Faruzan/constellation_6.png"
+        }
+    },
+    {
+        id: 25,
+        name: "Nilou",
+        // img: `${}`,
+        avatar: `${Nil}`,
+        back: `${fi}`,
+        story: "Vũ công nổi danh của Nhà Hát Zubayr, điệu nhảy sống động và tính cách hồn nhiên ấm áp.",
+        skill1: {
+            name: "Vũ Điệu Samser",
+            img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Sword.png"
+        },
+        skill2: {
+            name: "Vũ Điệu Haftkarsvar",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Nilou/talent_2.png"
+        },
+        skill3: {
+            name: "Vũ Điệu Abzendegi - Viễn Mộng Linh Tuyền",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Nilou/talent_3.png"
+        },
+        skill4: {
+            name: "Sảnh Đường Ngân Nga",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Nilou/talent_4.png"
+        },
+        skill5: {
+            name: "Giấc Mơ Ca Múa Ngàn Đời",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Nilou/talent_5.png"
+        },
+        skill6: {
+            name: "Sen Ngọc Tinh Khôi",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Nilou/talent_6.png"
+        },
+        cm1: {
+            name: "Bước Dạo Trăng Khuyết",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Nilou/constellation_1.png"
+        },
+        cm2: {
+            name: "Mưa Hoa Trời Sao",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Nilou/constellation_2.png"
+        },
+        cm3: {
+            name: "Vũ Đạo Phản Chiếu",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Nilou/constellation_3.png"
+        },
+        cm4: {
+            name: "Tiết Tấu Sóng Gợn",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Nilou/constellation_4.png"
+        },
+        cm5: {
+            name: "Ánh Sáng Xoay Vần",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Nilou/constellation_5.png"
+        },
+        cm6: {
+            name: "Cung Đàn Ngăn Sương",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Nilou/constellation_6.png"
+        }
+    },
+    {
+        id: 26,
+        name: "Kirara",
+        // img: `${}`,
+        avatar: `${Kir}`,
+        back: `${fo}`,
+        story: "Nhân viên giao hàng của 'Công Ty Chuyển Phát Komaniya' tại Inazuma, là một 'nekomata' yêu thích công việc của mình và xã hội loài người.",
+        skill1: {
+            name: "Cào Rách Hộp",
+            img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Sword.png"
+        },
+        skill2: {
+            name: "Mèo Tung Cước",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Kirara/talent_2.png"
+        },
+        skill3: {
+            name: "Bí Pháp - Chuyển Phát Đặc Biệt",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Kirara/talent_3.png"
+        },
+        skill4: {
+            name: "Đuôi Mèo Mê Hoặc",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Kirara/talent_4.png"
+        },
+        skill5: {
+            name: "Linh Hồn Rực Rỡ",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Kirara/talent_5.png"
+        },
+        skill6: {
+            name: "Mèo Đi Rón Rén",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Kirara/talent_6.png"
+        },
+        cm1: {
+            name: "Vật Chất Lưu Thông",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Kirara/constellation_1.png"
+        },
+        cm2: {
+            name: "Đóng Gói Hoàn Hảo",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Kirara/constellation_2.png"
+        },
+        cm3: {
+            name: "Tường Tận Ngõ Ngách",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Kirara/constellation_3.png"
+        },
+        cm4: {
+            name: "Đôi Chân Skanda",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Kirara/constellation_4.png"
+        },
+        cm5: {
+            name: "Một Ngày Vạn Dặm",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Kirara/constellation_5.png"
+        },
+        cm6: {
+            name: "Lưu Lại Cảnh Sắc",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Kirara/constellation_6.png"
+        }
+    },
+    {
+        id: 27,
+        name: "Shikanoin Heizou",
+        // img: `${}`,
+        avatar: `${Hei}`,
+        back: `${fo}`,
+        story: "Thám tử thiếu niên thiên tài của Hiệp Hội Tenryou, trực giác nhạy bén, tư duy sắc sảo.",
+        skill1: {
+            name: "Võ Thuật Fudou",
+            img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Catalyst.png"
+        },
+        skill2: {
+            name: "Lục Tâm Quyền",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Heizou/talent_2.png"
+        },
+        skill3: {
+            name: "Tụ Phong Cước",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Heizou/talent_3.png"
+        },
+        skill4: {
+            name: "Kinh Nghiệm Phản Biện",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Heizou/talent_4.png"
+        },
+        skill5: {
+            name: "Nhìn Thấu Nguyên Do",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Heizou/talent_5.png"
+        },
+        skill6: {
+            name: "Có Tội Từ Trước",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Heizou/talent_6.png"
+        },
+        cm1: {
+            name: "Tư Liệu Thiếu Niên",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Heizou/constellation_1.png"
+        },
+        cm2: {
+            name: "Tập Án Chuyên Biệt",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Heizou/constellation_2.png"
+        },
+        cm3: {
+            name: "Sổ Tay Giải Mã",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Heizou/constellation_3.png"
+        },
+        cm4: {
+            name: "Tuyển Tập Dối Trá",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Heizou/constellation_4.png"
+        },
+        cm5: {
+            name: "Kho Tàng Bí Mật",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Heizou/constellation_5.png"
+        },
+        cm6: {
+            name: "Hồ Sơ Hão Huyền",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Heizou/constellation_6.png"
+        }
+    },
+    {
+        id: 28,
+        name: "Collei",
+        // img: `${}`,
+        avatar: `${Col}`,
+        back: `${fo}`,
+        story: "Kiểm lâm tập sự nhiệt tình của Rừng Avidya, nhưng đằng sau sự nhiệt tình đó là một trái tim hướng nội đau buồn.",
+        skill1: {
+            name: "Mũi Tên Chúc Tụng",
+            img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Bow.png"
+        },
+        skill2: {
+            name: "Xua Hoa Quét Lá",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Collei/talent_2.png"
+        },
+        skill3: {
+            name: "Báu Vật Meo Meo",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Collei/talent_3.png"
+        },
+        skill4: {
+            name: "Lá Khẽ Bay Nghiêng",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Collei/talent_4.png"
+        },
+        skill5: {
+            name: "Rừng Rộng Gió Thoảng",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Collei/talent_5.png"
+        },
+        skill6: {
+            name: "Quán Quân Bay Lượn Sumeru",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Collei/talent_6.png"
+        },
+        cm1: {
+            name: "Bảo Vệ Rừng Rậm",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Collei/constellation_1.png"
+        },
+        cm2: {
+            name: "Dạo Bước Đồi Cỏ",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Collei/constellation_2.png"
+        },
+        cm3: {
+            name: "Hương Thơm Nắng Hạ",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Collei/constellation_3.png"
+        },
+        cm4: {
+            name: "Quà Tặng Rừng Sâu",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Collei/constellation_4.png"
+        },
+        cm5: {
+            name: "Tro Tàn Vạn Vật",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Collei/constellation_5.png"
+        },
+        cm6: {
+            name: "Rừng Nơi Tên Đáp",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Collei/constellation_6.png"
         }
     }
 ]
