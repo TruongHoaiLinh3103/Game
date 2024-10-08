@@ -206,10 +206,10 @@ import SinSk1 from "../assets/Skill/Hoa-máu.png";
 import SinSk2 from "../assets/Skill/Ngủ-đông.png";
 import SinSk3 from "../assets/Skill/Máu-quỷ.png";
 import SinSk4 from "../assets/Skill/Thay-máu.png";
-import SepSk1 from "../assets/Skill/Suối-nguồn.png";
-import SepSk2 from "../assets/Skill/Thủy-âm.png";
-import SepSk3 from "../assets/Skill/Ao-tù.png";
-import SepSk4 from "../assets/Skill/Sóng-ngầm.png";
+import ErrSk1 from "../assets/Skill/Tay ác ma.png";
+import ErrSk2 from "../assets/Skill/Tay lưỡi liềm.png";
+import ErrSk3 from "../assets/Skill/Tay đại đao.png";
+import ErrSk4 from "../assets/Skill/Mắt ma.png";
 import ZilSk1 from "../assets/Skill/Bão-tố.png";
 import ZilSk2 from "../assets/Skill/Phong-đao.png";
 import ZilSk3 from "../assets/Skill/Phong-độn.png";
@@ -669,7 +669,7 @@ export const AOV = [
     {
         id: 19,
         name: "Krixi",
-        poster: "https://i.pinimg.com/originals/a2/13/99/a213998a7b03a589d758ae02cf0ea368.png",
+        poster: "https://i.pinimg.com/originals/c2/df/5c/c2df5c2584e5c15008bd9c3f3f5f7acc.jpg",
         skill1: {
             name: "Tung cánh",
             img: `${KriSk1}`,
@@ -994,7 +994,7 @@ export const AOV = [
     {
         id: 32,
         name: "Natalya",
-        poster: "https://i.pinimg.com/originals/5c/6e/c0/5c6ec08be9f92b902bda998c50eb6cc0.jpg",
+        poster: "https://i.pinimg.com/originals/f4/b8/59/f4b859239c992093b2a1da8192cc70c6.jpg",
         skill1: {
             name: "Âm hỏa",
             img: `${NatSk1}`,
@@ -1294,7 +1294,7 @@ export const AOV = [
     {
         id: 44,
         name: "Toro",
-        poster: "https://i.pinimg.com/originals/56/00/42/56004271001aa90c9c87316def4b816a.png",
+        poster: "https://i.pinimg.com/originals/d0/57/3e/d0573ec6f831cadf6edce076012650f9.jpg",
         skill1: {
             name: "Mình đồng da sắc",
             img: `${TorSk1}`,
@@ -1543,27 +1543,27 @@ export const AOV = [
     },
     {
         id: 54,
-        name: "Sephera",
-        poster: "https://i.pinimg.com/originals/26/ac/d2/26acd2f442b7ff5ee775a40d33622440.jpg",
+        name: "Errol",
+        poster: "https://i.pinimg.com/originals/85/db/f4/85dbf4847de295957c7f951afa8ec9e8.jpg",
         skill1: {
-            name: "Suối nguồn",
-            img: `${SepSk1}`,
-            delta: "Nội tại: Mỗi khi tung chiêu Sephera sẽ kích hoạt nội tại Suối nguồn gây sát thương phép lên tướng địch lân cận thấp máu nhất, đồng thời hồi máu cho tướng đồng minh lân cận thấp máu nhất."
+            name: "Tay ác ma",
+            img: `${ErrSk1}`,
+            delta: "Đòn đánh thường trúng đích giúp Errol tăng 1 điểm Quỷ trảo, nhiều nhất 5 điểm, giúp tăng tốc chạy, tốc đánh, hút máu, nhưng giảm kháng phép và vật lý. Quỷ trảo kéo dài 5 giây. Mỗi 3 lần công thường tay phải sẽ chuyển thành tay ác ma đột kích."
         },
         skill2: {
-            name: "Thủy âm",
-            img: `${SepSk2}`,
-            delta: "Sephera gảy đàn tấn công 3 kẻ địch lân cận (ưu tiên tướng), gây sát thương phép, đồng thời làm chậm tốc chạy của nạn nhân trong 1 giây. Đặc biệt đòn đánh thường kế tiếp sau khi tung chiêu này sẽ gây sát thương phép, và giúp giảm 1 giây hồi tất cả chiêu."
+            name: "Tay lưỡi liềm",
+            img: `${ErrSk2}`,
+            delta: "Errol lướt phía trước vung tay lưỡi liềm quét ngang kẻ địch, gây sát thương vật lý  Trong quá trình lướt trúng gặp địch sẽ khiến địch bị định thân, đồng thời Errol thuấn di cạnh kẻ địch và tung Tay lưỡi liềm chém ngang địch, giảm hồi chiêu và hồi 1 phần máu đã mất."
         },
         skill3: {
-            name: "Ao tù",
-            img: `${SepSk3}`,
-            delta: "Sephera được tăng tốc chạy trong thoáng chốc, rồi 1.5 giây sau dựng lên một vòng tròn nước gây sát thương phép kèm hiệu ứng choáng, áp dụng đối với những nạn nhân đứng ở rìa."
+            name: "Tay đại đao",
+            img: `${ErrSk3}`,
+            delta: "Tay phải hóa thành đại đao, chém xuống những kẻ địch trên đường thẳng gây sát thương vật lý và làm chậm, kéo dài 1 giây. Trúng tướng địch hồi cho bản thân 1 phần máu đã mất. Nếu đang đầy điểm Quỷ trảo sẽ tiêu hao hết điểm để gây sát thương nhân đôi, hút máu gấp đôi và đánh bay kẻ địch."
         },
         skill4: {
-            name: "Sóng ngầm",
-            img: `${SepSk4}`,
-            delta: "Sephera hòa mình vào dòng nước khiến bản thân không thể bị chọn làm mục tiêu trong 1.7 giây, đồng thời giúp hồimáu cho các đồng minh lân cận, và gây sát thương phép lên những kẻ địch cạnh bên."
+            name: "Mắt ma",
+            img: `${ErrSk4}`,
+            delta: "Errol phóng lên không trung và trở nên bất tử trong 2 giây, suốt thời gian này hắn có thể tự do chọn điểm rơi. Khi kết thúc, Errol hóa thành vòng xoáy xuyên thủng mặt đất gây sát thương vật lý và hất tung địch."
         }
     }
 ]

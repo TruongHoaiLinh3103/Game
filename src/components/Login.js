@@ -77,14 +77,14 @@ const Login = (props) => {
         if(useName === ""){
             toast.error("Vui lòng nhập tài khoản!")
         }else{
-            if(useName === "Thủy Tùy Thiên Khứ" || useName === "Mavuika Anikey"){
+            if(useName === "Trăm năm mươi vạn"){
                 if(password === ""){
                     toast.error("Vui lòng nhập mật khẩu!");
                 }else{
                     if(password === "811317775"){
                         let temp = {
                             id: Math.floor(Math.random() * 100000),
-                            username: useName === "Thủy Tùy Thiên Khứ" ? "Thủy Tùy Thiên Khứ" : "Mavuika Anikey",
+                            username: "Trăm năm mươi vạn",
                         }
                         if(props.dataUser.length > 0){
                             for(let i = 0; i < props.dataUser.length; i++){

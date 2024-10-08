@@ -10,7 +10,7 @@ const GameGI = () => {
     const [editProfile, setEdProfile] = useState(false);
     const [img, setImg] = useState("https://i.pinimg.com/originals/c8/59/52/c859520d09bfca54fed367c431dab7b5.jpg");
     const [uid, setUID] = useState("811317775");
-    const [bio, setBio] = useState("Mavuika Anikey");
+    const [bio, setBio] = useState("Trăm năm mươi vạn");
     const openEditProfile = () => {
         setEdProfile(true);
         setImg(img);
