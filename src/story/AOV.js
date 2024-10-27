@@ -102,14 +102,6 @@ import ZipSk1 from "../assets/Skill/Béo đô đô.png";
 import ZipSk2 from "../assets/Skill/Ác hận.png";
 import ZipSk3 from "../assets/Skill/Khí thôn.png";
 import ZipSk4 from "../assets/Skill/Lăn long lóc.png";
-import MaxSk1 from "../assets/Skill/Điện tích.png";
-import MaxSk2 from "../assets/Skill/Tay bán dẫn.png";
-import MaxSk3 from "../assets/Skill/Động cơ cao thế.png";
-import MaxSk4 from "../assets/Skill/Ra đa đạn đạo.png";
-import QiSk1 from "../assets/Skill/Chân khí hộ thể.png";
-import QiSk2 from "../assets/Skill/Truy tinh chưởng.png";
-import QiSk3 from "../assets/Skill/Chấn thiên chưởng.png";
-import QiSk4 from "../assets/Skill/Hạo nhiên chưởng.png";
 import AyaSk1 from "../assets/Skill/Linh hồn sóc nhỏ.png";
 import AyaSk2 from "../assets/Skill/Nốt nhạc ánh sáng.png";
 import AyaSk3 from "../assets/Skill/Rừng sâu bảo hộ.png";
@@ -118,10 +110,6 @@ import TorSk1 from "../assets/Skill/Mình đồng da sắc.png";
 import TorSk2 from "../assets/Skill/Sừng trâu.png";
 import TorSk3 from "../assets/Skill/Dư chấn.png";
 import TorSk4 from "../assets/Skill/Đại địa chấn.png";
-import CreSk1 from "../assets/Skill/Đại dương thịnh nộ.png";
-import CreSk2 from "../assets/Skill/Đinh ba thủy thần.png";
-import CreSk3 from "../assets/Skill/Bọt bong bóng.png";
-import CreSk4 from "../assets/Skill/Thủy thần.png";
 import AleSk1 from "../assets/Skill/Ma thuật đen.png";
 import AleSk2 from "../assets/Skill/Vách ngăn hắc ám.png";
 import AleSk3 from "../assets/Skill/Ma trận thống khổ.png";
@@ -178,14 +166,6 @@ import VolSk1 from "../assets/Skill/Ma quân.png";
 import VolSk2 from "../assets/Skill/Bá vương trảm.png";
 import VolSk3 from "../assets/Skill/Bá vương trảo.png";
 import VolSk4 from "../assets/Skill/Bất tử ma thân.png";
-import MinSk1 from "../assets/Skill/Luỡi hái phục hận.png";
-import MinSk2 from "../assets/Skill/Vũ điệu lưỡi hái.png";
-import MinSk3 from "../assets/Skill/Lưỡi hái tử thần.png";
-import MinSk4 from "../assets/Skill/Ma lực bóng tối.png";
-import SkuSk1 from "../assets/Skill/Sôi máu.png";
-import SkuSk2 from "../assets/Skill/Găng nổi loạn.png";
-import SkuSk3 from "../assets/Skill/Găng cuồng bạo.png";
-import SkuSk4 from "../assets/Skill/Găng hung thần.png";
 import AliSk1 from "../assets/Skill/Bước chân thần tốc.png";
 import AliSk2 from "../assets/Skill/Vụ nổ thời không.png";
 import AliSk3 from "../assets/Skill/Lá chắn thời không.png";
@@ -210,10 +190,6 @@ import ErrSk1 from "../assets/Skill/Tay ác ma.png";
 import ErrSk2 from "../assets/Skill/Tay lưỡi liềm.png";
 import ErrSk3 from "../assets/Skill/Tay đại đao.png";
 import ErrSk4 from "../assets/Skill/Mắt ma.png";
-import ZilSk1 from "../assets/Skill/Bão-tố.png";
-import ZilSk2 from "../assets/Skill/Phong-đao.png";
-import ZilSk3 from "../assets/Skill/Phong-độn.png";
-import ZilSk4 from "../assets/Skill/Phong-ba.png";
 
 export const AOV = [
     {
@@ -1118,56 +1094,6 @@ export const AOV = [
     },
     {
         id: 37,
-        name: "Mina",
-        poster: "https://i.pinimg.com/originals/e0/2a/46/e02a468448396411e4ca55a734472a68.jpg",
-        skill1: {
-            name: "Luỡi hái phục hận",
-            img: `${MinSk1}`,
-            delta: "Mina có tỷ lệ xoay lưỡi hái mỗi khi gánh chịu sát thương, gây sát thương vật lý lên những kẻ địch lân cận."
-        },
-        skill2: {
-            name: "Vũ điệu lưỡi hái",
-            img: `${MinSk2}`,
-            delta: "Mina vung lưỡi hái gây sát thương vật lý lên những kẻ địch lân cận dựa trên máu tối đa của chúng."
-        },
-        skill3: {
-            name: "Lưỡi hái tử thần",
-            img: `${MinSk3}`,
-            delta: "Mina xoay lưỡi hái của cô, gây sát thương vật lý và đồng thời kéo kẻ thù lại gần, làm chậm 50% tốc chạy."
-        },
-        skill4: {
-            name: "Ma lực bóng tối",
-            img: `${MinSk4}`,
-            delta: "Mina khiêu khích những kẻ thù gần đó, làm cho chúng tấn công cô trong 2 giây. Sát thương gây ra bởi những kẻ thù bị khiêu khích lên Mina giảm đi đáng kể"
-        }
-    },
-    {
-        id: 38,
-        name: "Skud",
-        poster: "https://i.pinimg.com/originals/d9/cb/76/d9cb769eff8a4b1fff2ac917325a05d2.jpg",
-        skill1: {
-            name: "Sôi máu",
-            img: `${SkuSk1}`,
-            delta: "Nội tại: Skud được tăng máu tối đa. Khi tấn công mục tiêu có ít máu tối đa hơn mình, mỗi đòn đánh của Skud sẽ gây thêm sát thương phép (sát thương gây thêm sẽ không chí mạng)."
-        },
-        skill2: {
-            name: "Găng nổi loạn",
-            img: `${SkuSk2}`,
-            delta: "Skud nhảy xổ đến phía trước tung một cú đấm, gây sát thương vật lý. Chiêu trúng kẻ địch giúp Skud nhận tốc đánh và đòn đánh cường hóa của chiêu 2 sẽ gây thêm sát thương phép."
-        },
-        skill3: {
-            name: "Găng cuồng bạo",
-            img: `${SkuSk3}`,
-            delta: "Skud dồn sức mạnh vào găng tay khiến bản thân được tăng dần tốc chạy đến 40% sau 3 giây rồi giảm dần. Đòn đánh thường kế tiếp sẽ được cường hóa, trong thời gian hiệu lực sẽ gây thêm sát thương phép và làm chậm tốc chạy mục tiêu. Đòn cường hóa nếu trúng địch sẽ giúp chiêu này được giảm thời gian hồi chiêu."
-        },
-        skill4: {
-            name: "Găng hung thần",
-            img: `${SkuSk4}`,
-            delta: "Nội tại: Hạ lính và quái rừng sẽ giúp bản thân hồi máu dựa theo máu đã mất. Skud tụ lực trong thoáng chốc rồi huơ găng hất tung tất cả kẻ địch lân cận, gây sát thương vật lý và đẩy lùi kẻ trúng phải."
-        }
-    },
-    {
-        id: 39,
         name: "Alice",
         poster: "https://i.pinimg.com/originals/c1/d2/78/c1d278b429620481995f3599e769af2f.jpg",
         skill1: {
@@ -1192,7 +1118,7 @@ export const AOV = [
         }
     },
     {
-        id: 40,
+        id: 38,
         name: "Aleister",
         poster: "https://i.pinimg.com/originals/b4/72/eb/b472ebd6c857e5230dd107e320508b7c.jpg",
         skill1: {
@@ -1217,7 +1143,7 @@ export const AOV = [
         }
     },
     {
-        id: 41,
+        id: 39,
         name: "Ata",
         poster: "https://i.pinimg.com/originals/9e/58/d9/9e58d95be89df3adbdc01acc33706d9a.jpg",
         skill1: {
@@ -1242,57 +1168,7 @@ export const AOV = [
         }
     },
     {
-        id: 42,
-        name: "Cresht",
-        poster: "https://i.pinimg.com/originals/19/3b/c9/193bc9deaddfa26076daa7cc4f8abb18.jpg",
-        skill1: {
-            name: "Đại dương thịnh nộ",
-            img: `${CreSk1}`,
-            delta: "Nội tại: Các đòn đánh thường của Cresht giúp tích lũy Nộ. Khi đạt mốc tối đa hắn có thể hóa thành Thủy thần với quyền năng làm chậm kẻ địch xung quanh đi mỗi khi tung chiêu. Đồng thời, hắn đánh thường được tăng thêm công vật lý."
-        },
-        skill2: {
-            name: "Đinh ba thủy thần",
-            img: `${CreSk2}`,
-            delta: "Cresht vung cây đinh ba khổng lồ đập vào các kẻ định xung quanh, gây sát thương vật lý đồng thời giúp tăng Nộ. Khi hóa thành Thủy thần, hắn điên cuồng tấn công vào kẻ địch trước mặt gây sát thương vật lý."
-        },
-        skill3: {
-            name: "Bọt bong bóng",
-            img: `${CreSk3}`,
-            delta: "Cresht nhảy tới điểm chỉ định tạo ra một cơn sóng giúp bảo vệ tướng đồng minh và tăng Nộ cho bản thân. Khi ở trạng thái Thủy thần, Cresht nhảy tới địa điểm chỉ định, gây sát thương vật lý lên kẻ địch trong phạm vi ảnh hưởng."
-        },
-        skill4: {
-            name: "Thủy thần",
-            img: `${CreSk4}`,
-            delta: "Khi đạt đủ Nộ, Cresht có thể hóa thành bản thể Thủy thần giúp nhận một lớp bảo hộ hùng mạnh, đồng thời tạo ra một cơn đại hồng thủy đẩy lùi kẻ địch và gây sát thương vật lý. Khi lướt trên cơn sóng này, hắn được tăng tốc độ di chuyển."
-        }
-    },
-    {
-        id: 43,
-        name: "Max",
-        poster: "https://i.pinimg.com/originals/b6/81/8b/b6818b557dd7476db2b2c7b8020f35be.jpg",
-        skill1: {
-            name: "Điện tích",
-            img: `${MaxSk1}`,
-            delta: "Mọi sát thương của Max khiến các mục tiêu rơi vào trạng thái Điện tích, chịu sát thương chuẩn mỗi giây. Suốt thời gian này, khả năng hồi phục của nạn nhân bị giảm đi"
-        },
-        skill2: {
-            name: "Tay bán dẫn",
-            img: `${MaxSk2}`,
-            delta: "Max vươn đôi tay máy xoay tròn tấn công kẻ địch lân cận, gây sát thương vật lý. Mỗi nạn nhân trúng chiêu giúp Max nhận tốc chạy."
-        },
-        skill3: {
-            name: "Động cơ cao thế",
-            img: `${MaxSk3}`,
-            delta: "Max nhảy vọt qua mục tiêu và giật điện khiến nạn nhân bị choáng trong thoáng chốc, đồng thời Max tự tạo cho bản thân một lá chắn điện từ giúp tăng miễn thương. Chiêu thức có thể tung lần nữa sau 4s"
-        },
-        skill4: {
-            name: "Ra đa đạn đạo",
-            img: `${MaxSk4}`,
-            delta: "Max kích hoạt Ra-đa quét kẻ địch, giúp phát hiện mọi tướng địch đồng thời ngắt quãng quá trình biến về của chúng. Kích hoạt lần 2 để chọn mục tiêu tướng địch. Sau đấy, Max liền cất cánh bay vút đến tấn công nạn nhân, gây sát thương vật lý kèm hiệu ứng đẩy lùi. Sau khi đáp xuống Max nhận lá chắn điện từ giúp tăng miễn thương và kháng hiệu ứng, đồng thời tạo ra một vùng Điện Tích khiến những kẻ địch lân cận liên tục chịu ảnh hưởng trạng thái này. Suốt quá trình bay Max có thể kích hoạt lần nữa để hạ cánh, vẫn hưởng lá chắn điện từ"
-        }
-    },
-    {
-        id: 44,
+        id: 40,
         name: "Toro",
         poster: "https://i.pinimg.com/originals/d0/57/3e/d0573ec6f831cadf6edce076012650f9.jpg",
         skill1: {
@@ -1317,7 +1193,7 @@ export const AOV = [
         }
     },
     {
-        id: 45,
+        id: 41,
         name: "Grakk",
         poster: "https://i.pinimg.com/originals/65/48/bb/6548bb422fcbdcb7b660f8559353fdab.jpg",
         skill1: {
@@ -1342,7 +1218,7 @@ export const AOV = [
         }
     },
     {
-        id: 46,
+        id: 42,
         name: "Zip",
         poster: "https://i.pinimg.com/originals/1b/62/37/1b62372b1cd1de4a70af9b7634c2c439.jpg",
         skill1: {
@@ -1367,32 +1243,7 @@ export const AOV = [
         }
     },
     {
-        id: 47,
-        name: "Qi",
-        poster: "https://i.pinimg.com/originals/13/d1/52/13d15283dd2708c40279858c521cef3b.jpg",
-        skill1: {
-            name: "Chân khí hộ thể",
-            img: `${QiSk1}`,
-            delta: "Qi giải phóng chân khí hộ thể, tối đa cộng dồn 3 lần, mỗi lần tăng 50 giáp. Nếu chiêu thức đánh trúng kẻ địch, 2 lần đánh thường kế tiếp sẽ được tăng 100% tốc đánh và gây thêm 40% sát thương vật lý, đồng thời hồi phục 60 máu."
-        },
-        skill2: {
-            name: "Truy tinh chưởng",
-            img: `${QiSk2}`,
-            delta: "Qi lướt theo hướng chỉ định, gây 200/240/280/320/360/400 (+0.7 công vật lý) sát thương vật lý lên những kẻ địch đứng trên đường lướt đồng thời hất tung địch 0.5 giây"
-        },
-        skill3: {
-            name: "Chấn thiên chưởng",
-            img: `${QiSk3}`,
-            delta: "Qi dùng chân khí đánh liên tiếp vào kẻ địch phía trước, mỗi đòn đánh gây 75/90/105/120/135/150 (+0.33 công vật lý) sát thương vật lý và giảm 15/22/29/36/43/50 giáp của địch. Chiêu này được cộng dồn tối đa 5 lần trong 5 giây."
-        },
-        skill4: {
-            name: "Hạo nhiên chưởng",
-            img: `${QiSk4}`,
-            delta: "Qi xuất chưởng về phía trước gây 240/360/480 (+0.6 công vật lý) sát thương vật lý và đánh lui địch. Kẻ địch bị đánh lui va vào địa hình sẽ phải chịu thêm 80/120/160 (+0.2 công vật lý) sát thương vật lý và choáng 1.5 giây. Sau đó Qi có thể lướt tiếp theo hướng chỉ định, gây 160/240/320 (+0.4 công vật lý) (+15% máu mục tiêu đã mất) sát thương vật lý lên những kẻ địch trên đường lướt"
-        }
-    },
-    {
-        id: 48,
+        id: 43,
         name: "Aya",
         poster: "https://i.pinimg.com/originals/11/6f/cb/116fcb84243ccd1a1879aa7f7936e934.jpg",
         skill1: {
@@ -1417,7 +1268,7 @@ export const AOV = [
         }
     },
     {
-        id: 49,
+        id: 44,
         name: "Ilumia",
         poster: "https://i.pinimg.com/originals/9b/0b/6b/9b0b6bd8913abbf879ef889d9f838ceb.jpg",
         skill1: {
@@ -1442,7 +1293,7 @@ export const AOV = [
         }
     },
     {
-        id: 50,
+        id: 45,
         name: "Aoi",
         poster: "https://i.pinimg.com/originals/04/1c/bf/041cbf9003c1626fead3da2039e6cbef.jpg",
         skill1: {
@@ -1467,32 +1318,7 @@ export const AOV = [
         }
     },
     {
-        id: 51,
-        name: "Zill",
-        poster: "https://i.pinimg.com/originals/28/f6/fb/28f6fbd32688cb97d73382f6417c1966.jpg",
-        skill1: {
-            name: "Bão tố",
-            img: `${ZilSk1}`,
-            delta: "Nội tại: Các chiêu thức trúng đích của Zill khiến mục tiêu phải chịu thêm dấu ấn Giông tố. Khi đạt đủ 3 cộng dồn, dấu ấn tiến hóa thành bão tố kéo dài 5 giây đồng thời giảm tốc chạy của mục tiêu. Các đòn đánh thường của Zill lên nạn nhân đang chịu ấn bão tố sẽ lập tức hoàn tất hồi chiêu của Phong độn, và gây thêm sát thương phép. Đòn đánh thường của Zill gây thêm sát thương phép (gấp đôi ST lên quái và lính)."
-        },
-        skill2: {
-            name: "Phong đao",
-            img: `${ZilSk2}`,
-            delta: "Zill ném cặp song đao gây sát thương phép lên tất cả kẻ địch trúng phải trên đường bay đi, và làm chậm tốc chạy của chúng. Sau đó lưỡi liềm quay ngược lại, gây sát thương phép lên những nạn nhân trúng chiêu trên đường bay về."
-        },
-        skill3: {
-            name: "Phong độn",
-            img: `${ZilSk3}`,
-            delta: "Zill dịch chuyển đến điểm đã chọn, gây sát thương phép lên tất cả kẻ địch quanh vùng ảnh hưởng."
-        },
-        skill4: {
-            name: "Phong ba",
-            img: `${ZilSk4}`,
-            delta: "Zill hóa thân thành một luồng phong ba bão tố, tấn công liên tục 5 lần lên những kẻ địch lân cận, gây sát thương phép mỗi đợt. Kẻ địch trúng nhiều đòn sẽ chỉ phải chịu ít sát thương hơn từ đòn thứ hai trở đi. Suốt khoảng thời gian này Zill không thể bị công kích hoặc chọn làm mục tiêu. Đòn chém đầu tiên luôn gây câm lặng 1 giây."
-        }
-    },
-    {
-        id: 52,
+        id: 46,
         name: "Sinestrea",
         poster: "https://i.pinimg.com/originals/e5/71/e1/e571e1168ccc096d4c50c0e23bb388e6.jpg",
         skill1: {
@@ -1517,7 +1343,7 @@ export const AOV = [
         }
     },
     {
-        id: 53,
+        id: 47,
         name: "Lindis",
         poster: "https://i.pinimg.com/originals/ee/7d/30/ee7d306bbef64091f66e7da41559c2a9.jpg",
         skill1: {
@@ -1542,7 +1368,7 @@ export const AOV = [
         }
     },
     {
-        id: 54,
+        id: 48,
         name: "Errol",
         poster: "https://i.pinimg.com/originals/85/db/f4/85dbf4847de295957c7f951afa8ec9e8.jpg",
         skill1: {
