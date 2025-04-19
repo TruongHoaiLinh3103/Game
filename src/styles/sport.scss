@@ -1,0 +1,61 @@
+.Sport{
+    background-color: black;
+    width: 100%;
+    min-height: 100%;
+    padding: 80px 20px 20px 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+.Sport-body{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    user-select: none;
+    ul{
+        padding: 10px 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        box-sizing: border-box;
+        li{
+            list-style: none;
+            font-size: 15px;
+            font-family:'Times New Roman', Times, serif;
+        }
+        span{
+            font-size: 15px;
+            font-family:'Times New Roman', Times, serif;
+        }
+        + ul{
+            border-top: 2px solid rgb(101, 101, 101);
+        }
+        &:hover{
+            background-color: rgb(30, 30, 30);
+            color: white;
+            transition: all .1s ease;
+        }
+    }
+}
+
+.Sport-select{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    transition: all .1s ease;
+}
+
+.Sport-Home{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff4;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    i{
+        color: gray;
+    }
+}

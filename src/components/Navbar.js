@@ -1,28 +1,37 @@
 import React, { useState } from 'react';
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import "../styles/navbar.scss";
-import { connect } from 'react-redux';
-import { mapDispatchToProps, mapStateToProps } from "../redux/action/Login";
+import { useSelector, useDispatch } from 'react-redux';
 import GameGI from "./GameGI"
 import GameLQ from './GameLQ';
+import { GiCardPickup } from "react-icons/gi";
+import { IoMdMusicalNotes } from "react-icons/io";
+import { GiKnifeThrust } from "react-icons/gi";
+import { DELETE__USER } from '../redux/reducer/rootUser';
 
 const Navbar = (props) => {
-    const user = props.dataUser[0];
+    const user = useSelector((state) => state.user.user);
+    const dispatch = useDispatch();
     const [menu, setMenu] = useState(false);
+    const router = useNavigate();
     const logOut = () => {
         sessionStorage.removeItem("accessToken");
-        props.deleteUser(user);
+        dispatch(DELETE__USER(user[0]));
         props.checkNumber(0);
     }
     return (
         <div>
             <nav className="navbar">
                 <div className='navbar-logo'>
-                    <h2><NavLink to="/" activeclassname="selected" exact="true">{user.username}</NavLink></h2>
+                    <GiCardPickup title='Thị'/>
+                    <IoMdMusicalNotes title='Thính'/>
+                    <GiKnifeThrust title='Khứu' onClick={() => router('/sport')}/>
+                    {/* <h2><NavLink to="/" activeclassname="selected" exact="true">{user[0].username}</NavLink></h2> */}
                 </div>
                 {/* NAVIGATION MENU */}
                 <div className="menu">
-                    <li onClick={() => setMenu(true)}><NavLink to="#" activeclassname="selected"><i className="fa-solid fa-gamepad"></i><span>Tài khoản</span></NavLink></li>
+                    {window.location.pathname === "/sport" ? <li onClick={() => router("/")}><NavLink to="#" activeclassname="selected"><i className="fa-solid fa-gamepad"></i><span>Trò chơi</span></NavLink></li> :
+                    <li onClick={() => setMenu(true)}><NavLink to="#" activeclassname="selected"><i className="fa-solid fa-gamepad"></i><span>Tài khoản</span></NavLink></li>}
                     <div className="Account">
                         {sessionStorage.getItem("accessToken") &&
                             <li><NavLink to="#" onClick={() => logOut()}><i className="fas fa-sign-out-alt"></i><span>Đăng xuất</span></NavLink></li>
@@ -69,4 +78,4 @@ const Navbar = (props) => {
     );
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(Navbar);
+export default Navbar;

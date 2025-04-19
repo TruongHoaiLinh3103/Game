@@ -2,14 +2,15 @@ import React, { useState } from 'react';
 import '../styles/grid.scss';
 import '../styles/form.scss';
 // import axios from "axios";
-import { connect } from 'react-redux';
-import { mapStateToProps, mapDispatchToProps } from '../redux/action/Login';
+import { useDispatch, useSelector } from "react-redux";
+import { ADD__USER, DELETE__USER } from '../redux/reducer/rootUser';
 import { toast } from 'react-toastify';
 
 const Login = (props) => {
-    
+    const user = useSelector((state) => state.user.user);
     const [useName, setUseName] = useState("")
     const [password, setPassword] = useState("")
+    const dispatch = useDispatch();
 
     // USERNAME
     // const user = () => {
@@ -77,25 +78,25 @@ const Login = (props) => {
         if(useName === ""){
             toast.error("Vui lòng nhập tài khoản!")
         }else{
-            if(useName === "Trăm năm mươi vạn"){
+            if(useName === "Mạt"){
                 if(password === ""){
                     toast.error("Vui lòng nhập mật khẩu!");
                 }else{
                     if(password === "811317775"){
                         let temp = {
                             id: Math.floor(Math.random() * 100000),
-                            username: "Trăm năm mươi vạn",
+                            username: "Mạt",
                         }
-                        if(props.dataUser.length > 0){
-                            for(let i = 0; i < props.dataUser.length; i++){
-                                props.deleteUser(props.dataUser[i])
+                        if(user.length > 0){
+                            for(let i = 0; i < user.length; i++){
+                                dispatch(DELETE__USER(user[i]))
                             }
                             if(sessionStorage.getItem("accessToken")){
                                 sessionStorage.removeItem("accessToken");
                             } 
                         }else{
                             sessionStorage.setItem("accessToken", "811317775")
-                            props.addUser(temp);
+                            dispatch(ADD__USER(temp));
                             props.checkNumber(2);
                         }
                     }else{
@@ -171,4 +172,4 @@ const Login = (props) => {
     );
 };
 
-export default connect(mapStateToProps , mapDispatchToProps)(Login);
+export default Login;

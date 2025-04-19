@@ -1,0 +1,24 @@
+.Home{
+    width: 100%;
+    min-height: 100%;
+    display: grid;
+    place-items: center;
+    padding-bottom: 150px;
+    background-color: black;
+    padding-top: 80px;
+}
+.Home-body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+@media only screen and (max-width : 46.25em){
+    .Home-body{
+        flex-direction: column;
+    }
+  }
+  @media only screen and (max-width : 30em){
+  
+  }

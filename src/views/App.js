@@ -14,6 +14,8 @@ import Sliederlab from '../layouts/Sliederlab';
 import {useState } from 'react';
 import ChangePass from '../components/ChangePass';
 import Footer from '../components/Footer';
+import Home from "../components/Home";
+import Sport from "../components/Sport";
 
 function App() {
   const [number, setNumber] = useState(sessionStorage.getItem("accessToken") ? 2 : 0);
@@ -34,6 +36,9 @@ function App() {
             <Navbar checkNumber={checkNumberRES}/>
             <Routes>
               <Route path="/" element={<Sliederlab />} />
+              <Route path="/sport" element={<Home />} exact/>
+              <Route path="/sport/cordage" element={<Sport />} />
+              <Route path="/sport/kungfu" element={<Sport />} />
               <Route path="*" element={<NotPage />}/>
             </Routes>
             <Footer/>

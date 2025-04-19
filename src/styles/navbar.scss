@@ -18,19 +18,25 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    h2{
-        color: white;
-        font-size: 17px;
-        font-weight: 500;
-        font-family: 'Courier New', Courier, monospace;
-        text-align: center;
-        user-select: none;
+    svg{
+        background-color: black;
+        font-size: 40px;
         cursor: pointer;
-        text-shadow: rgba(250,194,25,1) 27px 7px 11px;
-        a{
-            text-decoration: none;
-            color: white
+        padding: 5px;
+        border-radius: 100vh;
+        color: white;
+        border: 1px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        +svg{
+            margin-left: 10px;
+        }
+        &:hover{
+            background-color: white;
+            border: 1px solid rgb(176, 176, 251);
+            transition: all .2s ease-in-out;
+            color: black;
         }
     }
 }

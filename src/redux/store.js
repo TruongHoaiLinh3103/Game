@@ -1,9 +1,11 @@
 import { combineReducers } from "redux";
 import rootUser from "./reducer/rootUser";
+import rootSport from "./reducer/rootSport";
 
 
 const rootReducer = combineReducers({
-    userState: rootUser,
+    user: rootUser,
+    sport : rootSport
 })
 
 export default rootReducer;

@@ -1,22 +1,30 @@
-const initState = {
+import { createSlice } from '@reduxjs/toolkit'
+
+const initialState = {
     user: [],
 }
-const rootUser = (state = initState, action) =>
-{
-    switch(action.type){
-        case 'DELETE__USER':
-            let user = state.user
-            user = user.filter(item => item.id !== action.payload.id)
-            return{
-                ...state, user
-            }
-        case 'ADD__USER':
-            let usert = {id: action.payload.id, username:action.payload.username}
-            return{
-                ...state, user:[...state.user, usert]
-            }
-        default:
-            return state
-    }
-}
-export default rootUser;
+
+export const counterSlice = createSlice({
+  name: 'counter',
+  initialState,
+  reducers: {
+    ADD__USER: (state, action) => {
+        let User = {id: action.payload.id, username: action.payload.username}
+        return{
+            ...state, user:[...state.user, User]
+        }
+    },
+    DELETE__USER: (state, action) => {
+        let user = state.user
+        user = user.filter(item => item.id !== action.payload.id)
+        return{
+            ...state, user
+        }
+    },
+  },
+})
+
+// Action creators are generated for each case reducer function
+export const { ADD__USER, DELETE__USER } = counterSlice.actions
+
+export default counterSlice.reducer

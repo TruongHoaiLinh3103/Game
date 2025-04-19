@@ -1,0 +1,64 @@
+@import "./variable.scss";
+ 
+ .conteudo {
+    background: linear-gradient(to right, $cores-dancantes);
+    max-width: 800px;
+    width: 90%;
+    height: 130px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    animation: coresDancantes 3s linear infinite;
+    margin-top: 30px;
+  }
+  
+  @keyframes coresDancantes {
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
+  
+  .conteudo .relogio,
+  .conteudo span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .conteudo .relogio {
+    z-index: 1;
+    background-color: $cor-background;
+    width: 98%;
+    height: 110px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    -webkit-box-reflect: below 50px
+      linear-gradient(transparent, $cor-reflexo);
+    padding: 10px;
+  }
+  
+  .conteudo .relogio h4 {
+    background: linear-gradient(to right, $cores-dancantes);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+  }
+  
+  .conteudo span {
+    height: 100%;
+    width: 100%;
+    background: inherit;
+    border-radius: 10px;
+  }
+  
+  .conteudo span:nth-child(1) {
+    filter: blur(6px);
+  }
+  
+  .conteudo span:nth-child(2) {
+    filter: blur(22px);
+  }

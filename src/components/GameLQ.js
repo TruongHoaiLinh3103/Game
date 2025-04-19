@@ -3,14 +3,12 @@ import copy from 'copy-to-clipboard';
 import { FaCopy } from "react-icons/fa";
 import { CiEdit } from "react-icons/ci";
 import "../styles/game.scss";
-import { connect } from 'react-redux';
-import { mapStateToProps, mapDispatchToProps } from '../redux/action/Login';
 
 const GameLQ = () => {
     const [editProfile, setEdProfile] = useState(false);
     const [img, setImg] = useState("https://i.pinimg.com/originals/65/7e/9c/657e9c89d676a72f89f89b250dbe8f14.jpg");
     const [uid, setUID] = useState("4302483086443633");
-    const [bio, setBio] = useState("Trăm năm mươi vạn");
+    const [bio, setBio] = useState("Mạt");
     const openEditProfile = () => {
         setEdProfile(true);
         setImg(img);
@@ -132,4 +130,4 @@ const GameLQ = () => {
     );
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(GameLQ);
+export default GameLQ;
