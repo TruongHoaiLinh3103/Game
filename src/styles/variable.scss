@@ -42,10 +42,11 @@ rgb(255, 45, 83);
     transition: all linear .2s;
 }
 
-@mixin overlayBox($width: 90%, $mw: 1000px){
+@mixin overlayBox($width: 0%, $miw: 400px, $maw: 1000px){
     width: $width;
     height: auto;
-    max-width: $mw;
+    min-width: $miw;
+    max-width: $maw;
     background-color: white;
     border-radius: 10px;
 }

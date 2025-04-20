@@ -16,6 +16,7 @@ import ChangePass from '../components/ChangePass';
 import Footer from '../components/Footer';
 import Home from "../components/Home";
 import Sport from "../components/Sport";
+import Play from '../components/Play';
 
 function App() {
   const [number, setNumber] = useState(sessionStorage.getItem("accessToken") ? 2 : 0);
@@ -39,6 +40,7 @@ function App() {
               <Route path="/sport" element={<Home />} exact/>
               <Route path="/sport/cordage" element={<Sport />} />
               <Route path="/sport/kungfu" element={<Sport />} />
+              <Route path="/play" element={<Play />} exact/>
               <Route path="*" element={<NotPage />}/>
             </Routes>
             <Footer/>

@@ -54,7 +54,7 @@
     ._Char-profile_aler{
         @extend %overlay;
         .-profile_aler-box{
-            @include overlayBox();
+            @include overlayBox(90%, 0);
             display: flex;
             padding: 10px;
             user-select: none;

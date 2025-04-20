@@ -8,7 +8,7 @@ const NotPage = () => {
     }
     return (
         <div style={{textAlign:"center", padding: "75px 0px 10px"}}>
-            <i class="fa-solid fa-triangle-exclamation"
+            <i className="fa-solid fa-triangle-exclamation"
             style={{
                 fontSize:"70px",
                 color: "red"

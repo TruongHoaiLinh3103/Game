@@ -23,15 +23,15 @@ const Navbar = (props) => {
         <div>
             <nav className="navbar">
                 <div className='navbar-logo'>
-                    <GiCardPickup title='Thị'/>
+                    <GiCardPickup title='Thị' onClick={() => router('/play')} />
                     <IoMdMusicalNotes title='Thính'/>
                     <GiKnifeThrust title='Khứu' onClick={() => router('/sport')}/>
                     {/* <h2><NavLink to="/" activeclassname="selected" exact="true">{user[0].username}</NavLink></h2> */}
                 </div>
                 {/* NAVIGATION MENU */}
                 <div className="menu">
-                    {window.location.pathname === "/sport" ? <li onClick={() => router("/")}><NavLink to="#" activeclassname="selected"><i className="fa-solid fa-gamepad"></i><span>Trò chơi</span></NavLink></li> :
-                    <li onClick={() => setMenu(true)}><NavLink to="#" activeclassname="selected"><i className="fa-solid fa-gamepad"></i><span>Tài khoản</span></NavLink></li>}
+                    {window.location.pathname === "/" ? <li onClick={() => setMenu(true)}><NavLink to="#" activeclassname="selected"><i className="fa-solid fa-gamepad"></i><span>Tài khoản</span></NavLink></li> 
+                    : <li onClick={() => router("/")}><NavLink to="#" activeclassname="selected"><i className="fa-solid fa-gamepad"></i><span>Trò chơi</span></NavLink></li>}
                     <div className="Account">
                         {sessionStorage.getItem("accessToken") &&
                             <li><NavLink to="#" onClick={() => logOut()}><i className="fas fa-sign-out-alt"></i><span>Đăng xuất</span></NavLink></li>

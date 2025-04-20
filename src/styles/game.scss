@@ -124,7 +124,7 @@
     user-select: none;
     @extend %overlay;
     .Profile-edit_box{
-        @include overlayBox(95%, 800px);
+        @include overlayBox(95%, 0 , 800px);
         padding: 30px;
         box-sizing: border-box;
         .Profile-edit_box-h{
