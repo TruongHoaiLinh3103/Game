@@ -46,7 +46,7 @@
     }
 }
 .pdfViewer .page{
-    overflow: hidden;
+    box-sizing: content-box;
 }
 
 
