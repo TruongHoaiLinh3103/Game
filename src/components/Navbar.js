@@ -24,7 +24,7 @@ const Navbar = (props) => {
             <nav className="navbar">
                 <div className='navbar-logo'>
                     <GiCardPickup title='Thị' onClick={() => router('/play')} />
-                    <IoMdMusicalNotes title='Thính'/>
+                    <IoMdMusicalNotes title='Thính' onClick={() => router('/song')}/>
                     <GiKnifeThrust title='Khứu' onClick={() => router('/sport')}/>
                     {/* <h2><NavLink to="/" activeclassname="selected" exact="true">{user[0].username}</NavLink></h2> */}
                 </div>

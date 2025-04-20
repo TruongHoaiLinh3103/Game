@@ -17,6 +17,7 @@ import Footer from '../components/Footer';
 import Home from "../components/Home";
 import Sport from "../components/Sport";
 import Play from '../components/Play';
+import Song from '../components/Song';
 
 function App() {
   const [number, setNumber] = useState(sessionStorage.getItem("accessToken") ? 2 : 0);
@@ -41,6 +42,7 @@ function App() {
               <Route path="/sport/cordage" element={<Sport />} />
               <Route path="/sport/kungfu" element={<Sport />} />
               <Route path="/play" element={<Play />} exact/>
+              <Route path="/song" element={<Song />} exact/>
               <Route path="*" element={<NotPage />}/>
             </Routes>
             <Footer/>
