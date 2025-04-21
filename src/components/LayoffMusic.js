@@ -15,8 +15,7 @@ const LayoffMusic = () => {
     const Loading = useSelector((state) => state.music.Loading);
     const params = useParams();
     const [data, setData] = useState([]);
-    const [max, setMax] = useState()
-    const [pause, setPause] = useState(Loading.id === 0 ? false : true)
+    const [max, setMax] = useState();
     const router = useNavigate();
     const dispatch = useDispatch();
     const nextMusic = (id) => {
@@ -42,10 +41,8 @@ const LayoffMusic = () => {
             "auth": ""
         }
         if(temp.id === Loading.id){
-            setPause(true)
             dispatch(EDIT_LOADING(item))
         }else{
-            setPause(false);
             dispatch(EDIT_LOADING(temp))
         }
     }
@@ -81,7 +78,7 @@ const LayoffMusic = () => {
                     <div className="layoffmusic__wrapper">
                         <button className="layoffmusic__btn"><ImLoop /></button>
                         <button className="layoffmusic__btn" onClick={() => PreMusic(data.id)}><GrChapterPrevious /></button>
-                        <button className="layoffmusic__btn layoffmusic__btn-play" onClick={() => PauseMusic(data)}>{pause ? <IoIosPause /> : <FaPlay />}</button>
+                        <button className="layoffmusic__btn layoffmusic__btn-play" onClick={() => PauseMusic(data)}>{Loading.id !== 0 ? <IoIosPause /> : <FaPlay />}</button>
                         <button className="layoffmusic__btn" onClick={() => nextMusic(data.id)}><GrChapterNext /></button>
                         <button className="layoffmusic__btn"><FaRandom /></button>
                     </div>
