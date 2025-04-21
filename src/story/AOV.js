@@ -190,6 +190,30 @@ import ErrSk1 from "../assets/Skill/Tay ác ma.png";
 import ErrSk2 from "../assets/Skill/Tay lưỡi liềm.png";
 import ErrSk3 from "../assets/Skill/Tay đại đao.png";
 import ErrSk4 from "../assets/Skill/Mắt ma.png";
+import DirSk1 from "../assets/Skill/Giáp năng lượng.png";
+import DirSk2 from "../assets/Skill/Kim quang ấn.png";
+import DirSk3 from "../assets/Skill/Thiên hoả trận.png";
+import DirSk4 from "../assets/Skill/Lô cốt tử quang.png";
+import StuSk1 from "../assets/Skill/Thể năng cường hóa.png";
+import StuSk2 from "../assets/Skill/Phi đạn tử vong.png";
+import StuSk3 from "../assets/Skill/Huyết ảnh ma nhãn.png";
+import StuSk4 from "../assets/Skill/Hủy diệt bộc phá.png";
+import IshSk1 from "../assets/Skill/Tí Nị.png";
+import IshSk2 from "../assets/Skill/Đá Ma Thuật.png";
+import IshSk3 from "../assets/Skill/Khiên Ma Thuật.png";
+import IshSk4 from "../assets/Skill/Sa Bàn Ma Thuật.png";
+import DieSk1 from "../assets/Skill/Nữ hoàng băng tuyết.png";
+import DieSk2 from "../assets/Skill/Sương giá.png";
+import DieSk3 from "../assets/Skill/Tuyết liên.png";
+import DieSk4 from "../assets/Skill/Bão tuyết.png";
+import SkuSk1 from "../assets/Skill/Sôi máu.png";
+import SkuSk2 from "../assets/Skill/Găng nổi loạn.png";
+import SkuSk3 from "../assets/Skill/Găng cuồng bạo.png";
+import SkuSk4 from "../assets/Skill/Găng hung thần.png";
+import QiSk1 from "../assets/Skill/Chân khí hộ thể.png";
+import QiSk2 from "../assets/Skill/Truy tinh chưởng.png";
+import QiSk3 from "../assets/Skill/Chấn thiên chưởng.png";
+import QiSk4 from "../assets/Skill/Hạo nhiên chưởng.png";
 
 export const AOV = [
     {
@@ -1390,6 +1414,156 @@ export const AOV = [
             name: "Mắt ma",
             img: `${ErrSk4}`,
             delta: "Errol phóng lên không trung và trở nên bất tử trong 2 giây, suốt thời gian này hắn có thể tự do chọn điểm rơi. Khi kết thúc, Errol hóa thành vòng xoáy xuyên thủng mặt đất gây sát thương vật lý và hất tung địch."
+        }
+    },
+    {
+        id: 49,
+        name: "Dirak",
+        poster: "https://i.pinimg.com/736x/47/07/52/470752bdafeeadd4d59a504dd07d0a9c.jpg",
+        skill1: {
+            name: "Giáp năng lượng",
+            img: `${DirSk1}`,
+            delta: "Khi máu sắp cạn, Dirak sẽ tiêu hao năng lượng để chống đỡ sát thương, mỗi 1 năng lượng sẽ chống đỡ được 1 sát thương"
+        },
+        skill2: {
+            name: "Kim quang ấn",
+            img: `${DirSk2}`,
+            delta: "Dirak triệu hồi ra Kim quang ấn đánh về phía trước, đẩy lùi tướng địch trong thoáng chốc."
+        },
+        skill3: {
+            name: "Thiên hoả trận",
+            img: `${DirSk3}`,
+            delta: "Dirak dựng lên một pháp trận tại khu vực chỉ định. Trong thoáng chốc, thiên thạch sẽ rơi xuống đẩy lùi địch. Đồng thời, Dirak cũng có thể chọn hướng rơi cho thiên thạch."
+        },
+        skill4: {
+            name: "Lô cốt tử quang",
+            img: `${DirSk4}`,
+            delta: "Dirak gọi ra một tấm chắn năng lượng chặn đứng mọi phát đạn của kẻ địch và sau đó giúp hắn thi triển Pháo tử quang. Pháo tử quang: Gây sát thương cực lớn cho kẻ địch trên phạm vi bắn thẳng."
+        }
+    },
+    {
+        id: 50,
+        name: "Stuart",
+        poster: "https://i.pinimg.com/736x/1f/97/f8/1f97f8d6a140ac8dcdb0d68183c74729.jpg",
+        skill1: {
+            name: "Thể năng cường hóa",
+            img: `${StuSk1}`,
+            delta: "Nội tại: Đánh thường và dùng chiêu 1, chiêu 3 sẽ nhận được năng lượng, tối đa 4 cộng dồn. Khi đạt tối đa, hắn được cường hóa."
+        },
+        skill2: {
+            name: "Phi đạn tử vong",
+            img: `${StuSk2}`,
+            delta: "Bắn phi đạn trên đường thẳng và gây sát thương lên mọi mục tiêu trên đường bay"
+        },
+        skill3: {
+            name: "Huyết ảnh ma nhãn",
+            img: `${StuSk3}`,
+            delta: "Miễn thương vật lý và tăng tốc chạy"
+        },
+        skill4: {
+            name: "Hủy diệt bộc phá",
+            img: `${StuSk4}`,
+            delta: "Stuart lướt đến mục tiêu, làm chậm và gây sát thương hắn."
+        }
+    },
+    {
+        id: 51,
+        name: "Ishar",
+        poster: "https://i.pinimg.com/736x/c1/97/bf/c197bf73c193de969ff97a7a73566adb.jpg",
+        skill1: {
+            name: "Tí nị",
+            img: `${IshSk1}`,
+            delta: "Nội tại: Ishar tự động triệu hồi Tý Nị trợ chiến. Tý Nị có lực công kích, máu, giáp và giáp phép tính theo sát thương phép của chủ nhân và tự động bám sát Ishar."
+        },
+        skill2: {
+            name: "Đá ma thuật",
+            img: `${IshSk2}`,
+            delta: "Ishar bắn ra 1 viên đá ma pháp gây ra sát thương phép lên địch trên đường bắn. Nếu bắn trúng 2 tướng địch chiêu này sẽ được cường hóa. Viên đá bắn trúng nạn nhân đầu tiên sẽ dựng lên nấm hương sau lưng mục tiêu và phát nổ gây sát thương phép. Tí Nị: Chạy nhanh đến tấn công mục tiêu đầu tiên bị trúng đá ma pháp; nếu kẻ trúng đòn là tướng địch lẻ sẽ bị Tí Nị sẽ nhảy vồ đến đánh khiến tướng địch phải chịu sát thương phép."
+        },
+        skill3: {
+            name: "Khiên ma thuật",
+            img: `${IshSk3}`,
+            delta: "Ishar nhận được 1 tấm lá chắn chặn sát thương trong và tăng tốc chạy. Tí Nị: Lập tức quay về bên cạnh chủ nhân và hất tung địch xung quanh Ishar và làm chậm."
+        },
+        skill4: {
+            name: "Sa bàn ma thuật",
+            img: `${IshSk4}`,
+            delta: "Ishar triệu hồi 1 lồng ma thuật khiến hình thành 1 kết giới giam giữ kẻ địch. Tí Nị: Lập tức nhảy vào mục tiêu trong lồng ma thuật, khi đáp đất gây sát thương phép."
+        }
+    },
+    {
+        id: 52,
+        name: "Điêu Thuyền",
+        poster: "https://i.pinimg.com/736x/7e/35/af/7e35afe479e4b2444ecd3417c49a2eb5.jpg",
+        skill1: {
+            name: "Nữ hoàng băng tuyết",
+            img: `${DieSk1}`,
+            delta: "Nội tại: Nếu trong 1 thời gian không bị công kích hay khống chế, Điêu Thuyền sẽ nhận được một lớp lá chắn giúp chặn hoàn toàn một kỹ năng, bao gồm cả sát thương và hiệu ứng khống chế."
+        },
+        skill2: {
+            name: "Sương giá",
+            img: `${DieSk2}`,
+            delta: "Điêu Thuyền tung phép thuật băng giá lên một vùng chỉ định, gây sát thương phép, và làm chậm 50% tốc chạy của các kẻ địch trúng chiêu."
+        },
+        skill3: {
+            name: "Tuyết liên",
+            img: `${DieSk3}`,
+            delta: "Điêu Thuyền tạo bông sen băng gây sát thương phép, và đóng băng các kẻ địch trúng chiêu trong 2.5 giây. Điêu Thuyền có thể tích trữ tối đa 2 đóa Tuyết liên. Nếu mục tiêu trúng chiêu liên tục 2 lần trong 5 giây sẽ phải chịu đóng băng ít hơn ở lần thứ 2. Đặc biệt, những nạn nhân bị đóng băng sẽ phải chịu thêm sát thương phép từ mọi nguồn sát thương của Điêu Thuyền."
+        },
+        skill4: {
+            name: "Bão tuyết",
+            img: `${DieSk4}`,
+            delta: "Điêu Thuyền gọi ra một trận bão tuyết tấn công những kẻ thù trong phạm vi, gây sát thương phép và làm chậm tốc chạy của nạn nhân. Đồng thời, cô được tăng thêm giáp. Chiêu thức này cần niệm chiêu để thực hiện, tối đa kéo dài 5.3 giây, tuy nhiên sau 0.6 giây đầu nếu di chuyển hoặc ấn chiêu lần nữa thì có thể hủy."
+        }
+    },
+    {
+        id: 53,
+        name: "Skud",
+        poster: "https://i.pinimg.com/originals/d9/cb/76/d9cb769eff8a4b1fff2ac917325a05d2.jpg",
+        skill1: {
+            name: "Sôi máu",
+            img: `${SkuSk1}`,
+            delta: "Nội tại: Skud được tăng máu tối đa. Khi tấn công mục tiêu có ít máu tối đa hơn mình, mỗi đòn đánh của Skud sẽ gây thêm sát thương phép (sát thương gây thêm sẽ không chí mạng)."
+        },
+        skill2: {
+            name: "Găng nổi loạn",
+            img: `${SkuSk2}`,
+            delta: "Skud nhảy xổ đến phía trước tung một cú đấm, gây sát thương vật lý. Chiêu trúng kẻ địch giúp Skud nhận tốc đánh và đòn đánh cường hóa của chiêu 2 sẽ gây thêm sát thương phép."
+        },
+        skill3: {
+            name: "Găng cuồng bạo",
+            img: `${SkuSk3}`,
+            delta: "Skud dồn sức mạnh vào găng tay khiến bản thân được tăng dần tốc chạy đến 40% sau 3 giây rồi giảm dần. Đòn đánh thường kế tiếp sẽ được cường hóa, trong thời gian hiệu lực sẽ gây thêm sát thương phép và làm chậm tốc chạy mục tiêu. Đòn cường hóa nếu trúng địch sẽ giúp chiêu này được giảm thời gian hồi chiêu."
+        },
+        skill4: {
+            name: "Găng hung thần",
+            img: `${SkuSk4}`,
+            delta: "Nội tại: Hạ lính và quái rừng sẽ giúp bản thân hồi máu dựa theo máu đã mất. Skud tụ lực trong thoáng chốc rồi huơ găng hất tung tất cả kẻ địch lân cận, gây sát thương vật lý và đẩy lùi kẻ trúng phải."
+        }
+    },
+    {
+        id: 54,
+        name: "Qi",
+        poster: "https://i.pinimg.com/originals/13/d1/52/13d15283dd2708c40279858c521cef3b.jpg",
+        skill1: {
+            name: "Chân khí hộ thể",
+            img: `${QiSk1}`,
+            delta: "Qi giải phóng chân khí hộ thể, tối đa cộng dồn 3 lần, mỗi lần tăng 50 giáp. Nếu chiêu thức đánh trúng kẻ địch, 2 lần đánh thường kế tiếp sẽ được tăng 100% tốc đánh và gây thêm 40% sát thương vật lý, đồng thời hồi phục 60 máu."
+        },
+        skill2: {
+            name: "Truy tinh chưởng",
+            img: `${QiSk2}`,
+            delta: "Qi lướt theo hướng chỉ định, gây 200/240/280/320/360/400 (+0.7 công vật lý) sát thương vật lý lên những kẻ địch đứng trên đường lướt đồng thời hất tung địch 0.5 giây"
+        },
+        skill3: {
+            name: "Chấn thiên chưởng",
+            img: `${QiSk3}`,
+            delta: "Qi dùng chân khí đánh liên tiếp vào kẻ địch phía trước, mỗi đòn đánh gây 75/90/105/120/135/150 (+0.33 công vật lý) sát thương vật lý và giảm 15/22/29/36/43/50 giáp của địch. Chiêu này được cộng dồn tối đa 5 lần trong 5 giây."
+        },
+        skill4: {
+            name: "Hạo nhiên chưởng",
+            img: `${QiSk4}`,
+            delta: "Qi xuất chưởng về phía trước gây 240/360/480 (+0.6 công vật lý) sát thương vật lý và đánh lui địch. Kẻ địch bị đánh lui va vào địa hình sẽ phải chịu thêm 80/120/160 (+0.2 công vật lý) sát thương vật lý và choáng 1.5 giây. Sau đó Qi có thể lướt tiếp theo hướng chỉ định, gây 160/240/320 (+0.4 công vật lý) (+15% máu mục tiêu đã mất) sát thương vật lý lên những kẻ địch trên đường lướt"
         }
     }
 ]

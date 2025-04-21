@@ -8,7 +8,7 @@ const GameLQ = () => {
     const [editProfile, setEdProfile] = useState(false);
     const [img, setImg] = useState("https://i.pinimg.com/originals/65/7e/9c/657e9c89d676a72f89f89b250dbe8f14.jpg");
     const [uid, setUID] = useState("4302483086443633");
-    const [bio, setBio] = useState("Nếu Đã Vô Tình Thì Cần Gì Bỏ!");
+    const [bio, setBio] = useState("才华横溢");
     const openEditProfile = () => {
         setEdProfile(true);
         setImg(img);
