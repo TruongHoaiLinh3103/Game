@@ -18,8 +18,12 @@ import Home from "../components/Home";
 import Sport from "../components/Sport";
 import Play from '../components/Play';
 import Song from '../components/Song';
+import LayoffMusic from '../components/LayoffMusic';
+import ReactAudioPlayer from 'react-audio-player';
+import { useSelector } from 'react-redux';
 
 function App() {
+  const Loading = useSelector((state) => state.music.Loading);
   const [number, setNumber] = useState(sessionStorage.getItem("accessToken") ? 2 : 0);
   const checkNumberRES = (Children) => {
     setNumber(Children)
@@ -43,6 +47,7 @@ function App() {
               <Route path="/sport/kungfu" element={<Sport />} />
               <Route path="/play" element={<Play />} exact/>
               <Route path="/song" element={<Song />} exact/>
+              <Route path="/song/:id" element={<LayoffMusic />}/>
               <Route path="*" element={<NotPage />}/>
             </Routes>
             <Footer/>
@@ -64,6 +69,12 @@ function App() {
         pauseOnHover
         theme="dark"
       />
+      {Loading && <ReactAudioPlayer
+      src={Loading.audio}
+      autoPlay
+      controls
+      style={{display: "none"}}
+      />}
     </div>
   );
 }
