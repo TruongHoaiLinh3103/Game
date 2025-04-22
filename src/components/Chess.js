@@ -21,7 +21,7 @@ const Chess = () => {
                     <button className="c-chess_button" href={chess}>
                         <span className="c-chess_button_lg">
                             <span className="c-chess_button_sl"></span>
-                            <span className="c-chess_button_text">Cờ Vây</span>
+                            <span className="c-chess_button_text">GO</span>
                         </span>
                     </button>
                 </a>

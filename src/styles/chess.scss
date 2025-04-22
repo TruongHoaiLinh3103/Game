@@ -1,9 +1,11 @@
+.chess{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
 .c-chess{
-    width: 90%;
-    max-width: 800px;
-    min-height: 600px;
-    border: 1px solid black;
+    width: 99%;
 }
 
 /* From Uiverse.io by mrhyddenn */ 
