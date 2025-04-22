@@ -1,5 +1,6 @@
 import React from 'react';
 import "../styles/joker.scss";
+import { JOKERS } from '../story/JOKER';
 
 const Joker = () => {
     return (
@@ -56,6 +57,18 @@ const Joker = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className='j-data'>
+                {JOKERS.map((item, index) => {
+                    return(
+                        <div className='j-d-item' key={index}>
+                            <video loop muted controls>
+                                <source src={item.link} type="video/mp4" />
+                            </video>
+                            <h3>{item.name}</h3>
+                        </div>
+                    )
+                })}
             </div>
         </div>
     );
