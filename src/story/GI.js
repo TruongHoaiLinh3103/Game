@@ -245,62 +245,62 @@ export const GI = [
         skill1: {
             name: "Tây Phong Kiếm Thuật - Hầu Gái",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Claymore.png",
-            text: ""
+            text: "Đòn tấn công thông thường Thực hiện tối đa 4 đòn tấn công liên tiếp. Đòn tấn công tích điện Hút Stamina theo thời gian để thực hiện các đòn tấn công xoáy liên tục vào tất cả kẻ địch ở gần. Khi kết thúc chuỗi, thực hiện một nhát chém mạnh hơn. Đòn tấn công lao xuống Lao từ giữa không trung xuống đất bên dưới, gây sát thương cho kẻ địch dọc đường đi và gây DMG AoE khi va chạm."
         },
         skill2: {
             name: "Giáp Hộ Tâm",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/talent_2.png",
-            text: ""
+            text: "Triệu hồi một bộ giáp đá bảo vệ, gây sát thương Geo lên kẻ địch xung quanh và tạo ra một lá chắn. Khả năng hấp thụ sát thương của lá chắn được tính theo DEF của Noelle. Lá chắn có các đặc tính sau: Khi các đòn tấn công thường và tích điện của Noelle đánh trúng mục tiêu, chúng có một cơ hội nhất định để hồi phục HP cho tất cả các nhân vật, cả trên và ngoài sân đấu. Áp dụng nguyên tố Geo cho nhân vật. Sở hữu 250% Hiệu quả hấp thụ chống lại sát thương Geo . Lượng HP được hồi phục khi kích hoạt khả năng hồi phục sẽ được tính theo DEF của Noelle."
         },
         skill3: {
             name: "Quét Sạch",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/talent_3.png",
-            text: ""
+            text: "Tập hợp sức mạnh của đá xung quanh vũ khí của mình, Noelle tấn công kẻ địch xung quanh cô trong một phạm vi rộng, gây ra Geo DMG. Sau đó, Noelle đạt được các hiệu ứng sau: Phạm vi tấn công lớn hơn. Chuyển đổi DMG tấn công thành Geo DMG. Tăng ATK dựa trên DEF của cô."
         },
         skill4: {
             name: "Toàn Tâm Toàn Ý",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/talent_4.png",
-            text: ""
+            text: "Khi Noelle ở trong nhóm nhưng không ở trên sân, khả năng này sẽ tự động kích hoạt khi HP của nhân vật đang hoạt động giảm xuống dưới 30%: Tạo ra một lá chắn tồn tại trong 20 giây và hấp thụ DMG bằng 400% DEF của Noelle. Hiệu ứng này chỉ có thể xảy ra một lần sau mỗi 60 giây."
         },
         skill5: {
             name: "Gọn Gàng",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/talent_5.png",
-            text: ""
+            text: "Mỗi 4 đòn tấn công thường hoặc tấn công tích điện sẽ làm giảm thời gian hồi của Áo giáp đi 1 giây. Tấn công nhiều kẻ địch bằng một đòn tấn công chỉ được tính là 1 đòn."
         },
         skill6: {
             name: "Thái Độ Của Hầu Gái",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/talent_6.png",
-            text: ""
+            text: "Khi đạt được kỹ năng Nấu ăn hoàn hảo trên món ăn tăng DEF, Noelle có 12% cơ hội nhận được gấp đôi sản phẩm."
         },
         cm1: {
             name: "Chi Viện Cứ Giao Cho Tôi",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/constellation_1.png",
-            text: ""
+            text: "Trong khi Sweeping Time và Breastplate đều có hiệu lực, khả năng kích hoạt hiệu ứng chữa lành của Breastplate sẽ tăng lên 100%."
         },
         cm2: {
             name: "Hầu Gái Lốc Xoáy",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/constellation_2.png",
-            text: ""
+            text: "Giảm 20% mức tiêu hao thể lực của đòn tấn công tích tụ của Noelle và tăng 15% sát thương của đòn tấn công tích tụ."
         },
         cm3: {
             name: "Hầu Gái Không Đau",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/constellation_3.png",
-            text: ""
+            text: "Tăng cấp độ của Áo giáp ngực lên 3. Cấp độ nâng cấp tối đa là 15."
         },
         cm4: {
             name: "Sẽ Dọn Dẹp Sạch Sẽ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/constellation_4.png",
-            text: ""
+            text: "Khi thời gian hiệu lực của Breastplate hết hoặc bị phá hủy bởi DMG, nó sẽ gây 400% ATK của Geo DMG lên kẻ địch xung quanh."
         },
         cm5: {
             name: "Chuyên Gia Quét Dọn Đội Kỵ Sĩ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/constellation_5.png",
-            text: ""
+            text: "Tăng Cấp độ Thời gian Quét lên 3. Cấp độ nâng cấp tối đa là 15."
         },
         cm6: {
             name: "Phải Sạch Bong Kin Kít",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Noelle/constellation_6.png",
-            text: ""
+            text: "Sweeping Time tăng ATK của Noelle thêm 50% DEF. Ngoài ra, mỗi kẻ địch bị đánh bại trong thời gian hiệu lực của kỹ năng sẽ cộng thêm 1 giây vào thời gian hiệu lực, tối đa là 10 giây."
         }
     },
     {
@@ -449,62 +449,62 @@ export const GI = [
         skill1: {
             name: "Kiếm Tôi Luyện",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Claymore.png",
-            text: ""
+            text: "Đòn tấn công thông thường Thực hiện tối đa 4 đòn tấn công liên tiếp. Đòn tấn công tích điện Hút Stamina theo thời gian để thực hiện các nhát chém liên tục. Vào cuối chuỗi, thực hiện một nhát chém mạnh hơn. Đòn tấn công lao xuống Lao từ giữa không trung xuống đất, gây sát thương cho kẻ địch trên đường đi và gây DMG AoE khi va chạm."
         },
         skill2: {
             name: "Lưỡi Đao Rực Lửa",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Diluc/talent_2.png",
-            text: ""
+            text: "Thực hiện một nhát chém về phía trước gây ra DMG Pyro . Kỹ năng này có thể được sử dụng 3 lần liên tiếp. Vào CD nếu không được thi triển lại trong thời gian ngắn."
         },
         skill3: {
             name: "Bình Minh",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Diluc/talent_3.png",
-            text: ""
+            text: "Giải phóng ngọn lửa dữ dội để đẩy lùi kẻ địch gần đó, gây ra DMG Pyro . Ngọn lửa sau đó hội tụ vào vũ khí, triệu hồi một con Phượng hoàng bay về phía trước và gây ra DMG Pyro lớn cho tất cả kẻ địch trên đường đi của nó. Phượng hoàng phát nổ khi đến đích, gây ra một lượng lớn DMG Pyro AoE . Ngọn lửa thiêu đốt chạy dọc theo lưỡi kiếm của anh ta khiến các Đòn tấn công Bình thường và Tích điện của Diluc gây ra DMG Pyro trong một thời gian."
         },
         skill4: {
             name: "Không Bỏ Cuộc",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Diluc/talent_4.png",
-            text: ""
+            text: "Tiêu hao sức bền của đòn tấn công tích tụ của Diluc giảm 50% và thời gian duy trì tăng thêm 3 giây."
         },
         skill5: {
             name: "Đôi Cánh Rực Lửa",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Diluc/talent_5.png",
-            text: ""
+            text: "Pyro Enchantment do Dawn cung cấp kéo dài thêm 4 giây. Ngoài ra, Diluc nhận được 20% Pyro DMG Bonus trong thời gian hiệu ứng này kéo dài ."
         },
         skill6: {
             name: "Truyền Thống Của Bình Minh",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Diluc/talent_6.png",
-            text: ""
+            text: "Hoàn lại 15% số quặng đã sử dụng khi chế tạo vũ khí loại Claymore."
         },
         cm1: {
             name: "Cắt Đứt Tội Lỗi",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Diluc/constellation_1.png",
-            text: ""
+            text: "Diluc gây thêm 15% sát thương lên kẻ địch có HP trên 50%."
         },
         cm2: {
             name: "Than Hồng",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Diluc/constellation_2.png",
-            text: ""
+            text: "Khi Diluc chịu DMG, ATK cơ bản của anh ta tăng 10% và ATK SPD của anh ta tăng 5%. Kéo dài trong 10 giây. Hiệu ứng này có thể cộng dồn tối đa 3 lần và chỉ có thể xảy ra một lần sau mỗi 1,5 giây."
         },
         cm3: {
             name: "Ngọn Lửa Thép",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Diluc/constellation_3.png",
-            text: ""
+            text: "Tăng Cấp độ của Searing Onslaught lên 3. Cấp độ nâng cấp tối đa là 15."
         },
         cm4: {
             name: "Lòng Như Lửa Đốt",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Diluc/constellation_4.png",
-            text: ""
+            text: "Thi triển Searing Onslaught theo trình tự sẽ tăng đáng kể sát thương gây ra. Trong vòng 2 giây sau khi sử dụng Searing Onslaught, thi triển Searing Onslaught tiếp theo trong combo sẽ gây thêm 40% DMG. Hiệu ứng này kéo dài trong 2 giây tiếp theo."
         },
         cm5: {
             name: "Phượng Hoàng Lúc Bình Minh",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Diluc/constellation_5.png",
-            text: ""
+            text: "Tăng cấp độ Dawn lên 3. Cấp độ nâng cấp tối đa là 15."
         },
         cm6: {
             name: "Kiếm Lửa Diệt Trừ Tà Ác",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Diluc/constellation_6.png",
-            text: ""
+            text: "Sau khi sử dụng Searing Onslaught, 2 đòn tấn công thường tiếp theo trong vòng 6 giây sẽ có sát thương và tốc độ tấn công tăng 30%. Ngoài ra, Searing Onslaught sẽ không làm gián đoạn combo tấn công thường."
         }
     },
     {
@@ -857,62 +857,62 @@ export const GI = [
         skill1: {
             name: "Thương Pháp Bí Truyền Vãng Sinh",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Polearm.png",
-            text: ""
+            text: "Đòn tấn công thông thường Thực hiện tối đa 6 đòn tấn công bằng giáo liên tiếp. Đòn tấn công tích điện Tiêu thụ một lượng Stamina nhất định để lao về phía trước, gây sát thương cho kẻ địch trên đường đi. Đòn tấn công lao xuống Lao từ giữa không trung xuống đất, gây sát thương cho kẻ địch trên đường đi và gây DMG AoE khi va chạm."
         },
         skill2: {
             name: "Điệp Dẫn Lai Sinh",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Hu%20Tao/talent_2.png",
-            text: ""
+            text: "Hu Tao tiêu thụ một phần HP của mình để đẩy lùi kẻ địch xung quanh và tiến vào trạng thái Paramita Papilio. Paramita Papilio Tăng ATK của Hu Tao dựa trên HP tối đa của cô ấy tại thời điểm tiến vào trạng thái này. Tiền thưởng ATK nhận được theo cách này không thể vượt quá 400% ATK cơ bản của Hu Tao. Chuyển đổi SÁT THƯƠNG ĐẠI CHIẾN thành SÁT THƯƠNG Pyro , không thể bị ghi đè bởi bất kỳ truyền nguyên tố nào khác. Các đòn tấn công tích tụ sẽ áp dụng hiệu ứng Blood Blossom lên kẻ địch bị trúng đòn. Tăng khả năng kháng gián đoạn của Hu Tao. Blood Blossom Kẻ địch bị ảnh hưởng bởi Blood Blossom sẽ phải chịu SÁT THƯƠNG Pyro sau mỗi 4 giây. SÁT THƯƠNG này được coi là SÁT THƯƠNG Kỹ năng Nguyên tố. Mỗi kẻ địch chỉ có thể bị ảnh hưởng bởi một hiệu ứng Blood Blossom tại một thời điểm và thời gian hiệu ứng chỉ có thể được làm mới bởi chính Hu Tao. Paramita Papilio kết thúc khi thời gian hiệu ứng kết thúc hoặc Hu Tao đã rời khỏi chiến trường hoặc đã ngã xuống."
         },
         skill3: {
             name: "An Thần Bí Pháp",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Hu%20Tao/talent_3.png",
-            text: ""
+            text: "Ra lệnh cho một tinh linh rực lửa tấn công, gây ra DMG Pyro trong một phạm vi rộng. Khi tấn công kẻ địch, hồi phục một phần trăm HP tối đa của Hu Tao. Hiệu ứng này có thể được kích hoạt tối đa 5 lần, dựa trên số lượng kẻ địch bị tấn công. Nếu HP của Hu Tao dưới hoặc bằng 50% khi kẻ địch bị tấn công, cả DMG và HP Regeneration đều tăng lên."
         },
         skill4: {
             name: "Điệp Ẩn Chi Thời",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Hu%20Tao/talent_4.png",
-            text: ""
+            text: "Khi trạng thái Paramita Papilio được kích hoạt bởi Guide to Afterlife kết thúc, tất cả đồng minh trong nhóm (trừ Hu Tao) sẽ có Tỷ lệ CRIT tăng 12% trong 8 giây."
         },
         skill5: {
             name: "Huyết Chi Táo Hỏa",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Hu%20Tao/talent_5.png",
-            text: ""
+            text: "Khi HP của Hu Tao bằng hoặc nhỏ hơn 50%, phần thưởng sát thương hệ Lửa của cô ấy tăng thêm 33%."
         },
         skill6: {
             name: "Đa Đa Ích Thiện",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Hu%20Tao/talent_6.png",
-            text: ""
+            text: "Khi Hồ Đào nấu một món ăn hoàn hảo, cô ấy có 18% cơ hội nhận được thêm một món ăn 'Nghi vấn' cùng loại."
         },
         cm1: {
             name: "Cánh Bướm Bay Nghiêng Về Chân Trời",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Hu%20Tao/constellation_1.png",
-            text: ""
+            text: "Khi ở trạng thái Bó hoa Paramita được kích hoạt bởi Guide to Afterlife, đòn tấn công dồn dập của Hu Tao không tiêu tốn Thể lực."
         },
         cm2: {
             name: "Mưa Về Bất An",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Hu%20Tao/constellation_2.png",
-            text: ""
+            text: "Tăng sát thương của Blood Blossom lên một lượng bằng 10% HP tối đa của Hu Tao tại thời điểm hiệu ứng được áp dụng. Ngoài ra, Spirit Soother cũng sẽ áp dụng hiệu ứng Blood Blossom."
         },
         cm3: {
             name: "Huyết Sắc Vấn Vương",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Hu%20Tao/constellation_3.png",
-            text: ""
+            text: "Tăng cấp độ của Hướng dẫn về kiếp sau lên 3. Cấp độ nâng cấp tối đa là 15."
         },
         cm4: {
             name: "Hoa Phòng Bầu Bạn",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Hu%20Tao/constellation_4.png",
-            text: ""
+            text: "Sau khi đánh bại kẻ địch bị ảnh hưởng bởi Hoa máu do chính Hu Tao sử dụng, tất cả đồng minh ở gần trong nhóm (trừ bản thân Hu Tao) sẽ có tỷ lệ CRIT tăng 12% trong 15 giây."
         },
         cm5: {
             name: "Đốt Hoa Làm Hương",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Hu%20Tao/constellation_5.png",
-            text: ""
+            text: "Tăng cấp độ của Spirit Soother lên 3. Cấp độ nâng cấp tối đa là 15."
         },
         cm6: {
             name: "U Điệp Lưu Lại Một Chút Hương",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Hu%20Tao/constellation_6.png",
-            text: ""
+            text: "Kích hoạt khi HP của Hu Tao giảm xuống dưới 25% hoặc khi cô ấy bị một đòn chí mạng: Hu Tao sẽ không ngã xuống do DMG phải chịu. Ngoài ra, trong 10 giây tiếp theo, tất cả RES Nguyên tố và Vật lý của cô ấy tăng 200%, Tỷ lệ CRIT của cô ấy tăng 100% và khả năng chống gián đoạn của cô ấy tăng đáng kể. Hiệu ứng này tự động kích hoạt khi Hu Tao còn 1 HP. Chỉ có thể xảy ra một lần sau mỗi 60 giây."
         }
     },
     {
@@ -925,62 +925,62 @@ export const GI = [
         skill1: {
             name: "Cổ Hoa Kiếm Pháp",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Sword.png",
-            text: ""
+            text: "Đòn tấn công thông thường Thực hiện tối đa 5 đòn tấn công nhanh. Đòn tấn công tích điện Tiêu thụ một lượng Stamina nhất định để tung ra 2 đòn tấn công bằng kiếm nhanh. Đòn tấn công lao xuống Lao từ giữa không trung xuống đất bên dưới, gây sát thương cho kẻ địch trên đường đi và gây DMG AoE khi va chạm."
         },
         skill2: {
             name: "Cổ Hoa Kiếm - Họa Vũ Lung Sơn",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xingqiu/talent_2.png",
-            text: ""
+            text: "Xingqiu thực hiện đòn tấn công kép bằng kiếm của mình, gây ra Hydro DMG. Đồng thời, khả năng này tạo ra số lượng tối đa Rain Swords, sẽ quay quanh nhân vật. Rain Swords có các đặc tính sau: Khi một nhân vật nhận DMG, Rain Sword sẽ vỡ tan, làm giảm lượng DMG phải nhận. Tăng khả năng chống chịu gián đoạn của nhân vật. 20% Tiền thưởng Hydro DMG của Xingqiu sẽ được chuyển đổi thành Giảm DMG bổ sung cho Rain Swords. Lượng Giảm DMG bổ sung tối đa có thể đạt được theo cách này là 24%. Số lượng Rain Swords tối đa ban đầu là 3. Sử dụng khả năng này sẽ áp dụng trạng thái Wet lên nhân vật."
         },
         skill3: {
             name: "Cổ Hoa Kiếm - Tài Vũ Lưu Hồng",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xingqiu/talent_3.png",
-            text: ""
+            text: "Khởi tạo Rainbow Bladework và chiến đấu bằng một cơn mưa kiếm ảo, đồng thời tạo ra số lượng tối đa các thanh kiếm Rain Swords. Các đòn tấn công thường của Rainbow Bladework sẽ kích hoạt các đòn tấn công liên tiếp bằng mưa kiếm, gây ra Hydro DMG. Rain Swords sẽ duy trì ở số lượng tối đa trong suốt thời gian hiệu lực của khả năng. Các hiệu ứng này sẽ được áp dụng cho các nhân vật khác."
         },
         skill4: {
             name: "Sinh Thủy Yêu Quyết",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xingqiu/talent_4.png",
-            text: ""
+            text: "Khi một thanh kiếm mưa bị vỡ hoặc khi thời gian tác dụng của nó hết, nó sẽ tái tạo HP của nhân vật hiện tại dựa trên 6% HP tối đa của Xingqiu."
         },
         skill5: {
             name: "Ngòi Bút Thực Hư",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xingqiu/talent_5.png",
-            text: ""
+            text: "Xingqiu nhận được 20% Hydro DMG Bonus."
         },
         skill6: {
             name: "Ánh Sáng Lấp Lánh",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xingqiu/talent_6.png",
-            text: ""
+            text: "Khi Xingqiu chế tạo Vật liệu Tài năng Nhân vật, anh ta có 25% cơ hội được hoàn lại một phần vật liệu chế tạo đã sử dụng."
         },
         cm1: {
             name: "Mùi Hương Vương Vấn",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xingqiu/constellation_1.png",
-            text: ""
+            text: "Tăng số lượng tối đa của Rain Swords thêm 1."
         },
         cm2: {
             name: "Cầu Vồng Trời Xanh",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xingqiu/constellation_2.png",
-            text: ""
+            text: "Kéo dài thời gian hiệu lực của Guhua Sword - Raincutter thêm 3 giây. Giảm Hydro RES của kẻ địch trúng đòn tấn công mưa kiếm 15% trong 4 giây."
         },
         cm3: {
             name: "Dệt Thơ Thành Lụa",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xingqiu/constellation_3.png",
-            text: ""
+            text: "Tăng cấp độ của Guhua Sword - Raincutter lên 3. Cấp độ nâng cấp tối đa là 15."
         },
         cm4: {
             name: "Cô Châu Trảm Giao",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xingqiu/constellation_4.png",
-            text: ""
+            text: "Trong suốt thời gian diễn ra của Guhua Sword: Raincutter, sát thương gây ra bởi Guhua Sword: Fatal Rainscreen tăng 50%."
         },
         cm5: {
             name: "Đóng Cửa Trong Mưa",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xingqiu/constellation_5.png",
-            text: ""
+            text: "Tăng cấp độ của Guhua Sword - Fatal Rainscreen lên 3. Cấp độ nâng cấp tối đa là 15."
         },
         cm6: {
             name: "Sách Đều Ở Đây",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xingqiu/constellation_6.png",
-            text: ""
+            text: "Kích hoạt 2 trong số Guhua Sword - Đòn tấn công mưa kiếm của Raincutter sẽ tăng đáng kể sát thương của đòn thứ ba. Xingqiu hồi phục 3 Năng lượng khi đòn tấn công mưa kiếm trúng kẻ địch."
         }
     },
     {
@@ -993,61 +993,62 @@ export const GI = [
         skill1: {
             name: "Xén Cỏ Dị Bang",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Sword.png",
-            text: ""
+            text: "Đòn tấn công thông thường Thực hiện tối đa 5 đòn tấn công nhanh. Đòn tấn công tích điện Tiêu thụ một lượng Stamina nhất định để tung ra 2 đòn tấn công bằng kiếm nhanh. Đòn tấn công lao xuống Lao từ giữa không trung xuống đất bên dưới, gây sát thương cho đối thủ trên đường đi và gây DMG AoE khi va chạm."
         },
         skill2: {
             name: "Yển Thảo Nhược Hóa",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Traveler%20Dendro/talent_2.png",
-            text: ""
+            text: "Chỉ cần vung kiếm, bạn sẽ tạo ra một luồng lá sắc nhọn bay về phía trước và gây sát thương Dendro "
         },
         skill3: {
             name: "Thảo Duyên Kiếm",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Traveler%20Dendro/talent_3.png",
-            text: ""
+            text: "Triệu hồi sức mạnh của hệ thực vật xung quanh, bạn tạo ra một Đèn hoa sen Lea. Đèn này sẽ gây DMG Dendro liên tục lên đối thủ trong phạm vi AoE của nó. Biến hình Lotuslight Đèn hoa sen Lea sẽ trải qua những thay đổi sau khi tiếp xúc với Hydro/Electro/Pyro: Hydro: AoE của Đèn và AoE của các đòn tấn công của nó được tăng lên. Electro: ATK SPD của Đèn được tăng lên. Pyro: Đèn sẽ phát nổ sau một khoảng thời gian ngắn và sau đó biến mất, gây DMG Dendro AoE . Đèn hoa sen Lea chỉ có thể trải qua một Biến hình Lotuslight trong thời gian hiệu lực của nó. Chỉ có một Đèn do Người du hành tạo ra có thể tồn tại tại bất kỳ thời điểm nào."
         },
         skill4: {
             name: "Ngọn Cỏ Sinh Trưởng",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Traveler%20Dendro/talent_4.png",
-            text: ""
+            text: "Đèn hoa sen Lea sẽ nhận được một cấp độ Ánh hoa sen tràn ngập mỗi giây khi nó ở trên sân, tăng 6 Tinh thông nguyên tố của nhân vật đang hoạt động trong phạm vi của nó. Ánh hoa sen tràn ngập có tối đa 10 cộng dồn."
         },
         skill5: {
             name: "Cỏ Cây Sum Suê",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Traveler%20Dendro/talent_5.png",
-            text: ""
+            text: "Mỗi điểm Tinh thông nguyên tố mà Lữ khách sở hữu sẽ tăng 0,15% sát thương gây ra bởi Lưỡi kiếm cỏ Razorgrass và 0,1% sát thương gây ra bởi Biểu hiện trỗi dậy."
         },
         skill6: {
             name: "",
-            img: ""
+            img: "",
+            text: ""
         },
         cm1: {
             name: "Hạt Giống Ký Sinh",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Traveler%20Dendro/constellation_1.png",
-            text: ""
+            text: "Sau khi Lưỡi kiếm Razorgrass đánh trúng đối thủ, nó sẽ hồi lại 3,5 Năng lượng cho Người du hành."
         },
         cm2: {
             name: "Mầm Non Uyển Chuyển",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Traveler%20Dendro/constellation_2.png",
-            text: ""
+            text: "Thời gian tồn tại của Đèn hoa sen Lea tăng thêm 3 giây."
         },
         cm3: {
             name: "Ngọn Cỏ Đung Đưa",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Traveler%20Dendro/constellation_3.png",
-            text: ""
+            text: "Tăng cấp độ của Lưỡi kiếm Razorgrass lên 3. Cấp độ nâng cấp tối đa là 15."
         },
         cm4: {
             name: "Bụi Cỏ Um Tùm",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Traveler%20Dendro/constellation_4.png",
-            text: ""
+            text: "Sau khi Đèn Hoa Sen Lea kích hoạt Biến hình Ánh Hoa Sen, nó sẽ nhận được 5 chồng hiệu ứng Ánh Hoa Sen Tràn Đầy từ Tài năng thụ động 'Verdant Overgrowth'. Trước tiên, bạn phải mở khóa Tài năng thụ động này."
         },
         cm5: {
             name: "Đồng Cỏ Sum Suê",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Traveler%20Dendro/constellation_5.png",
-            text: ""
+            text: "Tăng Cấp độ Biểu hiện của Surgent lên 3. Cấp độ nâng cấp tối đa là 15."
         },
         cm6: {
             name: "Mảng Xanh Hùng Vĩ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Traveler%20Dendro/constellation_6.png",
-            text: ""
+            text: "Phần thưởng DMG Dendro của nhân vật dưới hiệu ứng của Overflowing Lotuslight do Lea Lotus Lamp tạo ra được tăng thêm 12%. Nếu Lamp đã trải qua Lotuslight Transfiguration trước đó, nhân vật cũng sẽ nhận được 12% Phần thưởng DMG cho nguyên tố tương ứng."
         }
     },
     {
@@ -1060,62 +1061,62 @@ export const GI = [
         skill1: {
             name: "Tài Nghệ Làm Bánh",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Polearm.png",
-            text: ""
+            text: "Đòn tấn công thông thường Thực hiện tối đa 5 đòn tấn công bằng giáo liên tiếp. Đòn tấn công tích điện Tiêu thụ một lượng Stamina nhất định để lao về phía trước, gây sát thương cho kẻ địch trên đường đi. Đòn tấn công lao xuống Lao từ giữa không trung xuống đất bên dưới, gây sát thương cho kẻ địch trên đường đi và gây DMG AoE khi va chạm."
         },
         skill2: {
             name: "Guoba Xuất Kích",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiangling/talent_2.png",
-            text: ""
+            text: "Triệu hồi Guoba phun lửa, trong thời gian tồn tại, không ngừng phun lửa vào địch, gây Sát Thương Phạm Vi Nguyên Tố Hỏa."
         },
         skill3: {
             name: "Bánh Xe Lửa",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiangling/talent_3.png",
-            text: ""
+            text: "Với kỹ năng tinh tế điều khiển lửa và thương, vung ra Bánh Xe Lửa xoay tròn quanh mình. Trong thời gian tồn tại, Bánh Xe Lửa sẽ đi theo nhân vật, gây cho địch trên đường Sát Thương Nguyên Tố Hỏa."
         },
         skill4: {
             name: "Hỏa Lực Đan Chéo",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiangling/talent_4.png",
-            text: ""
+            text: "Cự ly Guoba phun lửa tăng 20%.."
         },
         skill5: {
             name: "Ớt Chỉ Thiên Cay Xè",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiangling/talent_5.png",
-            text: ""
+            text: "Khi hiệu quả của Guoba Xuất Kích kết thúc, nơi Guoba biến mất sẽ bỏ lại quả ớt. Thu thập ớt sẽ tăng 10% tấn công, kéo dài 10s."
         },
         skill6: {
             name: "Đầu Bếp Vạn Dân Đường",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiangling/talent_6.png",
-            text: ""
+            text: "Nấu hoàn mỹ món ăn thuộc loại tấn công, có tỷ lệ 12% x2 sản lượng."
         },
         cm1: {
             name: "Ngoài Giòn Trong Mềm",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiangling/constellation_1.png",
-            text: ""
+            text: "Kẻ địch bị Guoba tấn công sẽ giảm 15% Kháng Nguyên Tố Hỏa, kéo dài 6s."
         },
         cm2: {
             name: "Thêm Dầu Vào Lửa",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiangling/constellation_2.png",
-            text: ""
+            text: "Đòn cuối của tấn công thường sẽ gây hiệu quả khiến kẻ địch nổ tung, duy trì 2s, khi kết thúc sẽ phát nổ, gây Sát Thương Phạm Vi Nguyên Tố Hỏa bằng 75% tấn công."
         },
         cm3: {
             name: "Nấu Ăn Cấp Bách",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiangling/constellation_3.png",
-            text: ""
+            text: "Cấp kỹ năng Bánh Xe Lửa +3. Tăng tối đa đến cấp 15."
         },
         cm4: {
             name: "Hầm Lửa Nhỏ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiangling/constellation_4.png",
-            text: ""
+            text: "Thời gian duy trì Bánh Xe Lửa kéo dài thêm 40%."
         },
         cm5: {
             name: "Guoba Hung Dữ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiangling/constellation_5.png",
-            text: ""
+            text: "Cấp kỹ năng Guoba Xuất Kích +3. Tăng tối đa đến cấp 15."
         },
         cm6: {
             name: "Bánh Xe Lửa Rồng Cuộn",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiangling/constellation_6.png",
-            text: ""
+            text: "Trong thời gian Bánh Xe Lửa tồn tại, tất cả thành viên trong đội nhận 15% Buff Sát Thương Nguyên Tố Hoả."
         }
     },
     {
@@ -1128,62 +1129,62 @@ export const GI = [
         skill1: {
             name: "Phá Bỏ Chướng Ngại",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Bow.png",
-            text: ""
+            text: "Normal Attack Thực hiện tối đa 4 lần bắn liên tiếp bằng cung. Charged Attack Thực hiện một cú bắn ngắm chính xác hơn với lượng sát thương tăng thêm. Trong khi ngắm, sức mạnh của Dendro sẽ tích tụ trên đầu mũi tên trước khi mũi tên được bắn ra. Có các hiệu ứng khác nhau dựa trên thời gian năng lượng được tích tụ: Charge Level 1: Tighnari bắn một mũi tên được truyền năng lượng Dendro gây ra sát thương Dendro . Charge Level 2: Tighnari bắn một mũi tên vòng hoa gây ra sát thương Dendro. Khi trúng đích, Wreath Arrow sẽ tạo ra 4 mũi tên Clusterbloom sẽ tự động theo dõi các đối thủ ở gần và gây ra sát thương Dendro . Plunging Attack Bắn ra một trận mưa tên giữa không trung trước khi rơi xuống và chạm đất, gây sát thương AoE khi va chạm."
         },
         skill2: {
             name: "Hạt Giống Vijnana-Phala",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Tighnari/talent_2.png",
-            text: ""
+            text: "Tighnari ném Bom Vijnana, gây Sát Thương Phạm Vi Nguyên Tố Thảo và tạo ra Khu Vực Vijnana-Khanda, ảo ảnh thần bí trong đó sẽ khiêu khích kẻ địch để thu hút hỏa lực. Ngoài ra, Tighnari nhận được hiệu ứng 'Vijnana Lan Tràn', khiến cho thời gian tụ lực của Mũi Tên Hoa giảm 2,4s, hiệu quả này sẽ mất khi kết thúc thời gian duy trì hoặc Tighnari bắn ra 3 lần Mũi Tên Hoa."
         },
         skill3: {
             name: "Dây Leo Sinh Trưởng",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Tighnari/talent_3.png",
-            text: ""
+            text: "Tập trung sức mạnh của hạt giống, bắn ra 6 Mũi Tên Dây Leo truy đuổi kẻ địch, gây Sát Thương Nguyên Tố Thảo. Mũi Tên Dây Leo khi trúng đích sẽ sản sinh Mũi Tên Dây Leo Thứ Cấp truy đuổi kẻ địch gần đó, khi trúng sẽ gây Sát Thương Nguyên Tố Thảo."
         },
         skill4: {
             name: "Tầm Nhìn Sắc Sảo",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Tighnari/talent_4.png",
-            text: ""
+            text: "Tighnari sau khi bắn Mũi Tên Hoa, Tinh Thông Nguyên Tố tăng 50 điểm, duy trì 4s."
         },
         skill5: {
             name: "Chuyên Gia Thực Vật",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Tighnari/talent_5.png",
-            text: ""
+            text: "Mỗi 1 điểm Tinh Thông Nguyên Tố của Tighnari sẽ khiến cho sát thương trọng kích và sát thương Dây Leo Sinh Trưởng gây ra tăng 0,06%. Sát thương có thể tăng tối đa 60% thông qua cách này."
         },
         skill6: {
             name: "Học Thức Uyên Thâm",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Tighnari/talent_6.png",
-            text: ""
+            text: "Hiển thị đặc sản khu vực Sumeru trên bản đồ nhỏ."
         },
         cm1: {
             name: "Từ Gốc Rễ Định Ban Sơ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Tighnari/constellation_1.png",
-            text: ""
+            text: "Tỷ lệ CRIT của đòn tấn công tích tụ của Tighnari tăng 15%."
         },
         cm2: {
             name: "Từ Mầm Chồi Hiểu Ngọn Nguồn",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Tighnari/constellation_2.png",
-            text: ""
+            text: "Khi có đối thủ trong Vijnana-Khanda Field do Vijnana-Phala Mine tạo ra, Tighnari nhận được 20% Dendro DMG Bonus. Hiệu ứng sẽ kéo dài đến 6 giây nếu thời gian tồn tại của trường kết thúc hoặc nếu không còn đối thủ trong đó nữa."
         },
         cm3: {
             name: "Từ Thân Nhánh Biết Vạn Vật",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Tighnari/constellation_3.png",
-            text: ""
+            text: "Tăng Cấp độ của Trục Tanglevine của Fashioner lên 3. Cấp độ nâng cấp tối đa là 15."
         },
         cm4: {
             name: "Từ Phiến Lá Giải Thịnh Suy",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Tighnari/constellation_4.png",
-            text: ""
+            text: "Khi thi triển Dây Leo Sinh Trưởng, Tinh Thông Nguyên Tố của tất cả nhân vật trong đội gần đó tăng 60 điểm, duy trì 8s. Nếu Dây Leo Sinh Trưởng kích hoạt phản ứng Thiêu Đốt, Sum Suê, Sinh Trưởng hoặc Lan Tràn, Tinh Thông Nguyên Tố sẽ tăng thêm 60 điểm, đồng thời làm mới thời gian duy trì của trạng thái này"
         },
         cm5: {
             name: "Từ Cánh Hoa Tìm Giác Ngộ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Tighnari/constellation_5.png",
-            text: ""
+            text: "Tăng cấp độ của Mỏ Vijnana-Phala lên 3. Cấp độ nâng cấp tối đa là 15."
         },
         cm6: {
             name: "Từ Cây Trái Luận Nhân Quả",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Tighnari/constellation_6.png",
-            text: ""
+            text: "Thời gian tích tụ của Wreath Arrow giảm 0,9 giây và sẽ tạo ra thêm 1 Clusterbloom Arrow khi trúng đích. Mũi tên này gây 150% ATK của Tighnari thành DMG."
         }
     },
     {
@@ -1196,62 +1197,62 @@ export const GI = [
         skill1: {
             name: "Lưu Thiên Xạ Thuật",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Bow.png",
-            text: ""
+            text: "Normal Attack Thực hiện tối đa 6 lần bắn liên tiếp bằng cung. Charged Attack Thực hiện một cú bắn ngắm chính xác hơn với sát thương tăng thêm. Trong khi ngắm, một luồng khí băng giá sẽ tích tụ trên đầu mũi tên trước khi mũi tên được bắn ra. Có các hiệu ứng khác nhau tùy thuộc vào thời gian năng lượng được tích trữ: Charge Level 1: Bắn ra một mũi tên băng giá gây sát thương Cryo . Charge Level 2: Bắn ra một mũi tên Frostflake gây sát thương Cryo . Mũi tên Frostflake nở ra sau khi bắn trúng mục tiêu, gây sát thương Cryo diện rộng. Plunging Attack Bắn ra một trận mưa tên giữa không trung trước khi rơi xuống và chạm đất, gây sát thương AoE khi va chạm."
         },
         skill2: {
             name: "Sơn Trạch Lân Tích",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ganyu/talent_2.png",
-            text: ""
+            text: "Ganyu để lại một đóa sen băng rồi lùi nhanh về phía sau, tránh xa tất cả yêu ma, gây Sát Thương Phạm Vi Nguyên Tố Băng"
         },
         skill3: {
             name: "Thiên Hoa Hạ Phàm",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ganyu/talent_3.png",
-            text: ""
+            text: "Ngưng tụ sương tuyết trong không khí, triệu hồi Linh Châu Băng diệt ma. Trong thời gian tồn tại, Linh Châu Băng sẽ không ngừng giáng Nhũ Băng xuống, tấn công kẻ địch trong phạm vi, gây Sát Thương Nguyên Tố Băng."
         },
         skill4: {
             name: "Duy Thử Nhất Tâm",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ganyu/talent_4.png",
-            text: ""
+            text: "Trong vòng 5s sau khi Cung Sương Hoa bắn ra, sẽ khiến cho Cung Sương Hoa được bắn ra tiếp theo và Sương Giá Tung Bay được tạo ra từ những Cung Sương Hoa này tăng 20% tỷ lệ bạo kích."
         },
         skill5: {
             name: "Thiên Địa Giao Hòa",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ganyu/talent_5.png",
-            text: ""
+            text: "Nhân vật trong đội đang trong trận ở khu vực Thiên Hoa Hạ Phàm sẽ nhận 20% tăng sát thương Nguyên Tố Băng."
         },
         skill6: {
             name: "Cất Cung Đợi Dùng",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ganyu/talent_6.png",
-            text: ""
+            text: "Khi rèn vũ khí loại cung, hoàn trả 15% Khoáng Thạch tiêu hao."
         },
         cm1: {
             name: "Ẩm Lộ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ganyu/constellation_1.png",
-            text: ""
+            text: "Khi Cung Sương Hoa hoặc Sương Giá Tung Bay tụ lực trọng kích lần 2 trúng kẻ địch sẽ khiến địch bị giảm 15% Kháng Nguyên Tố Băng, kéo dài 6s; Ngoài ra, khi trúng sẽ hồi 2 điểm Năng Lượng Nguyên Tố cho Ganyu. Mỗi lần tụ lực trọng kích lần 2 chỉ có thể kích hoạt hiệu quả hồi Năng Lượng Nguyên Tố 1 lần, bất kể Cung Sương Hoa hoặc Sương Giá Tung Bay có trúng địch hay không."
         },
         cm2: {
             name: "Hoạch Lân",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ganyu/constellation_2.png",
-            text: ""
+            text: "Số lần sử dụng Sơn Trạch Lân Tích tăng thêm 1."
         },
         cm3: {
             name: "Vân Hành",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ganyu/constellation_3.png",
-            text: ""
+            text: "Tăng cấp độ của Celestial Shower lên 3. Cấp độ nâng cấp tối đa là 15."
         },
         cm4: {
             name: "Tây Thú",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ganyu/constellation_4.png",
-            text: ""
+            text: "Đối thủ đứng trong AoE của Celestial Shower sẽ phải chịu thêm DMG. Hiệu ứng này tăng dần theo thời gian. DMG tăng phải chịu bắt đầu ở mức 5% và tăng thêm 5% sau mỗi 3 giây, tối đa là 25%. Hiệu ứng kéo dài trong 3 giây sau khi đối thủ rời khỏi AoE."
         },
         cm5: {
             name: "Trảm Thảo",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ganyu/constellation_5.png",
-            text: ""
+            text: "Tăng cấp độ của Trail of the Qilin lên 3. Cấp độ nâng cấp tối đa là 15."
         },
         cm6: {
             name: "Lữ Trùng",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ganyu/constellation_6.png",
-            text: ""
+            text: "Sử dụng Trail of the Qilin khiến mũi tên Frostflake tiếp theo được bắn trong vòng 30 giây không cần phải sạc."
         }
     },
     {
@@ -1264,62 +1265,62 @@ export const GI = [
         skill1: {
             name: "Cuốn Quét Bụi Trần",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Polearm.png",
-            text: ""
+            text: "Đòn tấn công thông thường Thực hiện tối đa 6 đòn tấn công bằng giáo liên tiếp. Đòn tấn công tích điện Tiêu thụ một lượng Stamina nhất định để thực hiện một cú đâm hướng lên trên. Đòn tấn công lao xuống Lao từ giữa không trung xuống đất từ ​​bên dưới, gây sát thương cho đối thủ trên đường đi và gây DMG AoE khi va chạm. Xiao không chịu DMG khi thực hiện Đòn tấn công lao xuống."
         },
         skill2: {
             name: "Đôi Bánh Xe Gió",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiao/talent_2.png",
-            text: ""
+            text: "Lao đến cực nhanh, gây Sát Thương Nguyên Tố Phong cho kẻ địch trên đường. Có thể thi triển trên không trung. Ban đầu có 2 lần sử dụng."
         },
         skill3: {
             name: "Vũ Điệu Trừ Yêu",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiao/talent_3.png",
-            text: ""
+            text: "Phơi bày Mặt Nạ Dạ Xoa mà hàng nghìn năm trước đã khiến yêu ma quỷ quái run sợ."
         },
         skill4: {
             name: "Hàng Ma - Bình Yêu Đại Thánh",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiao/talent_4.png",
-            text: ""
+            text: "Trong trạng thái Vũ Điệu Trừ Yêu, tất cả sát thương Xiao gây ra tăng 5%. Sau đó, trong thời gian duy trì của kỹ năng, mỗi 3s, sát thương gây ra sẽ tăng thêm 5%. Tối đa nhận 25% sát thương tăng thêm."
         },
         skill5: {
             name: "Hoại Kiếp - Quốc Thổ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiao/talent_5.png",
-            text: ""
+            text: "Sau khi thi triển Đôi Bánh Xe Gió, trong vòng 7s sau đó sẽ khiến cho sát thương của Đôi Bánh Xe Gió tăng 15%. Hiệu quả kéo dài 7s, tối đa cộng dồn 3 lần, khi cộng dồn sẽ làm mới thời gian kéo dài."
         },
         skill6: {
             name: "Thần Thông - Không Trung Tự Tại",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiao/talent_6.png",
-            text: ""
+            text: "Giảm 20% tiêu hao thể lực khi leo trèo cho nhân vật trong đội của bản thân. Không thể cộng dồn với buff thiên phú cố định có cùng hiệu quả."
         },
         cm1: {
             name: "Hoại Kiếp - Hủy Hoại Tam Giới",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiao/constellation_1.png",
-            text: ""
+            text: "Số lần dùng Đôi Bánh Xe Gió tăng thêm 1."
         },
         cm2: {
             name: "Không Kiếp - Hư Không Hoa Khai",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiao/constellation_2.png",
-            text: ""
+            text: "Khi ở trong đội nhưng không ra trận, hiệu quả nạp nguyên tố của Xiao sẽ tăng 25%."
         },
         cm3: {
             name: "Hàng Ma - Phẫn Nộ Hiện Rõ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiao/constellation_3.png",
-            text: ""
+            text: "Cấp kỹ năng Đôi Bánh Xe Gió +3. Tăng tối đa đến cấp 15."
         },
         cm4: {
             name: "Thần Thông - Chư Khổ Diệt Tận",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiao/constellation_4.png",
-            text: ""
+            text: "Khi HP của Xiao dưới 50%, tăng 100% phòng ngự."
         },
         cm5: {
             name: "Thành Kiếp - Vô Minh Tăng Trưởng",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiao/constellation_5.png",
-            text: ""
+            text: "Cấp kỹ năng Vũ Điệu Trừ Yêu +3. Tăng tối đa đến cấp 15."
         },
         cm6: {
             name: "Hàng Ma - Hộ Pháp Dạ Xoa",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xiao/constellation_6.png",
-            text: ""
+            text: "Trong trạng thái Vũ Điệu Trừ Yêu, khi tấn công khi đáp đánh trúng ít nhất 2 kẻ địch, Đôi Bánh Xe Gió lập tức nhận được 1 lần sử dụng, và trong 1s tiếp theo, có thể bỏ qua CD thi triển Đôi Bánh Xe Gió."
         }
     },
     {
@@ -1332,62 +1333,62 @@ export const GI = [
         skill1: {
             name: "Ngàn Vàng Lấp Lánh",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Catalyst.png",
-            text: ""
+            text: "Đòn tấn công thông thường Bắn ra những viên ngọc gây sát thương Geo . Khi trúng đích, đòn tấn công này sẽ cấp cho Ningguang 1 Star Jade. Đòn tấn công tích điện Tiêu thụ một lượng Stamina nhất định để bắn ra một viên ngọc khổng lồ gây sát thương Geo . Nếu Ningguang có bất kỳ Star Jade nào, việc tung ra một đòn tấn công tích điện sẽ khiến Star Jade cũng được bắn vào kẻ địch, gây thêm sát thương. Đòn tấn công lao xuống Tập hợp sức mạnh của Geo, Ningguang lao xuống đất từ ​​giữa không trung, gây sát thương cho tất cả kẻ địch trên đường đi của cô. Gây sát thương Geo diện rộng khi va chạm với mặt đất."
         },
         skill2: {
             name: "Vách Toàn Cơ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ningguang/talent_2.png",
-            text: ""
+            text: "Dùng vàng và đá đen thừa chế tạo Vách Toàn Cơ kiên cố, và gây Sát Thương Phạm Vi Nguyên Tố Nham."
         },
         skill3: {
             name: "Thiên Quyền Băng Ngọc",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ningguang/talent_3.png",
-            text: ""
+            text: "Thu thập một số lượng lớn đá quý, Ningguang phân tán tất cả chúng cùng một lúc, bắn những viên đạn tự dẫn đường vào kẻ thù gây ra sát thương Geo lớn . Nếu Starshatter được sử dụng khi có một Màn chắn Ngọc ở gần, Màn chắn Ngọc sẽ bắn thêm nhiều viên đạn đá quý cùng lúc."
         },
         skill4: {
             name: "Vật Đổi Sao Dời",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ningguang/talent_4.png",
-            text: ""
+            text: "Khi có Tinh Thạch, trọng kích của Ningguang sẽ không tiêu hao thể lực."
         },
         skill5: {
             name: "Kiếm Củi Ba Năm Thiêu Một Giờ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ningguang/talent_5.png",
-            text: ""
+            text: "Nhân vật xuyên qua Vách Toàn Cơ sẽ nhận được 12% buff sát thương Nguyên Tố Nham, kéo dài 10s."
         },
         skill6: {
             name: "Bộ Sưu Tập Đá Quý",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ningguang/talent_6.png",
-            text: ""
+            text: "Hiển thị vị trí mạch khoáng có thể sản xuất Quặng Đúc trên bản đồ nhỏ."
         },
         cm1: {
             name: "Huyền Tinh Tán Mây",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ningguang/constellation_1.png",
-            text: ""
+            text: "Khi tấn công thường đánh trúng kẻ địch, sẽ tạo ra sát thương phạm vi."
         },
         cm2: {
             name: "Toàn Cơ Kết Hợp Trấn Côn Lôn",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ningguang/constellation_2.png",
-            text: ""
+            text: "Khi Vách Toàn Cơ vỡ tan, sẽ xóa thời gian chờ. Mỗi 6s mới thi triển hiệu quả 1 lần."
         },
         cm3: {
             name: "Liệt Thiên Quyền Lâm",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ningguang/constellation_3.png",
-            text: ""
+            text: "Cấp kỹ năng Thiên Quyền Băng Ngọc +3. Tăng tối đa đến cấp 15."
         },
         cm4: {
             name: "Thần Cơ Công Thủ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ningguang/constellation_4.png",
-            text: ""
+            text: "Vách Toàn Cơ sẽ tăng 10% kháng tất cả các nguyên tố xung quanh nhân vật."
         },
         cm5: {
             name: "Thiên Phiến Chính Thiên Hoành",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ningguang/constellation_5.png",
-            text: ""
+            text: "Cấp kỹ năng Vách Toàn Cơ +3. Tăng tối đa đến cấp 15."
         },
         cm6: {
             name: "Thất Tinh Lưu Quang",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Ningguang/constellation_6.png",
-            text: ""
+            text: "Khi thi triển Thiên Quyền Băng Ngọc, sẽ tạo ra 7 viên Tinh Thạch cho Ningguang."
         }
     },
     {
@@ -1400,62 +1401,62 @@ export const GI = [
         skill1: {
             name: "Gió Thần Sáng Tạo",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Catalyst.png",
-            text: ""
+            text: "Đòn tấn công thông thường Thực hiện tối đa 4 đòn tấn công bằng Wind Spirits, gây DMG Anemo . Đòn tấn công tích điện Tiêu thụ một lượng Stamina nhất định và gây DMG Anemo diện rộng sau thời gian niệm chú ngắn. Đòn tấn công lao xuống Gọi sức mạnh của Wind Spirits, Sucrose lao xuống đất từ ​​giữa không trung, gây sát thương cho tất cả kẻ địch trên đường đi. Gây DMG Anemo diện rộng khi va chạm với mặt đất."
         },
         skill2: {
             name: "Gió Thần Sáng Tạo 6308",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Sucrose/talent_2.png",
-            text: ""
+            text: "Tạo ra một Linh hồn Gió nhỏ gây sát thương Phong thần lên kẻ địch trong phạm vi rộng, kéo chúng về phía vị trí của Linh hồn Gió trước khi phóng chúng đi."
         },
         skill3: {
             name: "Cấm-Gió Thần Sáng Tạo-75 Loại 2",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Sucrose/talent_3.png",
-            text: ""
+            text: "Sucrose ném ra một hỗn hợp không ổn định tạo ra Linh hồn gió lớn. Trong khi nó tồn tại, Linh hồn gió lớn sẽ liên tục kéo và phóng kẻ địch gần đó, gây ra DMG AoE Anemo . Hấp thụ nguyên tố Nếu Linh hồn gió tiếp xúc với các nguyên tố Hydro / Pyro / Cryo / Electro , nó sẽ gây thêm DMG thuộc loại đó. Hấp thụ nguyên tố chỉ có thể xảy ra một lần mỗi lần sử dụng."
         },
         skill4: {
             name: "Thay Thế Xúc Tác",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Sucrose/talent_4.png",
-            text: ""
+            text: "Khi Sucrose kích hoạt hiệu ứng Xoáy nước, các nhân vật trong nhóm có nguyên tố phù hợp sẽ được tăng 50 điểm Tinh thông nguyên tố trong 8 giây."
         },
         skill5: {
             name: "Gió Thổi Nhẹ Nhàng",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Sucrose/talent_5.png",
-            text: ""
+            text: "Khi Astable Anemohypostatis Creation - 6308 hoặc Forbidden Creation - Isomer 75 / Type II tấn công kẻ địch, tăng Tinh thông nguyên tố của thành viên khác trong nhóm dựa trên 20% Tinh thông nguyên tố của Sucrose trong 8 giây."
         },
         skill6: {
             name: "Phát Hiện Không Ổn Định",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Sucrose/talent_6.png",
-            text: ""
+            text: "Khi Sucrose chế tạo Vật liệu cường hóa Nhân vật và Vũ khí, cô ấy có 10% để thu được gấp đôi sản phẩm."
         },
         cm1: {
             name: "Vùng Chân Không",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Sucrose/constellation_1.png",
-            text: ""
+            text: "Tạo ra Anemohypostasis không ổn định - 6308 nhận thêm 1 lần tích điện."
         },
         cm2: {
             name: "Beth Ngỗ Ngược",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Sucrose/constellation_2.png",
-            text: ""
+            text: "Thời gian tồn tại của Forbidden Creation - Isomer 75 / Type II tăng thêm 2 giây."
         },
         cm3: {
             name: "Thiếu Nữ Hoàn Hảo",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Sucrose/constellation_3.png",
-            text: ""
+            text: "Tăng Cấp độ của Tạo ra Anemohypostasis không ổn định - 6308 lên 3. Cấp độ nâng cấp tối đa là 15."
         },
         cm4: {
             name: "Ảo Tưởng Giả Kim",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Sucrose/constellation_4.png",
-            text: ""
+            text: "Mỗi 7 đòn tấn công thường và tấn công tích điện, Sucrose sẽ giảm thời gian hồi của kỹ năng Astable Anemohypostasis Creation - 6308 từ 1-7 giây."
         },
         cm5: {
             name: "Bình Chăm Chỉ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Sucrose/constellation_5.png",
-            text: ""
+            text: "Tăng Cấp độ của Sáng tạo bị cấm - Đồng phân 75 / Loại II lên 3. Cấp độ nâng cấp tối đa là 15."
         },
         cm6: {
             name: "Thuyết Hỗn Loạn",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Sucrose/constellation_6.png",
-            text: ""
+            text: "Nếu Forbidden Creation - Isomer 75 / Type II kích hoạt Elemental Absorption, tất cả thành viên trong nhóm sẽ nhận được 20% Bonus sát thương nguyên tố cho nguyên tố được hấp thụ tương ứng trong thời gian hiệu lực của nó."
         }
     },
     {
@@ -1468,62 +1469,62 @@ export const GI = [
         skill1: {
             name: "Kiếm Thuật Garyuu",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Sword.png",
-            text: ""
+            text: "Normal Attack Thực hiện tối đa 5 đòn đánh nhanh. Charged Attack Tiêu thụ một lượng Stamina nhất định để tung ra 2 đòn kiếm nhanh. Plunging Attack Nhảy từ giữa không trung xuống đất, gây sát thương cho đối thủ trên đường đi và gây DMG AoE khi va chạm. Nếu Plunging Attack này được kích hoạt bởi Chihayaburu, nó sẽ được chuyển thành Plunging Attack: Midare Ranzan. Plunging Attack: Midare Ranzan Khi một Plunging Attack được thực hiện bằng cách sử dụng hiệu ứng của Kỹ năng nguyên tố Chihayaburu, DMG của Plunging Attack sẽ được chuyển thành DMG Anemo và sẽ tạo ra một đường hầm gió nhỏ thông qua một kỹ thuật kiếm bí mật kéo các vật thể và đối thủ ở gần vào."
         },
         skill2: {
             name: "Chihayaburu",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kazuha/talent_2.png",
-            text: ""
+            text: "Giải phóng một kỹ thuật bí mật dữ dội như cơn gió mạnh kéo các vật thể và đối thủ về phía vị trí hiện tại của Kazuha trước khi hất tung đối thủ trong AoE, gây DMG Anemo và nâng Kazuha lên không trung trong một cơn gió mạnh. Press Có thể sử dụng giữa không trung. Giữ Sạc trước khi giải phóng DMG Anemo lớn hơn trên một AoE lớn hơn Chế độ Press. Đòn tấn công lao xuống: Midare Ranzan Trong vòng 10 giây còn lại trên không sau khi niệm Chihayaburu, Kazuha có thể giải phóng một Đòn tấn công lao xuống mạnh mẽ được gọi là Midare Ranzan. Khi một Đòn tấn công lao xuống được thực hiện bằng hiệu ứng của Kỹ năng nguyên tố Chihayaburu, DMG Đòn tấn công lao xuống được chuyển thành DMG Anemo . Khi hạ cánh, Kazuha tạo ra một đường hầm gió nhỏ thông qua một kỹ thuật kiếm bí mật kéo các vật thể và đối thủ ở gần. DMG của Midare Ranzan được coi là DMG Đòn tấn công lao xuống."
         },
         skill3: {
             name: "Kazuha Nhất Đao Trảm",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kazuha/talent_3.png",
-            text: ""
+            text: "Kỹ thuật đặc trưng của kiếm thuật tự phong của Kazuha — một nhát chém đơn lẻ tấn công bằng sức mạnh của những cơn gió đầu mùa thu, gây DMG AoE Anemo . Đường đi của lưỡi kiếm sẽ để lại một trường có tên là 'Autumn Whirlwind' định kỳ gây DMG AoE Anemo lên đối thủ trong phạm vi của nó. Elemental Absorption Nếu Autumn Whirlwind tiếp xúc với Hydro/Pyro/Cryo/Electro, nó sẽ gây thêm DMG nguyên tố cùng loại. Elemental Absorption chỉ có thể xảy ra một lần mỗi lần sử dụng."
         },
         skill4: {
             name: "Kiếm Pháp Soumon",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kazuha/talent_4.png",
-            text: ""
+            text: "Nếu Chihayaburu tiếp xúc với Hydro/Pyro/Cryo/Electro khi niệm chú, Chihayaburu sẽ hấp thụ nguyên tố đó và nếu Plunging Attack: Midare Ranzan được sử dụng trước khi hiệu ứng hết hạn, nó sẽ gây thêm 200% ATK của loại nguyên tố bị hấp thụ dưới dạng DMG. Điều này sẽ được coi là DMG Plunging Attack. Elemental Absorption chỉ có thể xảy ra một lần cho mỗi lần sử dụng Chihayaburu."
         },
         skill5: {
             name: "Cảnh Vật Thì Thầm",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kazuha/talent_5.png",
-            text: ""
+            text: "Khi kích hoạt phản ứng Xoáy nước, Kaedehara Kazuha sẽ trao cho đồng đội 0,04% Tiền thưởng sát thương nguyên tố vào nguyên tố tương ứng của họ cho mỗi điểm Tinh thông nguyên tố mà anh ta có trong 8 giây. Tiền thưởng cho các nguyên tố khác nhau có được thông qua phương pháp này có thể cùng tồn tại."
         },
         skill6: {
             name: "Cuốn Theo Chiều Gió",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kazuha/talent_6.png",
-            text: ""
+            text: "Giảm 20% mức tiêu thụ Stamina khi chạy nước rút cho các thành viên trong nhóm của bạn. Không thể cộng dồn với các Tài năng thụ động có hiệu ứng giống hệt nhau."
         },
         cm1: {
             name: "Sắc Đỏ Vạn Dặm",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kazuha/constellation_1.png",
-            text: ""
+            text: "Giảm 10% CD của Chihayaburu. Sử dụng Kazuha Slash sẽ thiết lập lại CD của Chihayaburu."
         },
         cm2: {
             name: "Bão Tố Yamaarashi",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kazuha/constellation_2.png",
-            text: ""
+            text: "Trường gió lốc mùa thu do Kazuha Slash tạo ra có các hiệu ứng sau: Tăng 200 điểm Tinh thông nguyên tố của Kaedehara Kazuha. Tăng 200 điểm Tinh thông nguyên tố của các nhân vật trong trường. Các hiệu ứng tăng điểm Tinh thông nguyên tố của Chòm sao này không cộng dồn."
         },
         cm3: {
             name: "Phong Tụ Kỳ Đàm",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kazuha/constellation_3.png",
-            text: ""
+            text: "Tăng cấp độ của Chihayaburu lên 3. Cấp độ nâng cấp tối đa là 15."
         },
         cm4: {
             name: "Oozora Genpou",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kazuha/constellation_4.png",
-            text: ""
+            text: "Khi Năng lượng của Kaedehara Kazuha thấp hơn 45, anh ta sẽ nhận được các hiệu ứng sau: Nhấn hoặc Giữ Chihayaburu sẽ tái tạo 3 hoặc 4 Năng lượng cho Kaedehara Kazuha. Khi lướt, Kaedehara Kazuha tái tạo 2 Năng lượng mỗi giây."
         },
         cm5: {
             name: "Trí Tuệ Bansei",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kazuha/constellation_5.png",
-            text: ""
+            text: "Tăng cấp độ của Kazuha Slash lên 3. Cấp độ nâng cấp tối đa là 15."
         },
         cm6: {
             name: "Lá Phong Đỏ Thẫm",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kazuha/constellation_6.png",
-            text: ""
+            text: "Sau khi sử dụng Chihayaburu hoặc Kazuha Slash, Kaedehara Kazuha sẽ nhận được Anemo Infusion trong 5 giây. Ngoài ra, mỗi điểm Elemental Mastery sẽ tăng 0,2% sát thương gây ra bởi đòn tấn công thường, tấn công tích tụ và tấn công lao xuống của Kaedehara Kazuha."
         }
     },
     {
@@ -1536,62 +1537,62 @@ export const GI = [
         skill1: {
             name: "Vân Lai Kiếm Pháp",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Sword.png",
-            text: ""
+            text: "Đòn tấn công thông thường Thực hiện tối đa 5 đòn tấn công nhanh. Đòn tấn công tích điện Tiêu thụ một lượng Stamina nhất định để tung ra 2 đòn tấn công bằng kiếm nhanh. Đòn tấn công lao xuống Lao từ giữa không trung xuống đất bên dưới, gây sát thương cho kẻ địch trên đường đi và gây DMG AoE khi va chạm."
         },
         skill2: {
             name: "Tinh Đẩu Quy Vị",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Keqing/talent_2.png",
-            text: ""
+            text: "Ném một chiếc Stiletto sét tiêu diệt kẻ địch như sấm sét. Khi Stiletto trúng mục tiêu, nó gây sát thương điện lên kẻ địch trong phạm vi nhỏ và đặt một Dấu ấn Stiletto tại vị trí trúng đòn. Giữ Giữ để điều chỉnh hướng ném Stiletto. Những chiếc Stiletto được ném ra bởi chế độ tấn công Giữ có thể lơ lửng giữa không trung, cho phép Keqing nhảy đến chúng khi sử dụng Phục hồi tinh tú lần thứ hai. Stiletto sét Nếu Keqing sử dụng Phục hồi tinh tú một lần nữa hoặc sử dụng Tấn công tích điện trong khi thời gian hiệu lực của nó kéo dài, nó sẽ xóa Dấu ấn Stiletto và tạo ra các hiệu ứng khác nhau: Nếu cô ấy sử dụng Phục hồi tinh tú một lần nữa, cô ấy sẽ dịch chuyển đến vị trí của Dấu ấn và tung ra một đòn chém gây Sát thương điện diện rộng. Khi dịch chuyển đến một chiếc Stiletto được ném ra từ một đòn tấn công Giữ, Keqing có thể nhảy qua địa hình cản trở. Nếu Keqing sử dụng Tấn công tích điện, cô ấy sẽ kích hoạt một loạt các vết cắt sấm sét tại vị trí của Dấu ấn, gây Sát thương điện diện rộng."
         },
         skill3: {
             name: "Tuần Du Thiên Nhai",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Keqing/talent_3.png",
-            text: ""
+            text: "Keqing giải phóng sức mạnh của sét, gây ra Electro DMG trong phạm vi AoE. Sau đó, cô hòa vào bóng của lưỡi kiếm, giáng một loạt đòn sấm sét vào kẻ địch gần đó cùng lúc, gây ra nhiều lần Electro DMG. Đòn tấn công cuối cùng gây ra Electro DMG diện rộng cực lớn."
         },
         skill4: {
             name: "Sự Trừng Phạt Sấm Sét",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Keqing/talent_4.png",
-            text: ""
+            text: "Trong vòng 5 giây sau khi sử dụng lại Stellar Restoration khi có Stiletto Sét, đòn tấn công thường và tấn công tích điện của Keqing sẽ được chuyển thành Sát thương điện ."
         },
         skill5: {
             name: "Ngọc Hành Cao Quý",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Keqing/talent_5.png",
-            text: ""
+            text: "Khi sử dụng Starward Sword, Tỷ lệ CRIT của Keqing tăng 15% và Tốc độ nạp năng lượng tăng 15%. Hiệu ứng này kéo dài trong 8 giây."
         },
         skill6: {
             name: "Thổ Địa Tổng Vụ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Keqing/talent_6.png",
-            text: ""
+            text: "Khi được phái đi thám hiểm ở Liyue, thời gian tiêu tốn sẽ giảm 25%."
         },
         cm1: {
             name: "Sấm Sét Trừng Phạt",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Keqing/constellation_1.png",
-            text: ""
+            text: "Thi triển lại Stellar Restoration khi có Lightning Stiletto khiến Keqing gây 50% ATK của cô thành sát thương điện diện rộng tại điểm bắt đầu và điểm kết thúc của Blink."
         },
         cm2: {
             name: "Nghiêm Nghị Hà Khắc",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Keqing/constellation_2.png",
-            text: ""
+            text: "Khi đòn tấn công thường và tấn công tích điện của Keqing đánh trúng kẻ địch bị ảnh hưởng bởi Electro, chúng có 50% cơ hội tạo ra một Hạt nguyên tố. Hiệu ứng này chỉ có thể xảy ra một lần sau mỗi 5 giây."
         },
         cm3: {
             name: "Trèo Tháp",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Keqing/constellation_3.png",
-            text: ""
+            text: "Tăng cấp độ của Starward Sword lên 3. Cấp độ nâng cấp tối đa là 15."
         },
         cm4: {
             name: "Điều Luật",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Keqing/constellation_4.png",
-            text: ""
+            text: "Trong vòng 10 giây sau khi Keqing kích hoạt Phản ứng nguyên tố liên quan đến điện, ATK của cô ấy sẽ tăng 25%."
         },
         cm5: {
             name: "Đèn Di Chuyển",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Keqing/constellation_5.png",
-            text: ""
+            text: "Tăng Cấp độ Phục hồi Sao lên 3. Cấp độ nâng cấp tối đa là 15."
         },
         cm6: {
             name: "Sao Liêm Trinh",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Keqing/constellation_6.png",
-            text: ""
+            text: "Khi bắt đầu một đòn tấn công thường, tấn công tích điện, kỹ năng nguyên tố hoặc bùng nổ nguyên tố, Keqing nhận được 6% tiền thưởng sát thương điện trong 8 giây. Các hiệu ứng được kích hoạt bởi đòn tấn công thường, tấn công tích điện, kỹ năng nguyên tố và bùng nổ nguyên tố được coi là các thực thể độc lập."
         }
     },
     {
@@ -1604,62 +1605,62 @@ export const GI = [
         skill1: {
             name: "Tiễn Thuật Parthian",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Bow.png",
-            text: ""
+            text: "Tấn công thông thường Thực hiện tối đa 4 lần bắn liên tiếp bằng cung. Tấn công tích điện Thực hiện một cú bắn ngắm chính xác hơn với sát thương tăng lên. Trong khi ngắm, những cơn gió mạnh sẽ tích tụ trên đầu mũi tên. Một mũi tên gió được tích điện đầy đủ sẽ gây ra sát thương Anemo . Tấn công lao xuống Bắn ra một trận mưa tên giữa không trung trước khi rơi xuống và chạm đất, tấn công đối thủ dọc theo đường đi và gây sát thương diện rộng khi va chạm."
         },
         skill2: {
             name: "Phi Tưởng Phong Thiên",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Faruzan/talent_2.png",
-            text: ""
+            text: "Faruzan triển khai một khối đa diện gây DMG AoE Anemo lên những đối thủ ở gần. Cô cũng sẽ vào trạng thái Manifest Gale. Khi ở trạng thái Manifest Gale, phát bắn được tích đầy năng lượng tiếp theo của Faruzan sẽ tiêu thụ trạng thái này và sẽ trở thành một Hurricane Arrow chứa các dòng điện áp suất cao. Mũi tên này gây DMG Anemo dựa trên DMG của một Aimed Shot được tích đầy năng lượng từ 'Normal Attack: Parthian Shot'. Pressureurized Collapse Hurricane Arrow sẽ áp dụng hiệu ứng Pressurized Collapse lên đối thủ hoặc nhân vật trúng đòn. Hiệu ứng này sẽ bị xóa sau một khoảng thời gian ngắn, tạo ra một cơn lốc gây DMG AoE Anemo và kéo các vật thể và đối thủ ở gần vào. Nếu Hurricane Arrow không trúng bất kỳ đối thủ hoặc nhân vật nào, nó sẽ tạo ra hiệu ứng Pressurized Collapse tại điểm va chạm. DMG của cơn lốc được coi là DMG Kỹ năng Nguyên tố."
         },
         skill3: {
             name: "Lối Đi Riêng Của Gió",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Faruzan/talent_3.png",
-            text: ""
+            text: "Faruzan triển khai một Dazzling Polyhedron giải phóng một Whirlwind Pulse và gây DMG AoE Anemo . Trong khi Dazzling Polyhedron vẫn tồn tại, nó sẽ liên tục di chuyển theo một đường tam giác. Khi nó đến mỗi góc của đường tam giác đó, nó sẽ giải phóng thêm 1 Whirlwind Pulse. Whirlwind Pulse Khi Whirlwind Pulse được giải phóng, nó sẽ áp dụng Perfidious Wind's Bale lên những đối thủ gần đó, làm giảm Anemo RES của họ. Whirlwind Pulse cũng sẽ áp dụng Prayerful Wind's Benefit lên tất cả các thành viên trong nhóm gần đó khi nó được giải phóng, trao cho họ một Anemo DMG Bonus."
         },
         skill4: {
             name: "Ngọn Gió Nhanh Nhẹn",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Faruzan/talent_4.png",
-            text: ""
+            text: "Khi Faruzan ở trạng thái Manifest Gale tạo ra bởi Wind Realm of Nasamjnin, thời gian cần để tích tụ một phát bắn sẽ giảm 60% và cô có thể sử dụng Perfidious Wind's Bale của The Wind's Secret Ways lên những đối thủ bị trúng luồng xoáy tạo ra bởi Pressurized Collapse."
         },
         skill5: {
             name: "Trí Tuệ Trong Di Tích",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Faruzan/talent_5.png",
-            text: ""
+            text: "Khi các nhân vật bị ảnh hưởng bởi Prayerful Wind's Gift của The Wind's Secret Ways gây Anemo DMG bằng các đòn tấn công Normal, Charged, Plunging, Elemental Skills hoặc Elemental Bursts lên đối thủ, họ sẽ nhận được hiệu ứng Hurricane Guard: DMG này sẽ tăng dựa trên 32% ATK cơ bản của Faruzan. 1 trường hợp Hurricane Guard có thể xảy ra sau mỗi 0,8 giây. Phần thưởng DMG này sẽ bị xóa sau khi Prayerful Wind's Benefit hết hạn hoặc sau khi hiệu ứng được kích hoạt một lần."
         },
         skill6: {
             name: "Ngàn Sách Soi Đường Dài",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Faruzan/talent_6.png",
-            text: ""
+            text: "Nhận thêm 25% phần thưởng khi tham gia Chuyến thám hiểm Sumeru trong 20 giờ."
         },
         cm1: {
             name: "Sự Thật Bằng Mọi Cách",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Faruzan/constellation_1.png",
-            text: ""
+            text: "Faruzan có thể bắn tối đa 2 Mũi tên bão bằng cách sử dụng các Mũi tên ngắm được nạp đầy năng lượng khi chịu hiệu ứng của Phong giới Nasamjnin."
         },
         cm2: {
             name: "Quên Mình Luyện Tri Thức",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Faruzan/constellation_2.png",
-            text: ""
+            text: "Thời gian tồn tại của Dazzling Polyhedron do The Wind's Secret Ways tạo ra được tăng thêm 6 giây."
         },
         cm3: {
             name: "Dạo Bước Vườn Linh Hồn",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Faruzan/constellation_3.png",
-            text: ""
+            text: "Tăng Cấp độ Phong giới của Nasamjnin lên 3. Cấp độ nâng cấp tối đa là 15."
         },
         cm4: {
             name: "Giác Ngộ Từ Thần Cơ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Faruzan/constellation_4.png",
-            text: ""
+            text: "Lốc xoáy được tạo ra bởi Pressurized Collapses sẽ phục hồi Năng lượng cho Faruzan dựa trên số lượng đối thủ bị đánh: Nếu nó đánh trúng 1 đối thủ, nó sẽ phục hồi 2 Năng lượng cho Faruzan. Mỗi đối thủ bị đánh trúng sẽ phục hồi thêm 0,5 Năng lượng cho Faruzan. Tối đa có thể phục hồi 4 Năng lượng cho cô ấy cho mỗi lốc xoáy."
         },
         cm5: {
             name: "Cảnh Đẹp Trong Tư Duy",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Faruzan/constellation_5.png",
-            text: ""
+            text: "Tăng Cấp độ của Bí thuật của Gió lên 3. Cấp độ nâng cấp tối đa là 15."
         },
         cm6: {
             name: "Đường Chân Lý Kỳ Diệu",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Faruzan/constellation_6.png",
-            text: ""
+            text: "Các nhân vật bị ảnh hưởng bởi Prayerful Wind's Benefit của The Wind's Secret Ways có 40% sát thương chí mạng tăng thêm khi họ gây sát thương Anemo . Khi nhân vật đang hoạt động gây sát thương trong khi bị ảnh hưởng bởi Prayerful Wind's Benefit, họ sẽ áp dụng Pressurized Collapse lên đối thủ bị thương. Hiệu ứng này có thể được kích hoạt một lần sau mỗi 3 giây. CD này được chia sẻ giữa tất cả các thành viên trong nhóm."
         }
     },
     {
@@ -1672,62 +1673,62 @@ export const GI = [
         skill1: {
             name: "Vũ Điệu Samser",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Sword.png",
-            text: ""
+            text: "Đòn tấn công thông thường Thực hiện tối đa 3 nhát kiếm liên tiếp. Đòn tấn công tích điện Tiêu thụ một lượng Stamina nhất định để thực hiện một nhát chém xoáy. Đòn tấn công lao xuống Lao từ giữa không trung xuống đất bên dưới, gây sát thương cho đối thủ trên đường đi và gây DMG AoE khi va chạm."
         },
         skill2: {
             name: "Vũ Điệu Haftkarsvar",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Nilou/talent_2.png",
-            text: ""
+            text: "Nilou sẽ vào trạng thái Pirouette, gây DMG Hydro lên đối thủ gần đó dựa trên HP tối đa của cô. Khi cô ở trạng thái Pirouette, các đòn tấn công thường và đòn tấn công nguyên tố của Nilou sẽ khiến cô vào thế Sword Dance và Whirling Steps tương ứng, khiến DMG cô gây ra được chuyển thành Hydro DMG không thể bị ghi đè và được coi là DMG Kỹ năng nguyên tố. Trong các thế này, bước nhảy thứ ba của Nilou sẽ kết thúc Pirouette và có các hiệu ứng sau: Sword Dance: giải phóng một Ảo ảnh phát sáng gây DMG Hydro lên đối thủ mà nó chạm vào và cấp cho Nilou hiệu ứng Lunar Prayer. Hiệu ứng này chuyển đổi các đòn tấn công thường của Nilou thành các kỹ thuật Sword Dance và đòn đánh cuối cùng của cô sẽ giải phóng một Ảo ảnh phát sáng. Whirling Steps: Nilou giải phóng một Whirling Water Wheel gây DMG Hydro AoE và tạo ra một Tranquility Aura bám theo nhân vật đang hoạt động của bạn và áp dụng Wet lên đối thủ trong AoE của nó. Nilou không thể thực hiện các đòn tấn công tích điện khi chịu hiệu ứng của Pirouette hoặc Lunar Prayer. Những hiệu ứng này sẽ biến mất khi cô ấy rời khỏi sân đấu."
         },
         skill3: {
             name: "Vũ Điệu Abzendegi - Viễn Mộng Linh Tuyền",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Nilou/talent_3.png",
-            text: ""
+            text: "Bắt đầu điệu nhảy của những giấc mơ xa xôi và những con suối nghe thấy, khiến một bông hoa sen của Distant Waters nở rộ, gây sát thương Hydro diện rộng dựa trên HP tối đa của Nilou và áp dụng hiệu ứng Lingering Aeon lên tất cả đối thủ trúng đòn. Sau một khoảng thời gian, đối thủ bị ảnh hưởng bởi Lingering Aeon sẽ phải chịu sát thương Hydro."
         },
         skill4: {
             name: "Sảnh Đường Ngân Nga",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Nilou/talent_4.png",
-            text: ""
+            text: "Khi tất cả nhân vật trong nhóm đều là Dendro hoặc Hydro, và có ít nhất một nhân vật Dendro và một nhân vật Hydro : Hoàn thành bước nhảy thứ ba của Nilou's Dance of Haftkarsvar sẽ trao cho tất cả các nhân vật gần đó Golden Chalice's Bounty trong 30 giây. Các nhân vật chịu hiệu ứng của Golden Chalice's Bounty sẽ tăng Elemental Mastery của tất cả các nhân vật gần đó thêm 100 trong 10 giây bất cứ khi nào họ bị tấn công bởi các đòn tấn công của Dendro . Ngoài ra, kích hoạt phản ứng Bloom sẽ tạo ra Bountiful Cores thay vì Dendro Cores. Những Cores như vậy sẽ bùng nổ rất nhanh sau khi được tạo ra và chúng có AoE lớn hơn. Bountiful Cores không thể kích hoạt Hyperbloom hoặc Burgeon và chúng chia sẻ giới hạn số trên với Dendro Cores. DMG Bountiful Core được coi là DMG gây ra bởi Dendro Cores do Bloom tạo ra. Nếu nhóm không đáp ứng các điều kiện cho Tài năng thụ động này, mọi hiệu ứng Golden Chalice's Bounty hiện có sẽ bị hủy bỏ."
         },
         skill5: {
             name: "Giấc Mơ Ca Múa Ngàn Đời",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Nilou/talent_5.png",
-            text: ""
+            text: "Mỗi 1.000 điểm HP tối đa của Nilou trên 30.000 sẽ khiến sát thương gây ra bởi Bountiful Core do các nhân vật bị ảnh hưởng bởi Golden Chalice's Bounty tạo ra tăng 9%. Mức tăng tối đa trong sát thương Bountiful Core có thể đạt được theo cách này là 400%."
         },
         skill6: {
             name: "Sen Ngọc Tinh Khôi",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Nilou/talent_6.png",
-            text: ""
+            text: "Khi đạt được Kỹ năng Nấu ăn hoàn hảo trên Thực phẩm có hiệu ứng liên quan đến Phiêu lưu, có 12% cơ hội nhận được gấp đôi sản phẩm."
         },
         cm1: {
             name: "Bước Dạo Trăng Khuyết",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Nilou/constellation_1.png",
-            text: ""
+            text: "Vũ điệu của Haftkarsvar sẽ được tăng cường như sau: Sát thương của Ảo ảnh phát sáng tăng 65%. Thời gian tồn tại của Hào quang thanh bình được kéo dài thêm 6 giây."
         },
         cm2: {
             name: "Mưa Hoa Trời Sao",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Nilou/constellation_2.png",
-            text: ""
+            text: "Sau khi các nhân vật bị ảnh hưởng bởi Golden Chalice's Bounty gây Hydro DMG cho đối thủ, Hydro RES của đối thủ đó sẽ giảm 35% trong 10 giây. Sau khi phản ứng Bloom được kích hoạt gây DMG cho đối thủ, Dendro RES của họ sẽ giảm 35% trong 10 giây. Bạn cần phải mở khóa Tài năng 'Court of Dancing Petals'."
         },
         cm3: {
             name: "Vũ Đạo Phản Chiếu",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Nilou/constellation_3.png",
-            text: ""
+            text: "Tăng cấp độ của Vũ điệu Abzendegi: Những giấc mơ xa xôi, Mùa xuân lắng nghe lên 3. Cấp độ nâng cấp tối đa là 15."
         },
         cm4: {
             name: "Tiết Tấu Sóng Gợn",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Nilou/constellation_4.png",
-            text: ""
+            text: "Sau khi bước nhảy thứ ba của Vũ điệu Pirouette của Haftkarsvar đánh trúng đối thủ, Nilou sẽ nhận được 15 Năng lượng nguyên tố và sát thương từ Vũ điệu Abzendegi: Những giấc mơ xa xôi, Sức mạnh Mùa xuân lắng nghe sẽ tăng 50% trong 8 giây."
         },
         cm5: {
             name: "Ánh Sáng Xoay Vần",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Nilou/constellation_5.png",
-            text: ""
+            text: "Tăng cấp độ Vũ điệu của Haftkarsvar lên 3. Cấp độ nâng cấp tối đa là 15."
         },
         cm6: {
             name: "Cung Đàn Ngăn Sương",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Nilou/constellation_6.png",
-            text: ""
+            text: "Với mỗi 1.000 điểm HP tối đa, Tỷ lệ CRIT và Sát thương CRIT của Nilou sẽ tăng lần lượt 0,6% và 1,2%. Mức tăng tối đa của Tỷ lệ CRIT và Sát thương CRIT theo phương pháp này lần lượt là 30% và 60%."
         }
     },
     {
@@ -1740,62 +1741,62 @@ export const GI = [
         skill1: {
             name: "Cào Rách Hộp",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Sword.png",
-            text: ""
+            text: "Đòn tấn công thông thường Thực hiện tối đa 4 đòn tấn công nhanh. Đòn tấn công tích điện Tiêu thụ một lượng Stamina nhất định để tung ra 3 đòn tấn công bằng móng vuốt nhanh. Đòn tấn công lao xuống Lao từ giữa không trung xuống đất bên dưới, gây sát thương cho đối thủ trên đường đi và gây DMG AoE khi va chạm."
         },
         skill2: {
             name: "Mèo Tung Cước",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kirara/talent_2.png",
-            text: ""
+            text: "Press Nhảy lên không trung với tất cả sự nhanh nhẹn của một con mèo chạy qua bụi rậm, và đá kẻ thù bằng một cú đá bay gây DMG Dendro diện rộng đồng thời tạo ra Lá chắn vận chuyển an toàn. Điều này cũng sẽ tạm thời áp dụng Dendro cho Kirara. Lá chắn sẽ hấp thụ DMG Dendro với hiệu quả 250%. Khả năng hấp thụ DMG của lá chắn sẽ dựa trên HP tối đa của Kirara và sẽ không vượt quá một tỷ lệ phần trăm nhất định của HP tối đa đó. Lượng DMG hấp thụ còn lại trên Lá chắn vận chuyển an toàn sẽ cộng dồn vào một lá chắn mới khi nó được tạo ra và thời gian hiệu lực của nó sẽ được đặt lại. Hold Với mong muốn 'giao hàng trong vòng nửa ngày', Kirara triển khai Lá chắn vận chuyển an toàn giống hệt với lá chắn có thể được tạo ra bằng cách nhấn kỹ năng. Cô ấy cũng sẽ cuộn tròn vào một hộp chuyển phát nhanh đặc biệt, vào trạng thái Gói hàng Neko khẩn cấp để di chuyển và chiến đấu nhanh hơn. Gói hàng Neko khẩn cấp gây DMG Dendro cho những đối thủ mà cô ấy đâm vào. Hiệu ứng này có thể được kích hoạt một lần trên mỗi đối thủ sau mỗi 0,5 giây. Khi ở trạng thái này, tốc độ di chuyển, tốc độ leo trèo và sức mạnh nhảy của Kirara đều tăng lên, và mức tiêu thụ Stamina của cô khi leo trèo cũng tăng lên. Khi thời gian hiệu lực kết thúc hoặc kỹ năng được sử dụng lại, một Flipclaw Strike mạnh hơn đòn tấn công trong Chế độ sẽ được tung ra, gây DMG AoE Dendro . Trạng thái Urgent Neko Parcel kéo dài tối đa 10 giây. Khi trạng thái kết thúc, kỹ năng sẽ vào CD. Kirara ở trạng thái này càng lâu thì CD sẽ càng dài. Chạy nước rút hoặc chủ động hủy leo trèo sẽ kết thúc trạng thái này sớm."
         },
         skill3: {
             name: "Bí Pháp - Chuyển Phát Đặc Biệt",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kirara/talent_3.png",
-            text: ""
+            text: "Đập tan đối thủ bằng Gói giao hàng đặc biệt dùng để trừng phạt những tên trộm bưu kiện, gây DMG Dendro diện rộng . Sau khi Gói giao hàng đặc biệt phát nổ, nó sẽ tách thành nhiều Cat Grass Cardamom phát nổ khi tiếp xúc với đối thủ hoặc sau một khoảng thời gian, gây DMG Dendro diện rộng."
         },
         skill4: {
             name: "Đuôi Mèo Mê Hoặc",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kirara/talent_4.png",
-            text: ""
+            text: "Khi Kirara ở trạng thái Urgent Neko Parcel của Meow-teor Kick, mỗi lần va chạm với đối thủ sẽ tăng cho cô một chồng Reinforced Packaging. Hiệu ứng này có thể được kích hoạt một lần cho mỗi đối thủ bị đánh sau mỗi 0,5 giây. Tối đa 3 chồng. Khi trạng thái Urgent Neko Parcel kết thúc, mỗi chồng Reinforced Packaging sẽ tạo ra 1 Shield of Safe Transport cho Kirara. Các lá chắn được tạo theo cách này sẽ có 20% khả năng hấp thụ DMG mà Shield of Safe Transport tạo ra bởi Meow-teor Kick sẽ có. Nếu Kirara đã được bảo vệ bởi Shield of Safe Transport tạo ra bởi Meow-teor Kick, khả năng hấp thụ DMG của cô sẽ chồng lên các lá chắn này và thời gian hiệu lực của nó sẽ được thiết lập lại."
         },
         skill5: {
             name: "Linh Hồn Rực Rỡ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kirara/talent_5.png",
-            text: ""
+            text: "Mỗi 1.000 HP tối đa mà Kirara sở hữu sẽ tăng 0,4% sát thương gây ra bởi Meow-teor Kick và 0,3% sát thương gây ra bởi Secret Art: Surprise Dispatch."
         },
         skill6: {
             name: "Mèo Đi Rón Rén",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kirara/talent_6.png",
-            text: ""
+            text: "Khi Kirara có mặt trong nhóm, những động vật sản xuất Thịt gia cầm, Thịt sống hoặc Thịt lạnh sẽ không bị giật mình khi các thành viên trong nhóm đến gần chúng."
         },
         cm1: {
             name: "Vật Chất Lưu Thông",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kirara/constellation_1.png",
-            text: ""
+            text: "Mỗi 8.000 HP tối đa Kirara sở hữu sẽ khiến cô ấy tạo ra thêm 1 Cat Grass Cardamom khi cô ấy sử dụng Secret Art: Surprise Dispatch. Có thể tạo ra tối đa 4 thêm theo cách này."
         },
         cm2: {
             name: "Đóng Gói Hoàn Hảo",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kirara/constellation_2.png",
-            text: ""
+            text: "Khi Kirara ở trạng thái Urgent Neko Parcel của Meow-teor Kick, cô ấy sẽ cho phép các thành viên khác trong nhóm cô ấy đâm vào Critical Transport Shields. Khả năng hấp thụ DMG của Critical Transport Shield là 40% khả năng hấp thụ tối đa mà các Shields Safe Transport thông thường của Meow-teor Kick có thể hấp thụ và sẽ hấp thụ DMG của Dendro với hiệu quả 250%. Critical Transport Shields tồn tại trong 12 giây và có thể được kích hoạt một lần trên mỗi nhân vật sau mỗi 10 giây."
         },
         cm3: {
             name: "Tường Tận Ngõ Ngách",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kirara/constellation_3.png",
-            text: ""
+            text: "Tăng cấp độ của Meow-teor Kick lên 3. Cấp độ nâng cấp tối đa là 15."
         },
         cm4: {
             name: "Đôi Chân Skanda",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kirara/constellation_4.png",
-            text: ""
+            text: "Sau khi nhân vật chủ động được bảo vệ bởi Shields of Safe Transport hoặc Critical Transport Shields tấn công đối thủ bằng các đòn Normal, Charged hoặc Plunging Attack, Kirara sẽ thực hiện một đòn tấn công phối hợp với họ bằng Small Cat Grass Cardamoms, gây 200% ATK của cô ấy dưới dạng DMG Dendro . DMG gây ra theo cách này được coi là DMG Elemental Burst. Hiệu ứng này có thể được kích hoạt một lần sau mỗi 3,8 giây. CD này được chia sẻ giữa tất cả các thành viên trong nhóm."
         },
         cm5: {
             name: "Một Ngày Vạn Dặm",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kirara/constellation_5.png",
-            text: ""
+            text: "Tăng cấp độ của Bí thuật: Phái cử bất ngờ lên 3. Cấp độ nâng cấp tối đa là 15."
         },
         cm6: {
             name: "Lưu Lại Cảnh Sắc",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Kirara/constellation_6.png",
-            text: ""
+            text: "Tất cả thành viên trong nhóm ở gần sẽ nhận được 12% Tiền thưởng Sát thương Nguyên tố trong vòng 15 giây sau khi Kirara sử dụng Kỹ năng Nguyên tố hoặc Bùng nổ."
         }
     },
     {
@@ -1808,62 +1809,62 @@ export const GI = [
         skill1: {
             name: "Võ Thuật Fudou",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Catalyst.png",
-            text: ""
+            text: "Đòn tấn công thông thường Thực hiện tối đa 5 cú đấm được tăng sức mạnh bởi một cơn gió mạnh, gây ra DMG Anemo . Đòn tấn công tích trữ Tiêu thụ một lượng Stamina nhất định để thực hiện một cú đá quét, gây ra DMG Anemo . Đòn tấn công lao xuống Gọi cơn gió dữ dội, Heizou lao xuống đất từ ​​giữa không trung, gây sát thương cho tất cả đối thủ trên đường đi. Gây DMG Anemo diện rộng khi va chạm với mặt đất."
         },
         skill2: {
             name: "Lục Tâm Quyền",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Heizou/talent_2.png",
-            text: ""
+            text: "Press Wield những cơn gió mạnh để tung ra một cú Heartstopper Strike gây ra Anemo DMG. Giữ Charges năng lượng để tung ra một đòn mạnh hơn nữa. Anh ta sẽ có được hiệu ứng Declension khi đang tích tụ, điều này sẽ làm tăng sức mạnh của Heartstopper Strike. Khi nút kỹ năng được nhả ra hoặc thời gian hiệu lực của kỹ năng kết thúc, anh ta sẽ tấn công về phía trước, gây ra Anemo DMG. Declension Tăng sức mạnh của Heartstopper Strike tiếp theo. Tối đa 4 lần cộng dồn. Khi bạn sở hữu 4 lần cộng dồn Declension, hiệu ứng Conviction sẽ được tạo ra, điều này sẽ khiến Heartstopper Strike tiếp theo thậm chí còn mạnh hơn và có AoE lớn hơn."
         },
         skill3: {
             name: "Tụ Phong Cước",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Heizou/talent_3.png",
-            text: ""
+            text: "Nhảy lên không trung và sử dụng Fudou Style Vacuum Slugger và đá đối thủ của mình. Vacuum Slugger sẽ phát nổ khi trúng đích và tạo ra một Arresting Windtunnel kéo các vật thể và đối thủ gần đó vào, gây DMG AoE Anemo . Khi Fudou Style Vacuum Slugger tấn công kẻ địch bị ảnh hưởng bởi Hydro, Pyro, Cryo hoặc Electro, nó sẽ gây ra Windmuster Iris cho chúng. Một lúc sau, Windmuster Iris phát nổ và tan biến, gây DMG AoE của loại nguyên tố tương ứng. Fudou Style Vacuum Slugger có thể gây ra Windmuster Iris cho tối đa bốn kẻ địch. Một kẻ địch duy nhất không thể bị ảnh hưởng bởi Irises của các loại nguyên tố khác nhau cùng một lúc."
         },
         skill4: {
             name: "Kinh Nghiệm Phản Biện",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Heizou/talent_4.png",
-            text: ""
+            text: "Khi Shikanoin Heizou kích hoạt phản ứng Swirl khi ở trên sân, anh ta sẽ nhận được 1 điểm cộng dồn Declension cho Heartstopper Strike. Hiệu ứng này có thể được kích hoạt sau mỗi 0,1 giây."
         },
         skill5: {
             name: "Nhìn Thấu Nguyên Do",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Heizou/talent_5.png",
-            text: ""
+            text: "Sau khi đòn Heartstopper Strike của Shikanoin Heizou đánh trúng đối thủ, tăng 80 điểm Tinh thông nguyên tố của tất cả thành viên trong nhóm (trừ Shikanoin Heizou) trong 10 giây."
         },
         skill6: {
             name: "Có Tội Từ Trước",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Heizou/talent_6.png",
-            text: ""
+            text: "Giảm 20% mức tiêu thụ Stamina khi chạy nước rút cho các thành viên trong nhóm của bạn. Không thể cộng dồn với các Tài năng thụ động có hiệu ứng giống hệt nhau."
         },
         cm1: {
             name: "Tư Liệu Thiếu Niên",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Heizou/constellation_1.png",
-            text: ""
+            text: "Trong 5 giây sau khi Shikanoin Heizou vào sân, SPD Tấn công thường của anh ta tăng 15%. Anh ta cũng nhận được 1 chồng Giảm sức mạnh cho Đòn đánh chặn tim. Hiệu ứng này có thể được kích hoạt một lần sau mỗi 10 giây."
         },
         cm2: {
             name: "Tập Án Chuyên Biệt",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Heizou/constellation_2.png",
-            text: ""
+            text: "Hiệu ứng kéo của Arresting Windtunnel tạo ra bởi Windmuster Kick được tăng cường và thời gian kéo dài của nó được tăng lên 1 giây."
         },
         cm3: {
             name: "Sổ Tay Giải Mã",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Heizou/constellation_3.png",
-            text: ""
+            text: "Tăng cấp độ của Heartstopper Strike lên 3. Cấp độ nâng cấp tối đa là 15."
         },
         cm4: {
             name: "Tuyển Tập Dối Trá",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Heizou/constellation_4.png",
-            text: ""
+            text: "Vụ nổ Windmuster Iris đầu tiên trong mỗi Windmuster Kick sẽ tái tạo 9 Năng lượng Nguyên tố cho Shikanoin Heizou. Mỗi vụ nổ tiếp theo trong Windmuster Kick đó sẽ tái tạo thêm 1,5 Năng lượng cho Heizou. Một Windmuster Kick có thể tái tạo tổng cộng 13,5 Năng lượng cho Heizou theo cách này."
         },
         cm5: {
             name: "Kho Tàng Bí Mật",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Heizou/constellation_5.png",
-            text: ""
+            text: "Tăng cấp độ của Windmuster Kick lên 3. Cấp độ nâng cấp tối đa là 15."
         },
         cm6: {
             name: "Hồ Sơ Hão Huyền",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Heizou/constellation_6.png",
-            text: ""
+            text: "Mỗi lần cộng dồn Giảm cấp sẽ tăng Tỷ lệ CRIT của Đòn tấn công Heartstopper Strike được tung ra thêm 4%. Khi Heizou sở hữu Conviction, Sát thương CRIT của Đòn tấn công Heartstopper Strike này tăng thêm 32%."
         }
     },
     {
@@ -1876,62 +1877,62 @@ export const GI = [
         skill1: {
             name: "Mũi Tên Chúc Tụng",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Bow.png",
-            text: ""
+            text: "Tấn công thông thường Thực hiện tối đa 4 lần bắn liên tiếp bằng cung. Tấn công tích điện Thực hiện một cú bắn ngắm chính xác hơn với sát thương tăng lên. Khi ngắm, năng lượng Dendro sẽ tích tụ trên đầu mũi tên. Một mũi tên tích điện đầy đủ sẽ gây sát thương cho Dendro . Tấn công lao xuống Bắn ra một trận mưa tên giữa không trung trước khi rơi xuống và chạm đất, gây sát thương diện rộng khi va chạm."
         },
         skill2: {
             name: "Xua Hoa Quét Lá",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Collei/talent_2.png",
-            text: ""
+            text: "Ném ra một chiếc nhẫn hoa gây 1 lần sát thương Dendro lên mục tiêu mà nó tiếp xúc. Chiếc nhẫn hoa sẽ quay trở lại sau một khoảng thời gian nhất định, gây thêm một lần nữa sát thương Dendro."
         },
         skill3: {
             name: "Báu Vật Meo Meo",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Collei/talent_3.png",
-            text: ""
+            text: "Cuilein-Anbar đáng tin cậy đến cứu cả ngày! Ném con búp bê có tên Cuilein-Anbar, gây ra một vụ nổ gây DMG AoE Dendro , tạo ra một Vùng Cuilein-Anbar. Cuilein-Anbar sẽ nảy xung quanh trong vùng này, gây DMG AoE Dendro."
         },
         skill4: {
             name: "Lá Khẽ Bay Nghiêng",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Collei/talent_4.png",
-            text: ""
+            text: "Nếu một trong những thành viên trong nhóm của bạn đã kích hoạt các phản ứng Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom hoặc Burgeon trước khi Floral Ring quay trở lại, nó sẽ cấp cho nhân vật hiệu ứng Sprout khi quay trở lại, hiệu ứng này sẽ liên tục gây DMG Dendro tương đương với 40% ATK của Collei lên các đối thủ gần đó trong 3 giây. Nếu một hiệu ứng Sprout khác được kích hoạt trong thời gian hiệu lực ban đầu, hiệu ứng ban đầu sẽ bị xóa. DMG do Sprout gây ra được coi là DMG Kỹ năng Nguyên tố."
         },
         skill5: {
             name: "Rừng Rộng Gió Thoảng",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Collei/talent_5.png",
-            text: ""
+            text: "Khi một nhân vật trong Vùng Cuilein-Anbar kích hoạt các phản ứng Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom hoặc Burgeon, thời gian tồn tại của Vùng sẽ tăng thêm 1 giây. Một chú mèo Trump-Card có thể được kéo dài thêm tối đa 3 giây."
         },
         skill6: {
             name: "Quán Quân Bay Lượn Sumeru",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Collei/talent_6.png",
-            text: ""
+            text: "Giảm 20% mức tiêu thụ Stamina khi lướt cho các thành viên trong nhóm của bạn. Không thể cộng dồn với các Tài năng thụ động có hiệu ứng giống hệt nhau."
         },
         cm1: {
             name: "Bảo Vệ Rừng Rậm",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Collei/constellation_1.png",
-            text: ""
+            text: "Khi ở trong nhóm và không ở trên chiến trường, khả năng nạp năng lượng của Collei tăng thêm 20%."
         },
         cm2: {
             name: "Dạo Bước Đồi Cỏ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Collei/constellation_2.png",
-            text: ""
+            text: "Kỹ năng thụ động Floral Sidewinder được thay đổi như sau: Floral Ring sẽ cấp cho nhân vật hiệu ứng Sprout từ Floral Sidewinder khi trở về, gây 40% ATK của Collei thành DMG Dendro cho các đối thủ gần đó trong 3 giây. Từ thời điểm sử dụng Floral Brush cho đến thời điểm hiệu ứng Sprout này kết thúc, nếu bất kỳ thành viên nào trong nhóm của bạn kích hoạt phản ứng Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom hoặc Burgeon, hiệu ứng Sprout sẽ được kéo dài thêm 3 giây. Hiệu ứng Sprout chỉ có thể được kéo dài theo cách này một lần. Nếu một hiệu ứng Sprout khác được kích hoạt trong thời gian hiệu lực ban đầu của nó, hiệu ứng ban đầu sẽ bị xóa. Yêu cầu bạn phải mở khóa Kỹ năng thụ động Floral Sidewinder."
         },
         cm3: {
             name: "Hương Thơm Nắng Hạ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Collei/constellation_3.png",
-            text: ""
+            text: "Tăng cấp độ của Cọ hoa lên 3. Cấp độ nâng cấp tối đa là 15."
         },
         cm4: {
             name: "Quà Tặng Rừng Sâu",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Collei/constellation_4.png",
-            text: ""
+            text: "Sử dụng Trump-Card Kitty sẽ tăng 60 điểm Tinh thông nguyên tố của tất cả nhân vật ở gần trong 12 giây (không bao gồm bản thân Collei)."
         },
         cm5: {
             name: "Tro Tàn Vạn Vật",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Collei/constellation_5.png",
-            text: ""
+            text: "Tăng cấp độ của Trump-Card Kitty lên 3. Cấp độ nâng cấp tối đa là 15."
         },
         cm6: {
             name: "Rừng Nơi Tên Đáp",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Collei/constellation_6.png",
-            text: ""
+            text: "Khi Floral Ring đánh trúng, nó sẽ tạo ra một Cuilein-Anbar thu nhỏ gây 200% ATK của Collei thành DMG của Dendro . Mỗi Floral Brush chỉ có thể tạo ra một Cuilein-Anbar thu nhỏ như vậy."
         }
     }
 ]

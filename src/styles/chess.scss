@@ -7,48 +7,7 @@
     min-height: 600px;
     border: 1px solid black;
     position: relative;
-    .mobile__pdf__container__header{
-        display: none;
-    }
-    .mobile__pdf__container footer{
-        position: absolute;
-    }
-    .mobile__pdf__container #viewerContainer .pdfViewer{
-        &::-webkit-scrollbar{
-            display: none;
-        }
-    }
-    .mobile__pdf__container .toolbarButton.pageUp{
-        background-size: 1rem;
-        cursor: pointer;
-        background-color: black;
-    }
-    .mobile__pdf__container .toolbarButton.pageDown{
-        background-size: 1rem;
-        cursor: pointer;
-        background-color: black;
-    }
-    .mobile__pdf__container #pageNumber {
-        font-size: 1rem;
-        background-color: black;
-        border: 3px solid white;
-        box-shadow: 0 3px 10px #008000;
-    }
-    .mobile__pdf__container .toolbarButton.zoomOut {
-        background-size: 1rem;
-        cursor: pointer;
-        background-color: black;
-    }
-    .mobile__pdf__container .toolbarButton.zoomIn{
-        background-size: 1rem;
-        cursor: pointer;
-        background-color: black;
-    }
 }
-.pdfViewer .page{
-    box-sizing: content-box;
-}
-
 
 /* From Uiverse.io by mrhyddenn */ 
 .c-chess_button {
