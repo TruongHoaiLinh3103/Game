@@ -3,6 +3,7 @@ import copy from 'copy-to-clipboard';
 import { FaCopy } from "react-icons/fa";
 import { CiEdit } from "react-icons/ci";
 import "../styles/game.scss";
+import { toast } from 'react-toastify';
 
 const GameLQ = () => {
     const [editProfile, setEdProfile] = useState(false);
@@ -30,6 +31,7 @@ const GameLQ = () => {
     }
     const copyUID = () => {
         copy('4302483086443633/𝔳𝔬');
+        toast.success("Đã sao chép thành công!");
     }
     return (
         <>
@@ -57,7 +59,7 @@ const GameLQ = () => {
                             <p><b>Hạng</b></p>
                             <div className='Rank_title'>
                                 <p><b>Cao thủ</b></p>
-                                <button>!</button>
+                                <button onClick={() => toast.success("Mức Rank Hiện Tại Của Bạn Là Cao Thủ!")}>!</button>
                             </div>
                         </div>
                         <div className='AovProfile-Exp'>
@@ -71,7 +73,7 @@ const GameLQ = () => {
                             <p><b>Cấp</b></p>
                             <div className='Lever-title'>
                                 <p><b>30</b></p>
-                                <button>!</button>
+                                <button onClick={() => toast.success("Đã Đạt Cấp Tối Đa")}>!</button>
                             </div>
                         </div>
                         <p><b>Ngày 31 tháng 03</b></p>

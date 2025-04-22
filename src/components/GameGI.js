@@ -3,6 +3,7 @@ import copy from 'copy-to-clipboard';
 import { FaCopy } from "react-icons/fa";
 import { CiEdit } from "react-icons/ci";
 import "../styles/game.scss";
+import { toast } from 'react-toastify';
 
 const GameGI = () => {
     const [editProfile, setEdProfile] = useState(false);
@@ -30,6 +31,7 @@ const GameGI = () => {
     }
     const copyUID = () => {
         copy('811317775/𝔶𝔲');
+        toast.success("Đã sao chép thành công!");
     }
     return (
         <>
@@ -57,7 +59,7 @@ const GameGI = () => {
                             <p><b>Mạo Hiểm</b></p>
                             <div className='Rank_title'>
                                 <p><b>60</b></p>
-                                <button>!</button>
+                                <button onClick={() => toast.success("Hạng Mạo Hiểm Đã Đạt Cấp Tối Đa!")}>!</button>
                             </div>
                         </div>
                         <div className='GenshinProfile-Exp'>
@@ -71,7 +73,7 @@ const GameGI = () => {
                             <p><b>Cấp Thế Giới</b></p>
                             <div className='Lever-title'>
                                 <p><b>8</b></p>
-                                <button>!</button>
+                                <button onClick={() => toast.success("Đã Đạt Cấp Tối Đa!")}>!</button>
                             </div>
                         </div>
                         <p><b>Ngày 31 tháng 03</b></p>
