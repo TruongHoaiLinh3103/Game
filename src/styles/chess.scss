@@ -1,12 +1,9 @@
-.chess{
-    
-}
+
 .c-chess{
     width: 90%;
     max-width: 800px;
     min-height: 600px;
     border: 1px solid black;
-    position: relative;
 }
 
 /* From Uiverse.io by mrhyddenn */ 
@@ -20,7 +17,6 @@
     cursor: pointer;
     position: relative;
     padding: 8px;
-    margin-bottom: 20px;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 14px;

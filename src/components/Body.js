@@ -27,7 +27,7 @@ const Body = () => {
                             <line y2="960" x2="200" y1="0" x1="200" className="right"></line>
                         </svg>
                         <div className="logo">
-                            <img src='https://i.pinimg.com/originals/c3/99/fa/c399fa146b7657a4e2f81065bf2a4006.jpg' alt='Body'/>
+                            <img src='https://i.pinimg.com/736x/4d/15/32/4d15328726cc4d10ced8453c0922b7d3.jpg' alt='Body'/>
                         </div>  
                     </div>
                 </div>
