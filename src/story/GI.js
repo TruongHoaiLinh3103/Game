@@ -33,7 +33,7 @@ export const GI = [
     {
         id: 1,
         name: "Yae Miko",
-        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/master/YaeMiko.png",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/YaeMiko.png",
         avatar: `${Yae}`,
         back: `${fi}`,
         story: "Đại nhân Guuji của Đền Narukami, kiêm tổng biên tập của Nhà Xuất Bản Yae. Phía sau vẻ ngoài xinh đẹp kiều diễm là sự thông minh và xảo quyệt mà khó ai ngờ đến.",
@@ -101,7 +101,7 @@ export const GI = [
     {
         id: 2,
         name: "Yelan",
-        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/master/Yelan.png",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Yelan.png",
         avatar: `${Yel}`,
         back: `${fi}`,
         story: "Nhân sĩ thần bí tự xưng làm việc cho Tổng Vụ, nhưng lại là 'người không tồn tại' trong danh sách của Tổng Vụ.",
@@ -169,7 +169,7 @@ export const GI = [
     {
         id: 3,
         name: "Raiden Shogun",
-        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/master/Ei.png",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Ei.png",
         avatar: `${Rai}`,
         back: `${fi}`,
         story: "Là Tôn Chủ Narukami Ogosho đại nhân, đưa người dân Inazuma hướng đến sự 'vĩnh hằng' ngàn năm không đổi.",
@@ -238,7 +238,7 @@ export const GI = [
     {
         id: 4,
         name: "Noelle",
-        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/master/Noelle.png",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Noelle.png",
         avatar: `${Noe}`,
         back: `${fo}`,
         story: "Hầu gái đáng tin cậy của Đội Kỵ Sĩ Tây Phong, mơ ước một ngày nào đó sẽ trở thành kỵ sĩ chính thức.",
@@ -306,7 +306,7 @@ export const GI = [
     {
         id: 5,
         name: "Kujou Sara",
-        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/master/Sara.png",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Sara.png",
         avatar: `${Sar}`,
         back: `${fo}`,
         story: "Đại tướng đương nhiệm của Hiệp Hội Tenryou. Sát phạt quyết đoán, anh dũng thiện chiến.",
@@ -374,7 +374,7 @@ export const GI = [
     {
         id: 6,
         name: "Arlecchino",
-        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/master/Arlecchino.png",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Arlecchino.png",
         avatar: `${Arl}`,
         back: `${fi}`,
         story: "Quan Chấp Hành thứ 4 của Fatui - Arlecchino. Nhà ngoại giao trầm tĩnh lạnh lùng, là 'Cha' mà bọn trẻ vừa sợ hãi cũng vừa dựa dẫm trong Căn Nhà Hơi Ấm.",
@@ -442,7 +442,7 @@ export const GI = [
     {
         id: 7,
         name: "Diluc",
-        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/master/Diluc.png",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Diluc.png",
         avatar: `${Dil}`,
         back: `${fi}`,
         story: "Là công tử nắm trong tay hơn một nửa ngành rượu Mondstadt, tài lực, danh vọng, năng lực đều khiến người khác không thể coi thường.",
@@ -510,7 +510,7 @@ export const GI = [
     {
         id: 8,
         name: "Barbara",
-        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/master/Barbara.png",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Barbara.png",
         avatar: `${Bar}`,
         back: `${fo}`,
         story: "Mọi người trong thành Mondstadt đều yêu quý Barbara. Từ 'Thần Tượng' là do cô đọc được từ một cuốn tạp chí.",
@@ -578,7 +578,7 @@ export const GI = [
     {
         id: 9,
         name: "Bennett",
-        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/master/Bennett.png",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Bennett.png",
         avatar: `${Ben}`,
         back: `${fo}`,
         story: "Nhà mạo hiểm trẻ tuổi của Mondstadt, có vận đen luôn đi cùng sự lương thiện của anh ấy.",
@@ -646,7 +646,7 @@ export const GI = [
     {
         id: 10,
         name: "Furina",
-        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/master/Furina.png",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Furina.png",
         avatar: `${Fur}`,
         back: `${fi}`,
         story: "Tâm điểm tuyệt đối trên sân khấu xét xử, cho đến khi tiếng vỗ tay hạ màn nổi lên.",
@@ -714,7 +714,7 @@ export const GI = [
     {
         id: 11,
         name: "Zhongli",
-        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/master/Zhongli.png",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Zhongli.png",
         avatar: `${Zhon}`,
         back: `${fi}`,
         story: "Là vị khách thần bí được 'Vãng Sinh Đường' mời đến. Kiến thức uyên bác, có hiểu biết sâu rộng đối với nhiều sự vật sự việc.",
@@ -782,7 +782,7 @@ export const GI = [
     {
         id: 12,
         name: "Nahida",
-        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/master/Nahida.png",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Nahida.png",
         avatar: `${Nah}`,
         back: `${fi}`,
         story: "Chim nhỏ trong lồng ở sâu trong Thánh Địa Surasthana, chỉ có thể ngắm nhìn thế giới từ trong giấc mơ.",
@@ -850,7 +850,7 @@ export const GI = [
     {
         id: 13,
         name: "Hutao",
-        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/master/Hutao.png",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Hutao.png",
         avatar: `${Hut}`,
         back: `${fi}`,
         story: "Đường chủ đời thứ 77 của Vãng Sinh Đường, tuổi còn trẻ nhưng đã phụ trách việc tang lễ của Liyue.",
@@ -918,7 +918,7 @@ export const GI = [
     {
         id: 14,
         name: "Xingqiu",
-        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/master/Xingqiu.png",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Xingqiu.png",
         avatar: `${Xin}`,
         back: `${fo}`,
         story: "Vị thiếu niên thường được bắt gặp nơi quầy sách. Tay cầm kiếm, với một trái tim nghĩa hiệp thổn thức trong lồng ngực.",
@@ -986,7 +986,7 @@ export const GI = [
     {
         id: 15,
         name: "Lumine",
-        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/master/Lumine.png",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Lumine.png",
         avatar: `${Lum}`,
         back: `${fi}`,
         story: "Nhà Lữ Hành lưu lạc đến đây từ thế giới khác, bị Thần cướp mất người thân, từ đó bước vào con đường đi tìm 7 vị Thần.",
@@ -1054,7 +1054,7 @@ export const GI = [
     {
         id: 16,
         name: "Xiangling",
-        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/master/Xiangling.png",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Xiangling.png",
         avatar: `${Xian}`,
         back: `${fo}`,
         story: "Thiếu nữ đầu bếp đến từ Liyue, rất nổi tiếng. Có sự nhiệt tình vô hạn với việc nấu nướng, đặc biệt là những món tê cay.",
@@ -1122,7 +1122,7 @@ export const GI = [
     {
         id: 17,
         name: "Tighnari",
-        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/master/Tighnari.png",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Tighnari.png",
         avatar: `${Tig}`,
         back: `${fi}`,
         story: "Học giả thiếu niên tinh thông thực vật học, hiện đang làm đội trưởng kiểm lâm của Rừng Avidya. Tính tình thẳng thắn nhiệt tình, hay dạy bảo những người hay lơ là đầu óc.",
@@ -1190,7 +1190,7 @@ export const GI = [
     {
         id: 18,
         name: "Ganyu",
-        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/master/Ganyu.png",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Ganyu.png",
         avatar: `${Gan}`,
         back: `${fi}`,
         story: "Thư ký tại Nguyệt Hải Đình, trong người chứa huyết mạch của tiên thú Kỳ Lân.",
@@ -1258,7 +1258,7 @@ export const GI = [
     {
         id: 19,
         name: "Xiao",
-        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/master/Xiao.png",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Xiao.png",
         avatar: `${Xia}`,
         back: `${fi}`,
         story: "Tiên nhân Dạ Xoa bảo vệ Liyue. Hiệu là 'Hàng Ma Đại Thánh', biệt danh 'Hộ Pháp Dạ Xoa Đại Tướng'.",
@@ -1326,7 +1326,7 @@ export const GI = [
     {
         id: 20,
         name: "Ningguang",
-        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/master/Ningguang.png",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Ningguang.png",
         avatar: `${Nin}`,
         back: `${fo}`,
         story: "'Thiên Quyền' trong Thất Tinh Liyue, giàu có nổi tiếng, khắp đại lục khó ai sánh bằng.",
@@ -1394,7 +1394,7 @@ export const GI = [
     {
         id: 21,
         name: "Sucrose",
-        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/master/Sucrose.png",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Sucrose.png",
         avatar: `${Suc}`,
         back: `${fo}`,
         story: "Thuật sĩ giả kim với lòng hiếu kỳ mọi sự vật xung quanh. Là nhà nghiên cứu của học phái Giả Kim Sinh Vật.",
@@ -1462,7 +1462,7 @@ export const GI = [
     {
         id: 22,
         name: "Kaedehara Kazuha",
-        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/master/Kazuha.png",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Kazuha.png",
         avatar: `${Kaz}`,
         back: `${fi}`,
         story: "Ronin Samurai đến từ Inazuma, nay đã gia nhập đội thuyền 'Nam Thập Tự' Liyue. Tính tình ôn hòa, hào sảng, trong lòng chất chứa nhiều chuyện xưa.",
@@ -1530,7 +1530,7 @@ export const GI = [
     {
         id: 23,
         name: "Keqing",
-        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/master/Keqing.png",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Keqing.png",
         avatar: `${Kee}`,
         back: `${fi}`,
         story: "Ngọc Hành Tinh, một trong Thất Tinh Liyue. Đối với việc 'Liyue hoàn toàn được quyết định bởi Đế Quân' có chút không hài lòng... nhưng trên thực tế, Thần cũng rất coi trọng những người như cô.",
@@ -1598,7 +1598,7 @@ export const GI = [
     {
         id: 24,
         name: "Faruzan",
-        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/master/Faruzan.png",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Faruzan.png",
         avatar: `${Far}`,
         back: `${fo}`,
         story: "Học giả đến từ 'trăm năm trước', thích được gọi là tiền bối, chuyên nghiên cứu về các loại văn tự cổ xưa và cơ quan cổ điển.",
@@ -1666,7 +1666,7 @@ export const GI = [
     {
         id: 25,
         name: "Nilou",
-        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/master/Nilou.png",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Nilou.png",
         avatar: `${Nil}`,
         back: `${fi}`,
         story: "Vũ công nổi danh của Nhà Hát Zubayr, điệu nhảy sống động và tính cách hồn nhiên ấm áp.",
@@ -1734,7 +1734,7 @@ export const GI = [
     {
         id: 26,
         name: "Kirara",
-        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/master/Kirara.png",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Kirara.png",
         avatar: `${Kir}`,
         back: `${fo}`,
         story: "Nhân viên giao hàng của 'Công Ty Chuyển Phát Komaniya' tại Inazuma, là một 'nekomata' yêu thích công việc của mình và xã hội loài người.",
@@ -1802,7 +1802,7 @@ export const GI = [
     {
         id: 27,
         name: "Shikanoin Heizou",
-        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/master/Heizou.png",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Heizou.png",
         avatar: `${Hei}`,
         back: `${fo}`,
         story: "Thám tử thiếu niên thiên tài của Hiệp Hội Tenryou, trực giác nhạy bén, tư duy sắc sảo.",
@@ -1870,7 +1870,7 @@ export const GI = [
     {
         id: 28,
         name: "Collei",
-        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/master/Collei.png",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Collei.png",
         avatar: `${Col}`,
         back: `${fo}`,
         story: "Kiểm lâm tập sự nhiệt tình của Rừng Avidya, nhưng đằng sau sự nhiệt tình đó là một trái tim hướng nội đau buồn.",

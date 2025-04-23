@@ -1,30 +1,22 @@
 import React, { useEffect, useState } from 'react';
 import "../styles/music.scss";
 import { useNavigate } from 'react-router-dom';
-import { EDIT_LOADING } from '../redux/reducer/rootMusic';
-import { useDispatch, useSelector } from 'react-redux';
-import axios from 'axios';
 
-const Music = () => {
+const Music = (props) => {
     const router = useNavigate();
-    const dispatch = useDispatch();
-    const Loading = useSelector((state) => state.music.Loading);
     const [test, setTest] = useState(false)
     const [data, setData] = useState([]);
     const handlePlayMusic = (item) => {
-        dispatch(EDIT_LOADING(item))
-        router(`/song/${item.id}`)
+        props.selectMusic(item);
+        props.setIsPlaying(true)
     }
     useEffect(() => {
-        axios.get("https://fake-api-music.vercel.app/music").then((res) => {
-            res && setData(res.data)
-            if(res){
-                setData(res.data)
-                setTest(true)
-            }else{
-                setTest(false)
-            }
-        })
+        if(props.music){
+            setData(props.music);
+            setTest(true)
+        }else{
+            setTest(false)
+        }
     })
     return (
         <div className='music'>
@@ -72,7 +64,7 @@ const Music = () => {
                                 <div className="m-albumcover">
                                     <img src={item.img} alt='Albumcover'/>
                                 </div>
-                                {Loading && Loading.id === item.id ? 
+                                {props.Music && props.Music.id === item.id ? 
                                     <div className="m-loading">
                                         <div className="m-load"></div>
                                         <div className="m-load"></div>

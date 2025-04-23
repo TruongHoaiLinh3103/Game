@@ -11,23 +11,46 @@ import Login from '../components/Login';
 import NotPage from '../components/NotPage';
 import Register from '../components/Register';
 import Sliederlab from '../layouts/Sliederlab';
-import {useState } from 'react';
+import {useEffect, useLayoutEffect, useRef, useState } from 'react';
 import ChangePass from '../components/ChangePass';
 import Footer from '../components/Footer';
 import Home from "../components/Home";
 import Sport from "../components/Sport";
 import Play from '../components/Play';
 import Song from '../components/Song';
-import LayoffMusic from '../components/LayoffMusic';
-import ReactAudioPlayer from 'react-audio-player';
-import { useSelector } from 'react-redux';
+import axios from 'axios';
 
 function App() {
-  const Loading = useSelector((state) => state.music.Loading);
   const [number, setNumber] = useState(sessionStorage.getItem("accessToken") ? 2 : 0);
+
+  const audioElem = useRef();
+  const [data, setData] = useState([]);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [music, setMusic] = useState([]);
+  const onPlaying  = () => {
+    const duration = audioElem.current.duration;
+    const ct = audioElem.current.currentTime;
+    console.log(duration, ct)
+  }
+  const selectMusic = (Children) => {
+    setMusic(Children)
+  }
+
   const checkNumberRES = (Children) => {
     setNumber(Children)
   }
+  useLayoutEffect(() => {
+    axios.get("https://fake-api-music.vercel.app/music").then((res) => {
+        res && setData(res.data)
+    })
+  })
+  useEffect(() => {
+    if(isPlaying){
+      audioElem.current.play();
+    }else{
+      audioElem.current.pause();
+    }
+  }, [isPlaying])
   return (
     <div className='App'>
       <Router>
@@ -46,8 +69,7 @@ function App() {
               <Route path="/sport/cordage" element={<Sport />} />
               <Route path="/sport/kungfu" element={<Sport />} />
               <Route path="/play" element={<Play />} exact/>
-              <Route path="/song" element={<Song />} exact/>
-              <Route path="/song/:id" element={<LayoffMusic />}/>
+              <Route path="/song" element={<Song data={data} isPlaying={isPlaying} setIsPlaying={setIsPlaying} onTimeUpdate={onPlaying} selectMusic={selectMusic} MusicTitle={music}/>} exact/>
               <Route path="*" element={<NotPage />}/>
             </Routes>
             <Footer/>
@@ -69,11 +91,12 @@ function App() {
         pauseOnHover
         theme="dark"
       />
-      {Loading && <ReactAudioPlayer
-      src={Loading.audio}
+      {music && <audio onTimeUpdate={onPlaying}
+      src={music.audio}
       autoPlay
       controls
       style={{display: "none"}}
+      ref={audioElem}
       />}
     </div>
   );
