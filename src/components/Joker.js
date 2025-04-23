@@ -1,6 +1,7 @@
 import React from 'react';
 import "../styles/joker.scss";
 import { JOKERS } from '../story/JOKER';
+import { LazyLoadComponent } from 'react-lazy-load-image-component';
 
 const Joker = () => {
     return (
@@ -62,10 +63,14 @@ const Joker = () => {
                 {JOKERS.map((item, index) => {
                     return(
                         <div className='j-d-item' key={index}>
-                            <video loop muted controls>
-                                <source src={item.link} type="video/mp4" />
-                            </video>
-                            <h3>{item.name}</h3>
+                            <LazyLoadComponent placeholder={<div className='j-d-Image'></div>}>
+                                <video loop muted controls poster='https://i.pinimg.com/736x/a4/c9/ff/a4c9ff7cd3d80fdb6f77024f2e316b8e.jpg'>
+                                    <source src={item.link} type="video/mp4" />
+                                </video>
+                            </LazyLoadComponent>
+                            <div className='j-d-title'>
+                                <h3>{item.name}</h3>
+                            </div>
                         </div>
                     )
                 })}
