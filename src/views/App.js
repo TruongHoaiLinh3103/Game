@@ -30,7 +30,6 @@ function App() {
   const onPlaying  = () => {
     const duration = audioElem.current.duration;
     const ct = audioElem.current.currentTime;
-    console.log(duration, ct)
   }
   const selectMusic = (Children) => {
     setMusic(Children)

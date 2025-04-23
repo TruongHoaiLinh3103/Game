@@ -58,6 +58,7 @@
     transform: rotate(180deg);
     justify-content: right;
     border-radius: 10px;
+    align-items: center;
     transition: .4s ease-in-out;
   }
   
@@ -142,9 +143,10 @@
     height: 40px;
     width: 40px;
     background-color: rgb(233, 232, 232);
+    transform: rotate(180deg);
     align-self: center;
     border-radius: 5px;
-    img{
+    .m-albumcover-img{
       width: 100%;
       height: 100%;
       object-fit: cover;
@@ -152,16 +154,30 @@
   }
   
   .m-song {
+    flex: 9;
     position: relative;
     transform: rotate(180deg);
     margin-right: 1em;
     color: var(--clr-text);
-    align-self: center;
+  }
+
+  .m-name{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    user-select: none;
+    overflow: hidden;
   }
   
   .m-artist {
+    width: 100%;
     font-size: 0.6em;
     color: var(--clr-text);
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    user-select: none;
+    overflow: hidden;
   }
   
   @keyframes move6 {

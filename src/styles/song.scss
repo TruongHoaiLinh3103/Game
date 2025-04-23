@@ -4,3 +4,8 @@
     display: flex;
     gap: 10px;
 }
+@media (max-width: 63.9375em){
+    .song{
+      flex-direction: column;
+    }
+  }

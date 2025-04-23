@@ -62,9 +62,9 @@ const Music = (props) => {
                                     <p className="m-artist">{item.auth}</p>
                                 </div>
                                 <div className="m-albumcover">
-                                    <img src={item.img} alt='Albumcover'/>
+                                    <img className='m-albumcover-img' src={item.img} alt='Albumcover'/>
                                 </div>
-                                {props.Music && props.Music.id === item.id ? 
+                                {props.MusicTitle && props.MusicTitle.id === item.id ? 
                                     <div className="m-loading">
                                         <div className="m-load"></div>
                                         <div className="m-load"></div>

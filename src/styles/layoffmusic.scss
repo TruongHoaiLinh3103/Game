@@ -35,9 +35,16 @@
         height: 100%;
         object-fit: cover;
         border-radius: 100%;
+        animation: rot55 10s linear infinite;
     }
   }
   
+  @keyframes rot55 {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
   .layoffmusic__title {
     font-weight: 500;
     font-size: 28px;
