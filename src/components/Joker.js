@@ -3,16 +3,18 @@ import "../styles/joker.scss";
 import { JOKERS } from '../story/JOKER';
 import { LazyLoadComponent } from 'react-lazy-load-image-component';
 
-const Joker = () => {
-    const [max, setMax] = useState(9);
+const Joker = (props) => {
+    const [max, setMax] = useState(12);
     const [btn, setBtn] = useState(true)
     const SeeMore = () => {
         setMax(JOKERS.length);
         setBtn(false);
+        props.More(false)
     }
     const Compact = () => {
-        setMax(9);
+        setMax(12);
         setBtn(true);
+        props.More(true)
     }
     return (
         <div className='joker'>

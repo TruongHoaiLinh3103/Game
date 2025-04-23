@@ -2,9 +2,9 @@
     padding: 80px 10px 20px 10px;
     width: 100%;
     background: white;
-    display: grid;
+    display: flex;
     gap: 10px;
-    grid-template-columns: 42% 58%;
+    // grid-template-columns: 42% 58%;
     // background-image: radial-gradient(4px 100px at 0px 235px, #0f0, #0000),
     //   radial-gradient(4px 100px at 300px 235px, #0f0, #0000),
     //   radial-gradient(1.5px 1.5px at 150px 117.5px, #0f0 100%, #0000 150%),
@@ -162,7 +162,7 @@
 // }
 @media (max-width: 63.9375em){
   .play{
-    grid-template-columns: 100%;
     gap: 50px;
+    flex-direction: column;
   }
 }
