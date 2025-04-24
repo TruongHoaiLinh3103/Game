@@ -30,6 +30,16 @@ function App() {
   const onPlaying  = () => {
     const duration = audioElem.current.duration;
     const ct = audioElem.current.currentTime;
+    // Tìm Max
+    let s = duration%60;
+    let m = Math.floor((duration/60)%60);
+    // Tìm Min
+    let si = ct%60;
+    let mi = Math.floor((ct/60)%60);
+
+    const maxDuration = `${(Math.floor(m) ? (Math.floor(m) < 10 ? `${"0" + Math.floor(m)}` : Math.floor(m)) : "00")}:${Math.floor(s) ? (Math.floor(s) < 10 ? `${"0" + Math.floor(s)}` : Math.floor(s)) : "00"}`;
+    const minDuration = `${(Math.floor(mi) ? (Math.floor(mi) < 10 ? `${"0" + Math.floor(mi)}` : Math.floor(mi)) : "00")}:${Math.floor(si) ? (Math.floor(si) < 10 ? `${"0" + Math.floor(si)}` : Math.floor(si)) : "00"}`;
+    setMusic({...music, "progress": ct / duration * 100, length: duration, "max": maxDuration, "min": minDuration})
   }
   const selectMusic = (Children) => {
     setMusic(Children)
@@ -68,7 +78,13 @@ function App() {
               <Route path="/sport/cordage" element={<Sport />} />
               <Route path="/sport/kungfu" element={<Sport />} />
               <Route path="/play" element={<Play />} exact/>
-              <Route path="/song" element={<Song data={data} isPlaying={isPlaying} setIsPlaying={setIsPlaying} onTimeUpdate={onPlaying} selectMusic={selectMusic} MusicTitle={music}/>} exact/>
+              <Route path="/song" element={<Song data={data} 
+              isPlaying={isPlaying} setIsPlaying={setIsPlaying} 
+              selectMusic={selectMusic} 
+              MusicTitle={music}
+              setMusicTitle={setMusic}
+              audioElem={audioElem}
+              />} exact/>
               <Route path="*" element={<NotPage />}/>
             </Routes>
             <Footer/>
