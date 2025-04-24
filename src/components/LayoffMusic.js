@@ -5,7 +5,7 @@ import { GrChapterNext } from "react-icons/gr";
 import { GrChapterPrevious } from "react-icons/gr";
 import { IoIosPause } from "react-icons/io";
 import { FaRandom } from "react-icons/fa";
-import { FaPlay } from "react-icons/fa";
+import { IoIosPlay } from "react-icons/io";
 
 const LayoffMusic = (props) => {
     const data = props.MusicTitle;
@@ -55,7 +55,7 @@ const LayoffMusic = (props) => {
                     <div className="layoffmusic__wrapper">
                         <button className="layoffmusic__btn"><ImLoop /></button>
                         <button className="layoffmusic__btn" onClick={() => preSong()}><GrChapterPrevious /></button>
-                        <button className="layoffmusic__btn layoffmusic__btn-play" onClick={() => props.setIsPlaying(!props.isPlaying)}>{props.isPlaying ? <IoIosPause />: <FaPlay/>}</button>
+                        <button className="layoffmusic__btn layoffmusic__btn-play" onClick={() => props.setIsPlaying(!props.isPlaying)}>{props.isPlaying ? <IoIosPause />: <IoIosPlay/>}</button>
                         <button className="layoffmusic__btn" onClick={() => NextSong()}><GrChapterNext /></button>
                         <button className="layoffmusic__btn"><FaRandom /></button>
                     </div>
