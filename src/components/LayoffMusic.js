@@ -18,6 +18,7 @@ const LayoffMusic = (props) => {
             props.setMusicTitle(props.music[index-1])
         }
         props.audioElem.current.currentTime = 0;
+        props.setIsPlaying(true);
     }
     const NextSong = () => {
         const index = props.music.findIndex(x => x.name === data.name);
@@ -27,6 +28,7 @@ const LayoffMusic = (props) => {
             props.setMusicTitle(props.music[index + 1])
         }
         props.audioElem.current.currentTime = 0;
+        props.setIsPlaying(true);
     }
     const editProgress = (e) => {
         const width = clickW.current.clientWidth;
@@ -53,11 +55,11 @@ const LayoffMusic = (props) => {
                         <div className="layoffmusic__time layoffmusic__time-left">{props.MusicTitle.max ? props.MusicTitle.max : "00:00"}</div>
                     </div>
                     <div className="layoffmusic__wrapper">
-                        <button className="layoffmusic__btn"><ImLoop /></button>
+                        <button className={`layoffmusic__btn ${props.active ? "layoffmusic__btn_Active" : ""}`} onClick={() => props.setActive(true)}><ImLoop /></button>
                         <button className="layoffmusic__btn" onClick={() => preSong()}><GrChapterPrevious /></button>
                         <button className="layoffmusic__btn layoffmusic__btn-play" onClick={() => props.setIsPlaying(!props.isPlaying)}>{props.isPlaying ? <IoIosPause />: <IoIosPlay/>}</button>
                         <button className="layoffmusic__btn" onClick={() => NextSong()}><GrChapterNext /></button>
-                        <button className="layoffmusic__btn"><FaRandom /></button>
+                        <button className={`layoffmusic__btn ${!props.active ? "layoffmusic__btn_Active": ""}`} onClick={() => props.setActive(false)}><FaRandom /></button>
                     </div>
                 </div>
             }

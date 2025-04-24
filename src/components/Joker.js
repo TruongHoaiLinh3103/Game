@@ -73,22 +73,20 @@ const Joker = (props) => {
             </div>
             <div className='j-data'>
                 {JOKERS.map((item, index) => {
-                    return(
-                        <>
-                            {item.id <= max &&
-                                <div className='j-d-item' key={index}>
-                                    <LazyLoadComponent placeholder={<div className='j-d-Image'></div>}>
-                                        <video loop muted controls poster='https://i.pinimg.com/736x/a4/c9/ff/a4c9ff7cd3d80fdb6f77024f2e316b8e.jpg'>
-                                            <source src={item.link} type="video/mp4" />
-                                        </video>
-                                    </LazyLoadComponent>
-                                    <div className='j-d-title'>
-                                        <h3>{item.name}</h3>
-                                    </div>
+                    if(item.id <= max){
+                        return(
+                            <div className='j-d-item' key={index}>
+                                <LazyLoadComponent placeholder={<div className='j-d-Image'></div>}>
+                                    <video loop muted controls poster='https://i.pinimg.com/736x/a4/c9/ff/a4c9ff7cd3d80fdb6f77024f2e316b8e.jpg'>
+                                        <source src={item.link} type="video/mp4" />
+                                    </video>
+                                </LazyLoadComponent>
+                                <div className='j-d-title'>
+                                    <h3>{item.name}</h3>
                                 </div>
-                            }
-                        </>
-                    )
+                            </div>
+                        )
+                    }
                 })}
                 <button className='j-data-btn' onClick={() => btn ? SeeMore() : Compact()}>{btn ? "See More!" : "Compact!"}</button>
             </div>

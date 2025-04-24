@@ -7,15 +7,7 @@ import { toast } from 'react-toastify';
 
 const CharacterGI = () => {
     const [char, setChar] = useState(1);
-    const [loading, setLoading] = useState(true);
-    const handleChar = (n) => {
-        if(char === n){
-            setLoading(false)
-        }else{
-            setChar(n);
-            setLoading(true)
-        }
-    }
+    const [loading, setLoading] = useState(0);
     UseFetchAOS()
     return (
         <div className='CharacterGI'>
@@ -23,7 +15,7 @@ const CharacterGI = () => {
             <div className='CharacterGI-avatar' data-aos="fade-right">
                 {GI.map((item) => {
                     return(
-                        <div className={`-avatar_ic ${char === item.id ? "select" : ""}`} onClick={() => handleChar(item.id)} key={item.id} style={{backgroundImage: `url(${item.back})`, backgroundRepeat: "no-repeat"}}>
+                        <div className={`-avatar_ic ${char === item.id ? "select" : ""}`} onClick={() => setChar(item.id)} key={item.id} style={{backgroundImage: `url(${item.back})`, backgroundRepeat: "no-repeat"}}>
                             <img src={item.avatar} alt={item.name} title={item.name}/>
                         </div>
                     )
@@ -34,10 +26,10 @@ const CharacterGI = () => {
                     <div key={item.id}>
                         {char === item.id && 
                             <>
-                                <div className='CharacterGI-build' style={{display : !loading ? "block" : "none"}} onLoad={() => setLoading(false)}>
+                                <div className='CharacterGI-build' style={{display : loading === item.id ? "block" : "none"}} onLoad={() => setLoading(item.id)}>
                                     <img src={item.img} alt={item.name} data-aos="zoom-in"/>
                                 </div>
-                                <div style={{display : loading ? "flex" : "none"}} className='CharacterGI-build_ld'>
+                                <div style={{display : loading  !== item.id ? "flex" : "none"}} className='CharacterGI-build_ld'>
                                     <span className="loaderGI"></span>
                                 </div>
                             </>

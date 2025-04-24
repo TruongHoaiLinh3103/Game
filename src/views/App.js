@@ -26,6 +26,7 @@ function App() {
   const audioElem = useRef();
   const [data, setData] = useState([]);
   const [isPlaying, setIsPlaying] = useState(false);
+  const [active, setActive] = useState(false)
   const [music, setMusic] = useState([]);
   const onPlaying  = () => {
     const duration = audioElem.current.duration;
@@ -84,6 +85,8 @@ function App() {
               MusicTitle={music}
               setMusicTitle={setMusic}
               audioElem={audioElem}
+              setActive={setActive}
+              active={active}
               />} exact/>
               <Route path="*" element={<NotPage />}/>
             </Routes>
@@ -108,6 +111,7 @@ function App() {
       />
       {music && <audio onTimeUpdate={onPlaying}
       src={music.audio}
+      loop = {!active ? false : true}
       autoPlay
       controls
       style={{display: "none"}}

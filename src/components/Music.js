@@ -53,31 +53,32 @@ const Music = (props) => {
                     <p className="m-heading">Danh Sách Bài Hát</p>
                 </div>
                 {test ?
-                data.map((item, index) => {
-                    return(
-                        <div className="m-songs" key={index} onClick={() => handlePlayMusic(item)}>
-                            <div className="m-loader">
-                                <div className="m-song">
-                                    <p className="m-name">{item.name}</p>
-                                    <p className="m-artist">{item.auth}</p>
-                                </div>
-                                <div className="m-albumcover">
-                                    <img className='m-albumcover-img' src={item.img} alt='Albumcover'/>
-                                </div>
-                                {props.MusicTitle && props.MusicTitle.id === item.id ? 
-                                    <div className="m-loading">
-                                        <div className="m-load"></div>
-                                        <div className="m-load"></div>
-                                        <div className="m-load"></div>
-                                        <div className="m-load"></div>
+                    data.map((item, index) => {
+                        return(
+                            <div className="m-songs" key={index} onClick={() => handlePlayMusic(item)}>
+                                <div className="m-loader">
+                                    <div className="m-song">
+                                        <p className="m-name">{item.name}</p>
+                                        <p className="m-artist">{item.auth}</p>
                                     </div>
-                                    : 
-                                    <div className="m-play"></div>
-                                }
+                                    <div className="m-albumcover">
+                                        <img className='m-albumcover-img' src={item.img} alt='Albumcover'/>
+                                    </div>
+                                    {props.MusicTitle && props.MusicTitle.id === item.id ? 
+                                        <div className="m-loading">
+                                            <div className="m-load"></div>
+                                            <div className="m-load"></div>
+                                            <div className="m-load"></div>
+                                            <div className="m-load"></div>
+                                        </div>
+                                        : 
+                                        <div className="m-play"></div>
+                                    }
+                                </div>
                             </div>
-                        </div>
-                    )
-                }) : <div>đang tải</div>
+                        )
+                    })
+                    : <div className="m-l-loader"></div>
                 }
             </div>
         </div>
