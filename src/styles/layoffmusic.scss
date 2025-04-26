@@ -106,6 +106,9 @@
     cursor: pointer;
     font-size: 20px;
     transition: all .3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .layoffmusic__btn path {
@@ -128,9 +131,6 @@
 
   .layoffmusic__btn_Active{
     background-color: green;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 5px;
     border-radius: 5px;
   }

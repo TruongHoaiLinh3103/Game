@@ -12,8 +12,12 @@ const Music = (props) => {
     }
     useEffect(() => {
         if(props.music){
-            setData(props.music);
-            setTest(true)
+            if(props.music.length === 0){
+                setTest(false)
+            }else{
+                setData(props.music);
+                setTest(true)
+            }       
         }else{
             setTest(false)
         }
