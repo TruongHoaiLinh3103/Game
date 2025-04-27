@@ -533,74 +533,110 @@ export const BODY = [
     },
     {
         id: 122,
+        name: "Chéo Phải Xuống Trái",
+        quantity: "1 cái"
         
     },
     {
         id: 123,
+        name: "Chéo Trái Xuống Phải",
+        quantity: "1 cái"
         
     },
     {
         id: 124,
+        name: "Chéo Phải Lên Trái",
+        quantity: "1 cái"
         
     },
     {
         id: 125,
+        name: "Chéo Trái Lên Phải",
+        quantity: "1 cái"
         
     },
     {
         id: 126,
+        name: "Đâm Bên Phải",
+        quantity: "1 cái"
         
     },
     {
         id: 127,
+        name: "Chém Ngang Phải Sang Trái",
+        quantity: "1 cái"
         
     },
     {
         id: 128,
+        name: "Đâm Bên Trái",
+        quantity: "1 cái"
         
     },
     {
         id: 129,
+        name: "Chém Ngang Trái Sang Phải",
+        quantity: "1 cái"
         
     },
     {
         id: 130,
+        name: "Chém Trên Xuống",
+        quantity: "1 cái"
         
     },
     {
         id: 131,
+        name: "Chém Dưới Lên",
+        quantity: "1 cái"
         
     },
     {
         id: 132,
+        name: "Cán Đao Trên",
+        quantity: "1 cái"
         
     },
     {
         id: 133,
+        name: "Cán Đao Dưới",
+        quantity: "1 cái"
         
     },
     {
         id: 134,
+        name: "Đâm Dưới",
+        quantity: "1 cái"
         
     },
     {
         id: 135,
+        name: "Đâm Trên",
+        quantity: "1 cái"
         
     },
     {
         id: 136,
+        name: "Đâm Giữa",
+        quantity: "1 cái"
         
     },
     {
         id: 137,
+        name: "Giảo Hoạt Đao",
+        quantity: "1 cái"
         
     },
     {
         id: 138,
+        name: "Phóng Đao",
+        quantity: "1 cái"
         
     },
     {
         id: 139,
+        name: "Đỡ Đòn Đao",
+        quantity: "1 cái"
         
     },
     {
