@@ -53,7 +53,7 @@ function App() {
     axios.get("https://fake-api-music.vercel.app/music").then((res) => {
         res && setData(res.data)
     })
-  })
+  }, [data])
   useEffect(() => {
     if(isPlaying){
       audioElem.current.play();
