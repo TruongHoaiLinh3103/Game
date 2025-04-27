@@ -77,14 +77,14 @@ const LayoffMusic = (props) => {
                         <SlLoop />
                     </button>
                     <div className="layoffmusic__img">
-                        <img alt='' src={data.img}/>
+                        <img alt={data.name} src={data.img}/>
                     </div>
-                    <div className="layoffmusic__title">{data.name}</div>
-                    <div className="layoffmusic__subtitle">{data.auth}</div>
+                    <div className="layoffmusic__title">{data.name ? data.name : "Đang Tải.."}</div>
+                    <div className="layoffmusic__subtitle">{data.auth ? data.auth : "Đang Tải.."}</div>
                     <div className="layoffmusic__wrapper">
-                        <div className="layoffmusic__time layoffmusic__time-passed">{props.MusicTitle.min ? props.MusicTitle.min : "00:00"}</div>
-                        <div className="layoffmusic__timeline"><progress value={props.MusicTitle.progress ? props.MusicTitle.progress : "0"} max="100" onClick={(e) => editProgress(e)} ref={clickW}></progress></div>
-                        <div className="layoffmusic__time layoffmusic__time-left">{props.MusicTitle.max ? props.MusicTitle.max : "00:00"}</div>
+                        <div className="layoffmusic__time layoffmusic__time-passed">{data.min ? data.min : "00:00"}</div>
+                        <div className="layoffmusic__timeline"><progress value={data.progress ? data.progress : "0"} max="100" onClick={(e) => editProgress(e)} ref={clickW}></progress></div>
+                        <div className="layoffmusic__time layoffmusic__time-left">{data.max ? data.max : "00:00"}</div>
                     </div>
                     <div className="layoffmusic__wrapper">
                         <button className={`layoffmusic__btn ${props.active === 2 ? "layoffmusic__btn_Active" : ""}`} onClick={() => props.setActive(2)}><ImLoop /></button>
