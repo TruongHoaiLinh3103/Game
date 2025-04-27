@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useLayoutEffect, useRef } from 'react';
 import "../styles/layoffmusic.scss";
 import { ImLoop } from "react-icons/im";
 import { GrChapterNext } from "react-icons/gr";
@@ -59,7 +59,7 @@ const LayoffMusic = (props) => {
             props.setIsPlaying(true);
         }
     }
-    useEffect(() => {
+    useLayoutEffect(() => {
         if(props.active !== 2){
             if(props.active === 0){
                 loopAllMusic();
