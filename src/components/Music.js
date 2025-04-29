@@ -1,19 +1,45 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import "../styles/music.scss";
 import { useNavigate } from 'react-router-dom';
+import { IoIosPause, IoIosPlay } from 'react-icons/io';
 
 const Music = (props) => {
     const router = useNavigate();
     const [test, setTest] = useState(false)
     const [data, setData] = useState([]);
     const [tab, setTab] = useState(false);
+    const videoElem = useRef();
+    const [isPlaying, setIsPlaying] = useState(false);
+    const [progress, setProgress] = useState({})
+    const clickW = useRef();
+    const editProgress = (e) => {
+        const width = clickW.current.clientWidth;
+        const offset = e.nativeEvent.offsetX;
+        const divprogress = offset / width * 100;
+        videoElem.current.currentTime = divprogress / 100 * progress.length;
+    }
     const handlePlayMusic = (item) => {
         props.selectMusic(item);
         props.setIsPlaying(true)
     }
     const handTab = () => {
         setTab(!tab);
+        setIsPlaying(false);
     }
+    const onPlaying  = () => {
+        const duration = videoElem.current.duration;
+        const ct = videoElem.current.currentTime;
+        // Tìm Max
+        let s = duration%60;
+        let m = Math.floor((duration/60)%60);
+        // Tìm Min
+        let si = ct%60;
+        let mi = Math.floor((ct/60)%60);
+    
+        const maxDuration = `${(Math.floor(m) ? (Math.floor(m) < 10 ? `${"0" + Math.floor(m)}` : Math.floor(m)) : "00")}:${Math.floor(s) ? (Math.floor(s) < 10 ? `${"0" + Math.floor(s)}` : Math.floor(s)) : "00"}`;
+        const minDuration = `${(Math.floor(mi) ? (Math.floor(mi) < 10 ? `${"0" + Math.floor(mi)}` : Math.floor(mi)) : "00")}:${Math.floor(si) ? (Math.floor(si) < 10 ? `${"0" + Math.floor(si)}` : Math.floor(si)) : "00"}`;
+        setProgress({"progress": ct / duration * 100, length: duration, "max": maxDuration, "min": minDuration});
+      }
     useEffect(() => {
         if(props.music){
             if(props.music.length === 0){
@@ -26,6 +52,13 @@ const Music = (props) => {
             setTest(false)
         }
     })
+    useLayoutEffect(() => {
+        if(isPlaying){
+          videoElem.current.play();
+        }else{
+          videoElem.current.pause();
+        }
+      }, [isPlaying])
     return (
         <div className='music'>
             <div className="m-main">
@@ -107,13 +140,15 @@ const Music = (props) => {
                         </div>
                     </div>
                     <div className="l-playbar">
-                        <div className="l-bar"></div>
+                        <progress className="l-bar" value={progress.progress} max="100" onClick={(e) => editProgress(e)} ref={clickW}></progress>
                     </div>
                     <div className="l-down">
                         <div className="l-down__icons">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="l-svg-icon l-pause" viewBox="0 0 16 16">
-                                <path d="M6 3.5a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5zm4 0a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5z"></path>
-                            </svg>
+                            {isPlaying ? 
+                                <IoIosPause className="l-svg-icon l-pause" onClick={() => setIsPlaying(!isPlaying)}/>
+                                : 
+                                <IoIosPlay className="l-svg-icon l-pause" onClick={() => setIsPlaying(!isPlaying)}/>
+                            }
                             <svg className="l-svg-icon" height="100" preserveAspectRatio="xMidYMid meet" viewBox="0 0 100 100" width="100" x="0" xmlns="http://www.w3.org/2000/svg" y="0">
                                 <path d="M24.7,29.4a4.6,4.6,0,0,0-4.4-.2A4.5,4.5,0,0,0,18.1,33V67a4.5,4.5,0,0,0,2.2,3.8,4.6,4.6,0,0,0,4.4-.2L47.9,55.1V67a4.3,4.3,0,0,0,2.2,3.8,4.6,4.6,0,0,0,4.4-.2L80,53.5a4.2,4.2,0,0,0,0-7L54.5,29.4a4.6,4.6,0,0,0-4.4-.2A4.3,4.3,0,0,0,47.9,33V44.9Z">
                                 </path>
@@ -125,9 +160,9 @@ const Music = (props) => {
                                 <path d="M13.724,1.453c-0.345-0.15-0.746,0.012-0.895,0.358c-0.148,0.346,0.013,0.745,0.358,0.894c2.928,1.256,4.819,4.122,4.819,7.303c0,3.171-1.886,6.031-4.802,7.289c-0.346,0.149-0.505,0.55-0.356,0.894c0.112,0.258,0.362,0.412,0.626,0.412c0.09,0,0.181-0.019,0.269-0.056c3.419-1.474,5.626-4.826,5.626-8.54C19.368,6.282,17.152,2.923,13.724,1.453z"></path>
                             </svg>
                         </div>
-                        <p className="l-time">12:23 / 15:43</p>
+                        <p className="l-time">{progress.min} / {progress.max}</p>
                     </div>
-                    <video loop muted src={props.MusicTitle.video ? props.MusicTitle.video : ""} />
+                    <video loop muted src={props.MusicTitle.video} ref={videoElem} onTimeUpdate={onPlaying}/>
                 </div>
             </div>
         </div>

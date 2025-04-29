@@ -254,18 +254,8 @@
     z-index: 0;
     margin: auto;
     border-radius: 30px;
+    opacity: 1;
   }
-}
-
-.l_videoTabCard::after {
-  content: "Hover video";
-  font-size: 1.4em;
-  font-weight: 800;
-  position: absolute;
-  right: 50%;
-  top: 50%;
-  transform: translate(50%,-50%);
-  font-family: 'Times New Roman', Times, serif;
 }
 
 .l_up {
@@ -290,18 +280,11 @@
 
 .l-bar {
   width: 98%;
-  height: 8px;
+  height: 5px;
   margin-bottom: 8px;
   background-color: rgba(170, 163, 163, 0.356);
-}
-
-.l-bar::after {
-  content: "";
-  width: 10px;
-  height: 8px;
-  position: absolute;
-  background: rgb(167, 57, 57);
-  animation: example 25s ease;
+  border-radius: 100vh;
+  cursor: pointer;
 }
 
 .l-down {
@@ -356,16 +339,6 @@
 
 .l-svg-icon:hover {
   background-color: rgba(255, 255, 255, 0.5);
-}
-
-@keyframes example {
-  0% {
-    width: 0px;
-  }
-
-  100% {
-    width: 330px;
-  }
 }
 
 @media (max-width: 63.9375em){
