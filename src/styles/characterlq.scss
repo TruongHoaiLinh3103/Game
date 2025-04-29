@@ -53,6 +53,7 @@
     }
     ._Char-profile_aler{
         @extend %overlay;
+        z-index: 10;
         .-profile_aler-box{
             @include overlayBox(90%, 0);
             display: flex;
