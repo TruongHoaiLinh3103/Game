@@ -166,7 +166,8 @@ export const BODY = [
     },
     {
         id: 33,
-
+        name: "Đứng Tấn",
+        duration: "100 Giây"
     },
     {
         id: 34,
@@ -445,248 +446,153 @@ export const BODY = [
     },
     {
         id: 100,
-        
-    },
-    {
-        id: 101,
-        
-    },
-    {
-        id: 102,
-        
-    },
-    {
-        id: 103,
-        
-    },
-    {
-        id: 104,
-        
-    },
-    {
-        id: 105,
-        
-    },
-    {
-        id: 106,
-        
-    },
-    {
-        id: 107,
-        
-    },
-    {
-        id: 108,
-        
-    },
-    {
-        id: 109,
-        
-    },
-    {
-        id: 110,
-        
-    },
-    {
-        id: 111,
-        
-    },
-    {
-        id: 112,
-        
-    },
-    {
-        id: 113,
-        
-    },
-    {
-        id: 114,
-        
-    },
-    {
-        id: 115,
-        
-    },
-    {
-        id: 116,
-        
-    },
-    {
-        id: 117,
-        
-    },
-    {
-        id: 118,
-        
-    },
-    {
-        id: 119,
-        
-    },
-    {
-        id: 120,
-        
-    },
-    {
-        id: 121,
-        
-    },
-    {
-        id: 122,
         name: "Chéo Phải Xuống Trái",
         quantity: "1 cái"
         
     },
     {
-        id: 123,
+        id: 101,
         name: "Chéo Trái Xuống Phải",
         quantity: "1 cái"
         
     },
     {
-        id: 124,
+        id: 102,
         name: "Chéo Phải Lên Trái",
         quantity: "1 cái"
         
     },
     {
-        id: 125,
+        id: 103,
         name: "Chéo Trái Lên Phải",
         quantity: "1 cái"
         
     },
     {
-        id: 126,
+        id: 104,
         name: "Đâm Bên Phải",
         quantity: "1 cái"
         
     },
     {
-        id: 127,
+        id: 105,
         name: "Chém Ngang Phải Sang Trái",
         quantity: "1 cái"
         
     },
     {
-        id: 128,
+        id: 106,
         name: "Đâm Bên Trái",
         quantity: "1 cái"
         
     },
     {
-        id: 129,
+        id: 107,
         name: "Chém Ngang Trái Sang Phải",
         quantity: "1 cái"
         
     },
     {
-        id: 130,
+        id: 108,
         name: "Chém Trên Xuống",
         quantity: "1 cái"
         
     },
     {
-        id: 131,
+        id: 109,
         name: "Chém Dưới Lên",
         quantity: "1 cái"
         
     },
     {
-        id: 132,
+        id: 110,
         name: "Cán Đao Trên",
         quantity: "1 cái"
         
     },
     {
-        id: 133,
+        id: 111,
         name: "Cán Đao Dưới",
         quantity: "1 cái"
         
     },
     {
-        id: 134,
+        id: 112,
         name: "Đâm Dưới",
         quantity: "1 cái"
         
     },
     {
-        id: 135,
+        id: 113,
         name: "Đâm Trên",
         quantity: "1 cái"
         
     },
     {
-        id: 136,
+        id: 114,
         name: "Đâm Giữa",
         quantity: "1 cái"
         
     },
     {
-        id: 137,
+        id: 115,
         name: "Giảo Hoạt Đao",
         quantity: "1 cái"
         
     },
     {
-        id: 138,
+        id: 116,
         name: "Phóng Đao",
         quantity: "1 cái"
-        
     },
     {
-        id: 139,
-        name: "Đỡ Đòn Đao",
-        quantity: "1 cái"
-        
+        id: 117,
+        name: "Hít đất chân",
+        quantity: "10 cái"
     },
     {
-        id: 140,
+        id: 118,
         name: "Hít Đất",
         quantity: "100 Cái"
     },
     {
-        id: 141,
+        id: 119,
         name: "Hít Xà",
         quantity: "20 Cái"
     },
     {
-        id: 142,
+        id: 120,
         name: "Gập Bụng Chéo Kiểu Nga",
         quantity: "100 Cái"
     },
     {
-        id: 143,
+        id: 121,
         name: "Đo Sàn",
         duration: "100 Giây"
     },
     {
-        id: 144,
+        id: 122,
         name: "Chạy Tốc Độ",
         duration: "100 Giây"
     },
     {
-        id: 145,
+        id: 123,
         name: "Gập Bụng",
         quantity: "50 Cái"
     },
     {
-        id: 146,
+        id: 124,
         name: "Trồng Chuối",
         duration: "100 Giây"
     },
     {
-        id: 147,
+        id: 125,
         name: "Đứng Dựa Tường",
         duration: "100 Giây"
     },
     {
-        id: 148,
+        id: 126,
         name: "Cây Cầu Mông",
         duration: "100 Giây"
-    },
-    {
-        id: 149,
-        name: "Hít đất chân",
-        quantity: "10 cái"
     }
 ]

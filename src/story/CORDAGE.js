@@ -61,7 +61,7 @@ export const CORDAGE = [
     },
     {
         id: 12,
-        name: "Nút Xu Bao Bì",
+        name: "Nút Thắt Móc Treo Đồ",
         quantity: "1 Cái"
     },
     {
@@ -147,7 +147,7 @@ export const CORDAGE = [
     },
     {
         id: 29,
-        name: "Nút Bó Đồ",
+        name: "Nút Thắt Lưới",
         quantity: "1 Cái"
     }
 ]
