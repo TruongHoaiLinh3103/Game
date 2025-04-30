@@ -166,8 +166,7 @@ export const BODY = [
     },
     {
         id: 33,
-        name: "Đứng Tấn",
-        duration: "100 Giây"
+        
     },
     {
         id: 34,
@@ -250,7 +249,8 @@ export const BODY = [
     },
     {
         id: 51,
-        
+        name: "Bật Nhảy",
+        quantity: "10 cái"
     },
     {
         id: 52,
@@ -506,44 +506,39 @@ export const BODY = [
     },
     {
         id: 110,
-        name: "Cán Đao Trên",
+        name: "Đâm Trên",
         quantity: "1 cái"
-        
     },
     {
         id: 111,
-        name: "Cán Đao Dưới",
+        name: "Đâm Dưới",
         quantity: "1 cái"
-        
     },
     {
         id: 112,
-        name: "Đâm Dưới",
+        name: "Đâm Giữa",
         quantity: "1 cái"
-        
     },
     {
         id: 113,
-        name: "Đâm Trên",
-        quantity: "1 cái"
-        
-    },
-    {
-        id: 114,
-        name: "Đâm Giữa",
-        quantity: "1 cái"
-        
-    },
-    {
-        id: 115,
         name: "Giảo Hoạt Đao",
         quantity: "1 cái"
         
     },
     {
-        id: 116,
+        id: 114,
         name: "Phóng Đao",
         quantity: "1 cái"
+    },
+    {
+        id: 115,
+        name: "Quỳ Thiền",
+        duration: "100 Giây"
+    },
+    {
+        id: 116,
+        name: "Đứng Tấn",
+        duration: "100 Giây"
     },
     {
         id: 117,
