@@ -151,443 +151,152 @@ export const BODY = [
     },
     {
         id: 30,
-        name: "Chỏ Chân Chéo",
-        quantity: "10 cái"
-    },
-    {
-        id: 31,
-        name: "Đấm Chéo",
-        quantity: "10 cái"
-    },
-    {
-        id: 32,
-        name: "Đạp Chéo",
-        quantity: "10 cái"
-    },
-    {
-        id: 33,
-        
-    },
-    {
-        id: 34,
-        
-    },
-    {
-        id: 35,
-        
-    },
-    {
-        id: 36,
-
-    },
-    {
-        id: 37,
-        
-    },
-    {
-        id: 38,
-        
-    },
-    {
-        id: 39,
-        
-    },
-    {
-        id: 40,
-        name: "Chịu Đựng",
-        quantity: "100 Cái"
-    },
-    {
-        id: 41,
-        name: "Vung Kiếm",
-        quantity: "100 Cái"
-    },
-    {
-        id: 42,
         name: "Lặn Nước",
         quantity: "100 Mét"
     },
     {
-        id: 43,
+        id: 31,
         name: "Bơi Xải",
         quantity: "100 Mét"
     },
     {
-        id: 44,
-        name: "Leo Cây",
-        quantity: "10 cái"
-    },
-    {
-        id: 45,
-        name: "Lăn Sàn",
-        quantity: "10 Cái"
-    },
-    {
-        id: 46,
-        name: "Di chuyển con khỉ",
-        quantity: "10 cái"
-    },
-    {
-        id: 47,
-        name: "Bật lên tường",
-        quantity: "10 cái"
-    },
-    {
-        id: 48,
-        name: "Vượt chướng ngại vật",
-        quantity: "10 Cái"
-    },
-    {
-        id: 49,
-        name: "Trượt Tường",
-        quantity: "10 Cái"
-    },
-    {
-        id: 50,
-        name: "Đảo hướng vượt lan can",
-        quantity: "10 cái"
-    },
-    {
-        id: 51,
-        name: "Bật Nhảy",
-        quantity: "10 cái"
-    },
-    {
-        id: 52,
-        
-    },
-    {
-        id: 53,
-        
-    },
-    {
-        id: 54,
-        
-    },
-    {
-        id: 55,
-        
-    },
-    {
-        id: 56,
-        
-    },
-    {
-        id: 57,
-        
-    },
-    {
-        id: 58,
-        
-    },
-    {
-        id: 59,
-        
-    },
-    {
-        id: 60,
-        
-    },
-    {
-        id: 61,
-        
-    },
-    {
-        id: 62,
-        
-    },
-    {
-        id: 63,
-        
-    },
-    {
-        id: 64,
-        
-    },
-    {
-        id: 65,
-        
-    },
-    {
-        id: 66,
-        
-    },
-    {
-        id: 67,
-        
-    },
-    {
-        id: 68,
-        
-    },
-    {
-        id: 69,
-        
-    },
-    {
-        id: 70,
-        
-    },
-    {
-        id: 71,
-        
-    },
-    {
-        id: 72,
-        
-    },
-    {
-        id: 73,
-        
-    },
-    {
-        id: 74,
-        
-    },
-    {
-        id: 75,
-        
-    },
-    {
-        id: 76,
-        
-    },
-    {
-        id: 77,
-        
-    },
-    {
-        id: 78,
-        
-    },
-    {
-        id: 79,
-        
-    },
-    {
-        id: 80,
-        
-    },
-    {
-        id: 81,
-        
-    },
-    {
-        id: 82,
-        
-    },
-    {
-        id: 83,
-        
-    },
-    {
-        id: 84,
-        
-    },
-    {
-        id: 85,
-        
-    },
-    {
-        id: 86,
-        
-    },
-    {
-        id: 87,
-        
-    },
-    {
-        id: 88,
-        
-    },
-    {
-        id: 89,
-        
-    },
-    {
-        id: 90,
-        
-    },
-    {
-        id: 91,
-        
-    },
-    {
-        id: 92,
-        
-    },
-    {
-        id: 93,
-        
-    },
-    {
-        id: 94,
-        
-    },
-    {
-        id: 95,
-        
-    },
-    {
-        id: 96,
-        
-    },
-    {
-        id: 97,
-        
-    },
-    {
-        id: 98,
-        
-    },
-    {
-        id: 99,
-        
-    },
-    {
-        id: 100,
-        name: "Chéo Phải Xuống Trái",
-        quantity: "1 cái"
-        
-    },
-    {
-        id: 101,
-        name: "Chéo Trái Xuống Phải",
-        quantity: "1 cái"
-        
-    },
-    {
-        id: 102,
-        name: "Chéo Phải Lên Trái",
-        quantity: "1 cái"
-        
-    },
-    {
-        id: 103,
-        name: "Chéo Trái Lên Phải",
-        quantity: "1 cái"
-        
-    },
-    {
-        id: 104,
-        name: "Đâm Bên Phải",
-        quantity: "1 cái"
-        
-    },
-    {
-        id: 105,
-        name: "Chém Ngang Phải Sang Trái",
-        quantity: "1 cái"
-        
-    },
-    {
-        id: 106,
-        name: "Đâm Bên Trái",
-        quantity: "1 cái"
-        
-    },
-    {
-        id: 107,
-        name: "Chém Ngang Trái Sang Phải",
-        quantity: "1 cái"
-        
-    },
-    {
-        id: 108,
-        name: "Chém Trên Xuống",
-        quantity: "1 cái"
-        
-    },
-    {
-        id: 109,
-        name: "Chém Dưới Lên",
-        quantity: "1 cái"
-        
-    },
-    {
-        id: 110,
-        name: "Đâm Trên",
-        quantity: "1 cái"
-    },
-    {
-        id: 111,
-        name: "Đâm Dưới",
-        quantity: "1 cái"
-    },
-    {
-        id: 112,
-        name: "Đâm Giữa",
-        quantity: "1 cái"
-    },
-    {
-        id: 113,
-        name: "Giảo Hoạt Đao",
-        quantity: "1 cái"
-        
-    },
-    {
-        id: 114,
-        name: "Phóng Đao",
-        quantity: "1 cái"
-    },
-    {
-        id: 115,
-        name: "Quỳ Thiền",
-        duration: "100 Giây"
-    },
-    {
-        id: 116,
-        name: "Đứng Tấn",
-        duration: "100 Giây"
-    },
-    {
-        id: 117,
-        name: "Hít đất chân",
-        quantity: "10 cái"
-    },
-    {
-        id: 118,
-        name: "Hít Đất",
-        quantity: "100 Cái"
-    },
-    {
-        id: 119,
-        name: "Hít Xà",
-        quantity: "20 Cái"
-    },
-    {
-        id: 120,
-        name: "Gập Bụng Chéo Kiểu Nga",
-        quantity: "100 Cái"
-    },
-    {
-        id: 121,
-        name: "Đo Sàn",
-        duration: "100 Giây"
-    },
-    {
-        id: 122,
-        name: "Chạy Tốc Độ",
-        duration: "100 Giây"
-    },
-    {
-        id: 123,
+        id: 32,
         name: "Gập Bụng",
         quantity: "50 Cái"
     },
     {
-        id: 124,
+        id: 33,
         name: "Trồng Chuối",
         duration: "100 Giây"
     },
     {
-        id: 125,
+        id: 34,
         name: "Đứng Dựa Tường",
         duration: "100 Giây"
     },
     {
-        id: 126,
+        id: 35,
         name: "Cây Cầu Mông",
         duration: "100 Giây"
+    },
+    {
+        id: 36,
+        name: "Hít Đất",
+        quantity: "100 Cái"
+    },
+    {
+        id: 37,
+        name: "Hít đất chân",
+        quantity: "10 cái"
+    },
+    {
+        id: 38,
+        name: "Hít Xà",
+        quantity: "20 Cái"
+    },
+    {
+        id: 39,
+        name: "Gập Bụng Chéo Kiểu Nga",
+        quantity: "100 Cái"
+    },
+    {
+        id: 40,
+        name: "Đo Sàn",
+        duration: "100 Giây"
+    },
+    {
+        id: 41,
+        name: "Chạy Tốc Độ",
+        duration: "100 Giây"
+    },
+    {
+        id: 42,
+        name: "Quỳ Thiền",
+        duration: "100 Giây"
+    },
+    {
+        id: 43,
+        name: "Đứng Tấn",
+        duration: "100 Giây"
+    },
+    {
+        id: 44,
+        name: "Chéo Phải Xuống Trái(Thuận Nghịch)",
+        quantity: "1 cái"
+    },
+    {
+        id: 45,
+        name: "Chéo Trái Xuống Phải(Thuận Nghịch)",
+        quantity: "1 cái"
+    },
+    {
+        id: 46,
+        name: "Chéo Phải Lên Trái(Thuận Nghịch)",
+        quantity: "1 cái"
+    },
+    {
+        id: 47,
+        name: "Chéo Trái Lên Phải(Thuận Nghịch)",
+        quantity: "1 cái"
+    },
+    {
+        id: 48,
+        name: "Đâm Bên Phải(Thuận Nghịch)",
+        quantity: "1 cái"
+    },
+    {
+        id: 49,
+        name: "Chém Ngang Phải Sang Trái(Thuận Nghịch)",
+        quantity: "1 cái"
+    },
+    {
+        id: 50,
+        name: "Đâm Bên Trái(Thuận Nghịch)",
+        quantity: "1 cái"
+    },
+    {
+        id: 51,
+        name: "Chém Ngang Trái Sang Phải(Thuận Nghịch)",
+        quantity: "1 cái"
+    },
+    {
+        id: 52,
+        name: "Chém Trên Xuống(Thuận Nghịch)",
+        quantity: "1 cái"
+    },
+    {
+        id: 53,
+        name: "Chém Dưới Lên(Thuận Nghịch)",
+        quantity: "1 cái"
+    },
+    {
+        id: 54,
+        name: "Đâm Trên(Thuận Nghịch)",
+        quantity: "1 cái"
+    },
+    {
+        id: 55,
+        name: "Đâm Dưới(Thuận Nghịch)",
+        quantity: "1 cái"
+    },
+    {
+        id: 56,
+        name: "Đâm Giữa(Thuận Nghịch)",
+        quantity: "1 cái"
+    },
+    {
+        id: 57,
+        name: "Giảo Hoạt Đao(Thuận Nghịch)",
+        quantity: "1 cái"
+    },
+    {
+        id: 58,
+        name: "Phóng Đao(Thuận Nghịch)",
+        quantity: "1 cái"
+    },
+    {
+        id: 59,
+        name: "Nhát Vệt(Thuận Nghịch)",
+        quantity: "1 cái"
     }
 ]

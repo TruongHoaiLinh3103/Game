@@ -42,7 +42,7 @@ const Sport = () => {
                 <nav className='Sport-body'>
                     {BODY.map((item) => {
                         return(
-                            <ul style={{backgroundColor: (item.id === 0 || item.id === 40 || item.id === 100 || item.id === 115) && "#f89393"}} key={item.id} className={Body === item.id ? "Sport-select" : ""} onClick={() => editBody(item)}>
+                            <ul style={{backgroundColor: (item.id === 0 || item.id === 30 || item.id === 32 || item.id === 44) && "#f89393"}} key={item.id} className={Body === item.id ? "Sport-select" : ""} onClick={() => editBody(item)}>
                                 <li>{item.id + 1}. {item.name}</li>
                                 {item.quantity ? <span>{item.quantity}</span> : <span>{item.duration}</span>}
                             </ul>
