@@ -2,6 +2,8 @@ import React, { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import "../styles/music.scss";
 import { useNavigate } from 'react-router-dom';
 import { IoIosPause, IoIosPlay } from 'react-icons/io';
+import { GoDownload } from "react-icons/go";
+import { IoVolumeHighOutline } from "react-icons/io5";
 
 const Music = (props) => {
     const router = useNavigate();
@@ -11,7 +13,10 @@ const Music = (props) => {
     const videoElem = useRef();
     const [isPlaying, setIsPlaying] = useState(false);
     const [progress, setProgress] = useState({})
+    const [volume, setVolume] = useState(1); // Volume ranges from 0.0 to 1.0
     const clickW = useRef();
+    const [btnVL, setBtnVL] = useState(false)
+
     const editProgress = (e) => {
         const width = clickW.current.clientWidth;
         const offset = e.nativeEvent.offsetX;
@@ -51,6 +56,13 @@ const Music = (props) => {
         const minDuration = `${(Math.floor(mi) ? (Math.floor(mi) < 10 ? `${"0" + Math.floor(mi)}` : Math.floor(mi)) : "00")}:${Math.floor(si) ? (Math.floor(si) < 10 ? `${"0" + Math.floor(si)}` : Math.floor(si)) : "00"}`;
         setProgress({"progress": ct / duration * 100, length: duration, "max": maxDuration, "min": minDuration});
       }
+      const handleVolumeChange = (event) => {
+        const newVolume = event.target.value;
+        setVolume(newVolume);
+        if (videoElem.current) {
+          videoElem.current.volume = newVolume;
+        }
+      };
     useEffect(() => {
         if(props.music){
             if(props.music.length === 0){
@@ -146,18 +158,23 @@ const Music = (props) => {
                                     : 
                                     <IoIosPlay className="l-svg-icon l-pause" onClick={() => setIsPlaying(!isPlaying)}/>
                                 }
-                                <svg className="l-svg-icon" height="100" preserveAspectRatio="xMidYMid meet" viewBox="0 0 100 100" width="100" x="0" xmlns="http://www.w3.org/2000/svg" y="0">
-                                    <path d="M24.7,29.4a4.6,4.6,0,0,0-4.4-.2A4.5,4.5,0,0,0,18.1,33V67a4.5,4.5,0,0,0,2.2,3.8,4.6,4.6,0,0,0,4.4-.2L47.9,55.1V67a4.3,4.3,0,0,0,2.2,3.8,4.6,4.6,0,0,0,4.4-.2L80,53.5a4.2,4.2,0,0,0,0-7L54.5,29.4a4.6,4.6,0,0,0-4.4-.2A4.3,4.3,0,0,0,47.9,33V44.9Z">
-                                    </path>
-                                </svg>
-                                <svg className="l-svg-icon" viewBox="0 0 20 20">
-                                    <path d="M9.344,2.593c-0.253-0.104-0.547-0.045-0.743,0.15L4.486,6.887H1.313c-0.377,0-0.681,0.305-0.681,0.681v4.916c0,0.377,0.304,0.681,0.681,0.681h3.154l4.137,4.142c0.13,0.132,0.304,0.201,0.482,0.201c0.088,0,0.176-0.017,0.261-0.052c0.254-0.105,0.42-0.354,0.42-0.629L9.765,3.224C9.765,2.947,9.599,2.699,9.344,2.593z M5.233,12.003c-0.128-0.127-0.302-0.2-0.483-0.2H1.994V8.249h2.774c0.182,0,0.355-0.072,0.483-0.201l3.151-3.173l0.001,10.305L5.233,12.003z"></path>
-                                    <path d="M16.434,10.007c0-2.553-1.518-4.853-3.869-5.858C12.223,4,11.821,4.16,11.672,4.506c-0.148,0.346,0.013,0.746,0.359,0.894c1.846,0.793,3.041,2.6,3.041,4.608c0,1.997-1.188,3.799-3.025,4.592c-0.346,0.149-0.505,0.551-0.356,0.895c0.112,0.258,0.362,0.411,0.625,0.411c0.091,0,0.181-0.017,0.269-0.056C14.922,14.843,16.434,12.548,16.434,10.007z"></path>
-                                    <path d="M13.418,10.005c0-1.349-0.802-2.559-2.042-3.086c-0.346-0.144-0.745,0.015-0.894,0.362c-0.146,0.346,0.016,0.745,0.362,0.893c0.737,0.312,1.212,1.031,1.212,1.832c0,0.792-0.471,1.509-1.2,1.825c-0.345,0.149-0.504,0.551-0.352,0.895c0.112,0.257,0.362,0.41,0.625,0.41c0.091,0,0.181-0.017,0.27-0.057C12.625,12.545,13.418,11.339,13.418,10.005z"></path>
-                                    <path d="M13.724,1.453c-0.345-0.15-0.746,0.012-0.895,0.358c-0.148,0.346,0.013,0.745,0.358,0.894c2.928,1.256,4.819,4.122,4.819,7.303c0,3.171-1.886,6.031-4.802,7.289c-0.346,0.149-0.505,0.55-0.356,0.894c0.112,0.258,0.362,0.412,0.626,0.412c0.09,0,0.181-0.019,0.269-0.056c3.419-1.474,5.626-4.826,5.626-8.54C19.368,6.282,17.152,2.923,13.724,1.453z"></path>
-                                </svg>
+                                <a href={props.MusicTitle.video} download={props.MusicTitle.name}>
+                                    <GoDownload className="l-svg-icon"/>
+                                </a>
+
+                                <IoVolumeHighOutline className="l-svg-icon" htmlFor="volumeControl" onClick={() => setBtnVL(!btnVL)}/>
+                                <input
+                                style={{display: btnVL ? "block" : "none"}}
+                                id="volumeControl"
+                                type="range"
+                                min="0"
+                                max="1"
+                                step="0.01"
+                                value={volume}
+                                onChange={handleVolumeChange}
+                                />
                             </div>
-                            <p className="l-time">{progress.min} / {progress.max}</p>
+                            <p className="l-time">{progress.min ? progress.min : "00:00"} / {progress.max ? progress.max : "00:00"}</p>
                         </div>
                         <video loop src={props.MusicTitle.video} ref={videoElem} onTimeUpdate={onPlaying}/>
                     </div>

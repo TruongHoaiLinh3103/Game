@@ -5,7 +5,7 @@
 }
 
 .m_data{
-  height: 428px;
+  height: 418px;
   overflow-y: scroll;
   &::-webkit-scrollbar{
       display: none;
@@ -31,6 +31,7 @@
     align-self: flex-end;
     gap: .5rem;
     list-style: none;
+    padding-bottom: 10px;
   }
   
   .m-btn {
@@ -285,7 +286,15 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
+}
+
+input#volumeControl{
+  height: 5px;
+  cursor: pointer;
+  position: fixed;
+  right: 20px;
+  top: 20px;
 }
 
 .l-pause {
