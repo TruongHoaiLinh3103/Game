@@ -22,6 +22,10 @@
             list-style: none;
             font-size: 15px;
             font-family:'Times New Roman', Times, serif;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            width: 75%;
         }
         span{
             font-size: 15px;

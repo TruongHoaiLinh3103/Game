@@ -11,20 +11,18 @@ import Login from '../components/Login';
 import NotPage from '../components/NotPage';
 import Register from '../components/Register';
 import Sliederlab from '../layouts/Sliederlab';
-import {useEffect, useLayoutEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import ChangePass from '../components/ChangePass';
 import Footer from '../components/Footer';
 import Home from "../components/Home";
 import Sport from "../components/Sport";
 import Play from '../components/Play';
 import Song from '../components/Song';
-import axios from 'axios';
+import { KALIMBA } from '../story/KALIMBA';
 
 function App() {
   const [number, setNumber] = useState(sessionStorage.getItem("accessToken") ? 2 : 0);
-
   const audioElem = useRef();
-  const [data, setData] = useState([]);
   const [isPlaying, setIsPlaying] = useState(false);
   const [active, setActive] = useState(0)
   const [music, setMusic] = useState([]);
@@ -49,11 +47,7 @@ function App() {
   const checkNumberRES = (Children) => {
     setNumber(Children)
   }
-  useLayoutEffect(() => {
-    axios.get("https://fake-api-music.vercel.app/music").then((res) => {
-        res && setData(res.data)
-    })
-  }, [data])
+
   useEffect(() => {
     if(isPlaying){
       audioElem.current.play();
@@ -79,7 +73,7 @@ function App() {
               <Route path="/sport/cordage" element={<Sport />} />
               <Route path="/sport/kungfu" element={<Sport />} />
               <Route path="/play" element={<Play />} exact/>
-              <Route path="/song" element={<Song data={data} 
+              <Route path="/song" element={<Song data={KALIMBA} 
               isPlaying={isPlaying} setIsPlaying={setIsPlaying} 
               selectMusic={selectMusic} 
               MusicTitle={music}
