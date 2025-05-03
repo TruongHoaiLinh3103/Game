@@ -265,69 +265,6 @@ export const KALIMBA = [
   },
   {
     "id": 34,
-    "name": "Chớ Lại Làm Ta Khổ",
-    "img": "https://i.pinimg.com/736x/f5/76/60/f5766080141add922c3057ba89edab46.jpg",
-    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Ch%E1%BB%9B%20L%E1%BA%A1i%20L%C3%A0m%20Ta%20Kh%E1%BB%95.mp3?raw=true",
-    "auth": "爪ạㄒ"
-  },
-  {
-    "id": 35,
-    "name": "Trường An Cô Nương",
-    "img": "https://i.pinimg.com/736x/b2/b2/84/b2b284871375d3a9f98f24c5e20920c4.jpg",
-    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Tr%C6%B0%E1%BB%9Dng%20An%20C%C3%B4%20N%C6%B0%C6%A1ng.mp3?raw=true",
-    "auth": "爪ạㄒ"
-  },
-  {
-    "id": 36,
-    "name": "Thăm Cố Tri",
-    "img": "https://i.pinimg.com/736x/0f/b6/b8/0fb6b80091ec2808024643776a9de4f2.jpg",
-    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Th%C4%83m%20C%E1%BB%91%20Tri.mp3?raw=true",
-    "auth": "爪ạㄒ"
-  },
-  {
-    "id": 37,
-    "name": "Nước Mắt Từ Niềm Vui",
-    "img": "https://i.pinimg.com/736x/09/2d/30/092d3029e2a2b097c7c2c9d3623a5cfe.jpg",
-    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/N%C6%B0%E1%BB%9Bc%20M%E1%BA%AFt%20T%E1%BB%AB%20Ni%E1%BB%81m%20Vui.mp3?raw=true",
-    "auth": "爪ạㄒ"
-  },
-  {
-    "id": 38,
-    "name": "Tinh Vệ",
-    "img": "https://i.pinimg.com/736x/05/fc/48/05fc48ff3cb9f7d5418fbd764cf8727d.jpg",
-    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Tinh%20V%E1%BB%87.mp3?raw=true",
-    "auth": "爪ạㄒ"
-  },
-  {
-    "id": 39,
-    "name": "Ngu Hề Thán",
-    "img": "https://i.pinimg.com/736x/46/23/21/4623216ba649c0539b66591dd7ace453.jpg",
-    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Ngu%20h%E1%BB%81%20th%C3%A1n.mp3?raw=true",
-    "auth": "爪ạㄒ"
-  },
-  {
-    "id": 40,
-    "name": "Tứ Ngã",
-    "img": "https://i.pinimg.com/736x/d9/c3/74/d9c3742f0850a7d1ad5a60aeff4cbbda.jpg",
-    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/T%E1%BB%A9%20Ng%C3%A3.mp3?raw=true",
-    "auth": "爪ạㄒ"
-  },
-  {
-    "id": 41,
-    "name": "Kiếp Sau Vẫn Muốn Lập Gia Đình Với Anh",
-    "img": "https://i.pinimg.com/736x/c5/96/f4/c596f4f4500f8d56beecba571a07e3d9.jpg",
-    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Ki%E1%BA%BFp%20sau%20v%E1%BA%ABn%20mu%E1%BB%91n%20l%E1%BA%ADp%20gia%20%C4%91%C3%ACnh%20v%E1%BB%9Bi%20anh.mp3?raw=true",
-    "auth": "爪ạㄒ"
-  },
-  {
-    "id": 42,
-    "name": "Xuân Đình Tuyết",
-    "img": "https://i.pinimg.com/736x/9d/83/b0/9d83b01f1beeea828dedbad70a7a3b90.jpg",
-    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Xu%C3%A2n%20%C4%90%C3%ACnh%20Tuy%E1%BA%BFt.mp3?raw=true",
-    "auth": "爪ạㄒ"
-  },
-  {
-    "id": 43,
     "name": "Mười Năm Nhân Gian",
     "img": "https://i.pinimg.com/736x/14/2d/69/142d692ce6a54ca639953bcd76d8acb9.jpg",
     "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/M%C6%B0%E1%BB%9Di%20n%C4%83m%20nh%C3%A2n%20gian.mp3?raw=true",
@@ -335,7 +272,7 @@ export const KALIMBA = [
     "auth": "爪ạㄒ"
   },
   {
-    "id": 44,
+    "id": 35,
     "name": "Một Giấc Mộng Xưa",
     "img": "https://i.pinimg.com/736x/50/0e/26/500e26e5e7092dccfd25b1e4283cc7a7.jpg",
     "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/M%E1%BB%99t%20gi%E1%BA%A5c%20m%E1%BB%99ng%20x%C6%B0a.mp3?raw=true",
@@ -343,28 +280,7 @@ export const KALIMBA = [
     "auth": "爪ạㄒ"
   },
   {
-    "id": 45,
-    "name": "Khiên Ti Hí",
-    "img": "https://i.pinimg.com/736x/5c/9d/01/5c9d01f720a199cd62c0337dc6cc6957.jpg",
-    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Khi%C3%AAn%20t%C3%AD%20h%C3%AD.mp3?raw=true",
-    "auth": "爪ạㄒ"
-  },
-  {
-    "id": 46,
-    "name": "Bán Hồ Sa",
-    "img": "https://i.pinimg.com/736x/64/09/2e/64092e75ffab99c009143fdeeb0c7990.jpg",
-    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/B%C3%A1n%20h%E1%BB%93%20sa.mp3?raw=true",
-    "auth": "爪ạㄒ"
-  },
-  {
-    "id": 47,
-    "name": "Đối Tửu",
-    "img": "https://i.pinimg.com/736x/b9/70/5e/b9705e4de821deb4d98d0d215ac13578.jpg",
-    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/%C4%90%E1%BB%91i%20t%E1%BB%ADu.mp3?raw=true",
-    "auth": "爪ạㄒ"
-  },
-  {
-    "id": 48,
+    "id": 36,
     "name": "Thời Không Sai Lệch",
     "img": "https://i.pinimg.com/736x/4c/a1/fd/4ca1fd8ff9e5ada16a7901edc0035009.jpg",
     "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Th%E1%BB%9Di%20kh%C3%B4ng%20sai%20l%E1%BB%87ch.mp3?raw=true",
@@ -372,7 +288,7 @@ export const KALIMBA = [
     "auth": "爪ạㄒ"
   },
   {
-    "id": 49,
+    "id": 37,
     "name": "Thanh Ti",
     "img": "https://i.pinimg.com/736x/be/80/23/be80231d5f2b618725beffb411131839.jpg",
     "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Thanh%20Ti.mp3?raw=true",
@@ -380,7 +296,7 @@ export const KALIMBA = [
     "auth": "爪ạㄒ"
   },
   {
-    "id": 50,
+    "id": 38,
     "name": "Gió Nổi Lên Rồi",
     "img": "https://i.pinimg.com/736x/f3/d4/e6/f3d4e67f937eabd0a2dac79ceb21b1ec.jpg",
     "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Gi%C3%B3%20N%E1%BB%95i%20L%C3%AAn%20R%E1%BB%93i.mp3?raw=true",
@@ -388,7 +304,7 @@ export const KALIMBA = [
     "auth": "爪ạㄒ"
   },
   {
-    "id": 51,
+    "id": 39,
     "name": "Phong Dạ Hành",
     "img": "https://i.pinimg.com/736x/2f/7a/83/2f7a83f11efa9ec1d074817b26da11fe.jpg",
     "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Phong%20d%E1%BA%A1%20h%C3%A0nh.mp3?raw=true",
@@ -396,11 +312,107 @@ export const KALIMBA = [
     "auth": "爪ạㄒ"
   },
   {
-    "id": 52,
+    "id": 40,
     "name": "Nhất Tiếu Giang Hồ",
     "img": "https://i.pinimg.com/736x/6a/97/c6/6a97c657e185e64f8b4cb3db4fb3df37.jpg",
     "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Nh%E1%BA%A5t%20ti%E1%BA%BFu%20giang%20h%E1%BB%93.mp3?raw=true",
     "video": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Kalimba/Nh%E1%BA%A5t%20ti%E1%BA%BFu%20giang%20h%E1%BB%93.mp4?raw=true",
+    "auth": "爪ạㄒ"
+  },
+  {
+    "id": 41,
+    "name": "Minh Nguyệt Thiên Nhai",
+    "img": "https://i.pinimg.com/736x/8e/e0/08/8ee008ed0dbae93ca370b29e6cbaad51.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Minh%20nguy%E1%BB%87t%20thi%C3%AAn%20nhai.mp3?raw=true",
+    "video": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Kalimba/Minh%20nguy%E1%BB%87t%20thi%C3%AAn%20nhai.mp4?raw=true",
+    "auth": "爪ạㄒ"
+  },
+  {
+    "id": 42,
+    "name": "Muốn Chết Nhưng Lại Không Dám",
+    "img": "https://i.pinimg.com/736x/0b/bf/8a/0bbf8a91d5a34dcc6dc58f6bcb74ab5f.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Mu%E1%BB%91n%20ch%E1%BA%BFt%20nh%C6%B0ng%20l%E1%BA%A1i%20kh%C3%B4ng%20d%C3%A1m.mp3?raw=true",
+    "video": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Kalimba/Mu%E1%BB%91n%20ch%E1%BA%BFt%20nh%C6%B0ng%20l%E1%BA%A1i%20kh%C3%B4ng%20d%C3%A1m.mp4?raw=true",
+    "auth": "爪ạㄒ"
+  },
+  {
+    "id": 43,
+    "name": "Đào Hoa Nặc",
+    "img": "https://i.pinimg.com/736x/78/15/c5/7815c5ad62b560663b044a5767121079.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/%C4%90%C3%A0o%20hoa%20n%E1%BA%B7c.mp3?raw=true",
+    "video": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Kalimba/%C4%90%C3%A0o%20hoa%20n%E1%BA%B7c.mp4?raw=true",
+    "auth": "爪ạㄒ"
+  },
+  {
+    "id": 44,
+    "name": "Đáp Án Của Bạn",
+    "img": "https://i.pinimg.com/736x/0b/a4/a9/0ba4a9c4a8baa8a5b3e8211b25529fa6.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/%C4%90%C3%A1p%20%C3%A1n%20c%E1%BB%A7a%20b%E1%BA%A1n.mp3?raw=true",
+    "video": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Kalimba/%C4%90%C3%A1p%20%C3%A1n%20c%E1%BB%A7a%20b%E1%BA%A1n.mp4?raw=true",
+    "auth": "爪ạㄒ"
+  },
+  {
+    "id": 45,
+    "name": "Quy Khứ Lai Hề",
+    "img": "https://i.pinimg.com/736x/69/6b/28/696b28c6e54fb49209728db9e828cc95.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Quy%20kh%E1%BB%A9%20lai%20h%E1%BB%81.mp3?raw=true",
+    "video": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Kalimba/Quy%20kh%E1%BB%A9%20lai%20h%E1%BB%81%20(OST).mp4?raw=true",
+    "auth": "爪ạㄒ"
+  },
+  {
+    "id": 46,
+    "name": "Tháp Drill Tự Do",
+    "img": "https://i.pinimg.com/736x/e9/2b/ce/e92bcec3cb58b8d52ca860b31395c0da.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Th%C3%A1p%20Drill%20T%E1%BB%B1%20Do.mp3?raw=true",
+    "video": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Kalimba/Th%C3%A1p%20r%C6%A1i%20t%E1%BB%B1%20do.mp4?raw=true",
+    "auth": "爪ạㄒ"
+  },
+  {
+    "id": 47,
+    "name": "Đại Điền Hậu Sinh Tử",
+    "img": "https://i.pinimg.com/736x/fb/6a/f2/fb6af2b03dd1d2b1d3373201032d2cf8.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/%C4%90%E1%BA%A1i%20%C4%91i%E1%BB%81n%20h%E1%BA%ADu%20sinh%20t%E1%BB%AD.mp3?raw=true",
+    "video": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Kalimba/%C4%90%E1%BA%A1i%20%C4%91i%E1%BB%81n%20sinh%20h%E1%BA%ADu%20t%E1%BB%AD.mp4?raw=true",
+    "auth": "爪ạㄒ"
+  },
+  {
+    "id": 48,
+    "name": "Du Sơn Luyến",
+    "img": "https://i.pinimg.com/736x/cd/62/80/cd6280c7e84261305f2b17bfb179c889.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Du%20S%C6%A1n%20Luy%E1%BA%BFn.mp3?raw=true",
+    "video": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Kalimba/Du%20s%C6%A1n%20luy%E1%BA%BFn.mp4?raw=true",
+    "auth": "爪ạㄒ"
+  },
+  {
+    "id": 49,
+    "name": "Đêm, Đom Đóm Và Em",
+    "img": "https://i.pinimg.com/736x/c9/a5/ea/c9a5eaf7cfc5621745b54faaf050e72a.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/%C4%90%C3%AAm%20%C4%91om%20%C4%91%C3%B3m%20v%C3%A0%20em.mp3?raw=true",
+    "video": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Kalimba/%C4%90%C3%AAm%20%C4%91om%20%C4%91%C3%B3m%20v%C3%A0%20em.mp4?raw=true",
+    "auth": "爪ạㄒ"
+  },
+  {
+    "id": 50,
+    "name": "Đông Miên",
+    "img": "https://i.pinimg.com/736x/6a/2f/47/6a2f472fb0b88828c74915982b4f7e15.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/%C4%90%C3%B4ng%20Mi%C3%AAn.mp3?raw=true",
+    "video": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Kalimba/%C4%90%C3%B4ng%20mi%C3%AAn.mp4?raw=true",
+    "auth": "爪ạㄒ"
+  },
+  {
+    "id": 51,
+    "name": "Tân Uyên Ương Hồ Điệp Mộng",
+    "img": "https://i.pinimg.com/736x/d5/fa/77/d5fa77795a031149e0efa2de10ccd9bd.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/T%C3%A2n%20uy%C3%AAn%20%C6%B0%C6%A1ng%20h%E1%BB%93%20%C4%91i%E1%BB%87p%20m%E1%BB%99ng.mp3?raw=true",
+    "video": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Kalimba/T%C3%A2n%20uy%C3%AAn%20%C6%B0%C6%A1ng%20h%E1%BB%93%20%C4%91i%E1%BB%87p%20m%E1%BB%99ng.mp4?raw=true",
+    "auth": "爪ạㄒ"
+  },
+  {
+    "id": 52,
+    "name": "Mạnh Bà",
+    "img": "https://i.pinimg.com/736x/a6/cf/fd/a6cffde58a09093cc45845653f8b5782.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/M%E1%BA%A1nh%20B%C3%A0.mp3?raw=true",
+    "video": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Kalimba/M%E1%BA%A1nh%20b%C3%A0.mp4?raw=true",
     "auth": "爪ạㄒ"
   },
   {
@@ -433,10 +445,9 @@ export const KALIMBA = [
   },
   {
     "id": 57,
-    "name": "Minh Nguyệt Thiên Nhai",
-    "img": "https://i.pinimg.com/736x/8e/e0/08/8ee008ed0dbae93ca370b29e6cbaad51.jpg",
-    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Minh%20nguy%E1%BB%87t%20thi%C3%AAn%20nhai.mp3?raw=true",
-    "video": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Kalimba/Minh%20nguy%E1%BB%87t%20thi%C3%AAn%20nhai.mp4?raw=true",
+    "name": "Kiếp Sau Vẫn Muốn Lập Gia Đình Với Anh",
+    "img": "https://i.pinimg.com/736x/c5/96/f4/c596f4f4500f8d56beecba571a07e3d9.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Ki%E1%BA%BFp%20sau%20v%E1%BA%ABn%20mu%E1%BB%91n%20l%E1%BA%ADp%20gia%20%C4%91%C3%ACnh%20v%E1%BB%9Bi%20anh.mp3?raw=true",
     "auth": "爪ạㄒ"
   },
   {
@@ -448,10 +459,9 @@ export const KALIMBA = [
   },
   {
     "id": 59,
-    "name": "Muốn Chết Nhưng Lại Không Dám",
-    "img": "https://i.pinimg.com/736x/0b/bf/8a/0bbf8a91d5a34dcc6dc58f6bcb74ab5f.jpg",
-    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Mu%E1%BB%91n%20ch%E1%BA%BFt%20nh%C6%B0ng%20l%E1%BA%A1i%20kh%C3%B4ng%20d%C3%A1m.mp3?raw=true",
-    "video": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Kalimba/Mu%E1%BB%91n%20ch%E1%BA%BFt%20nh%C6%B0ng%20l%E1%BA%A1i%20kh%C3%B4ng%20d%C3%A1m.mp4?raw=true",
+    "name": "Xuân Đình Tuyết",
+    "img": "https://i.pinimg.com/736x/9d/83/b0/9d83b01f1beeea828dedbad70a7a3b90.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Xu%C3%A2n%20%C4%90%C3%ACnh%20Tuy%E1%BA%BFt.mp3?raw=true",
     "auth": "爪ạㄒ"
   },
   {
@@ -512,10 +522,9 @@ export const KALIMBA = [
   },
   {
     "id": 68,
-    "name": "Đào Hoa Nặc",
-    "img": "https://i.pinimg.com/736x/78/15/c5/7815c5ad62b560663b044a5767121079.jpg",
-    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/%C4%90%C3%A0o%20hoa%20n%E1%BA%B7c.mp3?raw=true",
-    "video": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Kalimba/%C4%90%C3%A0o%20hoa%20n%E1%BA%B7c.mp4?raw=true",
+    "name": "Chớ Lại Làm Ta Khổ",
+    "img": "https://i.pinimg.com/736x/f5/76/60/f5766080141add922c3057ba89edab46.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Ch%E1%BB%9B%20L%E1%BA%A1i%20L%C3%A0m%20Ta%20Kh%E1%BB%95.mp3?raw=true",
     "auth": "爪ạㄒ"
   },
   {
@@ -590,10 +599,9 @@ export const KALIMBA = [
   },
   {
     "id": 79,
-    "name": "Đáp Án Của Bạn",
-    "img": "https://i.pinimg.com/736x/0b/a4/a9/0ba4a9c4a8baa8a5b3e8211b25529fa6.jpg",
-    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/%C4%90%C3%A1p%20%C3%A1n%20c%E1%BB%A7a%20b%E1%BA%A1n.mp3?raw=true",
-    "video": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Kalimba/%C4%90%C3%A1p%20%C3%A1n%20c%E1%BB%A7a%20b%E1%BA%A1n.mp4?raw=true",
+    "name": "Trường An Cô Nương",
+    "img": "https://i.pinimg.com/736x/b2/b2/84/b2b284871375d3a9f98f24c5e20920c4.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Tr%C6%B0%E1%BB%9Dng%20An%20C%C3%B4%20N%C6%B0%C6%A1ng.mp3?raw=true",
     "auth": "爪ạㄒ"
   },
   {
@@ -689,10 +697,9 @@ export const KALIMBA = [
   },
   {
     "id": 93,
-    "name": "Quy Khứ Lai Hề",
-    "img": "https://i.pinimg.com/736x/69/6b/28/696b28c6e54fb49209728db9e828cc95.jpg",
-    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Quy%20kh%E1%BB%A9%20lai%20h%E1%BB%81.mp3?raw=true",
-    "video": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Kalimba/Quy%20kh%E1%BB%A9%20lai%20h%E1%BB%81%20(OST).mp4?raw=true",
+    "name": "Khiên Ti Hí",
+    "img": "https://i.pinimg.com/736x/5c/9d/01/5c9d01f720a199cd62c0337dc6cc6957.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Khi%C3%AAn%20t%C3%AD%20h%C3%AD.mp3?raw=true",
     "auth": "爪ạㄒ"
   },
   {
@@ -837,10 +844,9 @@ export const KALIMBA = [
   },
   {
     "id": 114,
-    "name": "Tháp Drill Tự Do",
-    "img": "https://i.pinimg.com/736x/e9/2b/ce/e92bcec3cb58b8d52ca860b31395c0da.jpg",
-    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Th%C3%A1p%20Drill%20T%E1%BB%B1%20Do.mp3?raw=true",
-    "video": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Kalimba/Th%C3%A1p%20r%C6%A1i%20t%E1%BB%B1%20do.mp4?raw=true",
+    "name": "Bán Hồ Sa",
+    "img": "https://i.pinimg.com/736x/64/09/2e/64092e75ffab99c009143fdeeb0c7990.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/B%C3%A1n%20h%E1%BB%93%20sa.mp3?raw=true",
     "auth": "爪ạㄒ"
   },
   {
@@ -859,10 +865,9 @@ export const KALIMBA = [
   },
   {
     "id": 117,
-    "name": "Đại Điền Hậu Sinh Tử",
-    "img": "https://i.pinimg.com/736x/fb/6a/f2/fb6af2b03dd1d2b1d3373201032d2cf8.jpg",
-    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/%C4%90%E1%BA%A1i%20%C4%91i%E1%BB%81n%20h%E1%BA%ADu%20sinh%20t%E1%BB%AD.mp3?raw=true",
-    "video": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Kalimba/%C4%90%E1%BA%A1i%20%C4%91i%E1%BB%81n%20sinh%20h%E1%BA%ADu%20t%E1%BB%AD.mp4?raw=true",
+    "name": "Đối Tửu",
+    "img": "https://i.pinimg.com/736x/b9/70/5e/b9705e4de821deb4d98d0d215ac13578.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/%C4%90%E1%BB%91i%20t%E1%BB%ADu.mp3?raw=true",
     "auth": "爪ạㄒ"
   },
   {
@@ -888,18 +893,16 @@ export const KALIMBA = [
   },
   {
     "id": 121,
-    "name": "Du Sơn Luyến",
-    "img": "https://i.pinimg.com/736x/cd/62/80/cd6280c7e84261305f2b17bfb179c889.jpg",
-    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Du%20S%C6%A1n%20Luy%E1%BA%BFn.mp3?raw=true",
-    "video": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Kalimba/Du%20s%C6%A1n%20luy%E1%BA%BFn.mp4?raw=true",
+    "name": "Thăm Cố Tri",
+    "img": "https://i.pinimg.com/736x/0f/b6/b8/0fb6b80091ec2808024643776a9de4f2.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Th%C4%83m%20C%E1%BB%91%20Tri.mp3?raw=true",
     "auth": "爪ạㄒ"
   },
   {
     "id": 122,
-    "name": "Đêm, Đom Đóm Và Em",
-    "img": "https://i.pinimg.com/736x/c9/a5/ea/c9a5eaf7cfc5621745b54faaf050e72a.jpg",
-    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/%C4%90%C3%AAm%20%C4%91om%20%C4%91%C3%B3m%20v%C3%A0%20em.mp3?raw=true",
-    "video": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Kalimba/%C4%90%C3%AAm%20%C4%91om%20%C4%91%C3%B3m%20v%C3%A0%20em.mp4?raw=true",
+    "name": "Nước Mắt Từ Niềm Vui",
+    "img": "https://i.pinimg.com/736x/09/2d/30/092d3029e2a2b097c7c2c9d3623a5cfe.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/N%C6%B0%E1%BB%9Bc%20M%E1%BA%AFt%20T%E1%BB%AB%20Ni%E1%BB%81m%20Vui.mp3?raw=true",
     "auth": "爪ạㄒ"
   },
   {
@@ -939,26 +942,23 @@ export const KALIMBA = [
   },
   {
     "id": 128,
-    "name": "Đông Miên",
-    "img": "https://i.pinimg.com/736x/6a/2f/47/6a2f472fb0b88828c74915982b4f7e15.jpg",
-    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/%C4%90%C3%B4ng%20Mi%C3%AAn.mp3?raw=true",
-    "video": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Kalimba/%C4%90%C3%B4ng%20mi%C3%AAn.mp4?raw=true",
+    "name": "Tinh Vệ",
+    "img": "https://i.pinimg.com/736x/05/fc/48/05fc48ff3cb9f7d5418fbd764cf8727d.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Tinh%20V%E1%BB%87.mp3?raw=true",
     "auth": "爪ạㄒ"
   },
   {
     "id": 129,
-    "name": "Tân Uyên Ương Hồ Điệp Mộng",
-    "img": "https://i.pinimg.com/736x/d5/fa/77/d5fa77795a031149e0efa2de10ccd9bd.jpg",
-    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/T%C3%A2n%20uy%C3%AAn%20%C6%B0%C6%A1ng%20h%E1%BB%93%20%C4%91i%E1%BB%87p%20m%E1%BB%99ng.mp3?raw=true",
-    "video": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Kalimba/T%C3%A2n%20uy%C3%AAn%20%C6%B0%C6%A1ng%20h%E1%BB%93%20%C4%91i%E1%BB%87p%20m%E1%BB%99ng.mp4?raw=true",
+    "name": "Ngu Hề Thán",
+    "img": "https://i.pinimg.com/736x/46/23/21/4623216ba649c0539b66591dd7ace453.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Ngu%20h%E1%BB%81%20th%C3%A1n.mp3?raw=true",
     "auth": "爪ạㄒ"
   },
   {
     "id": 130,
-    "name": "Mạnh Bà",
-    "img": "https://i.pinimg.com/736x/a6/cf/fd/a6cffde58a09093cc45845653f8b5782.jpg",
-    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/M%E1%BA%A1nh%20B%C3%A0.mp3?raw=true",
-    "video": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Kalimba/M%E1%BA%A1nh%20b%C3%A0.mp4?raw=true",
+    "name": "Tứ Ngã",
+    "img": "https://i.pinimg.com/736x/d9/c3/74/d9c3742f0850a7d1ad5a60aeff4cbbda.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/T%E1%BB%A9%20Ng%C3%A3.mp3?raw=true",
     "auth": "爪ạㄒ"
   },
   {
