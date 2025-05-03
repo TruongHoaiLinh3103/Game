@@ -79,6 +79,9 @@ const CharacterGI = () => {
                                             <div onClick={() => toast(item.skill6.text, {autoClose: 20000})} className= "-item_skile" style={{backgroundImage: `url(${item.skill6.img})`}}>
                                                 <h5>{item.skill6.name}</h5>
                                             </div>
+                                            {item.skill7 && <div onClick={() => toast(item.skill7.text, {autoClose: 20000})} className= "-item_skile" style={{backgroundImage: `url(${item.skill7.img})`}}>
+                                                <h5>{item.skill7.name}</h5>
+                                            </div>}
                                         </div>
                                     </div>
                                     <h4>Cung mệnh</h4>

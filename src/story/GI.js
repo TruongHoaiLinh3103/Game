@@ -28,6 +28,12 @@ import Nil from "../assets/AvataGI/Nil.webp";
 import Kir from "../assets/AvataGI/Kir.webp";
 import fo from "../assets/AvataGI/4-Star.webp";
 import fi from "../assets/AvataGI/5-Star.webp";
+import Cha from "../assets/AvataGI/Cha.webp";
+import Neu from "../assets/AvataGI/Neu.webp";
+import Mav from "../assets/AvataGI/Mav.webp";
+import Say from "../assets/AvataGI/Say.webp";
+import Che from "../assets/AvataGI/Che.webp";
+import Xil from "../assets/AvataGI/Xil.webp";
 
 export const GI = [
     {
@@ -1933,6 +1939,419 @@ export const GI = [
             name: "Rừng Nơi Tên Đáp",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Collei/constellation_6.png",
             text: "Khi Floral Ring đánh trúng, nó sẽ tạo ra một Cuilein-Anbar thu nhỏ gây 200% ATK của Collei thành DMG của Dendro . Mỗi Floral Brush chỉ có thể tạo ra một Cuilein-Anbar thu nhỏ như vậy."
+        }
+    },
+    {
+        id: 29,
+        name: "Sayu",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Sayu.png",
+        avatar: `${Say}`,
+        back: `${fo}`,
+        story: "Một ninja thuộc phái Shuumatsuban đang vật lộn với việc phát triển chiều cao. Sayu tin rằng ngủ có thể giúp cô phát triển, đó là lý do tại sao cô ấy thích ẩn trốn bằng cách sử dụng nhẫn thuật của mình để tạo cơ hội cho bản thân được ngủ nhiều hơn.",
+        skill1: {
+            name: "Lưỡi Đao Ninja - Shuumatsuban",
+            img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Claymore.png",
+            text: "Tấn Công Thường: Thực hiện tối đa 4 lần chém liên tiếp. Trọng Kích: Tiêu hao thể lực để xoay kiếm tấn công địch xung quanh. Khi ngừng quay, sẽ bổ một nhát cực mạnh. Tấn Công Khi Đáp: Đáp xuống đất từ trên không, tấn công kẻ địch trên đường và gây sát thương phạm vi khi chạm đất."
+        },
+        skill2: {
+            name: "Trường phái Yoohoo: Fuuin lăn tròn",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Sayu/talent_2.png",
+            text: "Nghệ thuật độc đáo trường phái Yoohoo của kiếm pháp Ninja! Tuyệt kỹ càn quét chiến trường nhanh như chớp! Cuộn thành bánh xe gió lăn với tốc độ cao, va vào kẻ địch gây sát thương Nguyên Tố Phong đồng thời khi kết thúc sẽ tung ra Cú Đá Lốc Xoáy, gây sát thương phạm vi Nguyên Tố Phong. Nhấn: Vào trạng thái bánh xe gió, lăn về phía trước một cự ly nhỏ và tung Cú Đá Lốc Xoáy. Nhấn Giữ: Lăn liên tục trong trạng thái bánh xe gió, ở trạng thái này sẽ tăng khả năng kháng gián đoạn của Sayu. Sayu có thể điều khiển hướng lăn, đồng thời có thể thi triển kỹ năng lần nữa để kết thúc sớm trạng thái này, khiến Cú Đá Lốc Xoáy của bánh xe gió mạnh hơn so với việc Nhấn. Khi nhấn giữ để thi triển kỹ năng này, sẽ xảy ra chuyển hóa nguyên tố. Kéo dài tối đa 10s. Khi hiệu quả kết thúc, kỹ năng sẽ vào CD. Thời gian trong trạng thái bánh xe gió càng dài, CD sẽ càng dài. Chuyển hóa nguyên tố: Nếu Sayu ở trạng thái bánh xe gió, tiếp xúc với Nguyên Tố Thủy/Nguyên Tố Hỏa/Nguyên Tố Băng/Nguyên Tố Lôi sẽ nhận thuộc tính nguyên tố tương ứng, khiến bánh xe gió và Cú Đá Lốc Xoáy kèm thêm sát thương của nguyên tố này. Chuyển hóa nguyên tố chỉ xảy ra 1 lần trong thời gian duy trì kỹ năng."
+        },
+        skill3: {
+            name: "Trường Phái Yoohoo - Mujina Bối Rối",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Sayu/talent_3.png",
+            text: "Một nghệ thuật độc đáo trường phái Yoohoo của kiếm pháp Ninja! Có thể tạo ra trợ lý thay Sayu làm việc! Gây sát thương Nguyên Tố Phong cho kẻ địch bên cạnh, hồi HP cho tất cả nhân vật trong đội ở gần, lượng hồi phục phụ thuộc vào tấn công của Sayu, đồng thời triệu hồi 'Muji-Muji Daruma'. Muji-Muji Daruma: Dựa vào tình trạng xung quanh, sử dụng một trong các loại hành động theo chu kỳ: Nếu HP của nhân vật ở gần đều trên 70%, Muji-Muji Daruma sẽ tấn công 1 kẻ địch ở gần, gây sát thương Nguyên Tố Phong; Nếu HP của nhân vật ở gần dưới hoặc bằng 70%, sẽ hồi HP cho nhân vật ở gần có phần trăm HP thấp nhất, lượng hồi phục phụ thuộc vào tấn công của Sayu. Nếu xung quanh không có kẻ địch, thì cho dù HP của nhân vật đã trên 70%, cũng sẽ hồi HP cho nhân vật."
+        },
+        skill4: {
+            name: "Ứng Cử Viên Phù Hợp Hơn",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Sayu/talent_4.png",
+            text: "Kỹ năng này được mở khóa khi Sayu đạt nội tại đột phát bậc 1. Khi kích hoạt hiệu ứng Swirl, kỹ năng này sẽ giúp phục hồi 300 HP cho tất cả các thành viên trong đội. Ngoài ra, mỗi điểm Tinh thông nguyên tố mà Sayu sở hữu sẽ hồi thêm từ 1 đến 2 HP cho đồng đội. Hiệu ứng này có thể tái kích hoạt sau mỗi 2 giây."
+        },
+        skill5: {
+            name: "Sayu Không Cần Làm Việc Nữa",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Sayu/talent_5.png",
+            text: "Muji-Muji Daruma của Trường Phái Yoohoo - Mujina Bối Rối nhận hiệu quả sau: Khi hồi HP cho nhân vật sẽ hồi 20% lượng HP này cho các nhân vật khác xung quanh nhân vật này; Khi tấn công kẻ địch sẽ mở rộng phạm vi gây sát thương."
+        },
+        skill6: {
+            name: "Trường phái Yoohoo: Bí Truyền Im Lặng",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Sayu/talent_6.png",
+            text: "Kỹ năng này sẽ tự động được mở khi Sayu gia nhập đội. Với kỹ năng này, bất kỳ thành viên nào trong đội tiếp cận các loại động vật như Rồng Đất hoặc Tinh Điệp sẽ không làm chúng bỏ chạy, giúp dễ dàng tiếp cận và tấn công các mục tiêu này."
+        },
+        cm1: {
+            name: "Nhất Tâm Nhị Dụng Thuật",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Sayu/constellation_1.png",
+            text: "Hành động của Muji-Muji Daruma Trường Phái Yoohoo – Mujina Bối Rối sẽ bỏ qua hạn chế về HP, có thể cùng lúc tấn công kẻ địch ở gần và hồi HP cho nhân vật."
+        },
+        cm2: {
+            name: "Mở Đường Thoát Thân",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Sayu/constellation_2.png",
+            text: "Trường Phái Yoohoo – Fuuin Lăn Tròn nhận hiệu quả sau: Khi nhấn thi triển, sát thương Cú Đá Lốc Xoáy gây ra sẽ tăng 3,3%; Khi ở trạng thái bánh xe gió sau khi nhấn giữ thi triển, mỗi 0,5s sẽ tăng 3,3% sát thương Cú Đá Lốc Xoáy gây ra lần này. Bằng cách này, sát thương do Cú Đá Lốc Xoáy gây ra có thể tăng tối đa đến 66%."
+        },
+        cm3: {
+            name: "Hãy Giao Cho Phân Thân",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Sayu/constellation_3.png",
+            text: "Cấp kỹ năng Trường Phái Yoohoo – Mujina Bối Rối +3. Tăng tối đa đến cấp 15."
+        },
+        cm4: {
+            name: "Cách Lười Biếng Mới Mẻ",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Sayu/constellation_4.png",
+            text: "Khi Sayu kích hoạt phản ứng khuếch tán trong trận sẽ hồi 1,2 Năng Lượng Nguyên Tố. Hiệu quả này mỗi 2s chỉ kích hoạt 1 lần."
+        },
+        cm5: {
+            name: "Tốc Độ Là Tiên Quyết",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Sayu/constellation_5.png",
+            text: "Cấp kỹ năng Trường Phái Yoohoo – Fuuin Lăn Tròn +3. Tăng tối đa đến cấp 15."
+        },
+        cm6: {
+            name: "Thời Gian Ngủ Khò",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Sayu/constellation_6.png",
+            text: "Tấn công và lượng hồi phục của Muji-Muji Daruma được Sayu triệu hồi thông qua Trường Phái Yoohoo - Mujina Bối Rối phụ thuộc vào Tinh Thông Nguyên Tố của Sayu. Mỗi điểm Tinh Thông Nguyên Tố của Sayu có thể sinh ra hiệu quả sau: Khiến tấn công của Muji-Muji Daruma gây thêm sát thương bằng 0,2% tấn công. Bằng cách này, tối đa có thể gây thêm sát thương bằng 400% tấn công; Lượng hồi phục của Muji-Muji Daruma tăng 3 điểm. Bằng cách này, tối đa tăng 6000 điểm hồi phục."
+        }
+    },
+    {
+        id: 30,
+        name: "Chasca",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Chasca.png",
+        avatar: `${Cha}`,
+        back: `${fi}`,
+        story: "Sở hữu Tên Cổ 'Vuka', Chasca là người hòa giải nổi tiếng của Hội Hoa Vũ và là một người quen thuộc với Trận Chiến Người Gác Đêm.",
+        skill1: {
+            name: "Mưa Lông Vũ",
+            img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Bow.png",
+            text: "Tấn Công Thường: Thực hiện tối đa 4 lần bắn tên liên tiếp. Trọng Kích: Tiến hành ngắm bắn chuẩn hơn, có sát thương cao hơn. Khi ngắm bắn, gió sẽ tích tụ trên mũi tên. Mũi tên đầy gió sẽ gây Sát Thương Nguyên Tố Phong. Tấn Công Khi Đáp: Bắn mưa tên xuống mặt đất, đồng thời lao nhanh xuống đất, tấn công kẻ địch trên đường và gây sát thương phạm vi khi chạm đất."
+        },
+        skill2: {
+            name: "Dây Cương Truy Ảnh",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Chasca/talent_2.png",
+            text: "Chasca cộng hưởng với ý chí trong vũ khí, gây Sát Thương Phạm Vi Nguyên Tố Phong mang thuộc tính Dạ Hồn. Sau khi thi triển, Chasca nhận được 80 điểm Dạ Hồn và vào trạng thái Dạ Hồn Chúc Phúc. Dạ Hồn Chúc Phúc - Chasca Liên tục tiêu hao điểm Dạ Hồn. Khi tiêu hao hết điểm Dạ Hồn hoặc thi triển lần nữa sẽ kết thúc trạng thái Dạ Hồn Chúc Phúc của Chasca. Trạng thái Dạ Hồn Chúc Phúc có đặc tính sau: Lái 'Súng Linh Hồn - Trượng Nghi Thức', tăng Tốc Độ Di Chuyển và Kháng Gián Đoạn của Chasca. Trong trạng thái này, Chasca sẽ liên tục tiêu hao điểm Dạ Hồn để duy trì trạng thái lơ lửng. Khi tiến hành xung kích hoặc bay lên cao sẽ tiêu hao thêm điểm Dạ Hồn; Khi dùng Tấn Công Thường hoặc Trọng Kích, sẽ dựa vào nhấn hoặc nhấn giữ để chuyển thành 'Ngắm Đa Mục Tiêu' với cách thức khác nhau. Ngắm Đa Mục Tiêu: Nhấn: Gây Sát Thương Nguyên Tố Phong mang thuộc tính Dạ Hồn cho kẻ địch phía trước, sát thương này được xem là sát thương Tấn Công Thường. Nhấn Giữ: Vào trạng thái ngắm chuẩn và chọn số lượng kẻ địch nhất định trong phạm vi. Dựa vào thời gian tụ lực dài ngắn để nạp lần lượt 6 viên Đạn Truy Ảnh; Khi nạp đầy hoặc ngừng tụ lực sẽ bắn lần lượt vào kẻ địch đã chọn. Đạn Truy Ảnh: Gây Sát Thương Nguyên Tố Phong mang thuộc tính Dạ Hồn, sát thương này được xem là sát thương Trọng Kích. Viên Đạn Truy Ảnh thứ 4, 5, 6 nạp vào hộp đạn sẽ phát sinh chuyển hóa nguyên tố dựa vào loại nguyên tố của những nhân vật khác trong đội; Trong đội mỗi tồn tại một nhân vật Nguyên Tố Hỏa, Thủy, Băng hoặc Lôi, một viên Đạn Truy Ảnh sẽ chuyển hóa ngẫu nhiên thành Đạn Truy Ảnh Sáng Chói với một trong những dạng nguyên tố tương ứng, gây sát thương nguyên tố tương ứng mang thuộc tính Dạ Hồn. Sát thương này được xem là sát thương Trọng Kích. Viên Đạn Truy Ảnh nạp vào sau sẽ ưu tiên bắn trước. Ngoài ra, khi trong trạng thái Dạ Hồn Chúc Phúc, nhấn giữ thi triển Kỹ Năng Nguyên Tố Dây Cương Truy Ảnh, Chasca sẽ chuyển sang tiến hành Tấn Công Khi Đáp mang thuộc tính Dạ Hồn. Khi thả nhấn giữ kỹ năng sẽ hủy Tấn Công Khi Đáp và duy trì lại trạng thái lơ lửng. Lúc Tấn Công Khi Đáp tiếp đất, trạng thái Dạ Hồn Chúc Phúc của Chasca sẽ kết thúc."
+        },
+        skill3: {
+            name: "Tập Kích Diệt Hồn",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Chasca/talent_3.png",
+            text: "Chasca tập trung ý chí, bắn ra một viên 'Đạn Diệt Hồn Gió Xoáy', gây Sát Thương Phạm Vi Nguyên Tố Phong mang thuộc tính Dạ Hồn. Sau đó, Đạn Diệt Hồn Gió Xoáy phân tách thành sáu viên Đạn Diệt Hồn để tấn công kẻ địch gần đó. Đạn Diệt Hồn Gây Sát Thương Nguyên Tố Phong mang thuộc tính Dạ Hồn. Trong đội mỗi tồn tại một nhân vật Nguyên Tố Hỏa, Thủy, Băng hoặc Lôi, hai viên Đạn Diệt Hồn sẽ ngẫu nhiên chuyển hóa thành Đạn Diệt Hồn Rực Rỡ với một trong những dạng nguyên tố tương ứng, gây sát thương nguyên tố tương ứng mang thuộc tính Dạ Hồn."
+        },
+        skill4: {
+            name: "Ảo Thuật Với Đạn",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Chasca/talent_4.png",
+            text: "Khi Kỹ năng Nguyên tố Spirit Reins, Lửa Đa mục tiêu của Shadow Hunt đang được tích điện, nếu có thành viên trong nhóm đáp ứng các yêu cầu của Loại Chuyển đổi Nguyên tố, sẽ nhận được các hiệu ứng sau dựa trên số Loại Nguyên tố đủ điều kiện khác nhau hiện diện: Có 33,3%/66,7%/100% cơ hội để mỗi Loại kích hoạt 'Chuyển đổi ràng buộc tinh thần' và khiến Vỏ săn bóng tối thứ 3 được nạp vào xi lanh được chuyển đổi ngẫu nhiên thành Vỏ săn bóng tối sáng chói từ một trong các Loại Nguyên tố tương ứng. Mỗi Loại Nguyên tố sẽ cấp cho Chasca 1 điểm cộng dồn Spirit of the Radiant Shadow, tăng DMG của Vỏ săn bóng tối sáng chói lên 15%/35%/65%. Hiệu ứng này kéo dài cho đến khi Lửa Đa mục tiêu hiện tại kết thúc. Tối đa 3 điểm cộng dồn."
+        },
+        skill5: {
+            name: "Quyết Tâm Che Chở",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Chasca/talent_5.png",
+            text: "Khi nhân vật trong đội gần đó kích hoạt Dạ Hồn Bùng Nổ, Chasca sẽ bắn Đạn Truy Ảnh Rực Cháy vào kẻ địch gần đó, gây Sát Thương Nguyên Tố Phong mang thuộc tính Dạ Hồn, sát thương này tương đương 150% sát thương của Đạn Truy Ảnh từ Kỹ Năng Nguyên Tố Dây Cương Truy Ảnh. Nếu trong đội có nhân vật Nguyên Tố Hỏa, Thủy, Băng hoặc Lôi thì Đạn Truy Ảnh Rực Cháy sẽ phát sinh chuyển hóa nguyên tố, gây sát thương nguyên tố tương ứng mang thuộc tính Dạ Hồn. Sát thương này tương đương 150% sát thương của Đạn Truy Ảnh Sáng Chói từ Kỹ Năng Nguyên Tố Dây Cương Truy Ảnh. Sát thương gây ra từ phương thức nêu trên được tính là sát thương Trọng Kích."
+        },
+        skill6: {
+            name: "Trái Tim Bất Diệt",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Chasca/talent_6.png",
+            text: "Sau khi dùng hết điểm Dạ Hồn, Chasca sẽ chuyển sang tiêu hao Phlogiston để duy trì trạng thái Dạ Hồn Chúc Phúc. Khi ở trong khu vực có cơ chế Phlogiston của Natlan, có thể tiến hành Dạ Hồn Chuyển Hóa - Chasca. Nhân vật trong trận khi ở trên không, đổi sang Chasca ra trận sẽ kích hoạt: Chasca sẽ vào trạng thái Dạ Hồn Chúc Phúc và nhận 32 điểm Dạ Hồn. Đội bản thân mỗi 10s có thể kích hoạt một lần Dạ Hồn Chuyển Hóa."
+        },
+        skill7: {
+            name: "Thành Ý Hòa Giải",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Chasca/talent_7.png",
+            text: "Nhân vật của bản thân trong đội khi đánh bại kẻ địch sẽ hồi phục 25 Phlogiston. Hiệu quả này mỗi 12s tối đa kích hoạt một lần. Hiệu quả này vô hiệu trong Bí Cảnh, Vùng Đất Thảo Phạt, La Hoàn Thâm Cảnh."
+        },
+        cm1: {
+            name: "Hộp Đạn, Vòng Quay Rộn Ràng",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Chasca/constellation_1.png",
+            text: "Khi kích hoạt Chuyển Hóa Linh Hồn từ thiên phú 'Ảo Thuật Với Đạn', sẽ khiến thêm viên Đạn Truy Ảnh thứ hai nạp vào hộp đạn chuyển hóa thành Đạn Truy Ảnh Sáng Chói. Tăng tỷ lệ kích hoạt Chuyển Hóa Linh Hồn: Nếu trong đội tồn tại nhân vật có loại nguyên tố phù hợp với chuyển hóa nguyên tố, thì tỷ lệ kích hoạt Chuyển Hóa Linh Hồn tăng 33,3%, tối đa tăng đến 100%. Cần mở khóa thiên phú 'Ảo Thuật Với Đạn'. Ngoài ra, trạng thái Dạ Hồn Chúc Phúc của Chasca sẽ giảm 30% tiêu hao điểm Dạ Hồn và Phlogiston khi không chiến đấu."
+        },
+        cm2: {
+            name: "Nòng Súng, Khói Lửa Rực Cháy",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Chasca/constellation_2.png",
+            text: "Khi Chasca ra trận, sẽ nhận được một tầng Linh Hồn Ảo Ảnh từ thiên phú 'Ảo Thuật Với Đạn'. Hiệu quả này cần mở khóa thiên phú 'Ảo Thuật Với Đạn' trước. Ngoài ra, khi thi triển Ngắm Đa Mục Tiêu của Kỹ Năng Nguyên Tố Dây Cương Truy Ảnh, nếu Đạn Truy Ảnh Sáng Chói của Chasca trúng kẻ địch, sẽ căn cứ vào loại nguyên tố của Đạn Truy Ảnh Sáng Chói để gây Sát Thương Phạm Vi Nguyên Tố Tương Ứng tương đương với 400% Tấn Công của Chasca, sát thương này được tính là sát thương Trọng Kích. Mỗi lần thi triển Ngắm Đa Mục Tiêu tối đa kích hoạt một lần hiệu quả này."
+        },
+        cm3: {
+            name: "Dây Cương, Khống Chế Toàn Diện",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Chasca/constellation_3.png",
+            text: "Cấp kỹ năng Dây Cương Truy Ảnh +3. Tăng tối đa đến cấp 15."
+        },
+        cm4: {
+            name: "Tia Lửa, Phát Bắn Bất Ngờ",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Chasca/constellation_4.png",
+            text: "Khi Đạn Diệt Hồn Rực Rỡ từ Kỹ Năng Nộ Tập Kích Diệt Hồn đánh trúng kẻ địch, sẽ hồi phục cho Chasca 1,5 điểm Năng Lượng Nguyên Tố, đồng thời căn cứ vào loại nguyên tố của Đạn Diệt Hồn Rực Rỡ để gây Sát Thương Phạm Vi Nguyên Tố Tương Ứng tương đương với 400% Tấn Công của Chasca, sát thương này được tính là sát thương Trọng Kích. Hiệu quả gây Sát Thương Phạm Vi Nguyên Tố Tương Ứng nêu trên, mỗi lần thi triển Tập Kích Diệt Hồn tối đa kích hoạt một lần hiệu quả này."
+        },
+        cm5: {
+            name: "Vành Mũ, Đường Nét Của Cát",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Chasca/constellation_5.png",
+            text: "Cấp kỹ năng Tập Kích Diệt Hồn +3. Tăng tối đa đến cấp 15."
+        },
+        cm6: {
+            name: "Đối Đầu, Vinh Quang Chiến Đấu",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Chasca/constellation_6.png",
+            text: "Giảm thời gian tụ lực cần thiết cho Ngắm Đa Mục Tiêu của Chasca, đồng thời sau khi kích hoạt Chuyển Hóa Linh Hồn từ thiên phú 'Ảo Thuật Với Đạn', Chasca sẽ nhận trạng thái 'Tập Kích': Trong 3s tiếp theo, khi Chasca thi triển Ngắm Đa Mục Tiêu từ Kỹ Năng Nguyên Tố Dây Cương Truy Ảnh sẽ hoàn thành tụ lực ngay lập tức, đồng thời Sát Thương Bạo Kích của Đạn Truy Ảnh và Đạn Truy Ảnh Sáng Chói từ Ngắm Đa Mục Tiêu lần đó tăng 120%, mỗi 3s tối đa nhận một lần hiệu quả 'Tập Kích'."
+        }
+    },
+    {
+        id: 31,
+        name: "Mavuika",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Mavuika.png",
+        avatar: `${Mav}`,
+        back: `${fi}`,
+        story: "Sở hữu Tên Cổ 'Kiongozi' và tên ma thần Haborym, cô hiện đang là Hỏa Thần và cai quản Natlan.",
+        skill1: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Claymore.png",
+            text: ""
+        },
+        skill2: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Mavuika/talent_2.png",
+            text: ""
+        },
+        skill3: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Mavuika/talent_3.png",
+            text: ""
+        },
+        skill4: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Mavuika/talent_4.png",
+            text: ""
+        },
+        skill5: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Mavuika/talent_5.png",
+            text: ""
+        },
+        skill6: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Mavuika/talent_6.png",
+            text: ""
+        },
+        cm1: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Mavuika/constellation_1.png",
+            text: ""
+        },
+        cm2: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Mavuika/constellation_2.png",
+            text: ""
+        },
+        cm3: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Mavuika/constellation_3.png",
+            text: ""
+        },
+        cm4: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Mavuika/constellation_4.png",
+            text: ""
+        },
+        cm5: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Mavuika/constellation_5.png",
+            text: ""
+        },
+        cm6: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Mavuika/constellation_6.png",
+            text: ""
+        }
+    },
+    {
+        id: 32,
+        name: "Neuvillette",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Neuvillette.png",
+        avatar: `${Neu}`,
+        back: `${fi}`,
+        story: "Neuvillette là Thẩm Phán Tối Cao của Fontaine và là người quản lý Fontaine sau khi Thủy Thần Furina từ chức. Ngài tái sinh từ Thủy Long Vương, mang trong mình sự thật về quyền năng nguyên tố và quyền cai trị với thế giới. Không rõ ngài lang thang vô định trong bao lâu, chỉ biết từ khi Thủy Thần Focalors đưa Neuvillette về với Fontaine, ngài bắt đầu có cảm xúc yêu quý với loài người. Ngài ban cho người Fontaine dòng máu của con người hoàn chỉnh, cứu rỗi Fontaine và đảo ngược lời tiên tri.",
+        skill1: {
+            name: "Tĩnh Lặng Như Nước",
+            img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Catalyst.png",
+            text: ""
+        },
+        skill2: {
+            name: "Hoàn Trả Nước Mắt",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Neuvillette2/talent_2.png",
+            text: ""
+        },
+        skill3: {
+            name: "Về Với Thủy Triều",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Neuvillette2/talent_3.png",
+            text: ""
+        },
+        skill4: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Neuvillette2/talent_4.png",
+            text: ""
+        },
+        skill5: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Neuvillette2/talent_5.png",
+            text: ""
+        },
+        skill6: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Neuvillette2/talent_6.png",
+            text: ""
+        },
+        cm1: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Neuvillette2/constellation_1.png",
+            text: ""
+        },
+        cm2: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Neuvillette2/constellation_2.png",
+            text: ""
+        },
+        cm3: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Neuvillette2/constellation_3.png",
+            text: ""
+        },
+        cm4: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Neuvillette2/constellation_4.png",
+            text: ""
+        },
+        cm5: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Neuvillette2/constellation_5.png",
+            text: ""
+        },
+        cm6: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Neuvillette2/constellation_6.png",
+            text: ""
+        }
+    },
+    {
+        id: 33,
+        name: "Chevreuse",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Chevreuse.png",
+        avatar: `${Che}`,
+        back: `${fo}`,
+        story: "Cô là đội trưởng Đội Tuần Tra Đặc Biệt của Sảnh Chấp Pháp.",
+        skill1: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Polearm.png",
+            text: ""
+        },
+        skill2: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Chevreuse/talent_2.png",
+            text: ""
+        },
+        skill3: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Chevreuse/talent_3.png",
+            text: ""
+        },
+        skill4: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Chevreuse/talent_4.png",
+            text: ""
+        },
+        skill5: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Chevreuse/talent_5.png",
+            text: ""
+        },
+        skill6: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Chevreuse/talent_6.png",
+            text: ""
+        },
+        cm1: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Chevreuse/constellation_1.png",
+            text: ""
+        },
+        cm2: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Chevreuse/constellation_2.png",
+            text: ""
+        },
+        cm3: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Chevreuse/constellation_3.png",
+            text: ""
+        },
+        cm4: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Chevreuse/constellation_4.png",
+            text: ""
+        },
+        cm5: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Chevreuse/constellation_5.png",
+            text: ""
+        },
+        cm6: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Chevreuse/constellation_6.png",
+            text: ""
+        }
+    },
+    {
+        id: 34,
+        name: "Xilonen",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Xilonen.png",
+        avatar: `${Xil}`,
+        back: `${fi}`,
+        story: "Xilonen, còn được gọi là “Lửa Nung Đúc Hồn” là một thợ rèn tài ba nổi tiếng khắp vùng Natlan nhờ kỹ thuật rèn ưu việt của mình. Là một nhân vật hệ Nham với cung mệnh Báo Miêu, cô được người dân tôn sùng vì thái độ làm việc chuyên nghiệp và nghiêm túc. Nhiều người tìm đến cô để nhờ rèn vũ khí và chiêm ngưỡng vẻ đẹp và phong thái của một bậc thầy rèn hiếm có.",
+        skill1: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Sword.png",
+            text: ""
+        },
+        skill2: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Xilonen/talent_2.png",
+            text: ""
+        },
+        skill3: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Xilonen/talent_3.png",
+            text: ""
+        },
+        skill4: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Xilonen/talent_4.png",
+            text: ""
+        },
+        skill5: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Xilonen/talent_5.png",
+            text: ""
+        },
+        skill6: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Xilonen/talent_6.png",
+            text: ""
+        },
+        cm1: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Xilonen/constellation_1.png",
+            text: ""
+        },
+        cm2: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Xilonen/constellation_2.png",
+            text: ""
+        },
+        cm3: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Xilonen/constellation_3.png",
+            text: ""
+        },
+        cm4: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Xilonen/constellation_4.png",
+            text: ""
+        },
+        cm5: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Xilonen/constellation_5.png",
+            text: ""
+        },
+        cm6: {
+            name: "",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Xilonen/constellation_6.png",
+            text: ""
         }
     }
 ]
