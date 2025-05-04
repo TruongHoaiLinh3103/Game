@@ -2090,64 +2090,69 @@ export const GI = [
         back: `${fi}`,
         story: "Sở hữu Tên Cổ 'Kiongozi' và tên ma thần Haborym, cô hiện đang là Hỏa Thần và cai quản Natlan.",
         skill1: {
-            name: "",
+            name: "Lửa Đỏ Dệt Sinh Mệnh",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Claymore.png",
-            text: ""
+            text: "Đòn tấn công thông thường Thực hiện tối đa 4 đòn tấn công bằng claymore liên tiếp. Đòn tấn công tích điện Tiêu thụ một lượng Stamina nhất định để thực hiện đòn tấn công Severing Splendor cực mạnh về phía trước. Đòn tấn công lao xuống Lao từ giữa không trung xuống đất bên dưới, gây sát thương cho đối thủ dọc đường đi và gây DMG AoE khi va chạm."
         },
         skill2: {
-            name: "",
+            name: "Thời Khắc Lưu Danh",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Mavuika/talent_2.png",
-            text: ""
+            text: "Triệu hồi quyền năng của mình đối với 'xung đột', Mavuika triệu hồi All-Fire Armaments được truyền lại qua dòng dõi Archon loài người, gây ra DMG Pyro liên kết với Nightsoul . Sau khi sử dụng, điểm Nightsoul của Mavuika được phục hồi đến giá trị tối đa và cô ấy bước vào trạng thái Nightsoul's Blessing. All-Fire Armaments Có các hình dạng khác nhau khi Chạm hoặc Giữ. (Nhấn/Chạm) 'Divine Name Unleashed': All-Fire Armaments biểu hiện dưới dạng Ring of Searing Radiance. Chiếc nhẫn đi theo nhân vật đang hoạt động hiện tại và tấn công các đối thủ gần đó theo từng khoảng thời gian, gây ra DMG Pyro liên kết với Nightsoul . Giữ 'Ancient Name Unbound': All-Fire Armaments biểu hiện dưới dạng Flamestrider. Ở trạng thái này, Mavuika có thể cưỡi Flamestrider với tốc độ cao hoặc kích hoạt mô-đun đẩy dự phòng ẩn của nó để tạm thời vượt qua nhiều loại địa hình khác nhau và lướt trên không trung. Các đòn tấn công thường, tích điện và lao xuống của Mavuika cũng sẽ được chuyển đổi để gây sát thương Pyro liên kết với Nightsoul không thể bị ghi đè. Khi chạy nước rút, cô ấy cũng gây sát thương Pyro liên kết với Nightsoul cho các đối thủ trên đường đi của mình. Khi ở trạng thái Nightsoul's Blessing, Chạm vào Kỹ năng nguyên tố có thể chuyển đổi hình dạng của Vũ khí toàn hỏa. Vũ khí sẽ biến mất khi trạng thái Nightsoul's Blessing của Mavuika kết thúc. Nightsoul's Blessing: Mavuika liên tục tiêu thụ điểm Nightsoul theo hình dạng của Vũ khí toàn hỏa. Trạng thái Nightsoul's Blessing của Mavuika kết thúc khi điểm Nightsoul của cô ấy cạn kiệt."
         },
         skill3: {
-            name: "",
+            name: "Biển Lửa Rợp Trời",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Mavuika/talent_3.png",
-            text: ""
+            text: "Hãy để tiếng nói bên trong của mọi người chạm đến ngai vàng thiêng liêng trên thiên đàng. Elemental Burst của Mavuika không phụ thuộc vào Năng lượng, mà thay vào đó, dựa vào 'Fighting Spirit'. Fighting Spirit Khi Mavuika có ít nhất 50% Fighting Spirit, cô ấy có thể tiêu thụ tất cả để giải phóng Elemental Burst của mình. Mavuika có thể có được Fighting Spirit thông qua các phương pháp sau: Khi chiến đấu, điểm Nightsoul mà các thành viên trong nhóm gần đó tiêu thụ sẽ được chuyển đổi thành Fighting Spirit. Khi các đòn tấn công thông thường của các thành viên trong nhóm gần đó tấn công đối thủ, Mavuika nhận được 1,5 Fighting Spirit. Điều này có thể kích hoạt một lần sau mỗi 0,1 giây. Sau khi sử dụng, Mavuika nhận được 10 điểm Nightsoul và bước vào trạng thái Nightsoul's Blessing. Cưỡi Flamestrider của mình trên không trung, cô ấy sử dụng một Sunfell Slice mạnh mẽ vào các đối thủ trên mặt đất, gây ra DMG Pyro AoE liên kết với Nightsoul và bước vào trạng thái 'Crucible of Death and Life'. Crucible of Death and Life Trong thời gian này, các hành động khác nhau của Mavuika sẽ không còn tiêu tốn điểm Nightsoul nữa, và khả năng chống gián đoạn của cô ấy được tăng lên. Ngoài ra, DMG gây ra bởi Sunfell Slice và đòn tấn công thường và tấn công tích điện của 'Ancient Name Unbound' được tăng lên dựa trên lượng Fighting Spirit mà cô ấy có khi sử dụng Elemental Burst. Crucible of Death and Life sẽ bị hủy khi Mavuika rời khỏi chiến trường."
         },
         skill4: {
-            name: "",
+            name: "Quà Tặng Hoa Lửa",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Mavuika/talent_4.png",
-            text: ""
+            text: "Khi nhân vật trong đội gần đó kích hoạt Dạ Hồn Bùng Nổ, Tấn Công của Mavuika sẽ tăng 30% trong 10s."
         },
         skill5: {
-            name: "",
+            name: "Kiongozi",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Mavuika/talent_5.png",
-            text: ""
+            text: "Sau khi thi triển Kỹ Năng Nộ Biển Lửa Rợp Trời, căn cứ vào mỗi điểm Chiến Ý khi kích hoạt để khiến sát thương gây ra của nhân vật trong trận hiện tại tăng 0,2%, thông qua cách thức này tối đa có thể khiến nhân vật ra trận trong đội hiện tại tăng 40% sát thương gây ra. Hiệu quả này duy trì 20s, đồng thời sẽ giảm dần về 0 trong thời gian duy trì."
         },
         skill6: {
-            name: "",
+            name: "Chế Độ Kiệt Quệ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Mavuika/talent_6.png",
-            text: ""
+            text: "Sau khi dùng hết điểm Dạ Hồn, Mavuika sẽ chuyển sang tiêu hao Phlogiston để duy trì Vũ Trang Lửa Đỏ - Mô Tô Vượt Lửa. Khi ở trong khu vực có cơ chế Phlogiston của Natlan, có thể tiến hành Dạ Hồn Chuyển Hóa - Mavuika. Nhân vật trong trận khi xung kích, leo trèo, bơi lội, ở trong trạng thái di chuyển đặc biệt của thiên phú hoặc đang ở độ cao nhất định trên không, đổi sang Mavuika ra trận sẽ kích hoạt: Mavuika sẽ vào trạng thái Dạ Hồn Chúc Phúc, đồng thời nhận được 50% mức điểm Dạ Hồn tối đa của Mavuika. Đội bản thân mỗi 10s có thể kích hoạt một lần Dạ Hồn Chuyển Hóa."
+        },
+        skill7: {
+            name: "Ánh Lửa Xuyên Màn Đêm",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Mavuika/talent_7.png",
+            text: "Giảm 20% thời gian chờ kích hoạt Dạ Hồn Chuyển Hóa của đội."
         },
         cm1: {
-            name: "",
+            name: "Giảng Giải Của Dạ Thần",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Mavuika/constellation_1.png",
-            text: ""
+            text: "Giới hạn điểm Dạ Hồn của Mavuika tăng lên 120 điểm, hiệu suất nhận Chiến Ý tăng 25%. Ngoài ra, sau khi nhận Chiến Ý, Tấn Công của Mavuika tăng 40% trong 8s."
         },
         cm2: {
-            name: "",
+            name: "Cái Giá Của Tro Tàn",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Mavuika/constellation_2.png",
-            text: ""
+            text: "Khi trong trạng thái Dạ Hồn Chúc Phúc, Tấn Công Cơ Bản của Mavuika tăng 200 điểm, đồng thời căn cứ vào hình thái Vũ Trang Lửa Đỏ để nhận hiệu quả tương ứng: Vòng Hào Quang: Phòng Ngự của kẻ địch xung quanh giảm 20%. Mô Tô Vượt Lửa: Tăng sát thương Tấn Công Thường, Trọng Kích và Trụy Nhật Trảm từ Kỹ Năng Nộ Biển Lửa Rợp Trời của Mavuika, mức tăng tương ứng 60%/90%/120% Tấn Công của cô ấy."
         },
         cm3: {
-            name: "",
+            name: "Nắng Cháy Của Mặt Trời",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Mavuika/constellation_3.png",
-            text: ""
+            text: "Cấp kỹ năng Biển Lửa Rợp Trời +3. Tăng tối đa đến cấp 15."
         },
         cm4: {
-            name: "",
+            name: "Giác Ngộ Của Lãnh Đạo",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Mavuika/constellation_4.png",
-            text: ""
+            text: "Hiệu quả của thiên phú 'Kiongozi' sẽ được cường hóa: Hiệu quả tăng sát thương sau khi thi triển Kỹ Năng Nộ Biển Lửa Rợp Trời sẽ không giảm theo thời gian nữa, đồng thời nhận thêm 10% Buff Sát Thương. Cần mở khóa thiên phú 'Kiongozi'."
         },
         cm5: {
-            name: "",
+            name: "Hàm Ý Của Sự Thật",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Mavuika/constellation_5.png",
-            text: ""
+            text: "Cấp kỹ năng Thời Khắc Lưu Danh +3. Tăng tối đa đến cấp 15."
         },
         cm6: {
-            name: "",
+            name: "Giải Phóng 'Tên Của Nhân Loại'",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Mavuika/constellation_6.png",
-            text: ""
+            text: "Vũ khí toàn hỏa từ Kỹ năng nguyên tố Khoảnh khắc được đặt tên nhận được những cải tiến toàn diện: Ring of Searing Radiance: Khi các đòn tấn công của Chiếc nhẫn đánh trúng đối thủ, một Flamestrider sẽ đâm vào đối thủ bị đánh, gây 200% ATK dưới dạng Sát thương hỏa diệm diện rộng theo Nightsoul . Flamestrider: Khi Mavuika cưỡi Flamestrider, cô ấy cũng sẽ triệu hồi một Scorching Ring of Searing Radiance theo sau cô ấy, sẽ làm giảm 20% DEF của đối thủ ở gần và gây 500% ATK dưới dạng Sát thương hỏa diệm diện rộng theo Nightsoul cho đối thủ ở gần sau mỗi 3 giây. Khả năng vượt địa hình của Mavuika cũng sẽ được cải thiện hơn nữa. Ngoài ra, khi Mavuika cưỡi Flamestrider và không chiến đấu, khi điểm Nightsoul của cô ấy giảm xuống còn 5, cô ấy sẽ nhận được 80 điểm Nightsoul. Hiệu ứng này có thể kích hoạt sau mỗi 15 giây."
         }
     },
     {
@@ -2160,62 +2165,62 @@ export const GI = [
         skill1: {
             name: "Tĩnh Lặng Như Nước",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Catalyst.png",
-            text: ""
+            text: "Đòn tấn công thông thường Với những đòn tấn công nhẹ nhàng, Neuvillette ra lệnh cho thủy triều tung ra tối đa 3 đòn tấn công, gây sát thương hệ Thủy . Tăng sức mạnh cho đòn tấn công tích tụ: Đánh giá pháp lý Khi tích tụ, Neuvillette sẽ tập hợp sức mạnh của nước, tạo thành một Phong ấn Trọng tài. Ở trạng thái này, Neuvillette có thể di chuyển và đổi hướng, đồng thời hấp thụ bất kỳ Giọt nước Nguồn nào trong một AoE nhất định. Mỗi Giọt nước mà anh ta hấp thụ sẽ làm tăng tốc độ hình thành của Phong ấn và sẽ chữa lành cho Neuvillette. Khi quá trình tích tụ dừng lại, nếu Biểu tượng vẫn chưa được hình thành, thì một Đòn tấn công tích tụ sẽ được giải phóng. Nếu nó đã được hình thành, thì một Đòn tấn công tích tụ: Phán quyết công bằng sẽ được giải phóng. Đòn tấn công tích tụ Tiêu thụ một lượng Thể lực cố định để tấn công đối thủ bằng một luồng nước vỡ tung, gây sát thương hệ Thủy diện rộng. Đòn tấn công tích tụ: Phán quyết công bằng Giải phóng những dòng nước chảy xiết, gây sát thương hệ Thủy diện rộng liên tục cho tất cả đối thủ trong một khu vực thẳng trước mặt anh ta. Phán quyết công bằng sẽ không tiêu tốn bất kỳ Stamina nào và kéo dài 3 giây. Nếu HP của Neuvillette trên 50%, anh ta sẽ liên tục mất HP khi sử dụng đòn tấn công này. Đòn tấn công lao xuống Thu thập sức mạnh của Hydro, Neuvillette lao xuống đất từ ​​giữa không trung, gây sát thương cho tất cả đối thủ trên đường đi. Gây DMG Hydro diện rộng khi va chạm với mặt đất."
         },
         skill2: {
             name: "Hoàn Trả Nước Mắt",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Neuvillette2/talent_2.png",
-            text: ""
+            text: "Triệu hồi một thác nước dữ dội gây sát thương Hydro diện rộng lên đối thủ trước mặt Neuvillette dựa trên HP tối đa của hắn. Sau khi đánh trúng đối thủ, kỹ năng này sẽ tạo ra 3 giọt Sourcewater gần đối thủ đó. Arkhe: Pneuma Vào những khoảng thời gian nhất định, khi thác nước dữ dội đổ xuống, một Spiritbreath Thorn sẽ giáng xuống, xuyên thủng đối thủ, gây sát thương Hydro liên kết với Pneuma ."
         },
         skill3: {
             name: "Về Với Thủy Triều",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Neuvillette2/talent_3.png",
-            text: ""
+            text: "Giải phóng những đợt sóng gây sát thương Hydro diện rộng dựa trên HP tối đa của Neuvillette. Sau một khoảng thời gian ngắn, 2 thác nước sẽ đổ xuống và gây sát thương Hydro trong phạm vi nhỏ hơn một chút, đồng thời tạo ra 6 giọt nước Nguồn trong một khu vực phía trước."
         },
         skill4: {
-            name: "",
+            name: "Di Sản Hậu Duệ Biển Xưa",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Neuvillette2/talent_4.png",
-            text: ""
+            text: "Nhân vật trong đội khi kích hoạt phản ứng Bốc Hơi, Đóng Băng, Điện Cảm, Sum Suê, Khuếch Tán Nguyên Tố Thủy hoặc Kết Tinh Nguyên Tố Thủy lên kẻ địch, sẽ khiến Neuvillette sản sinh hiệu quả 'Vinh Dự Của Rồng' trong 30s, tối đa cộng dồn 3 tầng. Khiến sát thương Trọng Kích - Phán Quyết Công Bằng gây ra tăng 110%/125%/160% sp với mức ban đầu. 'Vinh Dự Của Rồng' sinh ra từ mỗi loại phản ứng nguyên tố sẽ tồn tại độc lập nhau."
         },
         skill5: {
-            name: "",
+            name: "Khuôn Phép Thẩm Phán Tối Cao",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Neuvillette2/talent_5.png",
-            text: ""
+            text: "Căn cứ vào 30% HP hiện tại vượt quá lượng HP tối đa, mỗi 1% khiến Neuvillette nhận được 0,6% buff sát thương nguyên tố Thủy. Tối đa tăng 30% bằng phương thức này."
         },
         skill6: {
-            name: "",
+            name: "Tập hợp như thủy triều",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Neuvillette2/talent_6.png",
-            text: ""
+            text: "Tăng 15% tốc độ chạy nước rút dưới nước cho các thành viên trong nhóm của bạn. Không thể cộng dồn với các Tài năng thụ động có hiệu ứng giống hệt nhau."
         },
         cm1: {
-            name: "",
+            name: "Khởi Đầu Của Tôn Quý",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Neuvillette2/constellation_1.png",
-            text: ""
+            text: "Khi Neuvillette ra trận sẽ nhận được một tầng 'Vinh Dự Của Rồng' từ thiên phú cố định 'Di Sản Hậu Duệ Biển Xưa'. Cần mở khóa thiên phú 'Di Sản Hậu Duệ Biển Xưa' trước. Ngoài ra, khi thi triển Tụ Lực Trọng Kích - Đánh Giá Hợp Pháp và Trọng Kích - Phán Quyết Công Bằng sẽ tăng khả năng kháng gián đoạn của Neuvillette."
         },
         cm2: {
-            name: "",
+            name: "Mệnh Lệnh Của Pháp Luật",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Neuvillette2/constellation_2.png",
-            text: ""
+            text: "Cường hóa thiên phú cố định 'Di Sản Hậu Duệ Biển Xưa': Mỗi tồn tại một tầng 'Vinh Dự Của Rồng' sẽ khiến sát thương bạo kích của Trọng Kích - Phán Quyết Công Bằng tăng 14%. Tối đa tăng 42% thông qua phương thức này. Cần mở khóa thiên phú 'Di Sản Hậu Duệ Biển Xưa' trước."
         },
         cm3: {
-            name: "",
+            name: "Mô Phỏng Của Cổ Xưa",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Neuvillette2/constellation_3.png",
-            text: ""
+            text: "Cấp kỹ năng Tấn Công Thường - Tĩnh Lặng Như Nước +3. Tăng tối đa đến cấp 15."
         },
         cm4: {
-            name: "",
+            name: "Vinh Quang Của Xót Thương",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Neuvillette2/constellation_4.png",
-            text: ""
+            text: "Khi Neuvillette đang trong trận và nhận được trị liệu, sẽ sản sinh 1 Nguồn Nước Trong. Hiệu quả này mỗi 4s tối đa kích hoạt một lần."
         },
         cm5: {
-            name: "",
+            name: "Phán Quyết Của Công Lý",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Neuvillette2/constellation_5.png",
-            text: ""
+            text: "Cấp kỹ năng Về Với Thủy Triều +3. Tăng tối đa đến cấp 15."
         },
         cm6: {
-            name: "",
+            name: "Đền Bù Của Phẫn Nộ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Neuvillette2/constellation_6.png",
-            text: ""
+            text: "Khi thi triển Trọng Kích - Phán Quyết Công Bằng, Neuvillette có thể hấp thu Nguồn Nước Trong trong một phạm vi nhất định gần đó. Mỗi một Nguồn Nước Trong sẽ khiến thời gian duy trì của Trọng Kích - Phán Quyết Công Bằng kéo dài thêm 1s. Ngoài ra, Trọng Kích - Phán Quyết Công Bằng khi trúng kẻ địch, mỗi 2s sẽ thi triển thêm 2 dòng thủy lưu, mỗi dòng thủy lưu gây Sát Thương Nguyên Tố Thủy tương đương 10% giới hạn HP của Neuvillette. Sát thương gây ra bằng phương thức này sẽ được tính là sát thương của Trọng Kích - Phán Quyết Công Bằng."
         }
     },
     {
@@ -2226,64 +2231,64 @@ export const GI = [
         back: `${fo}`,
         story: "Cô là đội trưởng Đội Tuần Tra Đặc Biệt của Sảnh Chấp Pháp.",
         skill1: {
-            name: "",
+            name: "Lưỡi Lê Cải Tiến",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Polearm.png",
-            text: ""
+            text: "Đòn tấn công thông thường Thực hiện tối đa 4 đòn tấn công bằng giáo liên tiếp. Đòn tấn công tích điện Tiêu thụ một lượng Stamina nhất định để lao về phía trước, gây sát thương cho đối thủ trên đường đi. Đòn tấn công lao xuống Lao từ giữa không trung xuống đất bên dưới, gây sát thương cho đối thủ trên đường đi và gây DMG AoE khi va chạm."
         },
         skill2: {
-            name: "",
+            name: "Đánh Chặn Nhanh Tầm Gần",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Chevreuse/talent_2.png",
-            text: ""
+            text: "Chevreuse nhanh chóng vác khẩu súng hỏa mai của mình lên vai và bắn vào đối thủ, gây DMG Pyro AoE . Trong một khoảng thời gian ngắn sau khi Chevreuse bắn một phát, cô ấy sẽ liên tục hồi HP cho nhân vật đang hoạt động trên sân. Lượng HP được hồi dựa trên HP tối đa của cô ấy. Giữ để bắn theo một cách khác. Giữ Vào Chế độ ngắm, khóa mục tiêu trong tầm ngắm của cô ấy để bắn một phát đạn can thiệp chính xác. Nếu Chevreuse có một Quả bóng quá tải, thì cô ấy sẽ bắn Quả bóng quá tải thay vào đó, gây DMG Pyro lớn hơn trong một khu vực rộng hơn. Chevreuse nhận được 1 Quả bóng quá tải mỗi khi một nhân vật gần đó trong nhóm kích hoạt phản ứng Quá tải và có thể có tối đa 1 Quả bóng quá tải cùng một lúc. Arkhe: Ousia Theo định kỳ, sau khi Lửa can thiệp nhanh tầm ngắn của Chevreuse trúng đích, một Lưỡi kiếm bùng nổ sẽ được triệu hồi gây DMG Pyro liên kết với Ousia."
         },
         skill3: {
-            name: "",
+            name: "Bom Chùm Oanh Tạc",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Chevreuse/talent_3.png",
-            text: ""
+            text: "Chevreuse bắn một quả lựu đạn nổ vào đối thủ bằng súng hỏa mai của cô ấy, gây ra DMG Pyro AoE . Sau khi đạn bắn trúng, nó sẽ tách thành nhiều quả đạn nổ thứ cấp. Các quả đạn nổ thứ cấp sẽ nổ sau một khoảng thời gian ngắn, gây DMG Pyro cho đối thủ gần đó."
         },
         skill4: {
-            name: "",
+            name: "Chiến Thuật Phối Hợp Tiên Phong",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Chevreuse/talent_4.png",
-            text: ""
+            text: "Khi loại nguyên tố của tất cả nhân vật trong đội là Hỏa hoặc Lôi, đồng thời có ít nhất một nhân vật nguyên tố Hỏa và một nguyên tố Lôi trong đó: Chevreuse sẽ cung cấp hiệu quả 'Chiến Thuật Phối Hợp' cho nhân vật trong đội gần đó: Sau khi nhân vật kích hoạt phản ứng Quá Tải, sẽ khiến kẻ địch chịu ảnh hưởng bởi lần phản ứng này giảm Kháng Nguyên Tố Hỏa và Lôi đi 40% trong 6s. Khi loại nguyên tố của nhân vật trong đội hiện tại không phù hợp với điều kiện thiên phú vốn có, sẽ xóa đi hiệu quả 'Chiến Thuật Phối Hợp' đã có."
         },
         skill5: {
-            name: "",
+            name: "Phối Hợp Vũ Lực Xuyên Thấu",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Chevreuse/talent_5.png",
-            text: ""
+            text: "Chevreuse sau khi bắn Đầu Đạn Quá Tải của kỹ năng Đánh Chặn Nhanh Tầm Gần, sẽ khiến tất cả nhân vật nguyên tố Hỏa và Lôi trong đội gần đó tăng 1% tấn công mỗi 1000 điểm giới hạn HP của Chevreuse trong 30s. Tối đa có thể tăng 40% tấn công bằng cách này."
         },
         skill6: {
-            name: "",
+            name: "Sách Lược Hành Quân Thần Tốc",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Chevreuse/talent_6.png",
-            text: ""
+            text: "Giảm 20% tiêu hao thể lực khi xung kích cho nhân vật trong đội của bản thân. Không thể cộng dồn với buff Thiên Phú cố định có cùng hiệu quả."
         },
         cm1: {
-            name: "",
+            name: "Sách Lược Ổn Định Trận Hình",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Chevreuse/constellation_1.png",
-            text: ""
+            text: "Nhân vật trong trận hiện tại có trạng thái 'Chiến Thuật Phối Hợp' (Không bao gồm bản thân Chevreuse) khi kích hoạt phản ứng Quá Tải sẽ hồi phục 6 điểm Năng Lượng Nguyên Tố. Hiệu quả này mỗi 10s tối đa kích hoạt một lần. Cần mở khóa thiên phú 'Chiến Thuật Phối Hợp Tiên Phong'."
         },
         cm2: {
-            name: "",
+            name: "Phương Pháp Đánh Úp Dẫn Nổ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Chevreuse/constellation_2.png",
-            text: ""
+            text: "Nhấn Giữ thi triển Đánh Chặn Nhanh Tầm Gần khi bắn trúng, sẽ kích hoạt 2 lần nổ lan ở vị trí trúng phải. Mỗi lần nổ sẽ gây Sát Thương Nguyên Tố Hỏa tương đương với 120% tấn công của Chevreuse. Hiệu quả này mỗi 10s tối đa kích hoạt 1 lần, sát thương gây ra bởi cách thức này sẽ được xem là sát thương Kỹ Năng Nguyên Tố."
         },
         cm3: {
-            name: "",
+            name: "Kỹ Thuật Nạp Đạn Thuần Thục",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Chevreuse/constellation_3.png",
-            text: ""
+            text: "Cấp kỹ năng Đánh Chặn Nhanh Tầm Gần +3. Tăng tối đa đến cấp 15."
         },
         cm4: {
-            name: "",
+            name: "Bí Quyết Bắn Nhanh Nhiều Lần",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Chevreuse/constellation_4.png",
-            text: ""
+            text: "Sau khi thi triển Bom Chùm Oanh Tạc, Chevreuse Nhấn Giữ thi triển Đánh Chặn Nhanh Tầm Gần sẽ không vào trạng thái thời gian chờ. Hiệu quả này tối đa duy trì 6s, hoặc sẽ xóa sau khi Nhấn Giữ thi triển Đánh Chặn Nhanh Tầm Gần lần 2."
         },
         cm5: {
-            name: "",
+            name: "Tăng Cường Hỏa Lực Đạn Dược",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Chevreuse/constellation_5.png",
-            text: ""
+            text: "Cấp kỹ năng Bom Chùm Oanh Tạc +3. Tăng tối đa đến cấp 15."
         },
         cm6: {
-            name: "",
+            name: "Truy Nã Tội Ác Cùng Cực",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Chevreuse/constellation_6.png",
-            text: ""
+            text: "Sau khi hiệu quả trị liệu của Đánh Chặn Nhanh Tầm Gần duy trì 12s, sẽ hồi phục một lần cho toàn bộ nhân vật trong đội gần đó một lượng HP bằng 10% giới hạn HP của Chevreuse. Nhân vật trong đội sau khi nhận được trị liệu từ Đánh Chặn Nhanh Tầm Gần, sẽ nhận được 20% Buff Sát Thương Nguyên Tố Hỏa và Buff Sát Thương Nguyên Tố Lôi trong 8s, cộng dồn 3 tầng, mỗi tầng tính giờ riêng."
         }
     },
     {
@@ -2294,64 +2299,69 @@ export const GI = [
         back: `${fi}`,
         story: "Xilonen, còn được gọi là “Lửa Nung Đúc Hồn” là một thợ rèn tài ba nổi tiếng khắp vùng Natlan nhờ kỹ thuật rèn ưu việt của mình. Là một nhân vật hệ Nham với cung mệnh Báo Miêu, cô được người dân tôn sùng vì thái độ làm việc chuyên nghiệp và nghiêm túc. Nhiều người tìm đến cô để nhờ rèn vũ khí và chiêm ngưỡng vẻ đẹp và phong thái của một bậc thầy rèn hiếm có.",
         skill1: {
-            name: "",
+            name: "Tiếng Hống Ehecatl",
             img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Sword.png",
-            text: ""
+            text: "Normal Attack Thực hiện tối đa 3 đòn đánh nhanh. Charged Attack Tiêu thụ một lượng Stamina cố định và thực hiện một cú đá về phía trước. Plunging Attack Nhảy từ giữa không trung xuống đất, gây sát thương cho đối thủ dọc đường đi và gây DMG AoE khi va chạm, cả hai đều dựa trên DEF của Xilonen. Nightsoul's Blessing: Blade Roller Khi ở trạng thái Nightsoul's Blessing, Xilonen sẽ vào chế độ Blade Roller. Khi ở chế độ này, Normal Attack của Xilonen sẽ cho phép cô thực hiện tối đa 4 cú đá bằng cách sử dụng roller blade của mình và cô sẽ không thể sử dụng Charged Attack. Khi cô sử dụng Normal Attack và Plunging Attack ở chế độ này, chúng sẽ chuyển sang dựa trên DEF của cô và cô sẽ gây Geo DMG liên kết với Nightsoul không thể bị ghi đè."
         },
         skill2: {
-            name: "",
+            name: "Yohual Cào Xé",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xilonen/talent_2.png",
-            text: ""
+            text: "Hãy để nhịp điệu của đam mê vang vọng khắp vùng đất! Xilonen chuyển sang bộ đồ chiến đấu tốc độ cao và lao về phía trước một khoảng cách nhất định trước khi gây sát thương Geo liên kết với Nightsoul dựa trên DEF của cô. Sau khi sử dụng, Xilonen sẽ nhận được 45 điểm Nightsoul và bước vào trạng thái Nightsoul's Blessing. Ở trạng thái này, cô sẽ chuyển sang chế độ Blade Roller. Mẫu nguồn Xilonen có 3 Sampler bên mình có thể tạo ra các Soundscape khác nhau dựa trên các Loại nguyên tố của các thành viên khác trong nhóm, làm giảm RES nguyên tố tương ứng của đối thủ gần đó khi đang hoạt động. Mẫu nguồn được ghi lại ban đầu trong mỗi Sampler sẽ là Geo và đối với mỗi thành viên trong nhóm là Pyro/Hydro/Cryo/Electro, 1 Geo Sampler sẽ thay đổi thành Nguyên tố tương ứng đó. Trong khi Xilonen ở trạng thái Nightsoul's Blessing, Mẫu nguồn Geo mà cô mang theo sẽ luôn hoạt động. Sau khi mở khóa Tài năng thụ động của mình, 'Netotiliztli's Echoes', Xilonen có thể kích hoạt hiệu ứng của Tài năng thụ động nói trên để tái tạo điểm Nightsoul cho chính mình. Khi điểm Nightsoul của cô đạt đến mức tối đa, cô sẽ tiêu thụ tất cả điểm Nightsoul của mình và kích hoạt 3 Mẫu Nguồn mà cô có trong tay trong 15 giây. Khi Mẫu Nguồn hoạt động, RES Nguyên tố tương ứng của đối thủ gần đó sẽ giảm. Hiệu ứng Mẫu Nguồn của cùng Loại Nguyên tố không thể cộng dồn. Xilonen có thể kích hoạt những hiệu ứng này ngay cả khi không ở trên sân. Phước lành của Nightsoul: Xilonen liên tục tiêu thụ điểm Nightsoul. Khi những điểm này cạn kiệt hoặc nếu sử dụng lại, trạng thái Phước lành của Nightsoul này sẽ kết thúc. Trạng thái này có các đặc điểm sau: Chuyển sang chế độ Blade Roller, tăng Tốc độ di chuyển và tốc độ leo trèo của Xilonen, và cô có thể thực hiện những cú nhảy tốc độ cao trong Dạng Ocelot trong khi leo trèo. Nightsoul's Blessing của Xilonen có những hạn chế sau: Khi ở trạng thái này, điểm Nightsoul của Xilonen có giới hạn thời gian là 9 giây. Sau khi giới hạn này trôi qua, điểm Nightsoul của cô ấy sẽ hết hạn ngay lập tức. Sau khi điểm Nightsoul của Xilonen hết hạn khi cô ấy ở trạng thái Nightsoul's Blessing, cô ấy sẽ không còn có thể tạo ra điểm Nightsoul thông qua Tài năng thụ động 'Netotiliztli's Echoes'."
         },
         skill3: {
-            name: "",
+            name: "Âm Điệu Ocelotlicue!",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xilonen/talent_3.png",
-            text: ""
+            text: "Kích hoạt Phlogiston Stereo DJ Controller (Di động) ở công suất tối đa, gây DMG AoE Geo theo Nightsoul dựa trên DEF của Xilonen. Ngoài ra, cô ấy sẽ kích hoạt các hiệu ứng sau dựa trên các Mẫu Nguồn khác nhau của mình: Nếu cô ấy có ít nhất 2 Mẫu Nguồn đã thay đổi Loại Nguyên tố, Xilonen sẽ chơi một nhịp điệu Ebullient, hồi máu cho các nhân vật đang hoạt động gần đó theo các khoảng thời gian dựa trên DEF của cô ấy. Nếu cô ấy có ít hơn 2 Mẫu Nguồn đã thay đổi Loại Nguyên tố, Xilonen sẽ bắt đầu một nhịp điệu Ardent, sẽ chơi thêm hai nhịp nữa gây DMG AoE Geo theo Nightsoul dựa trên DEF của cô ấy."
         },
         skill4: {
-            name: "",
+            name: "Tiếng Vang Của Netotiliztli",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xilonen/talent_4.png",
-            text: ""
+            text: "Trong trạng thái Dạ Hồn Chúc Phúc: Nếu Xilonen sở hữu ít nhất hai Âm Điệu Gốc đã được chuyển hóa nguyên tố, khi Tấn Công Thường và Tấn Công Khi Đáp đánh trúng kẻ địch sẽ nhận được 35 điểm Dạ Hồn, hiệu quả này mỗi 0,1s tối đa kích hoạt một lần. Nếu Xilonen sở hữu dưới hai Âm Điệu Gốc đã được chuyển hóa nguyên tố, sát thương Tấn Công Thường và Tấn Công Khi Đáp gây ra tăng 30%."
         },
         skill5: {
-            name: "",
+            name: "Tầng Bảo Hộ Di Động",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xilonen/talent_5.png",
-            text: ""
+            text: "Trong trạng thái Dạ Hồn Chúc Phúc, khi điểm Dạ Hồn của Xilonen đạt tối đa, sẽ kích hoạt một lần hiệu quả tương đương với Dạ Hồn Bùng Nổ. Hiệu quả này mỗi 14s tối đa kích hoạt một lần. Ngoài ra, khi nhân vật trong đội gần đó kích hoạt Dạ Hồn Bùng Nổ, Phòng Ngự của Xilonen tăng 20% trong 15s."
         },
         skill6: {
-            name: "",
+            name: "Lời Chúc Lửa Rèn",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xilonen/talent_6.png",
-            text: ""
+            text: "Sau khi dùng hết điểm Dạ Hồn, Xilonen sẽ chuyển sang tiêu hao Phlogiston để duy trì trạng thái Dạ Hồn Chúc Phúc. Khi ở trong khu vực có cơ chế Phlogiston của Natlan, có thể tiến hành Dạ Hồn Chuyển Hóa - Xilonen. Nhân vật trong trận khi xung kích, leo trèo, trong trạng thái di chuyển đặc biệt của Thiên Phú chỉ định hoặc đang ở độ cao nhất định trên không, đổi sang Xilonen ra trận sẽ kích hoạt: Xilonen sẽ vào trạng thái Dạ Hồn Chúc Phúc và nhận 20 điểm Dạ Hồn. Trong tình huống này, điểm Dạ Hồn của Xilonen sẽ có thời hạn là 4s, sau khi vượt quá thời hạn thì điểm Dạ Hồn của Xilonen sẽ lập tức cạn kiệt. Sau khi thi triển Yohual Cào Xé trong thời gian giới hạn, giới hạn thời gian điểm Dạ Hồn sẽ kéo dài 9s. Đội bản thân mỗi 10s có thể kích hoạt một lần Dạ Hồn Chuyển Hóa."
+        },
+        skill7: {
+            name: "Chuyến Du Hành Của Tepeilhuitl",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Xilonen/talent_7.png",
+            text: "Khi kích hoạt Dạ Hồn Chuyển Hóa sẽ hồi phục 15 điểm Phlogiston."
         },
         cm1: {
-            name: "",
+            name: "Giai Điệu Của Ngày Nghỉ",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xilonen/constellation_1.png",
-            text: ""
+            text: "Điểm Dạ Hồn và Phlogiston tiêu hao trong trạng thái Dạ Hồn Chúc Phúc của Xilonen giảm 30%, đồng thời giới hạn thời gian điểm Dạ Hồn kéo dài thêm 45%. Ngoài ra, khi kích hoạt Âm Điệu Gốc của Xilonen, sẽ còn tăng khả năng kháng gián đoạn của nhân vật trong trận hiện tại gần đó."
         },
         cm2: {
-            name: "",
+            name: "Hòa Tấu Của Chiucue",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xilonen/constellation_2.png",
-            text: ""
+            text: "Âm Điệu Gốc Nguyên Tố Nham của Xilonen sẽ luôn duy trì trạng thái kích hoạt. Ngoài ra, khi Âm Điệu Gốc của Xilonen kích hoạt, sẽ căn cứ vào loại nguyên tố của Âm Điệu Gốc để khiến tất cả nhân vật có loại nguyên tố tương đồng trong đội gần đó nhận hiệu quả tương ứng: Nguyên Tố Nham: Sát thương gây ra tăng 50%. Nguyên Tố Hỏa: Tấn Công tăng 45%. Nguyên Tố Thủy: Giới Hạn HP tăng 45%. Nguyên Tố Băng: Sát Thương Bạo Kích tăng 60%. Nguyên Tố Lôi: Hồi phục 25 điểm Năng Lượng Nguyên Tố, và thời gian chờ của Kỹ Năng Nộ giảm 6s."
         },
         cm3: {
-            name: "",
+            name: "Vòng Lặp Của Tonalpohualli",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xilonen/constellation_3.png",
-            text: ""
+            text: "Cấp kỹ năng Yohual Cào Xé +3. Tăng tối đa đến cấp 15."
         },
         cm4: {
-            name: "",
+            name: "Nhạc Trance Của Suchitl",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xilonen/constellation_4.png",
-            text: ""
+            text: "Xilonen sau khi thi triển Yohual Cào Xé, sẽ cung cấp hiệu quả Chúc Phúc Nở Rộ cho tất cả nhân vật trong đội gần đó trong 15s. Tăng sát thương Tấn Công Thường, Trọng Kích và Tấn Công Khi Đáp của nhân vật mang Chúc Phúc Nở Rộ, mức tăng tương ứng với 65% Phòng Ngự của Xilonen. Hiệu quả này sẽ bị xóa sau khi hiệu lực 6 lần hoặc kết thúc thời gian duy trì. Khi đánh trúng nhiều kẻ địch cùng lúc, sẽ căn cứ vào số lượng kẻ địch trúng đòn để tiêu hao số lần hiệu lực. Số lần hiệu lực của nhân vật có Chúc Phúc Nở Rộ trong đội sẽ được tính độc lập."
         },
         cm5: {
-            name: "",
+            name: "Khoảng Lặng Của Tlaltecuhtli",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xilonen/constellation_5.png",
-            text: ""
+            text: "Cấp kỹ năng Âm Điệu Ocelotlicue! +3. Tăng tối đa đến cấp 15."
         },
         cm6: {
-            name: "",
+            name: "Vũ Hội Đêm Vĩnh Hằng",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xilonen/constellation_6.png",
-            text: ""
+            text: "Trong trạng thái Dạ Hồn Chúc Phúc, khi Xilonen tiến hành xung kích, nhảy, Tấn Công Thường hoặc Tấn Công Khi Đáp sẽ nhận được 'Chúc Phúc Đêm Vĩnh Hằng', bỏ qua hạn chế của trạng thái Dạ Hồn Chúc Phúc, đồng thời tăng sát thương gây ra từ Tấn Công Thường và Tấn Công Khi Đáp trong 5s. Trong thời gian duy trì: Tạm thời ngừng tính giới hạn thời gian điểm Dạ Hồn của Xilonen. Điểm Dạ Hồn, Phlogiston và Thể Lực của Xilonen sẽ không giảm, đồng thời khi điểm Dạ Hồn đạt tối đa, trạng thái Dạ Hồn Chúc Phúc của cô ấy cũng sẽ không kết thúc. Tăng sát thương Tấn Công Thường và Tấn Công Khi Đáp trong trạng thái Dạ Hồn Chúc Phúc của Xilonen tương ứng với 300% Phòng Ngự của cô ấy. Mỗi 1,5s sẽ hồi phục HP cho tất cả nhân vật trong đội ở gần, lượng hồi phục tương đương 120% Phòng Ngự của Xilonen. Mỗi 15s tối đa nhận một lần Chúc Phúc Đêm Vĩnh Hằng."
         }
     }
 ]

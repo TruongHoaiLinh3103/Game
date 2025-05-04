@@ -981,5 +981,19 @@ export const KALIMBA = [
     "img": "https://i.pinimg.com/736x/3c/f0/d8/3cf0d8824e729a8721da1d378905a69b.jpg",
     "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/M%E1%BB%B9%20Nh%C3%A2n%20T%C3%BAy.mp3?raw=true",
     "auth": "爪ạㄒ"
+  },
+  {
+    "id": 134,
+    "name": "Trích Tiên",
+    "img": "https://i.pinimg.com/736x/41/9b/7a/419b7a3274c05d3c5219ae8dcf492a8c.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Tr%C3%ADch%20ti%C3%AAn.mp3?raw=true",
+    "auth": "爪ạㄒ"
+  },
+  {
+    "id": 135,
+    "name": "Họa Ly Huyền",
+    "img": "https://i.pinimg.com/736x/a0/44/65/a04465bc8fe0a052b804350736d571f7.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/H%E1%BB%8Da%20ly%20huy%E1%BB%81n.mp3?raw=true",
+    "auth": "爪ạㄒ"
   }
 ]
