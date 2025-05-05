@@ -1,0 +1,122 @@
+@import "./variable.scss";
+
+.Calligraphy-box{
+    @extend %overlay;
+    z-index: 10;
+}
+
+.Calligraphy-list{
+    padding: 0px;
+    overflow-y: scroll;
+    max-height: 400px;
+    @include overlayBox(0%, 400px, 0);
+    &::-webkit-scrollbar{
+        display: none;
+    }
+    border: 1px solid black;
+
+}
+.Calligraphy-item{
+    padding: 5px;
+    font-weight: 200;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    &:hover{
+        background-color: black;
+        color: white;
+    }
+    +.Calligraphy-item{
+        border-top: 1px solid black;
+    }
+}
+
+/* From Uiverse.io by satyamchaudharydev */ 
+   .Calligraphy-text{
+    background-color: black;
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .Calligraphy-form {
+    --width-of-input: 500px;
+    --border-height: 1px;
+    --border-before-color: rgba(221, 221, 221, 0.39);
+    --border-after-color: #5891ff;
+    --input-hovered-color: #4985e01f;
+    position: relative;
+    max-width: var(--width-of-input);
+    width: 90%;
+   }
+   /* styling of Input */
+   .Calligraphy-input {
+    color: #fff;
+    font-size: 0.9rem;
+    background-color: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    padding-inline: 0.5em;
+    padding-block: 0.7em;
+    border: none;
+    border-bottom: var(--border-height) solid var(--border-before-color);
+   }
+   /* styling of animated border */
+   .Calligraphy-input-border {
+    position: absolute;
+    background: var(--border-after-color);
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s;
+   }
+   /* Hover on Input */
+   input:hover {
+    background: var(--input-hovered-color);
+   }
+   
+   input:focus {
+    outline: none;
+   }
+   /* here is code of animated border */
+   input:focus ~ .Calligraphy-input-border {
+    width: 100%;
+   }
+   /* === if you want to do animated border on typing === */
+   /* remove input:focus code and uncomment below code */
+   /* input:valid ~ .input-border{
+     width: 100%;
+   } */
+  .Calligraphy-show{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h2{
+        font-weight: 300;
+        text-align: center;
+        padding: 10px;
+        font-size: 30px;
+    }
+  }
+
+  @media (max-width: 63.9375em){
+    .Calligraphy-list{
+        padding: 0px;
+        overflow-y: scroll;
+        max-height: 400px;
+        @include overlayBox(0%, 90%, 0);
+        &::-webkit-scrollbar{
+            display: none;
+        }
+        border: 1px solid black;
+    
+    }
+}
