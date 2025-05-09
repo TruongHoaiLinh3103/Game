@@ -149,5 +149,10 @@ export const CORDAGE = [
         id: 29,
         name: "Nút Thắt Lưới",
         quantity: "1 Cái"
+    },
+    {
+        id: 30,
+        name: "Nút Xu Bao Bì",
+        quantity: "1 Cái"
     }
 ]

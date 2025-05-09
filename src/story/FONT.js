@@ -214,9 +214,5 @@ export const FONT = [
     {
         id: 54,
         font: "font54"
-    },
-    {
-        id: 55,
-        font: "font55"
     }
 ]

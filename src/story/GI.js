@@ -34,6 +34,7 @@ import Mav from "../assets/AvataGI/Mav.webp";
 import Say from "../assets/AvataGI/Say.webp";
 import Che from "../assets/AvataGI/Che.webp";
 import Xil from "../assets/AvataGI/Xil.webp";
+import Cit from "../assets/AvataGI/Cit.webp";
 
 export const GI = [
     {
@@ -2362,6 +2363,79 @@ export const GI = [
             name: "Vũ Hội Đêm Vĩnh Hằng",
             img: "https://rerollcdn.com/GENSHIN/Skill/1/Xilonen/constellation_6.png",
             text: "Trong trạng thái Dạ Hồn Chúc Phúc, khi Xilonen tiến hành xung kích, nhảy, Tấn Công Thường hoặc Tấn Công Khi Đáp sẽ nhận được 'Chúc Phúc Đêm Vĩnh Hằng', bỏ qua hạn chế của trạng thái Dạ Hồn Chúc Phúc, đồng thời tăng sát thương gây ra từ Tấn Công Thường và Tấn Công Khi Đáp trong 5s. Trong thời gian duy trì: Tạm thời ngừng tính giới hạn thời gian điểm Dạ Hồn của Xilonen. Điểm Dạ Hồn, Phlogiston và Thể Lực của Xilonen sẽ không giảm, đồng thời khi điểm Dạ Hồn đạt tối đa, trạng thái Dạ Hồn Chúc Phúc của cô ấy cũng sẽ không kết thúc. Tăng sát thương Tấn Công Thường và Tấn Công Khi Đáp trong trạng thái Dạ Hồn Chúc Phúc của Xilonen tương ứng với 300% Phòng Ngự của cô ấy. Mỗi 1,5s sẽ hồi phục HP cho tất cả nhân vật trong đội ở gần, lượng hồi phục tương đương 120% Phòng Ngự của Xilonen. Mỗi 15s tối đa nhận một lần Chúc Phúc Đêm Vĩnh Hằng."
+        }
+    },
+    {
+        id: 35,
+        name: "Citlali",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Citlali.png",
+        avatar: `${Cit}`,
+        back: `${fi}`,
+        story: "Shaman vĩ đại của Chủ Nhân Gió Đêm, Bà Itztli mà tất cả cư dân bộ tộc đều kính nể.",
+        skill1: {
+            name: "Hồn Đêm Bắt Ảnh",
+            img: "https://rerollcdn.com/GENSHIN/Skill/UI_GachaTypeIcon_Sword.png",
+            text: "Tấn Công Thường: Triệu hồi nghi thức lưu truyền nhiều đời trong Chủ Nhân Gió Đêm, tiến hành tấn công tối đa ba lần, gây Sát Thương Nguyên Tố Băng. Trọng Kích: Vào trạng thái ngắm chuẩn và tiêu hao thể lực nhất định khi kết thúc nhấn giữ, triệu hồi một Hàn Tinh về phía đã ngắm, gây Sát Thương Nguyên Tố Băng cho kẻ địch trên đường đi. Tấn Công Khi Đáp: Ngưng tụ sức mạnh nguyên tố Băng, từ trên trời tấn công xuống mặt đất, tấn công kẻ địch trên đường và gây Sát Thương Phạm Vi Nguyên Tố Băng khi chạm đất."
+        },
+        skill2: {
+            name: "Sương Trú Hắc Tinh",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Citlali/talent_2.png",
+            text: "Dựa theo khế ước ngàn năm của Chủ Nhân Gió Đêm, triển khai Khiên Opal và triệu hồi Itzpapa 'Obsidian Tzitzimitl' cực kỳ đáng sợ (theo tin đồn), gây Sát Thương Phạm Vi Nguyên Tố Băng mang thuộc tính Dạ Hồn. Lượng sát thương mà Khiên Opal hấp thụ sẽ căn cứ vào Tinh Thông Nguyên Tố của Citlali, có hiệu quả hấp thụ 250% Sát Thương Nguyên Tố Băng. Đồng thời khi triển khai khiên, Citlali sẽ bị ảnh hưởng bởi Nguyên Tố Băng trong thời gian ngắn. Sau khi thi triển, Citlali nhận được 24 điểm Dạ Hồn và tiến vào trạng thái Dạ Hồn Chúc Phúc. Dạ Hồn Chúc Phúc - Citlali: Khi Itzpapa rời trận, Dạ Hồn Chúc Phúc của Citlali sẽ kết thúc. Itzpapa: ·Itzpapa sẽ theo chân và hành động cùng nhân vật. ·Nếu Citlali có ít nhất 50 điểm Dạ Hồn, Itzpapa sẽ vào trạng thái Lửa Opal, liên tục tiêu hao điểm Dạ Hồn và tạo ra Bão Sương Giá đi theo nhân vật, tấn công kẻ địch trong phạm vi, gây Sát Thương Nguyên Tố Băng mang thuộc tính Dạ Hồn. ·Sau khi tiêu hao hết điểm Dạ Hồn, trạng thái Lửa Opal của Itzpapa sẽ kết thúc."
+        },
+        skill3: {
+            name: "Sắc Lệnh Lộng Lẫy",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Citlali/talent_3.png",
+            text: "Triệu hồi 'đồng minh' đến từ trời sao và mặt đất, tạo ra Bão Băng oanh kích khu vực phía trước, gây Sát Thương Phạm Vi Nguyên Tố Băng mang thuộc tính Dạ Hồn, hồi phục cho Citlali một lượng điểm Dạ Hồn nhất định, đồng thời triệu hồi Xương Linh Hồn ở bên cạnh tối đa 3 kẻ địch trong phạm vi. Xương Linh Hồn sẽ nổ sau một khoảng thời gian nhất định, gây Sát Thương Phạm Vi Nguyên Tố Băng mang thuộc tính Dạ Hồn, đồng thời hồi phục cho Citlali một lượng điểm Dạ Hồn nhất định."
+        },
+        skill4: {
+            name: "Cơn Mưa Lạnh Của Mamaloaco",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Citlali/talent_4.png",
+            text: "Trong thời gian Itzpapa tồn tại, sau khi nhân vật trong đội ở gần kích hoạt phản ứng Đóng Băng hoặc Tan Chảy, kẻ địch chịu ảnh hưởng bởi lần phản ứng này giảm 20% Kháng Nguyên Tố Hỏa và Nguyên Tố Thủy trong 12s. Ngoài ra, Citlali còn được hồi phục 16 điểm Dạ Hồn, mỗi 8s tối đa hồi phục một lần điểm Dạ Hồn theo cách này."
+        },
+        skill5: {
+            name: "Áo Choàng Sao Của Itzpapalotl",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Citlali/talent_5.png",
+            text: "Trong Kỹ Năng Nguyên Tố Sương Trú Hắc Tinh, tăng sát thương Bão Sương Giá do Itzpapa gây ra, lượng tăng thêm tương đương 90% Tinh Thông Nguyên Tố của Citlali. Trong Kỹ Năng Nộ Sắc Lệnh Lộng Lẫy, tăng sát thương Bão Băng gây ra, lượng tăng thêm tương đương 1200% Tinh Thông Nguyên Tố của Citlali. Ngoài ra, khi nhân vật trong đội ở gần kích hoạt Dạ Hồn Bùng Nổ, Citlali sẽ được hồi phục 4 điểm Dạ Hồn."
+        },
+        skill6: {
+            name: "Món Quà Dạ Vực - Gió Thoảng Sương Kính",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Citlali/talent_6.png",
+            text: "Khi ở trong khu vực có cơ chế Phlogiston của Natlan, có thể tiến hành Dạ Hồn Chuyển Hóa - Citlali. Nhân vật trong trận khi ở độ cao nhất định trên không, đổi sang Citlali ra trận sẽ kích hoạt: Citlali sẽ nhảy lên cao, mượn sức 'Đá Trắng Tzitzimimeh - Citlalin' để lướt trên không. Đội bản thân mỗi 10s có thể kích hoạt một lần Dạ Hồn Chuyển Hóa. Khi nhấn giữ ngắm chuẩn, Citlali sẽ vào trạng thái 'Ngoại Cảm'. Khi ở trong trạng thái này, Citlali có thể tương tác với Graffiti Linh Hồn và Hoa Văn Linh Hồn để lấy thông tin và sức mạnh. Quy tắc tương tác vật phẩm này tương tự như quy tắc của Iktomisaurus. Ngoài ra, khi nhấn giữ nút nhảy, Citlali sẽ tiêu hao 75 Thể Lực để nhảy lên cao. Khi ở trong khu vực có cơ chế Phlogiston của Natlan, Citlali sẽ ưu tiên tiêu hao 5 điểm Phlogiston để nhảy đến độ cao cao hơn. Khi ở trên không, Citlali có thể nhấn giữ Tấn Công Thường, tiêu hao Phlogiston hoặc Thể Lực để tiến hành ngắm chuẩn và Trọng Kích. Khi tiến hành Trọng Kích trên không, Citlali sẽ ưu tiên tiêu hao 20 điểm Phlogiston."
+        },
+        skill7: {
+            name: "Lời Ca Ẩn Mật",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Citlali/talent_7.png",
+            text: "Khi ở trong khu vực có cơ chế Phlogiston của Natlan, kích hoạt Dạ Hồn Bùng Nổ sẽ có thể hồi phục 20 điểm Phlogiston. Hiệu quả này vô hiệu trong Bí Cảnh, Vùng Đất Thảo Phạt, La Hoàn Thâm Cảnh."
+        },
+        cm1: {
+            name: "Lưỡi Đao Của Centzon Mimixcoah",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Citlali/constellation_1.png",
+            text: "Khi thi triển Kỹ Năng Nguyên Tố Sương Trú Hắc Tinh, Citlali nhận được hiệu quả 'Lễ Phục Sao Trắng', duy trì đến khi Itzpapa rời trận: Trong thời gian duy trì, Citlali nhận 10 tầng 'Đao Sao Trời', khi nhân vật trong trận hiện tại gần đó (ngoài Citlali) gây sát thương từ Tấn Công Thường, Trọng Kích, Tấn Công Khi Đáp, Kỹ Năng Nguyên Tố hoặc Kỹ Năng Nộ, sẽ tiêu hao 1 tầng Đao Sao Trời để tăng sát thương gây ra, lượng gia tăng tương đương 200% Tinh Thông Nguyên Tố của Citlali. Sau khi nhân vật trong đội gần đó kích hoạt phản ứng Đóng Băng hoặc Tan Chảy, Citlali sẽ nhận thêm 3 tầng Đao Sao Trời. Hiệu quả này mỗi 8s tối đa kích hoạt một lần. Khi thi triển Kỹ Năng Nguyên Tố Sương Trú Hắc Tinh, số tầng Đao Sao Trời sẽ được làm mới. Ngoài ra, khi Citlali tiến hành nhảy cao, hay khi tiến hành ngắm chuẩn hoặc Trọng Kích trên không, mức tiêu hao Phlogiston sẽ giảm 45%."
+        },
+        cm2: {
+            name: "Gian Lao Của Kẻ Nuốt Tim",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Citlali/constellation_2.png",
+            text: "Tăng 125 điểm Tinh Thông Nguyên Tố cho Citlali, tăng 250 điểm Tinh Thông Nguyên Tố cho nhân vật khác được Khiên Opal bảo vệ hoặc được Itzpapa đi theo. Ngoài ra, khi thi triển Kỹ Năng Nguyên Tố Sương Trú Hắc Tinh cũng sẽ áp dụng Khiên Opal cho nhân vật trong trận ở gần. Đồng thời, hiệu quả thiên phú cố định 'Cơn Mưa Lạnh Của Mamaloaco' được tăng cường: Trong thời gian Itzpapa tồn tại, sau khi nhân vật trong đội gần đó kích hoạt phản ứng Đóng Băng hoặc Tan Chảy, kẻ địch chịu ảnh hưởng bởi lần phản ứng này sẽ giảm thêm 20% Kháng Nguyên Tố Hỏa và Nguyên Tố Thủy trong 12s. Hiệu quả này cần mở khóa thiên phú 'Cơn Mưa Lạnh Của Mamaloaco' trước."
+        },
+        cm3: {
+            name: "Vương Miện Của Mãng Xà Mây",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Citlali/constellation_3.png",
+            text: "Cấp kỹ năng Sương Trú Hắc Tinh +3. Tăng tối đa đến cấp 15."
+        },
+        cm4: {
+            name: "Xương Hồn Của Kẻ Thách Thức",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Citlali/constellation_4.png",
+            text: "Trong Kỹ Năng Nguyên Tố Sương Trú Hắc Tinh, khi Bão Sương Giá của Itzpapa đánh trúng kẻ địch, sẽ triệu hồi thêm một Xương Linh Hồn - Hắc Tinh, khi Xương Linh Hồn triệu hồi bằng cách này phát nổ, sẽ gây Sát Thương Phạm Vi Nguyên Tố Băng mang thuộc tính Dạ Hồn tương đương 1800% Tinh Thông Nguyên Tố của Citlali, đồng thời hồi phục 16 điểm Dạ Hồn và 8 điểm Năng Lượng Nguyên Tố cho Citlali. Hiệu quả này mỗi 8s tối đa kích hoạt một lần, sát thương này không được tính là sát thương Kỹ Năng Nộ."
+        },
+        cm5: {
+            name: "Lời Nguyền Của Nemontemi",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Citlali/constellation_5.png",
+            text: "Cấp kỹ năng Sắc Lệnh Lộng Lẫy +3. Tăng tối đa đến cấp 15."
+        },
+        cm6: {
+            name: "Khế Ước Của Teoiztac",
+            img: "https://rerollcdn.com/GENSHIN/Skill/1/Citlali/constellation_6.png",
+            text: "Itzpapa triệu hồi từ Kỹ Năng Nguyên Tố Sương Trú Hắc Tinh sẽ luôn trong trạng thái Lửa Opal, khi dùng hết điểm Dạ Hồn cũng sẽ không kết thúc trạng thái Lửa Opal của Itzpapa. Ngoài ra, khi thi triển Kỹ Năng Nguyên Tố Sương Trú Hắc Tinh, Itzpapa sẽ tiêu hao toàn bộ điểm Dạ Hồn, đồng thời liên tục tiêu hao điểm Dạ Hồn trong thời gian tồn tại. Mỗi tiêu hao 1 điểm Dạ Hồn thông qua cách thức trên, Citlali sẽ nhận được 1 điểm 'Bí Luật'. Giới hạn điểm 'Bí Luật' là 40 điểm. Căn cứ vào mỗi điểm Bí Luật mà Citlali sở hữu để cung cấp cho tất cả nhân vật trong đội gần đó 1.5% Buff Sát Thương Nguyên Tố Hỏa và Thủy, đồng thời tăng 2.5% sát thương mà Citlali gây ra."
         }
     }
 ]

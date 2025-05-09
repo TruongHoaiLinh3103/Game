@@ -171,13 +171,13 @@ export const BODY = [
     },
     {
         id: 34,
-        name: "Đứng Dựa Tường",
+        name: "Đo Sàn",
         duration: "100 S"
     },
     {
         id: 35,
-        name: "Cây Cầu Mông",
-        duration: "100 S"
+        name: "Hít Xà",
+        quantity: "20 C"
     },
     {
         id: 36,
@@ -191,33 +191,33 @@ export const BODY = [
     },
     {
         id: 38,
-        name: "Hít Xà",
-        quantity: "20 C"
+        name: "Đâm Trên(Thuận Nghịch)",
+        quantity: "1 C"
     },
     {
         id: 39,
-        name: "Gập Bụng Chéo Kiểu Nga",
-        quantity: "100 C"
+        name: "Đâm Dưới(Thuận Nghịch)",
+        quantity: "1 C"
     },
     {
         id: 40,
-        name: "Đo Sàn",
-        duration: "100 S"
+        name: "Đâm Giữa(Thuận Nghịch)",
+        quantity: "1 C"
     },
     {
         id: 41,
-        name: "Chạy Tốc Độ",
-        duration: "100 S"
+        name: "Giảo Hoạt Đao(Thuận Nghịch)",
+        quantity: "1 C"
     },
     {
         id: 42,
-        name: "Quỳ Thiền",
-        duration: "100 S"
+        name: "Phóng Đao(Thuận Nghịch)",
+        quantity: "1 C"
     },
     {
         id: 43,
-        name: "Đứng Tấn",
-        duration: "100 S"
+        name: "Nhát Vệt(Thuận Nghịch)",
+        quantity: "1 C"
     },
     {
         id: 44,
@@ -267,36 +267,6 @@ export const BODY = [
     {
         id: 53,
         name: "Chém Dưới Lên(Thuận Nghịch)",
-        quantity: "1 C"
-    },
-    {
-        id: 54,
-        name: "Đâm Trên(Thuận Nghịch)",
-        quantity: "1 C"
-    },
-    {
-        id: 55,
-        name: "Đâm Dưới(Thuận Nghịch)",
-        quantity: "1 C"
-    },
-    {
-        id: 56,
-        name: "Đâm Giữa(Thuận Nghịch)",
-        quantity: "1 C"
-    },
-    {
-        id: 57,
-        name: "Giảo Hoạt Đao(Thuận Nghịch)",
-        quantity: "1 C"
-    },
-    {
-        id: 58,
-        name: "Phóng Đao(Thuận Nghịch)",
-        quantity: "1 C"
-    },
-    {
-        id: 59,
-        name: "Nhát Vệt(Thuận Nghịch)",
         quantity: "1 C"
     }
 ]
