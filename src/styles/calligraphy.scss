@@ -6,7 +6,7 @@
 }
 
 .Calligraphy-list{
-    padding: 0px;
+    padding: 5px;
     overflow-y: scroll;
     max-height: 400px;
     @include overlayBox(0%, 400px, 0);
@@ -18,12 +18,12 @@
 }
 .Calligraphy-item{
     height: 30px;
-    padding: 5px;
+    padding: 5px 10px;
     font-weight: 200;
     font-size: 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
     cursor: pointer;
     transition: all .3s ease-in-out;
@@ -110,7 +110,7 @@
 
   @media (max-width: 63.9375em){
     .Calligraphy-list{
-        padding: 0px;
+        padding: 5px;
         overflow-y: scroll;
         max-height: 400px;
         @include overlayBox(0%, 90%, 0);

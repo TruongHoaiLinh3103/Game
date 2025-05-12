@@ -28,7 +28,7 @@ const Calligraphy = () => {
                 <ul className='Calligraphy-list'>
                     {FONT.map((item, index) => {
                         return(
-                            <li className='Calligraphy-item' style={{fontFamily: item.font}} key={index} onClick={() => handFont(item.font)}>Thư Pháp</li>
+                            <li className='Calligraphy-item' style={{fontFamily: item.font}} key={index} onClick={() => handFont(item.font)}><span>{item.id}.</span><span>Thư Pháp</span></li>
                         )
                     })}
                 </ul>

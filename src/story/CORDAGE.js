@@ -154,5 +154,30 @@ export const CORDAGE = [
         id: 30,
         name: "Nút Xu Bao Bì",
         quantity: "1 Cái"
+    },
+    {
+        id: 31,
+        name: "Nút Thắt Bảo Hộ",
+        quantity: "1 Cái"
+    },
+    {
+        id: 32,
+        name: "Nút Thắt Thợ Săn",
+        quantity: "1 Cái"
+    },
+    {
+        id: 33,
+        name: "Nút Thắt Tạo Giỏ",
+        quantity: "1 Cái"
+    },
+    {
+        id: 34,
+        name: "Nút Thắt Bện  Dây Thừng",
+        quantity: "1 Cái"
+    },
+    {
+        id: 35,
+        name: "Nút Rubik",
+        quantity: "1 Cái"
     }
 ]
