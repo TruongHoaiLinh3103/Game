@@ -20,6 +20,9 @@ input[type="number"] {
     font-size: 1.5rem;
     color: #212123;
     outline: none;
+    &:hover{
+        color: white;
+    }
 }
 
 input[type="number"]:out-of-range {

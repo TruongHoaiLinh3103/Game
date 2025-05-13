@@ -4,7 +4,7 @@ import "../styles/calligraphy.scss";
 
 const Calligraphy = () => {
     const [calligraphy, setCalligraphy] = useState(false);
-    const [text, setText] = useState("");
+    const [text, setText] = useState("Dư Niệm An");
     const [font, setFont] = useState();
     const [title, setTitle] = useState(false);
 
@@ -43,9 +43,9 @@ const Calligraphy = () => {
                     <span className="Calligraphy-input-border"></span>
                 </div>
             </div>
-            <div className='Calligraphy-show' style={{fontFamily: font, display: title ? "flex" : "none"}}>
+            {text !== "" && <div className='Calligraphy-show' style={{fontFamily: font, display: title ? "flex" : "none"}}>
                 <h2>{text}</h2>
-            </div>
+            </div>}
         </div>
     );
 };

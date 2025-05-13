@@ -61,7 +61,7 @@ export const CORDAGE = [
     },
     {
         id: 12,
-        name: "Nút Thắt Móc Treo Đồ",
+        name: "Nút Thắt Bện Dây Thừng",
         quantity: "1 Cái"
     },
     {
@@ -117,7 +117,7 @@ export const CORDAGE = [
     },
     {
         id: 23,
-        name: "Nút Vứt",
+        name: "Nút Thắt Tạo Giỏ",
         quantity: "1 Cái"
     },
     {
@@ -162,22 +162,22 @@ export const CORDAGE = [
     },
     {
         id: 32,
-        name: "Nút Thắt Thợ Săn",
+        name: "Nút Khâu Liền",
         quantity: "1 Cái"
     },
     {
         id: 33,
-        name: "Nút Thắt Tạo Giỏ",
+        name: "Nút Khâu Giấu Chỉ",
         quantity: "1 Cái"
     },
     {
         id: 34,
-        name: "Nút Thắt Bện  Dây Thừng",
+        name: "Phi Xa",
         quantity: "1 Cái"
     },
     {
         id: 35,
-        name: "Nút Rubik",
+        name: "Rubik",
         quantity: "1 Cái"
     }
 ]

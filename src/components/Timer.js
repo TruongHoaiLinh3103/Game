@@ -52,7 +52,7 @@ const Timer = () => {
     return (
         <div className='Timer'>
             <h3 style={{fontSize: "4em", color: 'white', userSelect: "none", margin: "0px"}}>{clock(sec)}</h3>
-            <input type="number" min="0" max="9" value={sec === "" ? 0 : sec} 
+            <input type="number" min="0" max="110" value={sec === "" ? 0 : sec} 
                 onChange={(e) => changeTime(e)}
                 onKeyDown={(e) => next(e)}
                 style={{display: start ? "none" : "inline-block"}}

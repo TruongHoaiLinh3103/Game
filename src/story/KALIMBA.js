@@ -417,16 +417,18 @@ export const KALIMBA = [
   },
   {
     "id": 53,
-    "name": "Tam Bái Hồng Trần Lương",
-    "img": "https://i.pinimg.com/736x/dc/ec/f1/dcecf1f4a9d2852783f695939f2aabf1.jpg",
-    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Tam%20b%C3%A1i%20h%E1%BB%93ng%20tr%E1%BA%A7n%20l%C6%B0%C6%A1ng.mp3?raw=true",
+    "name": "Đánh Mất Em",
+    "img": "https://i.pinimg.com/736x/99/0e/7a/990e7a834f2d53059f6748788dd61d3f.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/%C4%90%C3%A1nh%20m%E1%BA%A5t%20em.mp3?raw=true",
+    "video": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Kalimba/%C4%90%C3%A1nh%20m%E1%BA%A5t%20em.mp4?raw=true",
     "auth": "爪ạㄒ"
   },
   {
     "id": 54,
-    "name": "Nửa Đời Tuyết",
-    "img": "https://i.pinimg.com/736x/9a/35/7a/9a357a56ad78d991ba91a8947b6afd2e.jpg",
-    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/N%E1%BB%ADa%20%C4%91%E1%BB%9Di%20tuy%E1%BA%BFt.mp3?raw=true",
+    "name": "Thanh Minh Thượng Hà Đồ",
+    "img": "https://i.pinimg.com/736x/5e/16/65/5e1665a757857d182f290667e8430d97.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Thanh%20minh%20th%C6%B0%E1%BB%A3ng%20h%C3%A0%20%C4%91%E1%BB%93.mp3?raw=true",
+    "video": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Kalimba/Thanh%20Minh%20Th%C6%B0%E1%BB%A3ng%20H%C3%A0%20%C4%90%E1%BB%93.mp4?raw=true",
     "auth": "爪ạㄒ"
   },
   {
@@ -994,6 +996,139 @@ export const KALIMBA = [
     "name": "Họa Ly Huyền",
     "img": "https://i.pinimg.com/736x/a0/44/65/a04465bc8fe0a052b804350736d571f7.jpg",
     "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/H%E1%BB%8Da%20ly%20huy%E1%BB%81n.mp3?raw=true",
+    "auth": "爪ạㄒ"
+  },
+  {
+    "id": 136,
+    "name": "Kiêu Ngạo",
+    "img": "https://i.pinimg.com/736x/ab/a6/49/aba64940c9139f8d4235a46e77766d82.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Ki%C3%AAu%20Ng%E1%BA%A1o.mp3?raw=true",
+    "auth": "爪ạㄒ"
+  },
+  {
+    "id": 137,
+    "name": "Tòa Thành Trong Tranh",
+    "img": "https://i.pinimg.com/736x/8e/e8/a1/8ee8a148e9677b9d70eaa57346af135a.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/T%C3%B2a%20th%C3%A0nh%20trong%20tranh.mp3?raw=true",
+    "auth": "爪ạㄒ"
+  },
+  {
+    "id": 138,
+    "name": "Chúng Ta Không Giống Nhau",
+    "img": "https://i.pinimg.com/736x/5d/ed/d1/5dedd183a6caedbc9afab76a102ac48a.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Ch%C3%BAng%20ta%20kh%C3%B4ng%20gi%E1%BB%91ng%20nhau.mp3?raw=true",
+    "auth": "爪ạㄒ"
+  },
+  {
+    "id": 139,
+    "name": "Anh Rất Nhớ Em",
+    "img": "https://i.pinimg.com/736x/64/75/8e/64758eae6a69c6d26d529bdbd1a3398b.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Anh%20r%E1%BA%A5t%20nh%E1%BB%9B%20em.mp3?raw=true",
+    "auth": "爪ạㄒ"
+  },
+  {
+    "id": 140,
+    "name": "Cô Gái À! Em Đừng Khóc",
+    "img": "https://i.pinimg.com/736x/d9/a3/89/d9a3894318567c0c07f98c468c95293f.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/C%C3%B4%20g%C3%A1i%20%C3%A0!%20Em%20%C4%91%E1%BB%ABng%20kh%C3%B3c.mp3?raw=true",
+    "auth": "爪ạㄒ"
+  },
+  {
+    "id": 141,
+    "name": "Giày Cao Gót Màu Đỏ",
+    "img": "https://i.pinimg.com/736x/8f/a7/e3/8fa7e33d34cba608d3e05129bf994342.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Gi%C3%A0y%20cao%20g%C3%B3t%20m%C3%A0u%20%C4%91%E1%BB%8F.mp3?raw=true",
+    "auth": "爪ạㄒ"
+  },
+  {
+    "id": 142,
+    "name": "Ma Ma Masivo",
+    "img": "https://i.pinimg.com/736x/52/64/4e/52644e0cf2e1ca78f1013aa5fd13fded.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Ma%20ma%20masivo.mp3?raw=true",
+    "auth": "爪ạㄒ"
+  },
+  {
+    "id": 143,
+    "name": "Huynh Đệ À Nhớ Anh Rồi",
+    "img": "https://i.pinimg.com/736x/8a/25/c5/8a25c5a9b7224634195530e99e0dd221.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Huynh%20%C4%91%E1%BB%87%20%C3%A0%20nh%E1%BB%9B%20anh%20r%E1%BB%93i.mp3?raw=true",
+    "auth": "爪ạㄒ"
+  },
+  {
+    "id": 144,
+    "name": "Khẩu Thị Tâm Phi",
+    "img": "https://i.pinimg.com/736x/05/e5/ac/05e5ac7b3d1b4e2a754b99b51bd5e9cb.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Kh%E1%BA%A9u%20Th%E1%BB%8B%20T%C3%A2m%20phi.mp3?raw=true",
+    "auth": "爪ạㄒ"
+  },
+  {
+    "id": 145,
+    "name": "Du Kinh",
+    "img": "https://i.pinimg.com/736x/f2/4f/3f/f24f3fcff4b56916e5e03678dc227179.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Du%20kinh.mp3?raw=true",
+    "auth": "爪ạㄒ"
+  },
+  {
+    "id": 146,
+    "name": "Ta Mượn Nhân Gian Hai Lạng Mực",
+    "img": "https://i.pinimg.com/736x/76/e5/32/76e532b9dec647e255be5f77f8d443d5.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Ta%20m%C6%B0%E1%BB%A3n%20nh%C3%A2n%20gian%20hai%20l%E1%BA%A1ng%20m%E1%BB%B1c.mp3?raw=true",
+    "auth": "爪ạㄒ"
+  },
+  {
+    "id": 147,
+    "name": "Song Diện Yến Tuân",
+    "img": "https://i.pinimg.com/736x/cc/12/68/cc126817bef9f20734469413ec809468.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Song%20di%E1%BB%87n%20y%E1%BA%BFn%20tu%C3%A2n.mp3?raw=true",
+    "auth": "爪ạㄒ"
+  },
+  {
+    "id": 148,
+    "name": "Đảo Nghịch",
+    "img": "https://i.pinimg.com/736x/c2/9a/3a/c29a3a8b3534d236eeee805bba1873f8.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/%C4%90%E1%BA%A3o%20ngh%E1%BB%8Bch.mp3?raw=true",
+    "auth": "爪ạㄒ"
+  },
+  {
+    "id": 149,
+    "name": "Trang Giấy Cuối Cùng",
+    "img": "https://i.pinimg.com/736x/16/c7/96/16c7965d8168e6b7926b28444e53e91d.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Trang%20gi%E1%BA%A5y%20cu%E1%BB%91i%20c%C3%B9ng.mp3?raw=true",
+    "auth": "爪ạㄒ"
+  },
+  {
+    "id": 150,
+    "name": "Có Thể Hay Không",
+    "img": "https://i.pinimg.com/736x/6e/60/8e/6e608ee105d6c169cd8b63033b2d1221.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/C%C3%B3%20th%E1%BB%83%20hay%20kh%C3%B4ng.mp3?raw=true",
+    "auth": "爪ạㄒ"
+  },
+  {
+    "id": 151,
+    "name": "Túy Khuynh Thành",
+    "img": "https://i.pinimg.com/736x/42/5a/f1/425af13d42d558027de4d2a169d9731a.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/T%C3%BAy%20khuynh%20th%C3%A0nh.mp3?raw=true",
+    "auth": "爪ạㄒ"
+  },
+  {
+    "id": 152,
+    "name": "Nửa Đời Tuyết",
+    "img": "https://i.pinimg.com/736x/9a/35/7a/9a357a56ad78d991ba91a8947b6afd2e.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/N%E1%BB%ADa%20%C4%91%E1%BB%9Di%20tuy%E1%BA%BFt.mp3?raw=true",
+    "auth": "爪ạㄒ"
+  },
+  {
+    "id": 153,
+    "name": "Tam Bái Hồng Trần Lương",
+    "img": "https://i.pinimg.com/736x/dc/ec/f1/dcecf1f4a9d2852783f695939f2aabf1.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/Tam%20b%C3%A1i%20h%E1%BB%93ng%20tr%E1%BA%A7n%20l%C6%B0%C6%A1ng.mp3?raw=true",
+    "auth": "爪ạㄒ"
+  },
+  {
+    "id": 154,
+    "name": "Điều Em Mong Đợi Không Phải Là Tuyết",
+    "img": "https://i.pinimg.com/736x/56/58/5f/56585f56ff2387f180c9c956203c0af1.jpg",
+    "audio": "https://github.com/TruongHoaiLinh3103/MyBuild/blob/master/Music/%C4%90i%E1%BB%81u%20em%20mong%20%C4%91%E1%BB%A3i%20kh%C3%B4ng%20ph%E1%BA%A3i%20l%C3%A0%20tuy%E1%BA%BFt.mp3?raw=true",
     "auth": "爪ạㄒ"
   }
 ]
