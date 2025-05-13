@@ -11,7 +11,7 @@ const Footer = () => {
                 <hr />
                 <ul>
                     <li><FontAwesomeIcon icon={faEnvelope} /><p>Email: <NavLink to='mailto:truonghoailinh3103@gmail.com'>truonghoailinh3103</NavLink></p></li>
-                    <li><FontAwesomeIcon icon={faMapLocation} /><p>Address: <NavLink to="#Map">Binh Dinh Province, Vietnamese</NavLink></p></li>
+                    <li><FontAwesomeIcon icon={faMapLocation} /><p>Address: <NavLink to="#Map">Binh Dinh Province</NavLink></p></li>
                     <li><FontAwesomeIcon icon={faPhone} /><p>Hotline: <NavLink to='tel:0963301494'>0963301494</NavLink></p></li>
                     <li><FontAwesomeIcon icon={faFaceSmile} /><p>Zalo: <NavLink to='tel:0963301494'>0963301494</NavLink></p></li>
                 </ul>
