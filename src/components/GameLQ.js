@@ -110,7 +110,7 @@ const GameLQ = () => {
                         <div className='Profile-edit_box-b'>
                             <label>Tài khoản</label>
                             <div className='edit_box-b'>
-                                <input type='text' defaultValue="truonghoailinh3103@gmail.com" disabled/>
+                                <input type='text' defaultValue="phuocyeumi2006" disabled/>
                             </div>
                         </div>
                         <div className='Profile-edit_box-b'>
