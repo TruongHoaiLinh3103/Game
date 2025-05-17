@@ -72,11 +72,11 @@ const GameGI = () => {
                         <div className='GenshinProfile-Lever'>
                             <p><b>Cấp Thế Giới</b></p>
                             <div className='Lever-title'>
-                                <p><b>8</b></p>
+                                <p><b>9</b></p>
                                 <button onClick={() => toast.success("Đã Đạt Cấp Tối Đa!")}>!</button>
                             </div>
                         </div>
-                        <p><b>Ngày 31 tháng 03</b></p>
+                        <p><b>Ngày 12 tháng 10</b></p>
                     </div>
                 </div>
             </div>
@@ -110,7 +110,7 @@ const GameGI = () => {
                         <div className='Profile-edit_box-b'>
                             <label>Tài khoản</label>
                             <div className='edit_box-b'>
-                                <input type='text' defaultValue="phontranq@gmail.com" disabled/>
+                                <input type='text' defaultValue="bimbimcua07" disabled/>
                             </div>
                         </div>
                         <div className='Profile-edit_box-b'>
