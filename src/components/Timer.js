@@ -30,15 +30,17 @@ const Timer = () => {
         dispatch(EDIT_MIU(0));
     }
     useEffect(() => {
+        var msg = new SpeechSynthesisUtterance();
+        msg.text = "Time's Up!, Time's Up!";
+        msg.pitch = 0.4; // độ cao (0 - 2)
         if(!start){
             clearInterval()
         }else{
             if (sec === 0){
                 setStart(false);
-                window.navigator.vibrate(5000);
+                window.speechSynthesis.speak(msg);
                 if(Miu){
                     dispatch(EDIT_MIU(0));
-                    window.navigator.vibrate(5000);
                     router("/sport/kungfu")
                 }
                 return;
