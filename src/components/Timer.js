@@ -35,10 +35,10 @@ const Timer = () => {
         }else{
             if (sec === 0){
                 setStart(false);
-                window.navigator.vibrate(5000);
+                navigator.vibrate(5000);
                 if(Miu){
                     dispatch(EDIT_MIU(0));
-                    window.navigator.vibrate(5000);
+                    navigator.vibrate(5000);
                     router("/sport/kungfu")
                 }
                 return;
