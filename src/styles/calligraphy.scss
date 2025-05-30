@@ -1,41 +1,5 @@
 @import "./variable.scss";
 
-.Calligraphy-box{
-    @extend %overlay;
-    z-index: 10;
-}
-
-.Calligraphy-list{
-    padding: 5px;
-    overflow-y: scroll;
-    max-height: 400px;
-    @include overlayBox(0%, 400px, 0);
-    &::-webkit-scrollbar{
-        display: none;
-    }
-    border: 1px solid black;
-
-}
-.Calligraphy-item{
-    height: 30px;
-    padding: 5px 10px;
-    font-weight: 200;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
-    cursor: pointer;
-    transition: all .3s ease-in-out;
-    &:hover{
-        background-color: black;
-        color: white;
-    }
-    +.Calligraphy-item{
-        border-top: 1px solid black;
-    }
-}
-
 /* From Uiverse.io by satyamchaudharydev */ 
    .Calligraphy-text{
     background-color: black;
@@ -66,6 +30,7 @@
     padding-block: 0.7em;
     border: none;
     border-bottom: var(--border-height) solid var(--border-before-color);
+    text-align: center;
    }
    /* styling of animated border */
    .Calligraphy-input-border {
@@ -97,27 +62,12 @@
   .Calligraphy-show{
     height: auto;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    user-select: none;
     h2{
         font-weight: 300;
         text-align: center;
         padding: 10px;
-        font-size: 30px;
+        font-size: 50px;
+        font-family: font;
     }
   }
-
-  @media (max-width: 63.9375em){
-    .Calligraphy-list{
-        padding: 5px;
-        overflow-y: scroll;
-        max-height: 400px;
-        @include overlayBox(0%, 90%, 0);
-        &::-webkit-scrollbar{
-            display: none;
-        }
-        border: 1px solid black;
-    
-    }
-}

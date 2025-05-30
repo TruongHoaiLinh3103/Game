@@ -1,51 +1,32 @@
 import React, { useState } from 'react';
-import { FONT } from "../story/FONT";
 import "../styles/calligraphy.scss";
 
 const Calligraphy = () => {
-    const [calligraphy, setCalligraphy] = useState(false);
     const [text, setText] = useState("Dư Niệm An");
-    const [font, setFont] = useState();
-    const [title, setTitle] = useState(false);
 
     const changeInput = (e) => {
         setText(e.target.value);
-        setTitle(false)
-    }
-    const handFont = (fontText) => {
-        setFont(fontText);
-        setCalligraphy(!calligraphy);
-        setTitle(true);
-    }
-    const FontText = (e) => {
-        if(e.which === 13){
-            setCalligraphy(!calligraphy);
-        }
     }
     return (
         <div className='Calligraphy'>
-            <div className='Calligraphy-box' style={{display: !calligraphy ? "none" : "flex"}}>
-                <ul className='Calligraphy-list'>
-                    {FONT.map((item, index) => {
-                        return(
-                            <li className='Calligraphy-item' style={{fontFamily: item.font}} key={index} onClick={() => handFont(item.font)}><span>{item.id}.</span><span>Thư Pháp</span></li>
-                        )
-                    })}
-                </ul>
-            </div>
             <div className='Calligraphy-text'>
                 <div className="Calligraphy-form">
                     <input className="Calligraphy-input" placeholder="Type your text" required=""
                     onChange={(e) => changeInput(e)}
-                    onKeyDown={(e) => FontText(e)}
                     value={text}
                     type="text" />
                     <span className="Calligraphy-input-border"></span>
                 </div>
             </div>
-            {text !== "" && <div className='Calligraphy-show' style={{fontFamily: font, display: title ? "flex" : "none"}}>
-                <h2>{text}</h2>
-            </div>}
+            {text !== "" ? 
+                <div className='Calligraphy-show'>
+                    <h2>{text}</h2>
+                </div> :
+                <div className='Calligraphy-show'>
+                    <h2>A(a) Ă(ă) Â(â) B(b) C(c) D(d) Đ(đ) E(e) Ê(ê) F(f) G(g) H(h) I(i) J(j) K(k) L(l) M(m) N(n) O(o) Ô(ô) Ơ(ơ) P(p) Q(q) R(r) S(s) T(t) U(u) Ư(ư) V(v) W(w) X(x) Y(y) Z(z)</h2>
+                    <h2>Nặng, Sắt, Ngã</h2>
+                </div>
+            }
         </div>
     );
 };
