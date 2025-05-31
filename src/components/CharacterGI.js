@@ -56,13 +56,13 @@ const CharacterGI = () => {
                                     <h5>Kỹ năng thiên phú</h5>
                                     <div className='skill-Talents'>
                                         <div className='Talents-box'>
-                                            <div onClick={() => toast(item.skill1.text, {autoClose: 20000})} className= "-item_skile" style={{backgroundImage: `url(${item.skill1.img})`}}>
+                                            <div onClick={() => toast(item.skill1.text, {autoClose: 20000})} className= "-item_skile">
                                                 <h5>{item.skill1.name}</h5>
                                             </div>
-                                            <div onClick={() => toast(item.skill2.text, {autoClose: 20000})} className= "-item_skile" style={{backgroundImage: `url(${item.skill2.img})`}}>
+                                            <div onClick={() => toast(item.skill2.text, {autoClose: 20000})} className= "-item_skile">
                                                 <h5>{item.skill2.name}</h5>
                                             </div>
-                                            <div onClick={() => toast(item.skill3.text, {autoClose: 20000})} className= "-item_skile" style={{backgroundImage: `url(${item.skill3.img})`}}>
+                                            <div onClick={() => toast(item.skill3.text, {autoClose: 20000})} className= "-item_skile">
                                                 <h5>{item.skill3.name}</h5>
                                             </div>
                                         </div>
@@ -70,16 +70,16 @@ const CharacterGI = () => {
                                     <h5>Kỹ năng bị động</h5>
                                     <div className='skill-Passives'>
                                         <div className='Passives-box'>
-                                            <div onClick={() => toast(item.skill4.text, {autoClose: 20000})} className= "-item_skile" style={{backgroundImage: `url(${item.skill4.img})`}}>
+                                            <div onClick={() => toast(item.skill4.text, {autoClose: 20000})} className= "-item_skile">
                                                 <h5>{item.skill4.name}</h5>
                                             </div>
-                                            <div onClick={() => toast(item.skill5.text, {autoClose: 20000})} className= "-item_skile" style={{backgroundImage: `url(${item.skill5.img})`}}>
+                                            <div onClick={() => toast(item.skill5.text, {autoClose: 20000})} className= "-item_skile">
                                                 <h5>{item.skill5.name}</h5>
                                             </div>
-                                            <div onClick={() => toast(item.skill6.text, {autoClose: 20000})} className= "-item_skile" style={{backgroundImage: `url(${item.skill6.img})`}}>
+                                            {item.skill6 && <div onClick={() => toast(item.skill6.text, {autoClose: 20000})} className= "-item_skile">
                                                 <h5>{item.skill6.name}</h5>
-                                            </div>
-                                            {item.skill7 && <div onClick={() => toast(item.skill7.text, {autoClose: 20000})} className= "-item_skile" style={{backgroundImage: `url(${item.skill7.img})`}}>
+                                            </div>}
+                                            {item.skill7 && <div onClick={() => toast(item.skill7.text, {autoClose: 20000})} className= "-item_skile">
                                                 <h5>{item.skill7.name}</h5>
                                             </div>}
                                         </div>
@@ -87,22 +87,22 @@ const CharacterGI = () => {
                                     <h4>Cung mệnh</h4>
                                     <div className='skill-Constellations'>
                                         <div className='skill-Constellations-item'>
-                                            <div onClick={() => toast(item.cm1.text, {autoClose: 20000})} className= "-item_skile" style={{backgroundImage: `url(${item.cm1.img})`}}>
+                                            <div onClick={() => toast(item.cm1.text, {autoClose: 20000})} className= "-item_skile">
                                                 <h5>{item.cm1.name}</h5>
                                             </div>
-                                            <div onClick={() => toast(item.cm2.text, {autoClose: 20000})} className= "-item_skile" style={{backgroundImage: `url(${item.cm2.img})`}}>
+                                            <div onClick={() => toast(item.cm2.text, {autoClose: 20000})} className= "-item_skile">
                                                 <h5>{item.cm2.name}</h5>
                                             </div>
-                                            <div onClick={() => toast(item.cm3.text, {autoClose: 20000})} className= "-item_skile" style={{backgroundImage: `url(${item.cm3.img})`}}>
+                                            <div onClick={() => toast(item.cm3.text, {autoClose: 20000})} className= "-item_skile">
                                                 <h5>{item.cm3.name}</h5>
                                             </div>
-                                            <div onClick={() => toast(item.cm4.text, {autoClose: 20000})} className= "-item_skile" style={{backgroundImage: `url(${item.cm4.img})`}}>
+                                            <div onClick={() => toast(item.cm4.text, {autoClose: 20000})} className= "-item_skile">
                                                 <h5>{item.cm4.name}</h5>
                                             </div>
-                                            <div onClick={() => toast(item.cm5.text, {autoClose: 20000})} className= "-item_skile" style={{backgroundImage: `url(${item.cm5.img})`}}>
+                                            <div onClick={() => toast(item.cm5.text, {autoClose: 20000})} className= "-item_skile">
                                                 <h5>{item.cm5.name}</h5>
                                             </div>
-                                            <div onClick={() => toast(item.cm6.text, {autoClose: 20000})} className= "-item_skile" style={{backgroundImage: `url(${item.cm6.img})`}}>
+                                            <div onClick={() => toast(item.cm6.text, {autoClose: 20000})} className= "-item_skile">
                                                 <h5>{item.cm6.name}</h5>
                                             </div>
                                         </div>
