@@ -16,7 +16,7 @@ const Body = () => {
                             <line y2="960" x2="200" y1="0" x1="200" className="right"></line>
                         </svg>
                         <div className="logo">
-                            <img src='https://i.pinimg.com/736x/4d/15/32/4d15328726cc4d10ced8453c0922b7d3.jpg' alt='Body'/>
+                            <img src='https://i.pinimg.com/736x/63/3b/d0/633bd029ac31dba8c6dcfade27aa4138.jpg' alt='Body'/>
                         </div>  
                     </div>
                     <div className="card" onClick={() => router("/sport/cordage")}>
@@ -27,7 +27,7 @@ const Body = () => {
                             <line y2="960" x2="200" y1="0" x1="200" className="right"></line>
                         </svg>
                         <div className="logo">
-                            <img src='https://i.pinimg.com/736x/09/bd/ea/09bdea6e65f18e1a12fb1b8c8133c97a.jpg' alt='Cordage'/>
+                            <img src='https://i.pinimg.com/736x/e3/a0/cf/e3a0cfa59482e555353d370a09f6fdb9.jpg' alt='Cordage'/>
                         </div>  
                     </div>
                 </div>
