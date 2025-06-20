@@ -176,8 +176,8 @@ export const BODY = [
     },
     {
         id: 35,
-        name: "Hít Xà",
-        quantity: "20 C"
+        name: "Đứng Tấn",
+        duration: "100 S"
     },
     {
         id: 36,
@@ -187,7 +187,7 @@ export const BODY = [
     {
         id: 37,
         name: "Hít đất chân",
-        quantity: "10 C"
+        quantity: "50 C"
     },
     {
         id: 38,
