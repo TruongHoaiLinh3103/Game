@@ -162,7 +162,7 @@ export const BODY = [
     {
         id: 32,
         name: "Gập Bụng",
-        quantity: "50 C"
+        quantity: "20 C"
     },
     {
         id: 33,
@@ -182,12 +182,12 @@ export const BODY = [
     {
         id: 36,
         name: "Hít Đất",
-        quantity: "100 C"
+        quantity: "60 C"
     },
     {
         id: 37,
         name: "Hít đất chân",
-        quantity: "50 C"
+        quantity: "40 C"
     },
     {
         id: 38,
