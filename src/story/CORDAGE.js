@@ -1,32 +1,32 @@
 export const CORDAGE = [
     {
         id: 0,
-        name: "Nút Thắt Tay Cầm",
+        name: "Nút Thắt Cầm",
         quantity: "1 Cái"
     },
     {
         id: 1,
-        name: "Nút Thắt Xích Đu",
+        name: "Nút Thắt Nan",
         quantity: "1 Cái"
     },
     {
         id: 2,
-        name: "Nút Thắt Lều",
+        name: "Nút Thắt Co Dãn",
         quantity: "1 Cái"
     },
     {
         id: 3,
-        name: "Nút Thắt Tấm Bạc",
+        name: "Nút Thắt Tấm Che",
         quantity: "1 Cái"
     },
     {
         id: 4,
-        name: "Nút Thắt Khăn Choàng",
+        name: "Nút Thắt Khăn",
         quantity: "1 Cái"
     },
     {
         id: 5,
-        name: "Nút Thắt Miệng Chai",
+        name: "Nút Thắt Miệng",
         quantity: "1 Cái"
     },
     {
@@ -61,7 +61,7 @@ export const CORDAGE = [
     },
     {
         id: 12,
-        name: "Nút Thắt Võng",
+        name: "Nút Thắt Thông Dụng",
         quantity: "1 Cái"
     },
     {
@@ -71,7 +71,7 @@ export const CORDAGE = [
     },
     {
         id: 14,
-        name: "Nút Thắt Màn Che",
+        name: "Nút Thắt Lưới",
         quantity: "1 Cái"
     },
     {
@@ -97,68 +97,60 @@ export const CORDAGE = [
     },
     {
         id: 19,
-        name: "Nút Thắt Chum Lọ",
-        quantity: "1 Cái"
-    },
-    {
-        id: 20,
-        name: "Nút Thắt Nâng Vật",
-        quantity: "1 Cái"
-    },
-    {
-        id: 21,
-        name: "Nút Thắt Thông Dụng",
-        quantity: "1 Cái"
-    },
-    {
-        id: 22,
-        name: "Nút Thắt Cụm",
-        quantity: "1 Cái"
-    },
-    {
-        id: 23,
-        name: "Nút Thắt Tạo Giỏ",
-        quantity: "1 Cái"
-    },
-    {
-        id: 24,
-        name: "Nút Thắt Túi",
-        quantity: "1 Cái"
-    },
-    {
-        id: 25,
         name: "Nút Trơn",
         quantity: "1 Cái"
     },
     {
-        id: 26,
-        name: "Nút Thắt Chết",
-        quantity: "1 Cái"
-    },
-    {
-        id: 27,
+        id: 20,
         name: "Nút Thắt Chốt Cầu",
         quantity: "1 Cái"
     },
     {
-        id: 28,
+        id: 21,
         name: "Nút Trói",
         quantity: "1 Cái"
     },
     {
-        id: 29,
-        name: "Nút Thắt Lưới",
-        quantity: "1 Cái"
-    },
-    {
-        id: 30,
+        id: 22,
         name: "Nút Xu Bao Bì",
         quantity: "1 Cái"
     },
     {
+        id: 23,
+        name: "Nút Buộc Tóc",
+        quantity: "1 cái"
+    },
+    {
+        id: 24,
+        
+    },
+    {
+        id: 25,
+        
+    },
+    {
+        id: 26,
+        
+    },
+    {
+        id: 27,
+        
+    },
+    {
+        id: 28,
+        
+    },
+    {
+        id: 29,
+        
+    },
+    {
+        id: 30,
+        
+    },
+    {
         id: 31,
-        name: "Nút Xu Buộc Tóc",
-        quantity: "1 Cái"
+        
     },
     {
         id: 32,
