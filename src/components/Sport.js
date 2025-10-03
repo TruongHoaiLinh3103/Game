@@ -29,7 +29,7 @@ const Sport = () => {
                 <nav className='Sport-body'>
                     {CORDAGE.map((item) => {
                         return(
-                            <ul style={{backgroundColor: (item.id === 0 || item.id === 30 || item.id === 32) && "#f89393"}} key={item.id} className={Cordage === item.id ? "Sport-select" : ""} onClick={() => editCordage(item)}>
+                            <ul style={{backgroundColor: (item.id === 0 || item.id === 24 || item.id === 32) && "#f89393"}} key={item.id} className={Cordage === item.id ? "Sport-select" : ""} onClick={() => editCordage(item)}>
                                 <li>{item.id + 1}. {item.name}</li>
                                 {item.quantity ? <span>{item.quantity}</span> : <span>{item.duration}</span>}
                             </ul>
