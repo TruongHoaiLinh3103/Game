@@ -191,18 +191,18 @@ export const BODY = [
     },
     {
         id: 38,
-        name: "Đâm Trên(Thuận Nghịch)",
-        quantity: "1 C"
+        name: "Xây cầu lên xuống",
+        quantity: "20 C"
     },
     {
         id: 39,
-        name: "Đâm Dưới(Thuận Nghịch)",
-        quantity: "1 C"
+        name: "Duỗi chân trên cao",
+        quantity: "20 C"
     },
     {
         id: 40,
-        name: "Đâm Giữa(Thuận Nghịch)",
-        quantity: "1 C"
+        name: "Nhị tam lộ",
+        quantity: "20 C"
     },
     {
         id: 41,
@@ -216,7 +216,7 @@ export const BODY = [
     },
     {
         id: 43,
-        name: "Nhát Vệt(Thuận Nghịch)",
+        name: "Đâm Trên Giữa Dưới(Thuận Nghịch)",
         quantity: "1 C"
     },
     {
