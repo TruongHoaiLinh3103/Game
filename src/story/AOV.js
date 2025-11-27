@@ -198,18 +198,18 @@ import StuSk1 from "../assets/Skill/Thể năng cường hóa.png";
 import StuSk2 from "../assets/Skill/Phi đạn tử vong.png";
 import StuSk3 from "../assets/Skill/Huyết ảnh ma nhãn.png";
 import StuSk4 from "../assets/Skill/Hủy diệt bộc phá.png";
-import IshSk1 from "../assets/Skill/Tí Nị.png";
-import IshSk2 from "../assets/Skill/Đá Ma Thuật.png";
-import IshSk3 from "../assets/Skill/Khiên Ma Thuật.png";
-import IshSk4 from "../assets/Skill/Sa Bàn Ma Thuật.png";
+import Bijan1 from "../assets/Skill/Sa mạc thần lực.png";
+import Bijan2 from "../assets/Skill/sa mạc mãnh kích.png";
+import Bijan3 from "../assets/Skill/sa mạc thần âm.png";
+import Bijan4 from "../assets/Skill/sa mạc thần thú.png";
 import DieSk1 from "../assets/Skill/Nữ hoàng băng tuyết.png";
 import DieSk2 from "../assets/Skill/Sương giá.png";
 import DieSk3 from "../assets/Skill/Tuyết liên.png";
 import DieSk4 from "../assets/Skill/Bão tuyết.png";
-import SkuSk1 from "../assets/Skill/Sôi máu.png";
-import SkuSk2 from "../assets/Skill/Găng nổi loạn.png";
-import SkuSk3 from "../assets/Skill/Găng cuồng bạo.png";
-import SkuSk4 from "../assets/Skill/Găng hung thần.png";
+import Arum1 from "../assets/Skill/Linh thú.png";
+import Arum2 from "../assets/Skill/Thú kích.png";
+import Arum3 from "../assets/Skill/thú sổng.png";
+import Arum4 from "../assets/Skill/thú khốn.png";
 import QiSk1 from "../assets/Skill/Chân khí hộ thể.png";
 import QiSk2 from "../assets/Skill/Truy tinh chưởng.png";
 import QiSk3 from "../assets/Skill/Chấn thiên chưởng.png";
@@ -1468,27 +1468,27 @@ export const AOV = [
     },
     {
         id: 51,
-        name: "Ishar",
+        name: "Bijan",
         poster: "https://i.pinimg.com/736x/c1/97/bf/c197bf73c193de969ff97a7a73566adb.jpg",
         skill1: {
-            name: "Tí nị",
-            img: `${IshSk1}`,
-            delta: "Nội tại: Ishar tự động triệu hồi Tý Nị trợ chiến. Tý Nị có lực công kích, máu, giáp và giáp phép tính theo sát thương phép của chủ nhân và tự động bám sát Ishar."
+            name: "Sa mạc thần lực",
+            img: `${Bijan1}`,
+            delta: "Sau mỗi đoạn thời gian, Bijan cường hóa đòn đánh thường kế gây sát thương vật lý và hồi máu cho bản thân. Khi nhận sát thương vật lý hoặc sát thương chuẩn hoặc tung chiêu trúng mục tiêu, Bijan sẽ được tăng thêm giáp."
         },
         skill2: {
-            name: "Đá ma thuật",
-            img: `${IshSk2}`,
-            delta: "Ishar bắn ra 1 viên đá ma pháp gây ra sát thương phép lên địch trên đường bắn. Nếu bắn trúng 2 tướng địch chiêu này sẽ được cường hóa. Viên đá bắn trúng nạn nhân đầu tiên sẽ dựng lên nấm hương sau lưng mục tiêu và phát nổ gây sát thương phép. Tí Nị: Chạy nhanh đến tấn công mục tiêu đầu tiên bị trúng đá ma pháp; nếu kẻ trúng đòn là tướng địch lẻ sẽ bị Tí Nị sẽ nhảy vồ đến đánh khiến tướng địch phải chịu sát thương phép."
+            name: "Sa mạc mãnh kích",
+            img: `${Bijan2}`,
+            delta: "Lướt về phía trước vung chùy bổ xuống mục tiêu, gây sát thương và tạo pháp trận hất tung mục tiêu."
         },
         skill3: {
-            name: "Khiên ma thuật",
-            img: `${IshSk3}`,
-            delta: "Ishar nhận được 1 tấm lá chắn chặn sát thương trong và tăng tốc chạy. Tí Nị: Lập tức quay về bên cạnh chủ nhân và hất tung địch xung quanh Ishar và làm chậm."
+            name: "Sa mạc thần âm",
+            img: `${Bijan3}`,
+            delta: "Lướt về phía trước gây sát thương và làm chậm mục tiêu, đồng thời được tung chiêu quét ngang 3 lần."
         },
         skill4: {
-            name: "Sa bàn ma thuật",
-            img: `${IshSk4}`,
-            delta: "Ishar triệu hồi 1 lồng ma thuật khiến hình thành 1 kết giới giam giữ kẻ địch. Tí Nị: Lập tức nhảy vào mục tiêu trong lồng ma thuật, khi đáp đất gây sát thương phép."
+            name: "Sa mạc thần thú",
+            img: `${Bijan4}`,
+            delta: "Gọi ra thần địa sa thú để điều khiển theo hướng chỉ định, nhận miễn khống. Khi trúng địa hình, tướng địch hoặc tài kích hoạt chiêu này, Bijan sẽ dừng lại, gây sát thương vật lý, hất tung địch đồng thời giảm giáp của chúng. Bijan có thể chở 1 đồng đội khi dùng chiêu này."
         }
     },
     {
@@ -1518,27 +1518,27 @@ export const AOV = [
     },
     {
         id: 53,
-        name: "Skud",
+        name: "Arum",
         poster: "https://i.pinimg.com/originals/d9/cb/76/d9cb769eff8a4b1fff2ac917325a05d2.jpg",
         skill1: {
-            name: "Sôi máu",
-            img: `${SkuSk1}`,
-            delta: "Nội tại: Skud được tăng máu tối đa. Khi tấn công mục tiêu có ít máu tối đa hơn mình, mỗi đòn đánh của Skud sẽ gây thêm sát thương phép (sát thương gây thêm sẽ không chí mạng)."
+            name: "Linh thú",
+            img: `${Arum1}`,
+            delta: "Nội tại: Arum triệu hồi linh thú vờn quanh bản thân, gây sát thương phép lên những kẻ địch lân cận, đồng thời giúp Arum hồi máu. Nếu nạn nhân trúng đòn không phải tướng địch, Arum sẽ chỉ được hồi ít máu hơn."
         },
         skill2: {
-            name: "Găng nổi loạn",
-            img: `${SkuSk2}`,
-            delta: "Skud nhảy xổ đến phía trước tung một cú đấm, gây sát thương vật lý. Chiêu trúng kẻ địch giúp Skud nhận tốc đánh và đòn đánh cường hóa của chiêu 2 sẽ gây thêm sát thương phép."
+            name: "Thú kích",
+            img: `${Arum2}`,
+            delta: "Arum phóng năng lượng lan tỏa ra xung quanh gây sát thương phép lên những kẻ địch lân cận, đồng thời triệu hồi 1 linh thú vờn quanh bản thân. Tung chiêu trúng kẻ địch giúp giảm thời gian hồi 50%. Số lượng linh thú quyết định hiệu lực của Thú sổng; tối đa tồn tại 3 linh thú."
         },
         skill3: {
-            name: "Găng cuồng bạo",
-            img: `${SkuSk3}`,
-            delta: "Skud dồn sức mạnh vào găng tay khiến bản thân được tăng dần tốc chạy đến 40% sau 3 giây rồi giảm dần. Đòn đánh thường kế tiếp sẽ được cường hóa, trong thời gian hiệu lực sẽ gây thêm sát thương phép và làm chậm tốc chạy mục tiêu. Đòn cường hóa nếu trúng địch sẽ giúp chiêu này được giảm thời gian hồi chiêu."
+            name: "Thú sổng",
+            img: `${Arum3}`,
+            delta: "Arum lệnh cho linh thú tấn công vùng chỉ định gây sát thương phép, đồng thời giúp bản thân tăng tốc chạy trong thoáng chốc. Sau khi tấn công linh thú sẽ biến mất khỏi Arum. Số lượng linh thú quyết định số lần và hiệu quả công kích: linh thú đầu tiên làm chậm tốc chạy trong 1 giây, linh thú thứ hai làm chậm mạnh tốc chạy trong 1 giây, linh thú thứ ba gây choáng 1 giây."
         },
         skill4: {
-            name: "Găng hung thần",
-            img: `${SkuSk4}`,
-            delta: "Nội tại: Hạ lính và quái rừng sẽ giúp bản thân hồi máu dựa theo máu đã mất. Skud tụ lực trong thoáng chốc rồi huơ găng hất tung tất cả kẻ địch lân cận, gây sát thương vật lý và đẩy lùi kẻ trúng phải."
+            name: "Thú khốn",
+            img: `${Arum4}`,
+            delta: "Arum lướt đến trói buộc mục tiêu trong thời gian ngắn, đồng thời lập tức triệu hồi 3 linh thú vờn quanh bản thân. Suốt thời gian này cả Arum lẫn nạn nhân đều bất động hoàn toàn dưới tác động của mối liên kết không thể bị phá vỡ, đặc biệt mọi sát thương bất kỳ ai trong cả hai gánh chịu đều sẽ được truyền đến người còn lại."
         }
     },
     {
