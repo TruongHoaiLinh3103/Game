@@ -1469,7 +1469,7 @@ export const AOV = [
     {
         id: 51,
         name: "Bijan",
-        poster: "https://i.pinimg.com/736x/c1/97/bf/c197bf73c193de969ff97a7a73566adb.jpg",
+        poster: "https://i.pinimg.com/736x/c0/e8/8e/c0e88e635cd550819dc30b9cfb8d2d2e.jpg",
         skill1: {
             name: "Sa mạc thần lực",
             img: `${Bijan1}`,
@@ -1519,7 +1519,7 @@ export const AOV = [
     {
         id: 53,
         name: "Arum",
-        poster: "https://i.pinimg.com/originals/d9/cb/76/d9cb769eff8a4b1fff2ac917325a05d2.jpg",
+        poster: "https://i.pinimg.com/736x/35/05/ba/3505ba2be3e60f92dd81e0e8394a65ce.jpg",
         skill1: {
             name: "Linh thú",
             img: `${Arum1}`,
