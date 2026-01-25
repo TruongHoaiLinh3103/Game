@@ -36,7 +36,7 @@ export const CORDAGE = [
     },
     {
         id: 7,
-        name: "Nút Kéo(Có Lỗ Và Không Có Lỗ)",
+        name: "Nút Thắt Kéo(Có Lỗ Và Không Có Lỗ)",
         quantity: "1 Cái"
     },
     {
@@ -97,7 +97,7 @@ export const CORDAGE = [
     },
     {
         id: 19,
-        name: "Nút Trơn",
+        name: "Nút Thắt Trơn",
         quantity: "1 Cái"
     },
     {
@@ -107,50 +107,58 @@ export const CORDAGE = [
     },
     {
         id: 21,
-        name: "Nút Trói",
+        name: "Nút Thắt Trói",
         quantity: "1 Cái"
     },
     {
         id: 22,
-        name: "Nút Xu Bao Bì",
+        name: "Nút Thắt Bó Rau",
         quantity: "1 Cái"
     },
     {
         id: 23,
-        name: "Nút Buộc Tóc",
-        quantity: "1 cái"
+        name: "Nút Thắt Tự Tháo",
+        quantity: "1 Cái"
     },
     {
         id: 24,
-        
+        name: "Nút Thắt Móc Câu",
+        quantity: "1 Cái"
     },
     {
         id: 25,
-        
+        name: "Nút Thắt Đôi Đơn",
+        quantity: "1 Cái"
     },
     {
         id: 26,
-        
+        name: "Nút Thắt Lấy Đồ",
+        quantity: "1 Cái"
     },
     {
         id: 27,
-        
+        name: "Nút Xu Bao Bì",
+        quantity: "1 Cái"
     },
     {
         id: 28,
-        
+        name: "Nút Xu Cơ Bản",
+        quantity: "1 cái"
     },
     {
         id: 29,
-        
+        name: "Nút Xu Tiếp Dây",
+        quantity: "1 cái"
     },
     {
         id: 30,
-        
+        name: "Nút Khâu Thu Gọn",
+        quantity: "1 Cái"
     },
     {
         id: 31,
-        
+        name: "Nút Khâu Lót Trong",
+        quantity: "1 Cái"
     },
     {
         id: 32,
