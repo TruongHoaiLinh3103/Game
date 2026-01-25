@@ -201,7 +201,7 @@ export const BODY = [
     },
     {
         id: 40,
-        name: "Nhị tam lộ",
+        name: "Parkour",
         quantity: "20 C"
     },
     {
