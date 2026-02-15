@@ -35,6 +35,7 @@ import Say from "../assets/AvataGI/Say.webp";
 import Che from "../assets/AvataGI/Che.webp";
 import Xil from "../assets/AvataGI/Xil.webp";
 import Cit from "../assets/AvataGI/Cit.webp";
+import Colu from "../assets/AvataGI/Colu.webp";
 
 export const GI = [
     {
@@ -2008,6 +2009,66 @@ export const GI = [
         cm6: {
             name: "Khế Ước Của Teoiztac",
             text: "Itzpapa triệu hồi từ Kỹ Năng Nguyên Tố Sương Trú Hắc Tinh sẽ luôn trong trạng thái Lửa Opal, khi dùng hết điểm Dạ Hồn cũng sẽ không kết thúc trạng thái Lửa Opal của Itzpapa. Ngoài ra, khi thi triển Kỹ Năng Nguyên Tố Sương Trú Hắc Tinh, Itzpapa sẽ tiêu hao toàn bộ điểm Dạ Hồn, đồng thời liên tục tiêu hao điểm Dạ Hồn trong thời gian tồn tại. Mỗi tiêu hao 1 điểm Dạ Hồn thông qua cách thức trên, Citlali sẽ nhận được 1 điểm 'Bí Luật'. Giới hạn điểm 'Bí Luật' là 40 điểm. Căn cứ vào mỗi điểm Bí Luật mà Citlali sở hữu để cung cấp cho tất cả nhân vật trong đội gần đó 1.5% Buff Sát Thương Nguyên Tố Hỏa và Thủy, đồng thời tăng 2.5% sát thương mà Citlali gây ra."
+        }
+    },
+    {
+        id: 36,
+        name: "Columbina",
+        img: "https://raw.githubusercontent.com/TruongHoaiLinh3103/MyBuild/refs/heads/master/PhotoGI/Columbina.png",
+        avatar: `${Colu}`,
+        back: `${fi}`,
+        story: "Nàng Tiên Mặt Trăng sinh ra ở Nod-Krai, và cũng là mặt trăng bầu trời trở về nhà.",
+        skill1: {
+            name: "Thác Moondew",
+            text: "Đòn tấn công thường: Triệu hồi Thủy Triều Ánh Trăng, thực hiện tối đa 3 đòn tấn công gây sát thương hệ Thủy. Đòn tấn công tích điện: Tiêu hao một lượng Thể lực nhất định để gây sát thương diện rộng hệ Thủy sau một thời gian ngắn thi triển. Nếu bạn có ít nhất 1 Giọt Sương Xanh , các đòn tấn công tích điện của Columbina sẽ được thay thế bằng đòn tấn công tích điện đặc biệt Tẩy Băng Sương Trăng , đòn này sẽ không tiêu hao Thể lực: Tiêu hao 1 Giọt Sương Xanh để gây 3 lần sát thương diện rộng hệ Mộc lên đối thủ phía trước. Sát thương này được coi là sát thương hệ Mặt Trăng. Đòn tấn công bổ nhào lao xuống đất từ ​​giữa không trung, gây sát thương cho tất cả đối thủ trên đường đi. Gây sát thương diện rộng hệ Thủy khi chạm đất."
+        },
+        skill2: {
+            name: "Thủy Triều Vĩnh Cửu",
+            text: "Kích hoạt Thủy Triều Mặt Trăng, gây sát thương diện rộng hệ Thủy và triệu hồi Sóng Trọng Lực. Sóng Trọng Lực sẽ bám theo nhân vật đang hoạt động trên chiến trường, đồng thời liên tục gây sát thương diện rộng hệ Thủy cho các đối thủ xung quanh. Khi Sóng Trọng Lực đang hiện diện trên chiến trường, và các thành viên trong nhóm gần đó kích hoạt Phản ứng Mặt Trăng hoặc gây sát thương Phản ứng Mặt Trăng, Columbina sẽ tích lũy một điểm Trọng Lực đặc biệt . Khi Trọng Lực tích lũy đến giới hạn, các loại sát thương khác nhau sẽ được gây ra cho kẻ địch dựa trên loại Phản ứng Mặt Trăng đã tích lũy được nhiều Trọng Lực nhất cho Columbina. Cung Mặt Trăng: Ánh Sáng Thăng Thiên : Sóng Trọng Lực gây sát thương diện rộng hệ Thủy trên một khu vực rộng hơn."
+        },
+        skill3: {
+            name: "Nỗi Buồn Dưới Ánh Trăng",
+            text: "Đồi núi và thủy triều hòa làm một dưới ánh sáng bạc của vầng trăng non tinh khiết. Tạm thời biến đổi địa hình xung quanh thành Vùng đất Mặt trăng , gây sát thương hệ Thủy diện rộng."
+        },
+        skill4: {
+            name: "Sự Cám Dỗ Của Sự Điên Rồ",
+            text: "Khi kích hoạt Gravity Interference , Columbina nhận được hiệu ứng Lunacy, tăng tỷ lệ chí mạng của cô ấy lên 5% trong 10 giây. Hiệu ứng này có thể cộng dồn tối đa 3 lần."
+        },
+        skill5: {
+            name: "Luật Trăng Non",
+            text: "Khi các nhân vật trong Vùng Mặt Trăng kích hoạt phản ứng Mặt Trăng, họ sẽ nhận được các hiệu ứng sau:· Tích Điện Mặt Trăng : Khi Đám Mây Sấm sét thực hiện (các) đòn tấn công sét vào mục tiêu hợp lệ, nó có 33% cơ hội thực hiện thêm một đòn tấn công sét nữa.· Nở Hoa Mặt Trăng : Khi kích hoạt phản ứng Nở Hoa Mặt Trăng, toàn đội sẽ nhận được một Giọt Sương Mặt Trăng đặc biệt . Có thể nhận được tối đa 3 Giọt Sương Mặt Trăng mỗi 18 giây.· Kết Tinh Mặt Trăng : Khi Hòa Hợp Dòng Chảy Mặt Trăng được kích hoạt, mỗi Dòng Chảy Mặt Trăng có 33% cơ hội gây thêm một đòn tấn công."
+        },
+        skill6: {
+            name: "Lời Chúc Phúc Theo Cung Mặt Trăng: Ánh Trăng, Mùa Chay Dành Cho Bạn",
+            text: "Khi một thành viên trong nhóm kích hoạt phản ứng Điện Tích, Nở Rộ hoặc Kết Tinh Thủy, phản ứng đó sẽ được chuyển đổi thành phản ứng Mặt Trăng Tích Điện, Nở Rộ Mặt Trăng hoặc Kết Tinh Mặt Trăng tương ứng. Sát thương phản ứng Mặt Trăng do các thành viên trong nhóm gây ra sẽ được tăng sát thương cơ bản dựa trên HP tối đa của Columbina. Cứ mỗi 1.000 điểm HP tối đa, sát thương cơ bản của phản ứng Mặt Trăng sẽ tăng thêm 0,2%, tối đa là 7%. Ngoài ra, khi Columbina có mặt trong nhóm, Cung Mặt Trăng của nhóm sẽ tăng thêm 1 cấp."
+        },
+        skill7: {
+            name: "Canh Thức Mặt Trăng",
+            text: "Nếu một thành viên trong nhóm của bạn bị bất tỉnh khi đang ở vùng Nod-Krai, Columbina sẽ hồi sinh nhân vật đó. Lượng HP mà nhân vật có được sau khi hồi sinh phụ thuộc vào Cấp độ Tình bạn của Columbina. Hiệu ứng này chỉ có thể xảy ra một lần mỗi 100 giây. Hiệu ứng này không kích hoạt trong các Vùng lãnh địa, Vùng lãnh địa Trounce hoặc Vực xoáy. Ngoài ra, Columbina dường như có mối quan hệ đặc biệt với một số loài động vật bị ảnh hưởng bởi kuuvahki..."
+        },
+        cm1: {
+            name: "Ánh Sáng Rực Rỡ Trên Hoa Và Đỉnh Núi",
+            text: "Việc tung ra Kỹ năng Nguyên tố Thủy Triều Vĩnh Hằng sẽ ngay lập tức kích hoạt hiệu ứng tương đương với hiệu ứng Can thiệp Trọng lực . Hiệu ứng này có thể được kích hoạt một lần mỗi 15 giây. Cung Mặt Trăng: Ánh Sáng Thăng Thiên: Khi Can thiệp Trọng lực được kích hoạt, nếu loại phản ứng Mặt Trăng tích lũy nhiều Trọng lực nhất cho Columbina là:· Tích Điện Mặt Trăng : Nhân vật đang hoạt động hiện tại của bạn sẽ hồi phục 6 Năng lượng.· Nở Rộ Mặt Trăng : Khả năng kháng gián đoạn của nhân vật đang hoạt động sẽ được tăng lên trong 8 giây.· Kết Tinh Mặt Trăng : Triệu hồi Lá Chắn Biển Mưa . Khả năng hấp thụ sát thương của Lá Chắn Biển Mưa dựa trên 12% HP Tối đa của Columbina, và nó sẽ hấp thụ sát thương hệ Thủy với hiệu quả 250% trong 8 giây. Sát thương phản ứng Mặt Trăng của tất cả thành viên trong nhóm gần đó được tăng lên 1,5%."
+        },
+        cm2: {
+            name: "Không Phải Trong Sự Huy Hoàng Đơn Độc",
+            text: "Tốc độ tích lũy Trọng lực tăng 34%. Khi Kích hoạt Can thiệp Trọng lực , Columbina sẽ nhận được hiệu ứng Ánh sáng Mặt trăng , giúp tăng HP tối đa của cô ấy lên 40% trong 8 giây. Cung Mặt trăng: Ánh sáng Thăng hoa: Khi Ánh sáng Mặt trăng đang hoạt động, nếu trong quá trình kích hoạt Can thiệp Trọng lực hiện tại , loại phản ứng Mặt trăng tích lũy nhiều Trọng lực nhất cho Columbina là:· Tích điện Mặt trăng : Sức tấn công của nhân vật đang hoạt động hiện tại tăng lên. Mức tăng Sức tấn công bằng 1% HP tối đa của Columbina.· Nở rộ Mặt trăng : Tinh thông Nguyên tố của nhân vật đang hoạt động hiện tại tăng lên. Mức tăng Tinh thông Nguyên tố bằng 0,35% HP tối đa của Columbina.· Kết tinh Mặt trăng : Phòng thủ của nhân vật đang hoạt động hiện tại tăng lên. Mức tăng Phòng thủ bằng 1% HP tối đa của Columbina. Sát thương Phản ứng Mặt trăng của tất cả thành viên trong nhóm gần đó được tăng lên 7%."
+        },
+        cm3: {
+            name: "Ánh Sáng Lung Linh Huyền Ảo Trải Dài Trên Mặt Nước Tĩnh Lặng",
+            text: "Tăng cấp độ kỹ năng nguyên tốThủy Triều Vĩnh Hằng được nâng cấp lên 3. Cấp độ nâng cấp tối đa là 15. Sát thương Phản ứng Mặt Trăng của tất cả thành viên trong nhóm ở gần đó được tăng thêm 1,5%."
+        },
+        cm4: {
+            name: "Những Dãy Núi Phủ Hoa Trong Màn Sương Hoa",
+            text: "Khi Kích Hoạt Trọng Lực được kích hoạt, 4 Năng Lượng Nguyên Tố sẽ được phục hồi cho Columbina; Ngoài ra, nếu loại phản ứng Mặt Trăng tích lũy nhiều Trọng Lực nhất cho Columbina là Lunar-Charged, Lunar-Bloom hoặc Lunar-Crystallize, sát thương phản ứng Mặt Trăng gây ra bởi Kích Hoạt Trọng Lực lần này sẽ tăng lên tương ứng 12,5%/2,5%/12,5% HP tối đa của Columbina. Hiệu ứng này chỉ có thể được kích hoạt tối đa một lần mỗi 15 giây. Sát thương phản ứng Mặt Trăng của tất cả thành viên trong nhóm gần đó được tăng lên 1,5%."
+        },
+        cm5: {
+            name: "Sự Im Lặng Bao Trùm Một Khúc Nhạc Đơn Độc",
+            text: "Tăng cấp độ của Elemental BurstMoonlit Melancholy (Nỗi buồn dưới ánh trăng) được nâng cấp lên cấp 3. Cấp độ nâng cấp tối đa là 15. Sát thương phản ứng ánh trăng của tất cả thành viên trong nhóm ở gần đó được tăng thêm 1,5%."
+        },
+        cm6: {
+            name: "Xuyên Qua Bóng Đêm Dưới Ánh Trăng",
+            text: "Trong 8 giây sau khi các nhân vật trong Vùng Mặt Trăng kích hoạt phản ứng Mặt Trăng, dựa trên các nguyên tố tham gia vào phản ứng, sát thương chí mạng (CRIT DMG) của sát thương nguyên tố tương ứng do tất cả thành viên trong nhóm gây ra sẽ tăng 80%. Hiệu ứng tăng sát thương chí mạng cho cùng một loại nguyên tố không cộng dồn. Sát thương phản ứng Mặt Trăng của tất cả thành viên trong nhóm ở gần đó được tăng 7%."
         }
     }
 ]
