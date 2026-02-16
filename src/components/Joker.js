@@ -72,7 +72,7 @@ const Joker = () => {
                                                 <h5>Kỹ Năng</h5>
                                                 <span className='j-box_titleLine'></span>
                                             </div>
-                                            <p className='j-box_name'>{item.id}. {item.name}</p>
+                                            <p className='j-box_name' onClick={() => setHidden(true)}>{item.id}. {item.name}</p>
                                         </>
                                     :
                                         <>
@@ -81,7 +81,9 @@ const Joker = () => {
                                                 <h5>Công Thức</h5>
                                                 <span className='j-box_titleLine'></span>
                                             </div>
-                                            <p className='j-box_name' style={{color: "Highlight"}} onClick={() => toast.success(item.concept, {autoClose: 2000})}>{item.id}. {item.name}</p>
+                                            <p className='j-box_name' onClick={() => {
+                                                toast.success(item.concept, {autoClose: 2000});
+                                                setHidden(true)}} style={{color: "Highlight"}}>{item.id}. {item.name}</p>
                                         </>
                                     }
                             </div>
