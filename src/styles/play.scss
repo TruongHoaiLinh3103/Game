@@ -3,7 +3,8 @@
     width: 100%;
     background: white;
     display: flex;
-    gap: 10px;
+    gap: 50px;
+    flex-direction: column;
     // grid-template-columns: 42% 58%;
     // background-image: radial-gradient(4px 100px at 0px 235px, #0f0, #0000),
     //   radial-gradient(4px 100px at 300px 235px, #0f0, #0000),
@@ -160,9 +161,3 @@
 //         426.5px 6480px;
 //     }
 // }
-@media (max-width: 63.9375em){
-  .play{
-    gap: 50px;
-    flex-direction: column;
-  }
-}

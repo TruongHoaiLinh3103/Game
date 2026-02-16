@@ -1,21 +1,10 @@
 import React, { useState } from 'react';
 import "../styles/joker.scss";
 import { JOKERS } from '../story/JOKER';
-import { LazyLoadComponent } from 'react-lazy-load-image-component';
+import { toast } from 'react-toastify';
 
-const Joker = (props) => {
-    const [max, setMax] = useState(12);
-    const [btn, setBtn] = useState(true)
-    const SeeMore = () => {
-        setMax(JOKERS.length);
-        setBtn(false);
-        props.More(false)
-    }
-    const Compact = () => {
-        setMax(12);
-        setBtn(true);
-        props.More(true)
-    }
+const Joker = () => {
+    const [hidden, setHidden] = useState(true);
     return (
         <div className='joker'>
             <div className="j-card">
@@ -41,7 +30,7 @@ const Joker = (props) => {
                             Terminal
                             </p>
 
-                            <button className="j-copy_toggle" tabIndex="-1" type="button">
+                            <button className="j-copy_toggle" tabIndex="-1" type="button" onClick={() => setHidden(false)}>
                             <svg
                                 width="16px"
                                 height="16px"
@@ -71,24 +60,34 @@ const Joker = (props) => {
                     </div>
                 </div>
             </div>
-            <div className='j-data'>
-                {JOKERS.map((item, index) => {
-                    if(item.id <= max){
+            <div className='j-box' style={{display: hidden ? "none" : "flex"}}>
+                <div className='b_aler-box'>
+                    {JOKERS.map((item) => {
                         return(
-                            <div className='j-d-item' key={index}>
-                                <LazyLoadComponent placeholder={<div className='j-d-Image'></div>}>
-                                    <video loop muted controls poster='https://i.pinimg.com/736x/a4/c9/ff/a4c9ff7cd3d80fdb6f77024f2e316b8e.jpg'>
-                                        <source src={item.link} type="video/mp4" />
-                                    </video>
-                                </LazyLoadComponent>
-                                <div className='j-d-title'>
-                                    <h3>{item.name}</h3>
-                                </div>
+                            <div key={item.id}>
+                                    {!item.concept ?
+                                        <>
+                                            <div className='j-box_title' style={{display: item.id === 1 ? "flex" : "none"}}>
+                                                <span className='j-box_titleLine'></span>
+                                                <h5>Kỹ Năng</h5>
+                                                <span className='j-box_titleLine'></span>
+                                            </div>
+                                            <p className='j-box_name'>{item.id}. {item.name}</p>
+                                        </>
+                                    :
+                                        <>
+                                            <div className='j-box_title' style={{display: item.id === 23 ? "flex" : "none"}}>
+                                                <span className='j-box_titleLine'></span>
+                                                <h5>Công Thức</h5>
+                                                <span className='j-box_titleLine'></span>
+                                            </div>
+                                            <p className='j-box_name' style={{color: "Highlight"}} onClick={() => toast.success(item.concept, {autoClose: 2000})}>{item.id}. {item.name}</p>
+                                        </>
+                                    }
                             </div>
                         )
-                    }
-                })}
-                <button className='j-data-btn' onClick={() => btn ? SeeMore() : Compact()}>{btn ? "See More!" : "Compact!"}</button>
+                    })}
+                </div>
             </div>
         </div>
     );
