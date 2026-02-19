@@ -52,6 +52,10 @@ export const JOKERS = [
         name: "Thấu Thị Bài"
     },
     {
+        id: 14,
+        name: "Định Vị Lá Bài"
+    },
+    {
         id: 15,
         name: "Xòe Bài"
     },
@@ -85,8 +89,7 @@ export const JOKERS = [
     },
     {
         id: 23,
-        name: "3/3(Công Thức 2/3/4 Lá)",
-        concept: "Các Lá Bài Dưới Đáy Thì Sử Dụng Công Thức Này"
+        name: "Bắn Lá Bài"
     },
     {
         id: 24,
@@ -125,8 +128,8 @@ export const JOKERS = [
     },
     {
         id: 31,
-        name: "3/6/9(Công Thức Gom Bài)",
-        concept: ""
+        name: "3/3(Công Thức 2/3/4 Lá)",
+        concept: "Các Lá Bài Dưới Đáy Thì Sử Dụng Công Thức Này"
     },
     {
         id: 32,

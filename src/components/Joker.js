@@ -76,7 +76,7 @@ const Joker = () => {
                                         </>
                                     :
                                         <>
-                                            <div className='j-box_title' style={{display: item.id === 23 ? "flex" : "none"}}>
+                                            <div className='j-box_title' style={{display: item.id === 24 ? "flex" : "none"}}>
                                                 <span className='j-box_titleLine'></span>
                                                 <h5>Công Thức</h5>
                                                 <span className='j-box_titleLine'></span>
