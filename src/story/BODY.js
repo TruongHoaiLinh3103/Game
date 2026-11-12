@@ -71,7 +71,7 @@ export const BODY = [
     },
     {
         id: 14,
-        name: "Đá móc xuống",
+        name: "Đá Móc Xuống",
         quantity: "10 C"
     },
     {
@@ -81,83 +81,83 @@ export const BODY = [
     },
     {
         id: 16,
-        name: "Lên đùi",
+        name: "Lên Đùi",
         quantity: "10 C"
     },
     {
         id: 17,
-        name: "Ngang đùi",
+        name: "Ngang Đùi",
         quantity: "10 C"
     },
     {
         id: 18,
-        name: "Trái né",
+        name: "Trái Né",
         quantity: "10 C"
     },
     {
         id: 19,
-        name: "Đạp trước sau 2 chân",
+        name: "Đạp Trước Sau 2 Chân",
         quantity: "10 C"
     },
     {
         id: 20,
-        name: "Nhảy đạp 2 chân",
+        name: "Nhảy Đạp 2 Chân",
         quantity: "10 C"
     },
     {
         id: 21,
-        name: "Nhảy đá 2 chân",
+        name: "Nhảy Đá 2 Chân",
         quantity: "10 C"
     },
     {
         id: 22,
-        name: "Đỡ đòn bằng bàn chân",
+        name: "Đỡ Đòn Bằng Bàn Chân",
         quantity: "10 C"
     },
     {
         id: 23,
-        name: "Nhảy đá xoay 2 lần",
+        name: "Nhảy Đá Xoay 2 Lần",
         quantity: "10 C"
     },
     {
         id: 24,
-        name: "Phải né",
+        name: "Phải Né",
         quantity: "10 C"
     },
     {
         id: 25,
-        name: "Lui né",
+        name: "Lui Né",
         quantity: "10 C"
     },
     {
         id: 26,
-        name: "Khom người né",
+        name: "Khom Người Né",
         quantity: "10 C"
     },
     {
         id: 27,
-        name: "Nhảy chỏ chân",
+        name: "Nhảy Chỏ Chân",
         quantity: "10 C"
     },
     {
         id: 28,
-        name: "Đỡ đòn bằng cù chỏ",
+        name: "Đỡ Đòn Bằng Cù Chỏ",
         quantity: "10 C"
     },
     {
         id: 29,
-        name: "Nhảy né",
+        name: "Nhảy Né",
         quantity: "10 C"
     },
     {
         id: 30,
-        name: "Lặn Nước",
+        name: "Lặn Nước Bơi",
         quantity: "100 M"
     },
     {
         id: 31,
-        name: "Bơi Xải",
-        quantity: "100 M"
+        name: "Ngồi Thiền",
+        duration: "3600 S"
     },
     {
         id: 32,
@@ -181,27 +181,27 @@ export const BODY = [
     },
     {
         id: 36,
-        name: "Hít Đất",
+        name: "Hít Đất Tay",
         quantity: "60 C"
     },
     {
         id: 37,
-        name: "Hít đất chân",
+        name: "Hít Đất Chân",
         quantity: "40 C"
     },
     {
         id: 38,
-        name: "Xây cầu lên xuống",
+        name: "Hợp Hoan Công",
         quantity: "20 C"
     },
     {
         id: 39,
-        name: "Duỗi chân trên cao",
-        quantity: "20 C"
+        name: "Kim Cang Khí Công",
+        quantity: "2 C"
     },
     {
         id: 40,
-        name: "Parkour",
+        name: "Khinh Công",
         quantity: "20 C"
     },
     {
